@@ -7,7 +7,7 @@ title: 비즈니스 규칙 정보
 topic: Rules,Site search and merchandising
 uuid: f2186f54-7a39-4f46-bb29-5115d5a17f07
 translation-type: tm+mt
-source-git-commit: 2dd205d3034e8397d88007a1618a121f0b6087a8
+source-git-commit: fc1f0b15a15a9d0308494fc23c5b4258442c8aab
 
 ---
 
@@ -84,10 +84,10 @@ source-git-commit: 2dd205d3034e8397d88007a1618a121f0b6087a8
 
    페이지에서 [!DNL Business Rules] 이 **[!UICONTROL Filter by tag]** 기능을 사용하여 지정된 레이블과 일치하는 규칙을 필터링합니다. 1.페이지에서 사용할 트리거 및 작업을 [!DNL Business Rule Builder] 설정합니다.
 
-       **트리거 옵션**
-     
-     트리거는 비즈니스 규칙을 실행하려면 충족해야 하는 조건입니다. 비즈니스 규칙에 여러 개의 트리거가 있는 경우 다음 세 가지 방법 중 하나를 사용하여 트리거가 응답하는 방식을 구성할 수 있습니다.
-   
+   **트리거 옵션**
+
+   트리거는 비즈니스 규칙이 실행되려면 충족되어야 하는 조건입니다. 비즈니스 규칙에 여러 개의 트리거가 있는 경우 다음 세 가지 방법 중 하나를 사용하여 트리거가 응답하는 방식을 구성할 수 있습니다.
+
    * 다음 예제와 같이 모든 트리거가 true(기본 설정)여야 하는 응답입니다.
 
       `if a AND b AND c then ...`
