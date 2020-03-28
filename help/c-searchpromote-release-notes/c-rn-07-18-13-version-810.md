@@ -7,7 +7,7 @@ title: Search&amp;Promote 8.10.1 릴리스 노트(2013년 7월 18일)
 topic: Release Notes,Site search and merchandising
 uuid: 161d678a-6393-4adb-a47a-e28e108acc31
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
 
 **수정 사항 및 개선 사항**
 
-* **비즈니스 규칙** - 비즈니스 규칙에 두 개 이상의 일정을 지정하는 기능을 추가했습니다.
+* **[!DNL Business Rules]** - 비즈니스 규칙에 두 개 이상의 일정을 지정하는 기능을 추가했습니다.
 
    See [About Business Rules](../c-about-rules-menu/c-about-business-rules.md#concept_2A93D76216754D3D8412CDEA00BD26BD).
 
