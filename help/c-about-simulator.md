@@ -7,7 +7,7 @@ title: 시뮬레이터 정보
 topic: Simulator,Site search and merchandising
 uuid: 7ec8f5b9-3ab3-4b9a-bf8a-65d0ca1dfddb
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: 91ddead9f73b73ea1a20e26582998966f801d6ff
 
 ---
 
@@ -52,28 +52,28 @@ source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>스테이지/실시간 시뮬레이션 </p> </td> 
+      <td colname="col1"> <p><span class="uicontrol">스테이지/실시간 시뮬레이션</span> </p> </td> 
       <td colname="col2"> <p>라이브 환경 또는 스테이지 환경 시뮬레이션 간을 전환합니다. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>처리 규칙 표시/숨기기 </p> </td> 
+      <td colname="col1"> <p><span class="uicontrol">처리 규칙 표시/숨기기</span> </p> </td> 
       <td colname="col2"> <p>비즈니스 규칙 대신 실행된 모든 처리 규칙을 표시하거나 숨깁니다. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>시뮬레이션 날짜 변경 </p> </td> 
+      <td colname="col1"> <p><span class="uicontrol">시뮬레이션 날짜 변경</span> </p> </td> 
       <td colname="col2"> <p>지정된 날짜에 대한 검색 결과를 시뮬레이션합니다. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>PC에서 시뮬레이션 </p> </td> 
+      <td colname="col1"> <p><span class="uicontrol">PC에서 시뮬레이션</span> </p> </td> 
       <td colname="col2"> <p>개인 컴퓨터를 사용하는 것처럼 검색 결과를 시뮬레이션할 수 있습니다. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>모바일에서 시뮬레이션 </p> </td> 
+      <td colname="col1"> <p><span class="uicontrol">모바일에서 시뮬레이션</span> </p> </td> 
       <td colname="col2"> <p>휴대폰이나 태블릿을 사용하는 것처럼 검색 결과를 시뮬레이션할 수 있습니다. </p> <p>이 옵션을 선택하면 다음과 연결된 옵션 중에서 선택할 수 있습니다. </p> 
         <ul id="ul_2A9901418212486A8EE67A78CB99CBE4"> 
-        <li id="li_B210E954DF0D44C397718112C72C2103"> <b>장치</b> <p>휴대폰 또는 태블릿에서 검색 결과를 시뮬레이션할 수 있습니다. </p> </li> 
-        <li id="li_90B64EAA0B57446A90CE22172E703594"> <b>해상도</b> <p>선택한 장치에 따라 연결된 해상도를 선택할 수 있습니다. </p> </li> 
-        <li id="li_042AF9FA3FA846EDB48F7296DB361515"> <b>가로 보기</b> <p>선택한 장치에서 시뮬레이트된 검색 결과가 가로로 표시되는 방식을 봅니다. </p> </li> 
+        <li id="li_B210E954DF0D44C397718112C72C2103"> <b><span class="uicontrol">장치</span></b> <p>휴대폰 또는 태블릿에서 검색 결과를 시뮬레이션할 수 있습니다. </p> </li> 
+        <li id="li_90B64EAA0B57446A90CE22172E703594"> <b><span class="uicontrol">해상도</span></b> <p>선택한 장치에 따라 연결된 해상도를 선택할 수 있습니다. </p> </li> 
+        <li id="li_042AF9FA3FA846EDB48F7296DB361515"> <b><span class="uicontrol">가로 보기</span></b> <p>선택한 장치에서 시뮬레이트된 검색 결과가 가로로 표시되는 방식을 봅니다. </p> </li> 
         </ul> </td> 
       </tr> 
     </tbody> 
