@@ -7,7 +7,7 @@ title: Search&amp;Promote 8.9.4 릴리스 노트(2013년 1월 17일)
 topic: Release Notes,Site search and merchandising
 uuid: a9d550f6-0a23-4c71-b123-c31b997e7384
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
 
 ---
 
@@ -39,19 +39,19 @@ source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
 
    용어 [보고서 보기 또는 Null 검색어 보고서 보기...를 참조하십시오.](../c-about-reports-menu/c-about-reports-menu.md#task_53B7ED1582DD4B0E8376546A7AFC789A).
 
-* 보고서 > Null 검색 용어 보고서를 열고 시간 슬롯을 선택한 다음 보고서를 봅니다. 보고서에서 한 단어를 클릭하여 검색을 연 다음 보고서 보기를 다시 클릭합니다. 클릭한 키워드의 검색 수가 2배로 증가했었습니다. 이제 이 문제가 수정되었습니다.
+* 열고 **[!UICONTROL Reports > Null Search Terms Report]**&#x200B;시간 슬롯을 선택한 다음 보고서를 봅니다. 보고서에서 한 단어를 클릭하여 검색을 연 다음 보고서 보기를 다시 클릭합니다. 클릭한 키워드의 검색 수가 2배로 증가했었습니다. 이제 이 문제가 수정되었습니다.
 
    용어 [보고서 보기 또는 Null 검색어 보고서 보기...를 참조하십시오.](../c-about-reports-menu/c-about-reports-menu.md#task_53B7ED1582DD4B0E8376546A7AFC789A).
 
-* 비즈니스 규칙을 활성화하면 즉시 성능 최적화가 수행되었습니다.
+* 비즈니스 규칙을 라이브로 적용할 때 성능 최적화가 수행되었습니다.
 
    See [About Business Rules](../c-about-rules-menu/c-about-business-rules.md#concept_2A93D76216754D3D8412CDEA00BD26BD).
 
-* 방문 경로의 제거 기능이 가끔 작동하지 않았습니다.
+* The ability to remove in [!DNL Breadcrumbs] did not work all the time.
 
    탐색 [표시 정보를 참조하십시오](../c-about-design-menu/c-about-breadcrumbs.md#concept_FB8A943C594A4A1593B118141DA61F03).
 
-* 재생성을 사용하지 않는 한 등급 다시 지정 기능에서는 변경된 등급 규칙이 검색 결과에 적용되지 않았습니다.
+* 재생성 기능을 사용하지 않는 한 등급 다시 지정 기능에서는 변경된 등급 규칙이 검색 결과에 적용되지 않았습니다.
 
    [등급 규칙 정보](../c-about-rules-menu/c-about-ranking-rules.md#concept_F555C076759B4E81B925441CFE707397)를 참조하십시오.
 
