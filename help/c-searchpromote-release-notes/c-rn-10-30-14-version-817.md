@@ -7,7 +7,7 @@ title: Search&amp;Promote 8.17.0 릴리스 노트(2014/10/30)
 topic: Release Notes,Site search and merchandising
 uuid: ea1725df-778c-4875-a269-f33d0c367126
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
    단어 [및 언어 정보](../c-about-linguistics-menu/c-about-words-and-language.md#concept_CEB4B9576F3C4E2EB87B352EEC738D79) 및 자동 완성 [정보를 참조하십시오](../c-about-auto-complete.md#concept_093A9CD754864BA79B456FE4BEB64578).
 
 * 이제 프로세스 모니터에서 Apache 프로세스를 다시 시작합니다.
-* 비즈니스 규칙의 비즈니스 규칙의 &quot;패싯 항목 표시&quot; 작업
+* 비즈니스 규칙의 에서 &quot;패싯 항목 표시&quot; 작업을 [!DNL Business Rules]참조하십시오.
 * 이제 [!DNL Adjust Ranking Weights] 페이지에서 1%씩 **[!UICONTROL Rule & Relevancy Balance]** 설정을 조정할 수 있습니다.
 
    등급 [규칙과](../c-about-rules-menu/c-about-ranking-rules.md#task_3CB6FC92A66F4D99874A42D55825DB64)연결된 두께 조정을 참조하십시오.
