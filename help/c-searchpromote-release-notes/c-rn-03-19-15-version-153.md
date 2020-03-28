@@ -7,7 +7,7 @@ title: Search&amp;Promote 15.3.1 릴리스 노트(2015년 3월 24일)
 topic: Release Notes,Site search and merchandising
 uuid: f02da5a4-2207-4603-aa05-5cff7be16dd5
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
 * 일본어 문자가 포함된 검색에 대해 &quot;포함된&quot; 검색 모드에 대한 빈 코어 검색 결과.
 * 이제 Word .docx 파일의 Tika 변환이 `title` 속성을 채웁니다.
 * 관리자의 잘못된 &quot;중복 배너&quot; 메시지를 수정했습니다. **[!UICONTROL Banner]**
-* Dynamic Media Classic 배너는 이제 프로토콜에 관계없이 지원됩니다.
+* [!DNL Dynamic Media Classic] 배너는 이제 프로토콜에 관계없이 사용할 수 있습니다.
 * 경우에 따라 **[!UICONTROL Table Name]** **[!UICONTROL Dynamic Facets]** 필드 속성은 계정에 대해 활성화된 경우에도 메타데이터 사용자 정의 필드를 편집할 때 숨겨졌습니다.
 * **[!UICONTROL Recent Searches]** 더 이상 비ASCII 문자를 곱하기 인코딩하지 않습니다.
 * 스크립트 필터링을 사용하지 않고 MDI 필드를 채울 수 있습니다.
