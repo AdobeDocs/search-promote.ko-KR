@@ -7,14 +7,12 @@ title: 양식 검색
 topic: Appendices,Site search and merchandising
 uuid: 91153e3a-c437-47f3-8c2a-d9ac02965b8c
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: 55f48748f8c0a2f739dfbe30e8d42b73c8106b81
 
 ---
 
 
 # 양식 검색{#search-forms}
-
-## 양식 검색 {#concept_915FFF20FF644830B7B3C6E00F416BCB}
 
 ## 검색 양식에서 컬렉션 사용 {#reference_5A079AEEEFB84457892EF0870D0605C3}
 
@@ -133,22 +131,22 @@ HTML 프레임 및 HTML 프레임세트 요소에 대한 자세한 내용은 다
   <tr> 
    <td colname="col1"> <p>1 </p> </td> 
    <td colname="col02"> <p>웹 페이지에서 원하는 프레임에 양식을 추가합니다. </p> </td> 
-   <td colname="col2"> <p> <a href="../c-appendices/c-searchforms.md#section_BAA8A502BB2243F8B5FF9783CDF2BFFD" type="section" format="dita" scope="local"> 검색 양식 코드를 프레임에 추가하는 중... </a> </p> </td> 
+   <td colname="col2"> <p> <a href="#section_BAA8A502BB2243F8B5FF9783CDF2BFFD" type="section" format="dita" scope="local"> 검색 양식 코드를 프레임에 추가하는 중... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2 </p> </td> 
    <td colname="col02"> <p>검색 결과 페이지의 대상 프레임을 설정합니다. </p> </td> 
-   <td colname="col2"> <p> <a scope="local" href="../c-appendices/c-searchforms.md#section_532CACB90888467093D95EACB64FDFA1" type="section" format="dita"> 검색 결과 페이지의 대상 프레임 설정 </a> </p> </td> 
+   <td colname="col2"> <p> <a scope="local" href="#section_532CACB90888467093D95EACB64FDFA1" type="section" format="dita"> 검색 결과 페이지의 대상 프레임 설정 </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>3 </p> </td> 
    <td colname="col02"> <p>검색 결과 페이지에서 만든 링크에 대한 대상을 설정합니다. </p> </td> 
-   <td colname="col2"> <p> <a scope="local" href="../c-appendices/c-searchforms.md#section_523248C5AC424D878321C21A23A5CD66" type="section" format="dita"> 검색 결과로 만든 링크의 대상을 설정하는 중... </a> </p> </td> 
+   <td colname="col2"> <p> <a scope="local" href="#section_523248C5AC424D878321C21A23A5CD66" type="section" format="dita"> 검색 결과로 만든 링크의 대상을 설정하는 중... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4 </p> </td> 
    <td colname="col02"> <p>내비게이션 프레임 페이지를 편집하여 색인이 되지 않도록 합니다. </p> </td> 
-   <td colname="col2"> <p> <a scope="local" href="../c-appendices/c-searchforms.md#section_C62E5F0EE1294D5EBD97E123E54433FC" type="section" format="dita"> 내비게이션 프레임 페이지를 편집하면 해당 페이지가 </a> </p> </td> 
+   <td colname="col2"> <p> <a scope="local" href="#section_C62E5F0EE1294D5EBD97E123E54433FC" type="section" format="dita"> 내비게이션 프레임 페이지를 편집하면 해당 페이지가 </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>5 </p> </td> 
