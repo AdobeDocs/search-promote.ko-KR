@@ -7,7 +7,7 @@ title: 양식 검색
 topic: Appendices,Site search and merchandising
 uuid: 91153e3a-c437-47f3-8c2a-d9ac02965b8c
 translation-type: tm+mt
-source-git-commit: 55f48748f8c0a2f739dfbe30e8d42b73c8106b81
+source-git-commit: 4542702e1d2ba04c70d9f6b24bfa32e1f1c6acb5
 
 ---
 
@@ -151,7 +151,7 @@ HTML 프레임 및 HTML 프레임세트 요소에 대한 자세한 내용은 다
   <tr> 
    <td colname="col1"> <p>5 </p> </td> 
    <td colname="col02"> <p>검색 양식을 테스트합니다. </p> </td> 
-   <td colname="col2"> <p> <a scope="local" href="../c-appendices/c-searchforms.md#section_43D8D4A7BF524DC480DFE5442F6A2E3C" type="section" format="dita"> 검색 양식 테스트 </a> </p> </td> 
+   <td colname="col2"> <p> <a scope="local" href="#section_43D8D4A7BF524DC480DFE5442F6A2E3C" type="section" format="dita"> 검색 양식 테스트 </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -286,7 +286,7 @@ HTML 프레임 및 HTML 프레임세트 요소에 대한 자세한 내용은 다
 
 위의 샘플의 전체 고급 검색 양식 HTML 코드를 볼 수 있습니다.
 
-고급 [검색 양식 HTML 코드를](../c-appendices/c-searchforms.md#reference_9AAD4A46B68D4D48865508982CB86DB9)참조하십시오.
+고급 [검색 양식 HTML 코드를](#reference_9AAD4A46B68D4D48865508982CB86DB9)참조하십시오.
 
 자동 [완성 CSS 구성을 참조하십시오](../c-about-auto-complete.md#task_EECE35DEB6C94F4A8A5B42B4DED76D96).
 
@@ -435,7 +435,7 @@ HTML 프레임 및 HTML 프레임세트 요소에 대한 자세한 내용은 다
 
 샘플 고급 검색 양식 항목의 맨 위에 표시되는 고급 검색 양식을 만드는 데 사용되는 HTML 양식 코드입니다.
 
-고급 [검색 양식](../c-appendices/c-searchforms.md#reference_82E1051918744EBA88A01E9E6AE42C4A)샘플링을 참조하십시오.
+고급 [검색 양식](#reference_82E1051918744EBA88A01E9E6AE42C4A)샘플링을 참조하십시오.
 
 이 코드를 사용하는 경우 의 `sp_a` 값을 실제 계정 번호로 `sp99999999` 바꾸십시오.
 
