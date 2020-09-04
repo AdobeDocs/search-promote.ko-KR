@@ -8,9 +8,9 @@ title: 메타데이터 메뉴 정보
 topic: Settings,Site search and merchandising
 uuid: f12fc863-a140-45e8-b219-3dbfdef099cd
 translation-type: tm+mt
-source-git-commit: e080a61e24a3809beff7c212ff3d088b2a8ad3b6
+source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
 workflow-type: tm+mt
-source-wordcount: '8064'
+source-wordcount: '8039'
 ht-degree: 1%
 
 ---
@@ -68,10 +68,9 @@ ht-degree: 1%
       </tr> 
       <tr> 
       <td colname="col1"> <p>메타 태그 이름 </p> </td> 
-      <td colname="col2"> <p>정의된 필드와 관련된 컨텐츠를 결정합니다. </p> <p>이름 목록은 최대 255자까지 사용할 수 있습니다. 또한 HTML 메타 태그의 name 특성에 허용되는 모든 문자를 이름에 포함할 수 있습니다. </p> <p>단일 필드 정의에서 여러 메타 태그를 지정할 수 있습니다. </p> <p>여러 값이 쉼표로 구분되어야 하며, 주어진 웹 페이지에서 가장 왼쪽 메타 태그 이름이 우선합니다. </p> <p>예를 들어 "auth"라는 필드를 정의했다고 가정합니다. 필드 이름에 연결된 메타 태그 "author, dc.author"가 있습니다. 이 경우 "작성자" 메타 태그의 컨텐츠는 인덱싱되어 웹 페이지에 두 메타 태그가 모두 나타나는 경우 "dc.author"의 컨텐츠가 검색됩니다. </p> <p>사용자 정의 필드에는 정의에 적어도 하나의 메타 태그 이름이 있어야 합니다. 사전 정의된 필드에는 연관된 메타 태그가 없어도 됩니다. 하지만 하나 이상의 메타 태그가 지정된 경우 메타 태그의 컨텐츠는 각 태그의 현재 데이터 소스를 덮어씁니다. </p> <p>예를 들어 메타 태그 "dc.title"이 미리 정의된 "title" 필드와 연결되어 있는 경우, "dc.title" 메타 태그의 컨텐츠는 
-      <userinput>
+      <td colname="col2"> <p>정의된 필드와 관련된 컨텐츠를 결정합니다. </p> <p>이름 목록은 최대 255자까지 사용할 수 있습니다. 또한 HTML 메타 태그의 name 특성에 허용되는 모든 문자를 이름에 포함할 수 있습니다. </p> <p>단일 필드 정의에서 여러 메타 태그를 지정할 수 있습니다. </p> <p>여러 값이 쉼표로 구분되어야 하며, 주어진 웹 페이지에서 가장 왼쪽 메타 태그 이름이 우선합니다. </p> <p>예를 들어 "auth"라는 필드를 정의했다고 가정합니다. 필드 이름에 연결된 메타 태그 "author, dc.author"가 있습니다. 이 경우 "작성자" 메타 태그의 컨텐츠는 인덱싱되어 웹 페이지에 두 메타 태그가 모두 나타나는 경우 "dc.author"의 컨텐츠가 검색됩니다. </p> <p>사용자 정의 필드에는 정의에 적어도 하나의 메타 태그 이름이 있어야 합니다. 사전 정의된 필드에는 연관된 메타 태그가 없어도 됩니다. 하지만 하나 이상의 메타 태그가 지정된 경우 메타 태그의 컨텐츠는 각 태그의 현재 데이터 소스를 덮어씁니다. </p> <p>예를 들어 메타 태그 "dc.title"이 미리 정의된 "title" 필드와 연결되어 있는 경우, "dc.title" 메타 태그의 컨텐츠는 특정 문서에 대한 태그의 내용 위에 <code>
         &lt;title&gt; 
-      </userinput> 태그로 지정합니다. </p> <p>이러한 예로는 다음과 같은 경우가 있습니다. </p> <p> 
+      </code> 인덱싱됩니다. </p> <p>이러한 예로는 다음과 같은 경우가 있습니다. </p> <p> 
       <ul id="ul_0132E15FC19E4C0CA13CD5A12EA3BBEC"> 
       <li id="li_ECD3B194FECB4C2090CAEC8449320D3F"> dc.date </li> 
       <li id="li_09C76BC7AC7348859D01989697212E31"> description </li> 
@@ -96,38 +95,31 @@ ht-degree: 1%
       </ul> </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>목록 허용 </p> </td> 
-      <td colname="col2"> <p>데이터 유형 텍스트 <span class="uicontrol"> 또는 번호 </span>를 선택한 경우에만 사용할 수 <span class="uicontrol"> </span> 있습니다. </p> <p>이 필드의 메타데이터 컨텐츠에 구분된 값을 별도로 인덱싱합니다. </p> <p>예를 들어 "목록 허용"이 선택된 경우 "빨강, 노랑, 녹색, 파랑" 컨텐츠는 4개의 개별 값으로 처리됩니다. 이 방법은 범위 검색( 
-      <userinput>
+      <td colname="col1"> <p>허용 목록 </p> </td> 
+      <td colname="col2"> <p>데이터 유형 <span class="uicontrol"> 텍스트 </span>또는 <span class="uicontrol"> 번호를 선택한 경우에만 사용할 수 </span> 있습니다. </p> <p>이 필드의 메타데이터 컨텐츠에 구분된 값을 별도로 인덱싱합니다. </p> <p>예를 들어 "허용 목록"이 선택되면 "빨강, 노랑, 녹색, 파랑" 컨텐츠는 4개의 개별 값으로 처리됩니다. 이 치료는 범위 검색(사용, <code>
         sp_q_min 
-      </userinput>, 
-      <userinput>
+      </code>또는 <code>
         sp_q_max 
-      </userinput>및 
-      <userinput>
+      </code>)과 <code>
         sp_q_exact 
-      </userinput>) and with 
-      <userinput>
+      </code>, <code>
         &lt;search-field-value-list&gt; 
-      </userinput>, 
-      <userinput>
+      </code>및 <code>
         &lt;search-field-values&gt; 
-      </userinput>, 및 
-      <userinput>
+      </code>과 함께 <code>
         &lt;search-display-field-values&gt; 
-      </userinput>. </p> <p>버전 데이터 유형을 선택한 경우에는 사용할 수 없습니다. </p> </td> 
+      </code>가장 유용합니다. </p> <p>버전 데이터 유형을 선택한 경우에는 사용할 수 없습니다. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p> 동적 패싯 </p> </td> 
       <td colname="col2"> <p> 
-        <!--NEW 2/2/2014--> <p>참고: 이 기능은 기본적으로 활성화되어 있지 않습니다. 기술 지원 센터에 연락하여 활성화를 참조하십시오. 활성화되면 사용자 인터페이스에 표시됩니다. </p> </p> <p>식별된 패싯을 동적으로 설정합니다. </p> <p>패싯은 메타 태그 필드 위에 만들어집니다. 메타 태그 필드는 Adobe Search&amp;Promote의 낮은 수준의 핵심 검색 레이어입니다. 반면 패싯은 Adobe Search&amp;Promote의 고급 프레젠테이션 레이기인 GS(Guided Search)의 일부입니다. 패싯은 고유한 메타 태그 필드이지만 메타 태그 필드는 패싯에 대해 아무것도 알지 못합니다. </p> <p>동적 패싯 <a href="../c-about-design-menu/c-about-dynamic-facets.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> 정보를 참조하십시오 </a>. </p> </td> 
+        <!--NEW 2/2/2014--> <p>참고: 이 기능은 기본적으로 활성화되어 있지 않습니다. 기술 지원 센터에 연락하여 활성화를 참조하십시오. 활성화되면 사용자 인터페이스에 표시됩니다. </p> </p> <p>식별된 패싯을 동적으로 설정합니다. </p> <p>패싯은 메타 태그 필드 위에 만들어집니다. 메타 태그 필드는 Adobe Search &amp; Promote의 낮은 수준의 핵심 검색 레이어입니다. 반면에 패싯은 GS(Guided Search)의 일부이며, Adobe Search &amp; Promote의 높은 수준의 프레젠테이션 레이어입니다. 패싯은 고유한 메타 태그 필드이지만 메타 태그 필드는 패싯에 대해 아무것도 알지 못합니다. </p> <p>동적 패싯 <a href="../c-about-design-menu/c-about-dynamic-facets.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> 정보를 참조하십시오 </a>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>중복 제거 허용 </p> </td> 
-      <td colname="col2"> <p>이 필드에서 데이터 중복 제거 기능을 활성화하려면 이 옵션을 선택합니다. 즉, 이 필드를 
-        <userinput>
+      <td colname="col2"> <p>이 필드에서 데이터 중복 제거 기능을 활성화하려면 이 옵션을 선택합니다. 즉, CGI 검색 매개 변수를 통해 검색 시 이 필드를 <code>
           sp_dedupe_field 
-        </userinput> CGI 매개 변수를 검색합니다. </p> <p>CGI 매개 <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> 변수 검색을 참조하십시오 </a>. </p> </td> 
+        </code> 지정할 수 있습니다. </p> <p>CGI 매개 <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> 변수 검색을 참조하십시오 </a>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>테이블 이름 </p> </td> 
@@ -135,7 +127,7 @@ ht-degree: 1%
       </tr> 
       <tr> 
       <td colname="col1"> <p>목록 구분 기호 </p> </td> 
-      <td colname="col2"> <p>목록 <span class="uicontrol"> 허용을 선택한 경우에만 사용할 수 </span> 있습니다. </p> <p>개별 목록 값을 구분하는 문자를 지정합니다. 여러 문자를 지정할 수 있으며, 각 문자는 값 구분 문자로 처리됩니다. </p> </td> 
+      <td colname="col2"> <p>허용 목록을 선택한 경우에만 사용할 수 <span class="uicontrol"> </span> 있습니다. </p> <p>개별 목록 값을 구분하는 문자를 지정합니다. 여러 문자를 지정할 수 있으며, 각 문자는 값 구분 문자로 처리됩니다. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>기본적으로 검색 </p> </td> 
@@ -151,10 +143,9 @@ ht-degree: 1%
       </tr> 
       <tr> 
       <td colname="col1"> <p>정렬 </p> </td> 
-      <td colname="col2"> <p>결과를 
-        <userinput>
+      <td colname="col2"> <p>검색 CGI 매개 변수를 통해 이름이 지정된 필드별로 결과를 정렬하는 시기를 <code>
           sp_s 
-        </userinput> CGI 매개 변수를 검색합니다. </p> <p>CGI 매개 <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> 변수 검색을 참조하십시오 </a>. </p> </td> 
+        </code> 지정합니다. </p> <p>CGI 매개 <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> 변수 검색을 참조하십시오 </a>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>언어 </p> </td> 
@@ -174,7 +165,7 @@ ht-degree: 1%
       </tr> 
       <tr> 
       <td colname="col1"> <p>가장 낮은 등급 값 </p> </td> 
-      <td colname="col2"> <p>데이터 유형 등급 <span class="uicontrol"> 이 데이터 유형 </span> 으로 선택된 경우에만 사용할 수 있습니다. </p> <p>문서의 최소 등급을 나타내는 등급 값을 제어합니다. </p> <p>문서 등급 범위가 0에서 가장 낮은 등급에 대해 10까지이면 이 값을 0으로 설정합니다. </p> <p>문서 순위 범위가 가장 높은 등급에 대해 1에서 가장 낮은 등급에 대해 10까지 변경되면 이 값을 10으로 설정합니다. </p> </td> 
+      <td colname="col2"> <p>데이터 유형 등급 <span class="uicontrol"> 이 데이터 유형 </span> 으로 선택된 경우에만 사용할 수 있습니다. </p> <p>문서의 최소 등급을 나타내는 등급 값을 제어합니다. </p> <p>문서 등급 범위가 0에서 가장 낮은 등급에 10까지 변경되면 이 값을 0으로 설정합니다. </p> <p>문서 순위 범위가 가장 높은 등급에 대해 1에서 가장 낮은 등급에 대해 10까지 변경되면 이 값을 10으로 설정합니다. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>기본 등급 값 </p> </td> 
@@ -186,20 +177,17 @@ ht-degree: 1%
       </tr> 
       <tr> 
       <td colname="col1"> <p>기본 단위 </p> </td> 
-      <td colname="col2"> <p>데이터 유형 위치 <span class="uicontrol"> 를 데이터 유형 </span> 으로 선택한 경우에만 사용할 수 있습니다. </p> <p>근접 검색을 위한 거리 값 처리를 제어합니다. </p> <p>기본 단위를 <span class="uicontrol"> 마일즈로 설정하면 이 필드에 적용되는 임의 근접 검색 최소/최대 거리 기준 </span>이 
-      <userinput>
+      <td colname="col2"> <p>데이터 유형 위치 <span class="uicontrol"> 를 데이터 유형 </span> 으로 선택한 경우에만 사용할 수 있습니다. </p> <p>근접 검색을 위한 거리 값 처리를 제어합니다. </p> <p>기본 단위를 <span class="uicontrol"> 마일 </span>으로 설정하면, 이 필드에 적용되는 모든 근접 검색 최소/최대 거리 기준( <code>
         sp_q_min[_#] 
-      </userinput> 또는 the 
-      <userinput>
+      </code> <code>
         sp_q_max[_#] 
-      </userinput> 검색 CGI 매개 변수)는 마일(킬로미터)로 처리됩니다. </p> <p>또한 이 옵션은 
-      <userinput>
+      </code> 또는 검색 CGI 매개 변수)은 마일(킬로미터)으로 처리되며, 그렇지 않으면 킬로미터 단위로 처리됩니다. </p> <p>또한 이 옵션은 근접 검색 출력 필드에 적용할 때 검색 결과 템플릿 태그의 <code>
         &lt;Search-Display-Field&gt; 
-      </userinput> 근접 검색 출력 필드에 적용할 때 검색 결과 템플릿 태그 </p> <p>근접 검색 정보 <a href="../c-appendices/r-about-proximity-search.md#reference_45AC6BB50609431ABD31DA46EE65360D" type="reference" format="dita" scope="local"> 를 참조하십시오 </a>. </p> </td> 
+      </code> 출력에 적용되는 기본 거리 단위를 제어합니다. </p> <p>근접 검색 정보 <a href="../c-appendices/r-about-proximity-search.md#reference_45AC6BB50609431ABD31DA46EE65360D" type="reference" format="dita" scope="local"> 를 참조하십시오 </a>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>범위 설명 만들기? </p> </td> 
-      <td colname="col2"> <p>데이터 유형 <span class="uicontrol"> 으로 번호 </span> 를 선택한 경우에만 사용할 수 있습니다. </p> <p>[디자인] &gt; [탐색] <span class="uicontrol"> &gt; [패싯]에서 사용할 수 있도록 필드 범위 설명 </span> 의 자동 생성을 <span class="uicontrol"> 제어합니다 </span> <span class="uicontrol"> </span>. </p> <p>패싯 <a href="../c-about-design-menu/c-about-facets.md#concept_FA912B3B41EE493DB2F492D188457FF5" format="dita" scope="local"> 정보를 참조하십시오 </a>. </p> <p> <p>참고:  이 필드에 <span class="uicontrol"> 수직 업데이트 필드가 </span> 선택된 경우 수직 업데이트 동안 생성된 필드 범위 설명 필드가 업데이트됩니다. 하지만 범위 필드에서 식별된 필드 <span class="uicontrol"> 에 </span> 수직 업데이트 필드도 <span class="uicontrol"> </span> 선택된 것이 좋습니다. </p> </p> </td> 
+      <td colname="col2"> <p>데이터 유형 <span class="uicontrol"> 으로 번호 </span> 를 선택한 경우에만 사용할 수 있습니다. </p> <p>[디자인] &gt; [탐색] <span class="uicontrol"> &gt; [패싯]에서 사용할 수 있도록 필드 범위 설명 </span> 의 자동 생성을 <span class="uicontrol"> 제어합니다 </span> <span class="uicontrol"> </span>. </p> <p>패싯 <a href="../c-about-design-menu/c-about-facets.md#concept_FA912B3B41EE493DB2F492D188457FF5" format="dita" scope="local"> 정보를 참조하십시오 </a>. </p> <p> <p>참고: 이 필드에 <span class="uicontrol"> 수직 업데이트 필드가 </span> 선택된 경우 수직 업데이트 동안 생성된 필드 범위 설명 필드가 업데이트됩니다. 하지만 범위 필드에서 식별된 필드 <span class="uicontrol"> 에 </span> 수직 업데이트 필드도 <span class="uicontrol"> </span> 선택된 것이 좋습니다. </p> </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>범위 필드 </p> </td> 
@@ -224,15 +212,15 @@ ht-degree: 1%
       </tr> 
       <tr> 
       <td colname="col1"> <p>"보다 작음" 형식 </p> </td> 
-      <td colname="col2"> <p>범위 설명 <span class="uicontrol"> 만들기를 선택하고 범위 필드 </span> <span class="uicontrol"> </span> 항목을 선택한 경우에만 사용할 수 있습니다. </p> <p>범위 값에 있는 가장 작은 값보다 작은 값에 대한 범위 설명을 지정하는 데 사용되는 <span class="uicontrol"> 템플릿입니다 </span>. 가장 작은 값은 숫자 자리 표시자 토큰 ~N~을 사용하여 <span class="uicontrol"> 표현됩니다 </span>. 예: </p> <code> Less&amp;nbsp;than&amp;nbsp;~N~ </code> <p>또는: </p> <code> ~N~&amp;nbsp;and&amp;nbsp;below </code> <p>일반적으로, 값은 "있는 그대로" 형식으로 지정됩니다. 즉, <span class="uicontrol"> 범위 값 </span> 정의 "5 10 20"과 제공된 값 1의 경우, 생성된 범위 설명은 "5보다 작음"과 같습니다. 대신 "4.99 및 이하"로 지정하려면 [정밀도]를 <span class="uicontrol"> 2로 설정하고 다음 형식 </span> <span class="uicontrol"> </span> 을 사용하십시오. </p> <code> ~n~&amp;nbsp;and&amp;nbsp;below </code> <p>" <span class="uicontrol"> 보다 작음" 형식 </span>에서 소문자 <span class="uicontrol"> ~n~ </span> 은 값 <i>이 Precision에 따라</i> 반올림됩니다 <span class="uicontrol"> </span> . </p> <p>참고: 범위 설명에 숫자 자리 표시자를 포함시키려면 백슬래시(\) 접두어(예: <span class="uicontrol"> \~N~ </span> 또는 <span class="uicontrol"> \~n~ </span>. 백슬래시 문자를 포함하려면 다른 백슬래시와 함께 지정합니다(예: <span class="uicontrol"> \\ </span>. </p> </td> 
+      <td colname="col2"> <p>범위 설명 <span class="uicontrol"> 만들기를 선택하고 범위 필드 </span> <span class="uicontrol"> </span> 항목을 선택한 경우에만 사용할 수 있습니다. </p> <p>범위 값에 있는 가장 작은 값보다 작은 값에 대한 범위 설명을 지정하는 데 사용되는 <span class="uicontrol"> 템플릿입니다 </span>. 가장 작은 값은 숫자 자리 표시자 토큰 ~N~을 사용하여 <span class="uicontrol"> 표현됩니다 </span>. 예: </p> <code> Less&amp;nbsp;than&amp;nbsp;~N~ </code> <p>또는: </p> <code> ~N~&amp;nbsp;and&amp;nbsp;below </code> <p>일반적으로, 값은 "있는 그대로" 형식으로 지정됩니다. 즉, <span class="uicontrol"> 범위 값 </span> 정의 "5 10 20"과 제공된 값 1의 경우, 생성된 범위 설명은 "5보다 작음"과 같습니다. 대신 "4.99 및 이하"로 지정하려면 [정밀도]를 <span class="uicontrol"> 2로 설정하고 다음 형식 </span> <span class="uicontrol"> </span> 을 사용하십시오. </p> <code> ~n~&amp;nbsp;and&amp;nbsp;below </code> <p>" <span class="uicontrol"> 보다 작음" 형식 </span>에서 소문자 <span class="uicontrol"> ~n~ </span> 은 값 <i>이 Precision에 따라</i> 반올림됩니다 <span class="uicontrol"> </span> . </p> <p>참고:범위 설명에 숫자 자리 표시자를 포함시키려면 백슬래시(\) 접두어(예: <span class="uicontrol"> \~N~ </span> 또는 <span class="uicontrol"> \~n~ </span>. 백슬래시 문자를 포함하려면 다른 백슬래시와 함께 지정합니다(예: <span class="uicontrol"> \\ </span>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>중간 형식 </p> </td> 
-      <td colname="col2"> <p>범위 설명 <span class="uicontrol"> 만들기를 선택하고 범위 필드 </span> <span class="uicontrol"> </span> 항목을 선택한 경우에만 사용할 수 있습니다. </p> <p>범위 값에 있는 가장 작은 값과 가장 큰 값 사이에 있는 값에 대한 범위 설명을 지정하는 데 사용되는 <span class="uicontrol"> 템플릿입니다 </span>. 지정된 범위의 경우 낮은 범위 값은 숫자 자리 표시자 토큰 <span class="uicontrol"> ~L~ </span>을 사용하여 표현되며 높은 범위 값은 토큰 <span class="uicontrol"> ~H~를 사용하여 표현됩니다 </span>. 예: </p> <code> ~L~&amp;nbsp;to&amp;nbsp;~H~ </code> <p>또는: </p> <code> Between&amp;nbsp;~L~&amp;nbsp;and&amp;nbsp;~H~ </code> <p>또는: </p> <code> Less&amp;nbsp;than&amp;nbsp;~H~&amp;nbsp;and&amp;nbsp;greater&amp;nbsp;than&amp;nbsp;~L~ </code> <p>일반적으로, 값들은 "있는 그대로" 형식으로 지정됩니다. 즉, <span class="uicontrol"> 범위 값 </span> 정의 "5 10 20"과 제공된 값 8의 경우 생성된 범위 설명은 "5에서 10 사이"와 같습니다. 대신 더 높은 값이 아래로 조정되는 "5에서 9.99 사이"로 <i>만들려면 [정밀도]를</i>2 <span class="uicontrol"> 로 설정하고 다음 형식 </span> 을 <span class="uicontrol"> </span> 사용하십시오. </p> <code> Between&amp;nbsp;~L~&amp;nbsp;and&amp;nbsp;~h~ </code> <p>마찬가지로, <span class="uicontrol"> ~L~ </span> 은 낮은 값 <span class="uicontrol"> 이 Precision 설정에 따라 위쪽 </span><i>위로</i>조정되도록 ~l~로 <span class="uicontrol"> </span> 대체될 수 있습니다. 이것은 다음과 같은 정의를 의미합니다. </p> <code> Between&amp;nbsp;~l~&amp;nbsp;and&amp;nbsp;~H~ </code> <p>[ <span class="uicontrol"> 정밀도] </span> 값이 <span class="uicontrol"> 2이면 "Between 5.01 and 10" </span> 이 생성됩니다. </p> <p>lower-case ~ <span class="uicontrol"> ~ </span> l~ <i>을</i> 사용하면 낮은 값 <span class="uicontrol"> 이 Precision 설정에 </span> 따라 <span class="uicontrol"> 반올림되고, lower-h~ </span> lower-score를 사용하면 대소문자가 반올림되는RoundedDown <i></i>에 더 높은 값이 됩니다. </p> <p>참고: 범위 설명에 숫자 자리 표시자를 포함시키려면 백슬래시(\) 접두어(예: <span class="uicontrol"> \~L~ </span> 또는 <span class="uicontrol"> \~h~ </span>. 백슬래시 문자를 포함하려면 다른 백슬래시와 함께 지정합니다(예: <span class="uicontrol"> \\ </span>. </p> </td> 
+      <td colname="col2"> <p>범위 설명 <span class="uicontrol"> 만들기를 선택하고 범위 필드 </span> <span class="uicontrol"> </span> 항목을 선택한 경우에만 사용할 수 있습니다. </p> <p>범위 값에 있는 가장 작은 값과 가장 큰 값 사이에 있는 값에 대한 범위 설명을 지정하는 데 사용되는 <span class="uicontrol"> 템플릿입니다 </span>. 지정된 범위의 경우 낮은 범위 값은 숫자 자리 표시자 토큰 <span class="uicontrol"> ~L~ </span>을 사용하여 표현되며 높은 범위 값은 토큰 <span class="uicontrol"> ~H~를 사용하여 표현됩니다 </span>. 예: </p> <code> ~L~&amp;nbsp;to&amp;nbsp;~H~ </code> <p>또는: </p> <code> Between&amp;nbsp;~L~&amp;nbsp;and&amp;nbsp;~H~ </code> <p>또는: </p> <code> Less&amp;nbsp;than&amp;nbsp;~H~&amp;nbsp;and&amp;nbsp;greater&amp;nbsp;than&amp;nbsp;~L~ </code> <p>일반적으로, 값들은 "있는 그대로" 형식으로 지정됩니다. 즉, <span class="uicontrol"> 범위 값 </span> 정의 "5 10 20"과 제공된 값 8의 경우 생성된 범위 설명은 "5에서 10 사이"와 같습니다. 대신 더 높은 값이 아래로 조정되는 "5에서 9.99 사이"로 <i>만들려면 [정밀도]를</i>2 <span class="uicontrol"> 로 설정하고 다음 형식 </span> 을 <span class="uicontrol"> </span> 사용하십시오. </p> <code> Between&amp;nbsp;~L~&amp;nbsp;and&amp;nbsp;~h~ </code> <p>마찬가지로, <span class="uicontrol"> ~L~ </span> 은 낮은 값 <span class="uicontrol"> 이 Precision 설정에 따라 위쪽 </span><i>위로</i>조정되도록 ~l~로 <span class="uicontrol"> </span> 대체될 수 있습니다. 이것은 다음과 같은 정의를 의미합니다. </p> <code> Between&amp;nbsp;~l~&amp;nbsp;and&amp;nbsp;~H~ </code> <p>[ <span class="uicontrol"> 정밀도] </span> 값이 <span class="uicontrol"> 2이면 "Between 5.01 and 10" </span> 이 생성됩니다. </p> <p>lower-case ~ <span class="uicontrol"> ~ </span> l~ <i>을</i> 사용하면 낮은 값 <span class="uicontrol"> 이 Precision 설정에 </span> 따라 <span class="uicontrol"> 반올림되고, lower-h~ </span> lower-score를 사용하면 대소문자가 반올림되는RoundedDown <i></i>에 더 높은 값이 됩니다. </p> <p>참고:범위 설명에 숫자 자리 표시자를 포함시키려면 백슬래시(\) 접두어(예: <span class="uicontrol"> \~L~ </span> 또는 <span class="uicontrol"> \~h~ </span>. 백슬래시 문자를 포함하려면 다른 백슬래시와 함께 지정합니다(예: <span class="uicontrol"> \\ </span>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>"보다 큼" 형식 </p> </td> 
-      <td colname="col2"> <p>범위 설명 <span class="uicontrol"> 만들기를 선택하고 범위 필드 </span> <span class="uicontrol"> </span> 항목을 선택한 경우에만 사용할 수 있습니다. </p> <p>범위 값에 있는 가장 큰 값보다 큰 값에 대한 범위 설명을 지정하는 데 사용되는 <span class="uicontrol"> 템플릿입니다 </span>. 가장 큰 값은 숫자 자리 표시자 토큰 ~N~을 사용하여 <span class="uicontrol"> 표현됩니다 </span>. 예: </p> <code> Greater&amp;nbsp;than&amp;nbsp;~N~ </code> <p>또는: </p> <code> ~N~&amp;nbsp;and&amp;nbsp;above </code> <p>일반적으로, 값은 "있는 그대로" 형식으로 지정됩니다. 즉, <span class="uicontrol"> 범위 값 </span> 정의가 "5 10 20"이고 제공된 값이 30인 경우 생성된 범위 설명은 "20보다 큼"과 같습니다. 대신 "20.01 이상"이 되도록 하려면 [ <span class="uicontrol"> 정밀도] </span> 를 <span class="uicontrol"> 2로 설정하고 다음 형식 </span> 을 사용하십시오. </p> <code> ~n~&amp;nbsp;and&amp;nbsp;above </code> <p>" <span class="uicontrol"> 보다 큼" 형식 </span>에서 소문자 <span class="uicontrol"> ~n~ </span> 은 값 <i>이 Precision</i> 설정에 따라 <span class="uicontrol"> </span> 반올림되도록 합니다. </p> <p>참고: 범위 설명에 숫자 자리 표시자를 포함시키려면 백슬래시(\) 접두어(예: <span class="uicontrol"> \~N~ </span> 또는 <span class="uicontrol"> \~n~ </span>. 백슬래시 문자를 포함하려면 다른 백슬래시와 함께 지정합니다(예: <span class="uicontrol"> \\ </span>. </p> </td> 
+      <td colname="col2"> <p>범위 설명 <span class="uicontrol"> 만들기를 선택하고 범위 필드 </span> <span class="uicontrol"> </span> 항목을 선택한 경우에만 사용할 수 있습니다. </p> <p>범위 값에 있는 가장 큰 값보다 큰 값에 대한 범위 설명을 지정하는 데 사용되는 <span class="uicontrol"> 템플릿입니다 </span>. 가장 큰 값은 숫자 자리 표시자 토큰 ~N~을 사용하여 <span class="uicontrol"> 표현됩니다 </span>. 예: </p> <code> Greater&amp;nbsp;than&amp;nbsp;~N~ </code> <p>또는: </p> <code> ~N~&amp;nbsp;and&amp;nbsp;above </code> <p>일반적으로, 값은 "있는 그대로" 형식으로 지정됩니다. 즉, <span class="uicontrol"> 범위 값 </span> 정의가 "5 10 20"이고 제공된 값이 30인 경우 생성된 범위 설명은 "20보다 큼"과 같습니다. 대신 "20.01 이상"이 되도록 하려면 [ <span class="uicontrol"> 정밀도] </span> 를 <span class="uicontrol"> 2로 설정하고 다음 형식 </span> 을 사용하십시오. </p> <code> ~n~&amp;nbsp;and&amp;nbsp;above </code> <p>" <span class="uicontrol"> 보다 큼" 형식 </span>에서 소문자 <span class="uicontrol"> ~n~ </span> 은 값 <i>이 Precision</i> 설정에 따라 <span class="uicontrol"> </span> 반올림되도록 합니다. </p> <p>참고:범위 설명에 숫자 자리 표시자를 포함시키려면 백슬래시(\) 접두어(예: <span class="uicontrol"> \~N~ </span> 또는 <span class="uicontrol"> \~n~ </span>. 백슬래시 문자를 포함하려면 다른 백슬래시와 함께 지정합니다(예: <span class="uicontrol"> \\ </span>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>정밀도 </p> </td> 
@@ -410,7 +398,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 첨부|바꾸기 </span> </p> </td> 
-   <td colname="col2"> <p>"추가"를 선택하여 삽입 정의의 값을 추가합니다("Adobe: 문의" 또는 "지금 판매 중!" 위의 예에서)를 기존 필드의 컨텐츠로 가져옵니다. "바꾸기"를 선택하여 기존 필드 컨텐츠를 정의된 값으로 덮어씁니다. 현재 필드에 컨텐츠가 없는 경우, 사용된 옵션(추가 또는 대체)에 상관없이 정의된 값이 자동으로 추가됩니다. </p> </td> 
+   <td colname="col2"> <p>"추가"를 선택하여 삽입 정의의 값을 추가합니다("Adobe:문의" 또는 "지금 판매 중!" 위의 예에서)를 기존 필드의 컨텐츠로 가져옵니다. "바꾸기"를 선택하여 기존 필드 컨텐츠를 정의된 값으로 덮어씁니다. 현재 필드에 컨텐츠가 없는 경우, 사용된 옵션(추가 또는 대체)에 상관없이 정의된 값이 자동으로 추가됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 필드에서 하나의 URL 매개 변수를 지정하십시오 </span> </p> </td> 
@@ -426,7 +414,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
       <li id="li_FD0B1CD9E6304B18B9D7F57E61015107"> <span class="codeph"> target </span> </li> 
       <li id="li_400D7E3F3E9B47EFB2FF5C0D278DB573"> <span class="codeph"> 제목 </span> </li> 
       <li id="li_449BCBEE4F64424BB69F780C10F5956C"> <span class="codeph"> url </span> </li> 
-     </ul> </p> <p>각 필드 이름은 사이트 페이지의 요소에 해당합니다. 예를 들어 필드 이름 <span class="codeph"> 설명 </span> 을 지정하는 경우, 삽입된 정의 값을 사이트 페이지의 메타 태그에 해당하는 필드에 추가할 수 있습니다. </p> <p>페이지에 메타 태그가 없는 설명은 해당 페이지에 있는 태그를 정의합니다. 설명 삽입에 지정된 <span class="codeph"> 컨텐츠는 하드 코딩된 메타 </span> 설명 컨텐츠와 마찬가지로 결과 페이지에 표시됩니다. </p> <p>같은 필드 이름으로 여러 정의를 만들 수도 있습니다. 예를 들어 다음과 같은 주사를 맞아야 합니다. </p> <p> <code> replace&nbsp; <b>title</b>&nbsp;https://www.mysite.com/&nbsp;Welcome&nbsp;to&nbsp;My&nbsp;Site </code> </p> <p> <code> replace&nbsp; <b>title</b>&nbsp;https://www.mysite.com/company/*.html&nbsp;My&nbsp;Site:&nbsp;Contact </code> </p> <p>위의 예에서 모든 사이트 페이지에는 삽입된 "내 사이트에 오신 것을 환영합니다."라는 제목이 표시됩니다. "/company/" 폴더의 페이지는 새 제목 "My Site: 문의"를 참조하십시오. </p> <p>주사제는 [ <span class="wintitle"> 필드 주입 정의] 텍스트 상자에 표시되는 순서대로 </span> 적용됩니다. 동일한 위치의 페이지에 대해 동일한 필드("제목")가 두 번 이상 정의된 경우 이후 정의가 우선합니다. </p> <p> <span class="codeph"> [regexp] </span> - 선택 사항. 등록 <span class="codeph"> </span> 옵션을 사용하도록 선택하면 정의된 URL이 정규 표현식으로 처리됩니다. </p> <p>정규 <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> 표현식을 참조하십시오 </a>. </p> <p>다음 정의에서: </p> <p> <code> replace&nbsp;target&nbsp; <b>regexp&amp;nbsp;^.*/products/.*\.html$</b>&nbsp;Important&nbsp;information </code> </p> <p> "중요 정보"는 정규 표현식 <span class="codeph"> "과 일치하는 모든 페이지의 "target" 필드에 삽입됩니다.*/products/.*\.html$ </span>. </p> <p>따라서 다음과 같은 사항이 있습니다. </p> <p> <code> https://www.mydomain.com/products/page1.html 
+     </ul> </p> <p>각 필드 이름은 사이트 페이지의 요소에 해당합니다. 예를 들어 필드 이름 <span class="codeph"> 설명 </span> 을 지정하는 경우, 삽입된 정의 값을 사이트 페이지의 메타 태그에 해당하는 필드에 추가할 수 있습니다. </p> <p>페이지에 메타 태그가 없는 설명은 정의된 컨텐츠가 자동으로 태그를 만듭니다. 설명 삽입에 지정된 <span class="codeph"> 컨텐츠는 하드 코딩된 메타 </span> 설명 컨텐츠와 마찬가지로 결과 페이지에 표시됩니다. </p> <p>같은 필드 이름으로 여러 정의를 만들 수도 있습니다. 예를 들어 다음과 같은 주사를 맞아야 합니다. </p> <p> <code> replace&nbsp; <b>title</b>&nbsp;https://www.mysite.com/&nbsp;Welcome&nbsp;to&nbsp;My&nbsp;Site </code> </p> <p> <code> replace&nbsp; <b>title</b>&nbsp;https://www.mysite.com/company/*.html&nbsp;My&nbsp;Site:&nbsp;Contact </code> </p> <p>위의 예에서 모든 사이트 페이지에는 삽입된 "내 사이트에 오신 것을 환영합니다."라는 제목이 표시됩니다. "/company/" 폴더의 페이지는 새 제목 "My Site:문의"를 참조하십시오. </p> <p>주사제는 [ <span class="wintitle"> 필드 주입 정의] 텍스트 상자에 표시되는 순서대로 </span> 적용됩니다. 동일한 위치의 페이지에 대해 동일한 필드("제목")가 두 번 이상 정의된 경우 이후 정의가 우선합니다. </p> <p> <span class="codeph"> [regexp] </span> - 선택 사항. 등록 <span class="codeph"> </span> 옵션을 사용하도록 선택하면 정의된 URL이 정규 표현식으로 처리됩니다. </p> <p>정규 <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> 표현식을 참조하십시오 </a>. </p> <p>다음 정의에서: </p> <p> <code> replace&nbsp;target&nbsp; <b>regexp&amp;nbsp;^.*/products/.*\.html$</b>&nbsp;Important&nbsp;information </code> </p> <p> "중요 정보"는 정규 표현식 <span class="codeph"> "과 일치하는 모든 페이지의 "target" 필드에 삽입됩니다.*/products/.*\.html$ </span>. </p> <p>따라서 다음과 같은 사항이 있습니다. </p> <p> <code> https://www.mydomain.com/products/page1.html 
       &nbsp;&nbsp;&nbsp;&nbsp;(Will&nbsp;receive&nbsp;"target"&nbsp;content) </code> </p> <p> <code> https://www.mydomain.com/product/oldstuff.html 
       &nbsp;&nbsp;&nbsp;&nbsp;(Will&nbsp;not&nbsp;receive&nbsp;"target"&nbsp;content) </code> </p> <p>다음 예에서: </p> <p> <code> append&amp;nbsp;title&amp;nbsp;regexp&amp;nbsp;^.*\.pdf$&amp;nbsp;Millennium&amp;nbsp;Science </code> </p> <p>삽입에 "Millennium Science"가 파일 이름 확장명으로 끝나는 모든 페이지의 "제목" 컨텐츠에 추가됩니다. </p> </td> 
   </tr> 
@@ -441,7 +429,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> value </span> </p> </td> 
-   <td colname="col2"> <p>값이 필요하며 기존 필드 컨텐츠를 대체하거나 추가하는 데 사용됩니다. 동일한 필드 이름에 여러 값을 지정할 수 있습니다. 예: </p> <p><b>키</b> 추가 https://www.mysite.com/travel/ <b>여름</b>, <b>해변</b><b>,모래</b> </p> <p><b>키 추가</b> https://www.mysite.com/travel/fare/*.html <b>저렴한 티켓</b> </p> <p>위의 예에서 "summer, beach, sand"라는 단어는 "/travel/" 디렉토리의 모든 페이지에서 "keys" 필드에 추가됩니다. "/travel/fare/" 디렉토리의 모든 페이지에 있는 "keys" 필드에 "less tickets"라는 단어가 추가됩니다. </p> </td> 
+   <td colname="col2"> <p>값이 필요하며 기존 필드 컨텐츠를 대체하거나 추가하는 데 사용됩니다. 동일한 필드 이름에 여러 값을 지정할 수 있습니다. 예: </p> <p><b>키</b> 추가 https://www.mysite.com/travel/ <b>여름</b>, <b>해변</b><b>,모래</b> </p> <p><b>키 추가</b> https://www.mysite.com/travel/fare/*.html <b>저렴한 티켓</b> </p> <p>위의 예에서 "summer, beach, sand"라는 단어는 "/travel/" 디렉토리의 모든 페이지에서 "keys" 필드에 추가됩니다. "/travel/fare/" 디렉토리의 모든 페이지에 있는 "keys" 필드에 "price tickees"라는 단어가 추가됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -480,7 +468,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
 
 >[!NOTE]
 >
->Attribute Loader를 사용하려면 Adobe 계정 담당자 또는 Adobe 지원 센터에서 계정을 활성화해야 할 수 있습니다.
+>속성 로더를 사용하려면 Adobe 계정 담당자 또는 Adobe 지원에 의해 계정에서 활성화되어야 할 수 있습니다.
 
 데이터 피드 입력 소스를 사용하여 웹 사이트에서 일반적으로 검색된 내용과 다른 양식에 저장된 컨텐츠에 액세스할 수 있습니다. 사용 가능한 크롤링 방법 중 하나를 사용하여 이렇게 합니다. 그런 다음 이러한 소스의 데이터를 크롤된 컨텐츠의 데이터에 주입할 수 있습니다.
 
@@ -528,14 +516,14 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
       ... 
       &lt;/head&gt;&lt;body&gt; 
       {body} 
-      &lt;/body&gt;&lt;/html&gt; </code> </p> <p>&lt; <span class="codeph"> title&gt; </span> 요소는 제목 메타데이터 필드에 대한 매핑이 있을 때만 생성됩니다. 마찬가지로 <span class="codeph"> &lt;body&gt; </span> 요소는 본문 메타데이터 필드에 매핑이 있을 때만 생성됩니다. </p> <p> <b>중요</b>: 사전 정의된 URL 메타 태그에 대한 값 할당은 지원되지 않습니다. </p> <p>다른 모든 매핑의 경우 <span class="codeph"> &lt;meta&gt; </span> 태그가 원본 문서에서 찾은 데이터가 있는 각 필드에 대해 생성됩니다. </p> <p>각 문서에 대한 필드가 캐시에 추가됩니다. 캐시에 기록된 각 문서에 대해 다음 예와 같이 링크가 생성됩니다. </p> <p> <code class="syntax html"> &lt;a&nbsp;href="index:Adobe?key=&lt;primary&nbsp;key&nbsp;field&gt;\"&nbsp;/&gt; 
+      &lt;/body&gt;&lt;/html&gt; </code> </p> <p>&lt; <span class="codeph"> title&gt; </span> 요소는 제목 메타데이터 필드에 대한 매핑이 있을 때만 생성됩니다. 마찬가지로 <span class="codeph"> &lt;body&gt; </span> 요소는 본문 메타데이터 필드에 매핑이 있을 때만 생성됩니다. </p> <p> <b>중요</b>:사전 정의된 URL 메타 태그에 대한 값 할당은 지원되지 않습니다. </p> <p>다른 모든 매핑의 경우 <span class="codeph"> &lt;meta&gt; </span> 태그가 원본 문서에서 찾은 데이터가 있는 각 필드에 대해 생성됩니다. </p> <p>각 문서에 대한 필드가 캐시에 추가됩니다. 캐시에 기록된 각 문서에 대해 다음 예와 같이 링크가 생성됩니다. </p> <p> <code class="syntax html"> &lt;a&nbsp;href="index:Adobe?key=&lt;primary&nbsp;key&nbsp;field&gt;\"&nbsp;/&gt; 
       &lt;a&nbsp;href="index:Adobe?key=&lt;primary&nbsp;key&nbsp;field&gt;\"&nbsp;/&gt; 
       .... </code> </p> <p>구성의 매핑에는 기본 키로 식별된 필드가 하나만 있어야 합니다. 이 매핑은 캐시에서 데이터를 가져오는 데 사용되는 키를 형성합니다. </p> <p>크롤러(crawler)는 URL <span class="codeph"> 색인을 인식합니다. </span> 스키마 접두사를 사용합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>3 </p> </td> 
    <td colname="col2"> <p>캐시된 문서 집합을 크롤링합니다. </p> </td> 
-   <td colname="col3"> <p>색인: <span class="codeph"> </span> 링크가 크롤러 보류 중인 목록에 추가되고 일반 크롤링 시퀀스에서 처리됩니다. </p> </td> 
+   <td colname="col3"> <p>색인: <span class="codeph"></span> 링크가 크롤러 보류 중인 목록에 추가되고 일반 크롤링 시퀀스에서 처리됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4 </p> </td> 
@@ -565,7 +553,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
   </tr> 
   <tr> 
    <td colname="col1"> <p>피드 </p> </td> 
-   <td colname="col2"> <p>데이터 소스를 다운로드하고 간단한 XML 파싱을 수행합니다. </p> <p>결과 XPath 식별자는 맵 테이블의 태그 행에 표시되며, 필드 값도 유사합니다. 이러한 행은 사용 가능한 데이터만 식별하고 더 복잡한 XPath 정의를 생성하지 않습니다. 그러나 XML 데이터를 설명하고 Itemtag를 식별하므로 여전히 유용합니다. </p> <p> <p>참고:  설정 맵 함수는 분석을 수행하기 위해 전체 XML 소스를 다운로드합니다. 파일이 크면 이 작업이 시간 초과될 수 있습니다. </p> </p> <p>이 기능은 모든 가능한 XPath 항목을 식별하는데, 이 항목 중 많은 항목을 사용하기 어렵습니다. 결과 맵 정의를 검사하고 필요 없거나 원하지 않는 정의를 제거해야 합니다. </p> </td> 
+   <td colname="col2"> <p>데이터 소스를 다운로드하고 간단한 XML 파싱을 수행합니다. </p> <p>결과 XPath 식별자는 맵 테이블의 태그 행에 표시되며, 필드 값도 유사합니다. 이러한 행은 사용 가능한 데이터만 식별하고 더 복잡한 XPath 정의를 생성하지 않습니다. 그러나 XML 데이터를 설명하고 Itemtag를 식별하므로 여전히 유용합니다. </p> <p> <p>참고: 설정 맵 함수는 분석을 수행하기 위해 전체 XML 소스를 다운로드합니다. 파일이 크면 이 작업이 시간 초과될 수 있습니다. </p> </p> <p>이 기능은 모든 가능한 XPath 항목을 식별하는데, 이 항목 중 많은 항목을 사용하기 어렵습니다. 결과 맵 정의를 검사하고 필요 없거나 원하지 않는 정의를 제거해야 합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -578,7 +566,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
 
 속성 로더 데이터는 색인 작업 전에 로드됩니다.
 
-속성 로더를 추가할 때 저장 중인 것처럼 이 기능을 사용하여 데이터 **[!UICONTROL Preview]** 의 유효성을 확인할 수도 있습니다. 구성에 대해 테스트를 실행하지만 구성을 계정에 저장하지 않습니다. 테스트는 구성된 데이터 소스에 액세스합니다. 그러나 다운로드 캐시가 임시 위치에 기록됩니다. 색인 크롤러가 사용하는 기본 캐시 폴더와 충돌하지 않습니다.
+속성 로더를 추가할 때 저장 중인 것처럼 이 기능을 사용하여 데이터 **[!UICONTROL Preview]** 의 유효성을 확인할 수도 있습니다. 구성에 대해 테스트를 실행하지만 구성을 계정에 저장하지 않습니다. 테스트는 구성된 데이터 소스에 액세스합니다. 그러나 다운로드 캐시가 임시 위치에 기록됩니다.색인 크롤러가 사용하는 기본 캐시 폴더와 충돌하지 않습니다.
 
 미리 보기는 Acct:IndexConnector-Preview-Max-Documents에서 제어하는 **5개의 문서만 처리합니다**. 미리 본 문서는 색인 크롤러에 표시될 때 소스 양식으로 표시됩니다. 이 디스플레이는 웹 브라우저의 &quot;소스 보기&quot; 기능과 유사합니다. 표준 탐색 링크를 사용하여 미리 보기 세트에서 문서를 탐색할 수 있습니다.
 
@@ -590,7 +578,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
 
 >[!NOTE]
 >
->Attribute Loader를 사용하려면 Adobe 계정 담당자 또는 Adobe 지원 센터에서 계정을 활성화해야 할 수 있습니다.
+>속성 로더를 사용하려면 Adobe 계정 담당자 또는 Adobe 지원에 의해 계정에서 활성화되어야 할 수 있습니다.
 
 새 정의 및 활성화된 정의가 고객에게 표시되기 전에 사이트 색인을 다시 작성합니다.
 
@@ -621,12 +609,12 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
       </ul> </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p> <b>데이터 소스 유형: 텍스트</b> </p> </td> 
+      <td colname="col1"> <p> <b>데이터 소스 유형:텍스트</b> </p> </td> 
       <td colname="col2"> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>활성화됨 </p> </td> 
-      <td colname="col2"> <p>사용할 구성을 "켜짐"으로 설정합니다. 또는 구성을 "해제"하여 사용하지 않도록 설정할 수 있습니다. </p> <p> <b>참고</b>: 비활성화된 속성 로더 구성은 무시됩니다. </p> </td> 
+      <td colname="col2"> <p>사용할 구성을 "켜짐"으로 설정합니다. 또는 구성을 "해제"하여 사용하지 않도록 설정할 수 있습니다. </p> <p> <b>참고</b>:비활성화된 속성 로더 구성은 무시됩니다. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>호스트 주소 </p> </td> 
@@ -684,12 +672,12 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
       </ul> </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p> <b>데이터 소스 유형: 피드</b> </p> </td> 
+      <td colname="col1"> <p> <b>데이터 소스 유형:피드</b> </p> </td> 
       <td colname="col2"> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>활성화됨 </p> </td> 
-      <td colname="col2"> <p>사용할 구성을 "켜짐"으로 설정합니다. 또는 구성을 "해제"하여 사용하지 않도록 설정할 수 있습니다. </p> <p> <b>참고</b>: 비활성화된 속성 로더 구성은 무시됩니다. </p> </td> 
+      <td colname="col2"> <p>사용할 구성을 "켜짐"으로 설정합니다. 또는 구성을 "해제"하여 사용하지 않도록 설정할 수 있습니다. </p> <p> <b>참고</b>:비활성화된 속성 로더 구성은 무시됩니다. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>호스트 주소 </p> </td> 
@@ -768,13 +756,13 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
         /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;desc 
         /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;body </code> </p> <p>위의 구문은 다음과 같이 해석됩니다. </p> <p> 
         <ul id="ul_6400EBD08D424EADA1612FE4F7EFB640"> 
-        <li id="li_9958F9B40D42434195597DBA9F2AF28F"> <code class="syntax xml"> /record/@displayurl&amp;nbsp;-&gt;&amp;nbsp;page-url </code> <p>레코드 요소의 <span class="codeph"> displayurl </span> 속성은 메타데이터 필드 <span class="codeph"> 페이지-url에 매핑됩니다 </span> <span class="codeph"> </span>. </p> </li> 
+        <li id="li_9958F9B40D42434195597DBA9F2AF28F"> <code class="syntax xml"> /record/@displayurl&amp;nbsp;-&gt;&amp;nbsp;page-url </code> <p>레코드 요소의 <span class="codeph"> displayurl </span> 속성이 메타데이터 필드 <span class="codeph"> 페이지-url에 매핑됩니다 </span> <span class="codeph"> </span>. </p> </li> 
         <li id="li_759013EA02CD48BE971A55B0A6A11424"> <code class="syntax xml"> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>이름 속성이 Title인 <span class="codeph"></span> 레코드 요소 내에 들어 있는 메타데이터 <span class="codeph"> 요소 내에 들어 있는 모든 메타 </span> 요소 <span class="codeph"> 의 컨텐트 속성 </span> 은 메타데이터 필드 <span class="codeph"> </span> <span class="codeph"> </span><span class="codeph"> </span>제목에 매핑됩니다. </p> </li> 
         <li id="li_E741CA59197D462EB2946EDE874AFDC8"> <code class="syntax xml"> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>이름 속성이 설명 <span class="codeph"> 인, cname 속성이 Cutlc인, cedc에 매핑되는, </span> came 요소 내에 들어 있는, 메타데이터 요소 내에 들어 있는 모든 메타 <span class="codeph"> 요소 </span> 의 컨텐트 <span class="codeph"> </span> <span class="codeph"> </span> <span class="codeph"> </span><span class="codeph"> </span>속성입니다. </p> </li> 
         <li id="li_E35EAE3D284D46D485D9064D7BB6AB13"> <code class="syntax xml"> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>이름 속성이 설명인 Cumulative에 포함된 <span class="codeph"> 레코드 요소 내에 포함된 메타데이터 </span> 요소 <span class="codeph"> 의 컨텐트 속성 </span> <span class="codeph"> </span> <span class="codeph"> </span> <span class="codeph"> </span><span class="codeph"> </span>은 메타데이터 필드 본문에 매핑됩니다. </p> </li> 
         </ul> </p> <p>XPath는 비교적 복잡한 표기법입니다. 자세한 내용은 다음 위치에서 확인할 수 있습니다. </p> <p>https://www.w3schools.com/xpath/을 참조하십시오 <a href="https://www.w3schools.com/xpath/" scope="external" format="html"> </a> </p> </li> 
       <li id="li_8147075D7ACD4811A7ED335F23FE62A6"> <span class="uicontrol"> 필드 </span> <p>생성된 각 &lt;meta&gt; 태그에 사용되는 이름 속성 값 <span class="codeph"> 을 </span> 정의합니다. </p> </li> 
-      <li id="li_2380199D63BF425A919606D8232FA6E2"> <span class="uicontrol"> 메타데이터? </span> <p>필드가 <span class="uicontrol"> 현재 계정에 대해 정의된 메타데이터 필드를 선택할 수 있는 드롭다운 목록이 </span> 됩니다. </p> <p>원하는 경우 <span class="uicontrol"> 필드 </span> 값은 정의되지 않은 메타데이터 필드일 수 있습니다. 정의되지 않은 메타데이터 필드는 필터링 스크립트에서 사용하는 내용을 만드는 데 <span class="wintitle"> 유용합니다 </span>. </p> <p>스크립트 필터링 <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> 정보를 참조하십시오 </a>. </p> <p>속성 로더가 맵 필드에 여러 개의 히트가 있는 XML 문서를 처리할 때 여러 값이 캐시된 결과 문서의 단일 값으로 연결됩니다. 기본적으로 이러한 값은 쉼표 구분 기호를 사용하여 결합됩니다. 그러나 해당 필드 값이 정의된 메타데이터 <span class="wintitle"></span> 필드라고 가정합니다. 또한 이 필드에는 목록 <span class="wintitle"> 허용 </span> 속성이 설정되어 있습니다. 이 경우, 정의된 첫 번째 구분 기호인 필드의 목록 구분 기호 값이 연결에서 사용됩니다. </p> </li> 
+      <li id="li_2380199D63BF425A919606D8232FA6E2"> <span class="uicontrol"> 메타데이터? </span> <p>필드가 <span class="uicontrol"> 현재 계정에 대해 정의된 메타데이터 필드를 선택할 수 있는 드롭다운 목록이 </span> 됩니다. </p> <p>원하는 경우 <span class="uicontrol"> 필드 </span> 값은 정의되지 않은 메타데이터 필드일 수 있습니다. 정의되지 않은 메타데이터 필드는 필터링 스크립트에서 사용하는 내용을 만드는 데 <span class="wintitle"> 유용합니다 </span>. </p> <p>스크립트 필터링 <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> 정보를 참조하십시오 </a>. </p> <p>속성 로더가 맵 필드에 여러 개의 히트가 있는 XML 문서를 처리할 때 여러 값이 캐시된 결과 문서의 단일 값으로 연결됩니다. 기본적으로 이러한 값은 쉼표 구분 기호를 사용하여 결합됩니다. 그러나 해당 필드 값이 정의된 메타데이터 <span class="wintitle"></span> 필드라고 가정합니다. 또한 해당 필드에는 <span class="wintitle"> 허용 목록 속성이 </span> 설정되어 있습니다. 이 경우, 정의된 첫 번째 구분 기호인 필드의 목록 구분 기호 값이 연결에서 사용됩니다. </p> </li> 
       <li id="li_DEA24003E97E406DA2510C43CCFDC70E"> <span class="uicontrol"> 기본 키? </span> <p>하나의 필드만 기본 키로 식별됩니다. 이 필드는 인덱스의 해당 문서와 속성 로더 데이터를 일치시키기 위해 "외래 키"로 사용됩니다. </p> </li> 
       <li id="li_80D6AF130FCE40AC972FE4B605B86BF6"> <span class="uicontrol"> HTML 제거? </span> <p>이 옵션을 선택하면 이 필드의 데이터에 있는 모든 HTML 태그가 제거됩니다. </p> </li> 
       <li id="li_D40E2F9AD8AD49FC9AC4B8C75BA31E28"> <span class="uicontrol"> 작업 </span> <p>맵에 행을 추가하거나 맵에서 행을 제거할 수 있습니다. 행의 순서는 중요하지 않습니다. </p> </li> 
@@ -806,7 +794,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
 
 >[!NOTE]
 >
->Attribute Loader를 사용하려면 Adobe 계정 담당자 또는 Adobe 지원 센터에서 계정을 활성화해야 할 수 있습니다.
+>속성 로더를 사용하려면 Adobe 계정 담당자 또는 Adobe 지원에 의해 계정에서 활성화되어야 할 수 있습니다.
 
 일부 속성 로더 옵션은 [!DNL Type] 드롭다운 목록에서 속성 로더 이름 또는 유형 등과 같이 변경할 수 없습니다.
 
@@ -839,7 +827,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
 
 >[!NOTE]
 >
->Attribute Loader를 사용하려면 Adobe 계정 담당자 또는 Adobe 지원 센터에서 계정을 활성화해야 할 수 있습니다.
+>속성 로더를 사용하려면 Adobe 계정 담당자 또는 Adobe 지원에 의해 계정에서 활성화되어야 할 수 있습니다.
 
 속성 로더 정의를 복사할 때 복사된 정의는 기본적으로 비활성화됩니다. 정의를 활성화하거나 &quot;켜기&quot;하려면 페이지에서 정의를 편집하고 [!DNL Attribute Loader Edit] 선택해야 합니다 **[!UICONTROL Enable]**.
 
@@ -871,7 +859,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
 
 >[!NOTE]
 >
->Attribute Loader를 사용하려면 Adobe 계정 담당자 또는 Adobe 지원 센터에서 계정을 활성화해야 할 수 있습니다.
+>속성 로더를 사용하려면 Adobe 계정 담당자 또는 Adobe 지원에 의해 계정에서 활성화되어야 할 수 있습니다.
 
 **속성 로더 정의 이름을 변경하려면**
 
@@ -968,7 +956,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
 
 >[!NOTE]
 >
->Attribute Loader를 사용하려면 Adobe 계정 담당자 또는 Adobe 지원 센터에서 계정을 활성화해야 할 수 있습니다.
+>속성 로더를 사용하려면 Adobe 계정 담당자 또는 Adobe 지원에 의해 계정에서 활성화되어야 할 수 있습니다.
 
 **속성 로더 정의의 설정을 보려면**
 
@@ -994,7 +982,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
 
 >[!NOTE]
 >
->Attribute Loader를 사용하려면 Adobe 계정 담당자 또는 Adobe 지원 센터에서 계정을 활성화해야 할 수 있습니다.
+>속성 로더를 사용하려면 Adobe 계정 담당자 또는 Adobe 지원에 의해 계정에서 활성화되어야 할 수 있습니다.
 
 **속성 로더 정의를 삭제하려면**
 
