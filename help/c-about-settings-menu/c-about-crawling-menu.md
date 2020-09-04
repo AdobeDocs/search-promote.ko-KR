@@ -8,10 +8,10 @@ title: 크롤링 메뉴 정보
 topic: Settings,Site search and merchandising
 uuid: a58c03bf-90f7-4b5b-91ff-988b95c246b0
 translation-type: tm+mt
-source-git-commit: e080a61e24a3809beff7c212ff3d088b2a8ad3b6
+source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
 workflow-type: tm+mt
-source-wordcount: '11115'
-ht-degree: 1%
+source-wordcount: '11033'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 아래 표에서 하나 이상의 공백으로 구분된 키워드로 각 진입점을 평가할 수 있습니다. 이러한 키워드는 페이지의 인덱스 방식에 영향을 줍니다.
 
-**중요**: 주어진 키워드를 시작 지점에서 분리하고 다른 키워드와 공백으로 구분해야 합니다. 쉼표는 올바른 구분 기호가 아닙니다.
+**중요**:주어진 키워드를 시작 포인트에서 분리하고 공백으로 구분해야 합니다.쉼표는 올바른 구분 기호가 아닙니다.
 
 <table> 
  <thead> 
@@ -52,45 +52,35 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>인덱스 </p> </td> 
-   <td colname="col2"> <p> 시작 지점 페이지의 텍스트를 색인화하지 않고 페이지의 링크를 따르려면 
-     <userinput>
-       인덱스 
-     </userinput> 를 클릭합니다. </p> <p>다음 예제와 같이 키워드를 시작 지점에서 공백으로 구분합니다. </p> <p> <code> https://www.my-additional-domain.com/more_pages/main.html&amp;nbsp;noindex </code> </p> <p>이 키워드는 
-     <userinput>
+   <td colname="col2"> <p> 시작 지점 페이지의 텍스트를 색인화하지 않고 페이지의 링크를 따르려면 시작 지점 <code>
+       noindex 
+     </code> 뒤에 추가하십시오. </p> <p>다음 예제와 같이 키워드를 시작 지점에서 공백으로 구분합니다. </p> <p> <code> https://www.my-additional-domain.com/more_pages/main.html&amp;nbsp;noindex </code> </p> <p>이 키워드는 시작 지점 페이지의... 태그 사이 <code>
        content="noindex" 
-     </userinput>) between 
-     <userinput>
+     </code>에 있는 로봇 메타 태그 <code>
        &lt;head&gt; 
-     </userinput>... 
-     <userinput>
+     </code>) <code>
        &lt;/head&gt; 
-     </userinput> 태그입니다. </p> </td> 
+     </code> 와 같습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>nofollow </p> </td> 
-   <td colname="col2"> <p> 시작 지점 페이지의 텍스트를 색인화하지만 페이지의 링크를 따라가지 않으려면 
-     <userinput>
+   <td colname="col2"> <p> 시작 지점 페이지의 텍스트를 색인화하지만 페이지의 링크를 따르지 않으려면 시작 지점 <code>
        nofollow 
-     </userinput> 를 클릭합니다. </p> <p>다음 예제와 같이 키워드를 시작 지점에서 공백으로 구분합니다. </p> <p> <code> https://www.domain.com/not_linked/directory_listing&amp;nbsp;nofollow </code> </p> <p>이 키워드는 
-     <userinput>
+     </code> 뒤에 추가하십시오. </p> <p>다음 예제와 같이 키워드를 시작 지점에서 공백으로 구분합니다. </p> <p> <code> https://www.domain.com/not_linked/directory_listing&amp;nbsp;nofollow </code> </p> <p>이 키워드는 시작 지점 페이지의... 태그 <code>
        content="nofollow" 
-     </userinput> 사이 
-     <userinput>
+     </code> 사이에 있는 <code>
        &lt;head&gt; 
-     </userinput>... 
-     <userinput>
+     </code>로봇 메타 <code>
        &lt;/head&gt; 
-     </userinput> 태그입니다. </p> </td> 
+     </code> 태그와 같습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>양식 </p> </td> 
-   <td colname="col2"> <p> 시작 지점이 로그인 페이지이면 
-     <userinput>
-       양식 
-     </userinput> 은 일반적으로 검색 로봇이 웹 사이트를 크롤하기 전에 로그인 양식을 제출하고 적절한 쿠키를 수신할 수 있도록 사용됩니다. "form" 키워드를 사용할 때 시작 지점 페이지는 인덱싱되지 않고 검색 로봇은 시작 지점 페이지를 크롤링으로 표시하지 않습니다. 최상의 결과를 얻으려면 
-     <userinput>
+   <td colname="col2"> <p> 시작 지점이 로그인 페이지인 경우, 검색 로봇이 <code>
+       form 
+     </code> 웹 사이트를 크롤하기 전에 로그인 양식을 제출하고 적절한 쿠키를 수신할 수 있도록 일반적으로 사용됩니다. "form" 키워드를 사용할 때 시작 지점 페이지는 인덱싱되지 않고 검색 로봇은 시작 지점 페이지를 크롤링으로 표시하지 않습니다. 검색 로봇이 페이지의 링크를 따르지 않도록 하려는 <code>
        nofollow 
-     </userinput> 검색 로봇이 페이지의 링크를 따르지 않도록 하려는 경우. </p> </td> 
+     </code> 경우 사용합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -239,7 +229,7 @@ include https://www.mydomain.com/photos/fall/redleaves4.html
 
 일치하는 페이지가 인덱싱되는 방식에 영향을 주는 하나 이상의 공백으로 구분된 키워드로 각 포함 마스크를 평가할 수 있습니다.
 
-쉼표는 마스크와 키워드 간의 구분 문자로 사용할 수 없습니다. 공백만 사용할 수 있습니다.
+쉼표는 마스크와 키워드 간의 구분 문자로 사용할 수 없습니다.공백만 사용할 수 있습니다.
 
 <table> 
  <thead> 
@@ -251,54 +241,42 @@ include https://www.mydomain.com/photos/fall/redleaves4.html
  <tbody> 
   <tr> 
    <td colname="col1"> <p>인덱스 </p> </td> 
-   <td colname="col2"> <p> URL 마스크와 일치하는 페이지의 텍스트를 색인화하지 않고 일치된 페이지 링크를 따르려면 
-     <userinput>
-       인덱스 
-     </userinput> URL 포함 마스크 후. 다음 예제와 같이 마스크에서 키워드를 공백으로 구분해야 합니다. </p> <p> <code> include&amp;nbsp;*.swf&amp;nbsp;noindex </code> </p> <p>위의 예는 검색 로봇이 
-     <userinput>
+   <td colname="col2"> <p> URL 마스크와 일치하는 페이지의 텍스트를 색인화하지 않고, 일치하는 페이지 링크를 따르려면 포함 URL 마스크 <code>
+       noindex 
+     </code> 뒤에 추가하십시오. 다음 예제와 같이 마스크에서 키워드를 공백으로 구분해야 합니다. </p> <p> <code> include&amp;nbsp;*.swf&amp;nbsp;noindex </code> </p> <p>위의 예에서는 검색 로봇이 확장자가 있는 파일의 모든 링크를 따르지만 해당 파일에 포함된 모든 텍스트의 <code>
        .swf 
-     </userinput> 확장자를 지정합니다. </p> <p>The 
-     <userinput>
-       인덱스 
-     </userinput> 키워드는 
-     <userinput>
+     </code> 인덱싱을 사용하지 않도록 지정합니다. </p> <p>키워드는 <code>
+       noindex 
+     </code> 일치하는 페이지의 태그 <code>
        content="noindex" 
-     </userinput> 사이 
-     <userinput>
-       &lt;head&gt;..&lt;/head&gt; 
-     </userinput> 일치하는 페이지의 태그입니다. </p> </td> 
+     </code> 사이에 있는 로봇 <code>
+       &lt;head&gt;...&lt;/head&gt; 
+     </code> 메타 태그와 같습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>nofollow </p> </td> 
-   <td colname="col2"> <p> URL 마스크와 일치하는 페이지의 텍스트를 색인화하지만 일치하는 페이지의 링크를 따라가지 않으려면 
-     <userinput>
+   <td colname="col2"> <p> URL 마스크와 일치하는 페이지의 텍스트를 색인화하지만 일치하는 페이지의 링크를 따라가지 않으려면 포함 URL 마스크 <code>
        nofollow 
-     </userinput> URL 포함 마스크 후. 다음 예제와 같이 마스크에서 키워드를 공백으로 구분해야 합니다. </p> <p> <code> include&amp;nbsp;https://www.mydomain.com/photos&amp;nbsp;nofollow </code> </p> <p>The 
-     <userinput>
+     </code> 뒤에 추가하십시오. 다음 예제와 같이 마스크에서 키워드를 공백으로 구분해야 합니다. </p> <p> <code> include&amp;nbsp;https://www.mydomain.com/photos&amp;nbsp;nofollow </code> </p> <p>키워드는 <code>
        nofollow 
-     </userinput> 키워드는 
-     <userinput>
+     </code> 일치하는 페이지의 태그 <code>
        content="nofollow" 
-     </userinput> 사이 
-     <userinput>
-       &lt;head&gt;..&lt;/head&gt; 
-     </userinput> 일치하는 페이지의 태그입니다. </p> </td> 
+     </code> 사이에 있는 로봇 <code>
+       &lt;head&gt;...&lt;/head&gt; 
+     </code> 메타 태그와 같습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>regexp </p> </td> 
-   <td colname="col2"> <p>마스크 포함 및 제외에 모두 사용됩니다. </p> <p>앞에 
-     <userinput>
+   <td colname="col2"> <p>마스크 포함 및 제외에 모두 사용됩니다. </p> <p>앞에 있는 모든 URL 마스크 <code>
        regexp 
-     </userinput> 은 정규식으로 취급됩니다. 검색 로봇에서 제외 정규 표현식 URL 마스크와 일치하는 문서가 발견되면 해당 문서는 인덱싱되지 않습니다. 검색 로봇에서 정규 표현식 URL 마스크가 포함된 문서와 일치하는 문서가 발견되면 해당 문서는 인덱싱됩니다. 예를 들어 다음과 같은 URL 마스크가 있다고 가정합니다. </p> <p> <code> exclude&amp;nbsp;regexp&amp;nbsp;^.*/products/.*\.html$ </code> </p> <p>검색 로봇은 
-     <userinput>
+     </code> 는 정규식으로 처리됩니다. 검색 로봇에서 제외 정규 표현식 URL 마스크와 일치하는 문서가 발견되면 해당 문서는 인덱싱되지 않습니다. 검색 로봇에서 정규 표현식 URL 마스크가 포함된 문서와 일치하는 문서가 발견되면 해당 문서는 인덱싱됩니다. 예를 들어 다음과 같은 URL 마스크가 있다고 가정합니다. </p> <p> <code> exclude&amp;nbsp;regexp&amp;nbsp;^.*/products/.*\.html$ </code> </p> <p>검색 로봇은 
+     <code>
        https://www.mydomain.com/products/page1.html 
-     </userinput> </p> <p>다음의 정규 표현식 URL 마스크를 제외하는 경우: </p> <p> <code> exclude&amp;nbsp;regexp&amp;nbsp;^.*\?..*$ </code> </p> <p>검색 로봇은 
-     <userinput>
+     </code> </p> <p>다음의 정규 표현식 URL 마스크를 제외하는 경우: </p> <p> <code> exclude&amp;nbsp;regexp&amp;nbsp;^.*\?..*$ </code> </p> <p>검색 로봇은 CGI 매개 변수를 포함하는 URL을 포함하지 않습니다(예: <code>
        https://www.mydomain.com/cgi/prog/?arg1=val1&amp;arg2=val2 
-     </userinput>. </p> <p>정규 표현식 URL 마스크가 포함되어 있는 경우: </p> <p> <code> include&amp;nbsp;regexp&amp;nbsp;^.*\.swf$&amp;nbsp;noindex </code> </p> <p>검색 로봇은 확장자가 ".swf"인 파일의 모든 링크를 따릅니다. The 
-     <userinput>
-       인덱스 
-     </userinput> 키워드는 일치하는 파일의 텍스트가 인덱싱되지 않도록 지정합니다. </p> <p>정규 <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> 표현식을 참조하십시오 </a>. </p> </td> 
+     </code>). </p> <p>정규 표현식 URL 마스크가 포함되어 있는 경우: </p> <p> <code> include&amp;nbsp;regexp&amp;nbsp;^.*\.swf$&amp;nbsp;noindex </code> </p> <p>검색 로봇은 확장자가 ".swf"인 파일의 모든 링크를 따릅니다. 키워드는 <code>
+       noindex 
+     </code> 일치하는 파일의 텍스트가 인덱싱되지 않도록 지정합니다. </p> <p>정규 <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> 표현식을 참조하십시오 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -419,7 +397,7 @@ include-days 0 https://www.mydomain.com/docs/archive/manual/
 https://www.mydomain.com/archive/
 ```
 
-검색 로봇은 모든 페이지 `/archive/summer/`, `/archive/spring/`및 `/archive/fall/` 아래의 페이지를 크롤링하고 인덱싱합니다( `archive` 폴더의 각 폴더에 하나 이상의 페이지에 대한 링크가 있다고 가정함). 이러한 동작은 링크 경로를 통해 검색 로봇이 시작 지점 URL에 의해 자동으로 생성된 포함 마스크 `/summer/`, `/spring/`및 `/fall/` 폴더의 파일을 &quot;찾기&quot;할 수 있게 하고 폴더 URL과 일치시키기 때문입니다.
+검색 로봇은 모든 페이지 `/archive/summer/`, `/archive/spring/`및 `/archive/fall/` 의 모든 페이지를 크롤링하고 인덱싱합니다(폴더에서 각 폴더에 하나 이상의 페이지에 대한 링크가 있다고 가정하는 경우 `archive` ). 이러한 동작은 링크 경로를 통해 검색 로봇이 시작 지점 URL에 의해 자동으로 생성된 포함 마스크 `/summer/`, `/spring/`및 `/fall/` 폴더의 파일을 &quot;찾기&quot;할 수 있게 하고 폴더 URL과 일치시키기 때문입니다.
 
 URL [시작 지점 정보를 참조하십시오](../c-about-settings-menu/c-about-crawling-menu.md#concept_5D857E3B5C124E85BC0B5AE77A509573).
 
@@ -461,7 +439,7 @@ include-days 0 https://www.mydomain.com/archive/fall/index.html
 
 일치하는 페이지가 인덱싱되는 방식에 영향을 주는 하나 이상의 공백으로 구분된 키워드로 각 포함 마스크를 평가할 수 있습니다.
 
-쉼표는 마스크와 키워드 간의 구분 문자로 사용할 수 없습니다. 공백만 사용할 수 있습니다.
+쉼표는 마스크와 키워드 간의 구분 문자로 사용할 수 없습니다.공백만 사용할 수 있습니다.
 
 <table> 
  <thead> 
@@ -473,49 +451,39 @@ include-days 0 https://www.mydomain.com/archive/fall/index.html
  <tbody> 
   <tr> 
    <td colname="col1"> <p>인덱스 </p> </td> 
-   <td colname="col2"> <p> 포함 마스크로 지정된 날짜 또는 이전 날짜에 날짜가 지정된 페이지의 텍스트를 색인화하지 않으려면 
-     <userinput>
-       인덱스 
-     </userinput> 날짜 마스크 포함 후: </p> <p> <code> include-days&amp;nbsp;10&amp;nbsp;*.swf&amp;nbsp;noindex </code> </p> <p>키워드가 마스크와 공백으로 구분되어 있어야 합니다. </p> <p>위의 예에서는 검색 로봇이 10일 이전의 ".swf" 확장자를 사용하는 파일의 모든 링크를 따르도록 지정합니다. 그러나 해당 파일에 포함된 모든 텍스트의 인덱싱을 비활성화합니다. </p> <p>이전 파일의 텍스트가 인덱스되지 않고 해당 파일의 모든 링크를 따라가도록 할 수도 있습니다. 이러한 경우 제외 날짜 마스크를 사용하는 대신 "noindex" 키워드와 함께 포함 날짜 마스크를 사용하십시오. </p> </td> 
+   <td colname="col2"> <p> 포함 마스크에 의해 지정된 날짜 또는 이전 날짜에 날짜가 지정된 페이지의 텍스트를 색인화하지 않으려면 다음과 같이 포함 날짜 마스크 <code>
+       noindex 
+     </code> 뒤에 추가하십시오. </p> <p> <code> include-days&amp;nbsp;10&amp;nbsp;*.swf&amp;nbsp;noindex </code> </p> <p>키워드가 마스크와 공백으로 구분되어 있어야 합니다. </p> <p>위의 예에서는 검색 로봇이 10일 이전의 ".swf" 확장자를 사용하는 파일의 모든 링크를 따르도록 지정합니다. 그러나 해당 파일에 포함된 모든 텍스트의 인덱싱을 비활성화합니다. </p> <p>이전 파일의 텍스트가 인덱스되지 않고 해당 파일의 모든 링크를 따라가도록 할 수도 있습니다. 이러한 경우 제외 날짜 마스크를 사용하는 대신 "noindex" 키워드와 함께 포함 날짜 마스크를 사용하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>nofollow </p> </td> 
-   <td colname="col2"> <p> 포함 마스크로 지정된 날짜 또는 이전 날짜에 날짜가 지정된 페이지의 텍스트를 색인화하고자 하지만 일치하는 페이지의 링크를 따라가지 않으려면 
-     <userinput>
+   <td colname="col2"> <p> 포함 마스크로 지정된 날짜 또는 이전 날짜에 날짜가 지정된 페이지의 텍스트를 색인화하고자 하지만 일치하는 페이지의 링크를 따라가지 않으려면 다음과 같이 날짜 마스크 포함 <code>
        nofollow 
-     </userinput> 날짜 마스크 포함 후: </p> <p> <code> include-days&amp;nbsp;8&amp;nbsp;https://www.mydomain.com/photos&amp;nbsp;nofollow </code> </p> <p>키워드가 마스크와 공백으로 구분되어 있어야 합니다. </p> <p>The 
-     <userinput>
+     </code> 뒤에 추가하십시오. </p> <p> <code> include-days&amp;nbsp;8&amp;nbsp;https://www.mydomain.com/photos&amp;nbsp;nofollow </code> </p> <p>키워드가 마스크와 공백으로 구분되어 있어야 합니다. </p> <p>키워드는 <code>
        nofollow 
-     </userinput> 키워드는 
-     <userinput>
+     </code> 일치하는 페이지의 태그 <code>
        content="nofollow" 
-     </userinput> 사이 
-     <userinput>
-       &lt;head&gt;..&lt;/head&gt; 
-     </userinput> 일치하는 페이지의 태그입니다. </p> </td> 
+     </code> 사이에 있는 로봇 <code>
+       &lt;head&gt;...&lt;/head&gt; 
+     </code> 메타 태그와 같습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>server-date </p> </td> 
-   <td colname="col2"> <p>마스크 포함 및 제외에 모두 사용됩니다. </p> <p>검색 로봇은 일반적으로 날짜 마스크를 확인하기 전에 모든 파일을 다운로드하고 구문 분석합니다. 이러한 동작은 일부 파일 유형이 파일 자체 내에 날짜를 지정할 수 있기 때문에 발생합니다. 예를 들어 HTML 문서에는 파일 날짜를 설정하는 메타 태그가 포함될 수 있습니다. </p> <p>날짜를 기준으로 많은 파일을 제외하려고 하는데 서버에 불필요한 로드를 추가하지 않으려는 경우 
-     <userinput>
+   <td colname="col2"> <p>마스크 포함 및 제외에 모두 사용됩니다. </p> <p>검색 로봇은 일반적으로 날짜 마스크를 확인하기 전에 모든 파일을 다운로드하고 구문 분석합니다. 이러한 동작은 일부 파일 유형이 파일 자체 내에 날짜를 지정할 수 있기 때문에 발생합니다. 예를 들어 HTML 문서에는 파일 날짜를 설정하는 메타 태그가 포함될 수 있습니다. </p> <p>날짜를 기준으로 많은 파일을 제외하려고 하는데 서버에 불필요한 로드를 넣지 않으려는 경우 날짜 마스크의 URL <code>
        server-date 
-     </userinput> 을 클릭합니다. </p> <p>이 키워드는 검색 로봇이 각 파일을 구문 분석하는 대신 서버에서 반환된 파일의 날짜를 신뢰하도록 합니다. 예를 들어, 다음 제외 날짜 마스크는 HTTP 헤더에서 서버가 반환하는 날짜에 따라 문서가 90일 이상인 경우 URL과 일치하는 페이지를 무시합니다. </p> <p> <code> exclude-days&amp;nbsp;90&amp;nbsp;https://www.mydomain.com/docs/archive&amp;nbsp;server-date </code> </p> <p> 서버에서 반환된 날짜가 90일 이상인 경우 
-     <userinput>
+     </code> 다음에 사용할 수 있습니다. </p> <p>이 키워드는 검색 로봇이 각 파일을 구문 분석하는 대신 서버에서 반환된 파일의 날짜를 신뢰하도록 합니다. 예를 들어, 다음 제외 날짜 마스크는 HTTP 헤더에서 서버가 반환하는 날짜에 따라 문서가 90일 이상인 경우 URL과 일치하는 페이지를 무시합니다. </p> <p> <code> exclude-days&amp;nbsp;90&amp;nbsp;https://www.mydomain.com/docs/archive&amp;nbsp;server-date </code> </p> <p> 서버에서 반환된 날짜가 90일 이상인 경우 제외된 문서를 서버에서 다운로드하지 않도록 <code>
        server-date 
-     </userinput> 제외된 문서를 서버에서 다운로드하지 않도록 지정합니다. 따라서 문서를 보다 빠르게 인덱싱하고 서버에 부담을 덜 수 있습니다. If 
-     <userinput>
+     </code> 지정합니다. 따라서 문서를 보다 빠르게 인덱싱하고 서버에 부담을 덜 수 있습니다. 지정하지 <code>
        server-date 
-     </userinput> 을 지정하지 않으면 검색 로봇은 HTTP 헤더에서 서버에서 반환하는 날짜를 무시합니다. 대신 각 파일이 다운로드되어 날짜가 지정되었는지 확인합니다. 파일에 날짜가 지정되지 않은 경우 검색 로봇은 서버에서 반환하는 날짜를 사용합니다. </p> <p>사용 금지 
-     <userinput>
+     </code> 않으면 검색 로봇은 HTTP 헤더에서 서버에서 반환하는 날짜를 무시합니다. 대신 각 파일이 다운로드되어 날짜가 지정되었는지 확인합니다. 파일에 날짜가 지정되지 않은 경우 검색 로봇은 서버에서 반환하는 날짜를 사용합니다. </p> <p>파일에 서버 날짜를 재정의하는 명령이 포함된 <code>
        server-date 
-     </userinput> 파일에 서버 날짜를 무시하는 명령이 포함되어 있는 경우. </p> </td> 
+     </code> 경우 사용하지 마십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>regexp </p> </td> 
-   <td colname="col2"> <p> 마스크 포함 및 제외에 모두 사용합니다. </p> <p>앞에 오는 모든 날짜 마스크 
-     <userinput>
+   <td colname="col2"> <p> 마스크 포함 및 제외에 모두 사용합니다. </p> <p>앞에 오는 모든 날짜 마스크 <code>
        regexp 
-     </userinput> 은 정규식으로 취급됩니다. </p> <p>검색 로봇이 제외 정규 표현식 날짜 마스크와 일치하는 파일을 발견하면 해당 파일을 색인화하지 않습니다. </p> <p>검색 로봇이 정규 표현식 날짜 마스크와 일치하는 파일을 발견하면 해당 문서를 인덱싱합니다. </p> <p>예를 들어 다음과 같은 날짜 마스크가 있다고 가정합니다. </p> <p> <code> exclude-days&amp;nbsp;180&amp;nbsp;regexp&amp;nbsp;.*archive.* </code> </p> <p>마스크는 검색 로봇에 180일 이상의 일치하는 파일을 제외하도록 지시합니다. 즉, URL에 "archive"라는 단어가 포함된 파일입니다. </p> <p>정규 <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> 표현식을 참조하십시오 </a>. </p> </td> 
+     </code> 는 정규식으로 처리됩니다. </p> <p>검색 로봇이 제외 정규 표현식 날짜 마스크와 일치하는 파일을 발견하면 해당 파일을 색인화하지 않습니다. </p> <p>검색 로봇이 정규 표현식 날짜 마스크와 일치하는 파일을 발견하면 해당 문서를 인덱싱합니다. </p> <p>예를 들어 다음과 같은 날짜 마스크가 있다고 가정합니다. </p> <p> <code> exclude-days&amp;nbsp;180&amp;nbsp;regexp&amp;nbsp;.*archive.* </code> </p> <p>마스크는 검색 로봇에 180일 이상의 일치하는 파일을 제외하도록 지시합니다. 즉, URL에 "archive"라는 단어가 포함된 파일입니다. </p> <p>정규 <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> 표현식을 참조하십시오 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -533,7 +501,7 @@ URL 마스크 결과가 고객에게 표시되도록 사이트 색인을 다시 
 **웹 사이트의 일부분을 색인화하거나 색인화하지 않고 날짜 마스크를 추가하려면**
 
 1. 제품 메뉴에서 **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > 를 **[!UICONTROL Date Masks]**&#x200B;클릭합니다.
-1. (선택 사항) [!DNL Date Masks] 페이지의 **[!UICONTROL Test Date]** 필드에 YYYY-MM-DD로 서식이 지정된 날짜를 입력합니다(예: `2011-07-25`). 필드에 웹 사이트의 URL 마스크를 **[!UICONTROL Test URL]** 입력한 다음 을 클릭합니다 **[!UICONTROL Test]**.
+1. (선택 사항) [!DNL Date Masks] 페이지의 **[!UICONTROL Test Date]** 필드에 YYYY-MM-DD로 서식이 지정된 날짜를 입력합니다(예: `2011-07-25`).필드에 웹 사이트의 URL 마스크를 **[!UICONTROL Test URL]** 입력한 다음 을 클릭합니다 **[!UICONTROL Test]**.
 1. 필드에 [!DNL Date Masks] 라인당 하나의 날짜 마스크 주소를 입력합니다.
 1. 클릭 **[!UICONTROL Save Changes]**.
 1. (선택 사항) 다음 중 하나를 수행합니다.
@@ -639,7 +607,7 @@ https://www.mysite.com/path6 name6 password6
 
 크롤링 [!DNL Content Types] 을 원하는 파일 유형을 선택하고 이 계정에 대해 색인을 지정할 수 있습니다.
 
-크롤링 및 색인화하도록 선택할 수 있는 컨텐츠 유형에는 PDF 문서, 텍스트 문서, Adobe Flash 무비, Word, Excel 및 Powerpoint와 같은 Microsoft Office 애플리케이션의 파일, MP3 파일의 텍스트가 포함됩니다. 선택한 컨텐츠 유형 내에서 발견되는 텍스트는 웹 사이트의 다른 모든 텍스트와 함께 검색됩니다.
+크롤링 및 색인화하도록 선택할 수 있는 컨텐츠 유형에는 PDF 문서, 텍스트 문서, Adobe Flash 동영상, Word, Excel 및 Powerpoint와 같은 Microsoft Office 애플리케이션의 파일, MP3 파일의 텍스트가 포함됩니다. 선택한 컨텐츠 유형 내에서 발견되는 텍스트는 웹 사이트의 다른 모든 텍스트와 함께 검색됩니다.
 
 고객이 컨텐츠 유형 설정의 효과를 볼 수 있으려면 먼저 사이트 색인을 다시 구성해야 합니다.
 
@@ -682,7 +650,7 @@ MP3 음악 파일 크기는 보통 적은 양의 텍스트만 포함되더라도
 
 크롤링 [!DNL Content Types] 을 원하는 파일 유형을 선택하고 이 계정에 대해 색인을 지정할 수 있습니다.
 
-크롤링 및 색인화하도록 선택할 수 있는 컨텐츠 유형에는 PDF 문서, 텍스트 문서, Adobe Flash 무비, Word, Excel 및 Powerpoint와 같은 Microsoft Office 애플리케이션의 파일, MP3 파일의 텍스트가 포함됩니다. 선택한 컨텐츠 유형 내에서 발견되는 텍스트는 웹 사이트의 다른 모든 텍스트와 함께 검색됩니다.
+크롤링 및 색인화하도록 선택할 수 있는 컨텐츠 유형에는 PDF 문서, 텍스트 문서, Adobe Flash 동영상, Word, Excel 및 Powerpoint와 같은 Microsoft Office 애플리케이션의 파일, MP3 파일의 텍스트가 포함됩니다. 선택한 컨텐츠 유형 내에서 발견되는 텍스트는 웹 사이트의 다른 모든 텍스트와 함께 검색됩니다.
 
 고객이 컨텐츠 유형 설정의 효과를 볼 수 있으려면 먼저 사이트 색인을 다시 구성해야 합니다.
 
@@ -782,61 +750,49 @@ MP3 음악 파일 크기는 보통 적은 양의 텍스트만 포함되더라도
       </tr> 
       <tr> 
       <td colname="col1"> <p>페이지 URL 마스크 </p> </td> 
-      <td colname="col2"> <p>양식이 포함된 웹 페이지 또는 페이지를 식별합니다. 단일 페이지에 나타나는 양식을 식별하려면 다음 예제와 같이 해당 페이지의 URL을 입력합니다. </p> <p> <code> https://www.mydomain.com/login.html </code> </p> <p>여러 페이지에 나타나는 양식을 식별하려면 와일드카드를 사용하여 페이지를 설명하는 URL 마스크를 지정합니다. 예를 들어 ASP 페이지에서 발생하는 양식을 식별하려면 다음을 <code> https://www.mydomain.com/register/ </code>지정합니다. </p> <p> <code> https://www.mydomain.com/register/*.asp&amp;nbsp; </code> </p> <p>정규 표현식을 사용하여 여러 페이지를 식별할 수도 있습니다. JavaScript를 
-      <userinput>
+      <td colname="col2"> <p>양식이 포함된 웹 페이지 또는 페이지를 식별합니다. 단일 페이지에 나타나는 양식을 식별하려면 다음 예제와 같이 해당 페이지의 URL을 입력합니다. </p> <p> <code> https://www.mydomain.com/login.html </code> </p> <p>여러 페이지에 나타나는 양식을 식별하려면 와일드카드를 사용하여 페이지를 설명하는 URL 마스크를 지정합니다. 예를 들어 ASP 페이지에서 발생하는 양식을 식별하려면 다음을 <code> https://www.mydomain.com/register/ </code>지정합니다. </p> <p> <code> https://www.mydomain.com/register/*.asp&amp;nbsp; </code> </p> <p>정규 표현식을 사용하여 여러 페이지를 식별할 수도 있습니다. 다음 예에서처럼 URL 마스크 앞에 <code>
         regexp 
-      </userinput> 키워드 앞에 있는 URL 마스크 </p> <p> <code> regexp&amp;nbsp;^https://www\.mydomain\.com/.*/login\.html$ </code> </p> </td> 
+      </code> 키워드를 지정하기만 하면 됩니다. </p> <p> <code> regexp&amp;nbsp;^https://www\.mydomain\.com/.*/login\.html$ </code> </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>작업 URL 마스크 </p> </td> 
-      <td colname="col2"> <p>의 작업 속성을 식별합니다. 
-      <userinput>
+      <td colname="col2"> <p>태그의 작업 속성을 <code>
         &lt;form&gt; 
-      </userinput> 태그를 닫기 전에 mbox.js 파일 다음에 선언이 오는지 판별하십시오. </p> <p>페이지 URL 마스크와 마찬가지로 작업 URL 마스크는 단일 URL, 와일드카드가 있는 URL 또는 정규 표현식을 취할 수 있습니다. </p> <p>URL 마스크는 다음 중 하나일 수 있습니다. 
+      </code> 식별합니다. </p> <p>페이지 URL 마스크와 마찬가지로 작업 URL 마스크는 단일 URL, 와일드카드가 있는 URL 또는 정규 표현식을 취할 수 있습니다. </p> <p>URL 마스크는 다음 중 하나일 수 있습니다. 
       <ul id="ul_EDFE7688D3DD4C0BBACCE5D4648D8E44"> 
       <li id="li_77550A448D954EF29FF33EE5E8B5E0F5"> 다음과 같은 전체 경로: <code> https://www.mydomain.com/products.html </code> </li> 
       <li id="li_F84E25553BBA41419BE153DC0709E011"> 다음과 같은 부분 경로: <code> https://www.mydomain.com/products </code> </li> 
       <li id="li_8DADA1C8604740FCACBA30B4AAADB2A1"> 다음과 같이 와일드카드를 사용하는 URL: <code> https://www.mydomain.com/*.html </code> </li> 
       <li id="li_1EF637B450654B509AA4B618F7FD3C2B"> 다음과 같은 정규 표현식. <code> regexp&amp;nbsp^https://www\.mydomain\.com/.*/login\.html$ </code> </li> 
-      </ul> </p> <p>URL 마스크 또는 작업 URL 마스크로 식별되는 페이지의 텍스트를 색인화하지 않으려는 경우 또는 이러한 페이지에서 링크를 따라가지 않으려면 
-      <userinput>
-        인덱스 
-      </userinput> 및 
-      <userinput>
+      </ul> </p> <p>URL 마스크 또는 작업 URL 마스크로 식별되는 페이지의 텍스트를 색인화하지 않으려는 경우 또는 이러한 페이지에서 링크를 따라가지 않으려면 <code>
+        noindex 
+      </code> 및 <code>
         nofollow 
-      </userinput> 키워드로 사용할 수 있습니다. URL 마스크 또는 진입점을 사용하여 이러한 키워드를 마스크에 추가할 수 있습니다. </p> <p>URL 시작 지점 <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_5D857E3B5C124E85BC0B5AE77A509573" type="concept" format="dita" scope="local"> 정보를 참조하십시오 </a>. </p> <p>URL <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_8039DFC53FF3410AA494D602F71BA164" type="concept" format="dita" scope="local"> 마스크 정보를 참조하십시오 </a>. </p> </td> 
+      </code> 키워드를 사용할 수 있습니다. URL 마스크 또는 진입점을 사용하여 이러한 키워드를 마스크에 추가할 수 있습니다. </p> <p>URL 시작 지점 <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_5D857E3B5C124E85BC0B5AE77A509573" type="concept" format="dita" scope="local"> 정보를 참조하십시오 </a>. </p> <p>URL <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_8039DFC53FF3410AA494D602F71BA164" type="concept" format="dita" scope="local"> 마스크 정보를 참조하십시오 </a>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>양식 이름 마스크 </p> </td> 
-      <td colname="col2"> <p>양식을 
-      <userinput>
+      <td colname="col2"> <p>웹 페이지의 <code>
         &lt;form&gt; 
-      </userinput> 웹 페이지의 태그에는 name 속성이 포함됩니다. </p> <p>간단한 이름( 
-      <userinput>
+      </code> 태그에 이름 특성이 포함된 경우 양식을 식별합니다. </p> <p>단순 이름( <code>
         login_form 
-      </userinput>), 와일드카드( 
-      <userinput>
+      </code>), 와일드카드()가 있는 이름 <code>
         form* 
-      </userinput>) 또는 정규 표현식( 
-      <userinput>
-        regexp^.*권한 부여*$ 
-      </userinput>. </p> <p>일반적으로 양식에 이름 특성이 없으므로 이 필드를 비워 둘 수 있습니다. </p> </td> 
+      </code>또는 정규 표현식()을 사용할 수 <code>
+        regexp ^.*authorize.*$ 
+      </code>있습니다. </p> <p>일반적으로 양식에 이름 특성이 없으므로 이 필드를 비워 둘 수 있습니다. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>양식 ID 마스크 </p> </td> 
-      <td colname="col2"> <p>양식을 
-      <userinput>
+      <td colname="col2"> <p>웹 페이지의 <code>
         &lt;form&gt; 
-      </userinput> 웹 페이지의 태그에는 id 속성이 포함됩니다. </p> <p>간단한 이름( 
-      <userinput>
+      </code> 태그에 id 속성이 포함된 경우 양식을 식별합니다. </p> <p>단순 이름( <code>
         login_form 
-      </userinput>), 와일드카드( 
-      <userinput>
+      </code>), 와일드카드()가 있는 이름 <code>
         form* 
-      </userinput>) 또는 정규 표현식( 
-      <userinput>
-        regexp^.*권한 부여*$ 
-      </userinput>. </p> <p>일반적으로 양식에 이름 특성이 없으므로 이 필드를 비워 둘 수 있습니다. </p> </td> 
+      </code>또는 정규 표현식()을 사용할 수 <code>
+        regexp ^.*authorize.*$ 
+      </code>있습니다. </p> <p>일반적으로 양식에 이름 특성이 없으므로 이 필드를 비워 둘 수 있습니다. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>매개 변수 </p> </td> 
@@ -852,52 +808,43 @@ MP3 음악 파일 크기는 보통 적은 양의 텍스트만 포함되더라도
       </tr> 
       <tr> 
       <td colname="col1"> <p>메서드 재정의 </p> </td> 
-      <td colname="col2"> <p>양식 제출의 대상이 양식의 action 속성에 사용되는 내용과 다른 시기와 JavaScript 제출을 통해 메서드를 변경한 시기를 지정합니다. </p> <p>모든 양식 매개 변수의 기본값( 
-      <userinput>
+      <td colname="col2"> <p>양식 제출의 대상이 양식의 action 속성에 사용되는 내용과 다른 시기와 JavaScript 제출을 통해 메서드를 변경한 시기를 지정합니다. </p> <p>모든 양식 매개 변수(숨김 필드 포함 <code>
         &lt;input&gt; 
-      </userinput> 태그(숨김 필드 포함), 
-      <userinput>
+      </code> 태그), <code>
         &lt;option&gt; 
-      </userinput> from 
-      <userinput>
-        &lt;선택&gt; 
-      </userinput> 태그 및 
-      <userinput>
+      </code> 태그의 기본값, 그리고 태그 간의 기본 텍스트 <code>
+        &lt;select&gt; 
+      </code> <code>
         &lt;textarea&gt;...&lt;/textarea&gt; 
-      </userinput> 태그)는 웹 페이지에서 읽습니다. 그러나 [매개 변수] <span class="wintitle"> 필드 </span> 의 양식 제출 <span class="uicontrol"> </span> 섹션에 나열된 모든 매개 변수는 양식 기본값으로 대체됩니다. </p> </td> 
+      </code> )에 대한 기본값은 웹 페이지에서 읽습니다. 그러나 [매개 변수] <span class="wintitle"> 필드 </span> 의 양식 제출 <span class="uicontrol"> </span> 섹션에 나열된 모든 매개 변수는 양식 기본값으로 대체됩니다. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>매개 변수 </p> </td> 
-      <td colname="col2"> <p>양식 제출 매개 변수에 
-      <userinput>
-        없는 
-      </userinput> 키워드. </p> <p>매개 변수에 
-      <userinput>
-        없는 
-      </userinput>를 사용하지 않으면 양식 제출의 일부로 제출되지 않습니다. 이 동작은 전송하지 않도록 해야 하는 확인란을 선택하는 데 유용합니다. </p> <p>예를 들어 다음 매개 변수를 제출한다고 가정합니다. </p> <p> 
+      <td colname="col2"> <p>양식 제출 매개 변수에 키워드를 접두사로 추가할 수 <code>
+        not 
+      </code> 있습니다. </p> <p>매개 변수에 접두사를 붙이면 양식 제출 <code>
+        not 
+      </code>의 일부로 제출되지 않습니다. 이 동작은 전송하지 않도록 해야 하는 확인란을 선택하는 데 유용합니다. </p> <p>예를 들어 다음 매개 변수를 제출한다고 가정합니다. </p> <p> 
       <ul id="ul_962D12BACF464FF189DB12BFAFCC93A6"> 
       <li id="li_830C6C3EC8D2448388A453BB8EDE5940"> 값이 있는 전자 메일 매개 변수 
-      <userinput>
+      <code>
         nobody@mydomain.com 
-      </userinput> </li> 
+      </code> </li> 
       <li id="li_905497E3FACE472DBDD49392D5B45E01"> 값이 있는 암호 매개 변수 
-      <userinput>
-        시험판 
-      </userinput> </li> 
+      <code>
+        tryme 
+      </code> </li> 
       <li id="li_AAA411708ADC464793EADF0D821E282E"> mycheckbox 매개 변수는 선택 해제입니다. </li> 
-      <li id="li_0D3DDE641E2B4BEF9F570C03FDB40ED2"> <p>기타 모두 
-      <userinput>
+      <li id="li_0D3DDE641E2B4BEF9F570C03FDB40ED2"> <p>다른 모든 <code>
         &lt;form&gt; 
-      </userinput> 매개 변수를 기본값으로 설정 </p> </li> 
+      </code> 매개 변수를 기본값으로 설정 </p> </li> 
       </ul> </p> <p>양식 제출 매개 변수는 다음과 같습니다. </p> <p> <code> email=nobody@mydomain.com 
         password=tryme 
-        not&nbsp;mycheckbox </code> </p> <p>The method attribute of the 
-      <userinput>
+        not&nbsp;mycheckbox </code> </p> <p>웹 페이지에 있는 <code>
         &lt;form&gt; 
-      </userinput> 웹 페이지의 태그는 GET 메서드 또는 POST 메서드를 사용하여 데이터를 서버로 전송할지 여부를 결정하는 데 사용됩니다. </p> <p>첫 번째 날짜를 클릭한 채로 
-      <userinput>
+      </code> 태그의 메서드 속성은 GET 메서드 또는 POST 방법을 사용하여 데이터가 서버로 전송되는지를 결정하는 데 사용됩니다. </p> <p>태그에 <code>
         &lt;form&gt; 
-      </userinput> 태그에 메서드 특성이 포함되어 있지 않으므로 GET 메서드를 사용하여 양식이 제출됩니다. </p> </td> 
+      </code> 메서드 속성이 없으면 양식이 GET 메서드를 사용하여 제출됩니다. </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -1017,14 +964,14 @@ XML 데이터 소스는 개별 문서에 해당하는 정보를 포함하는 XML
       ... 
       &lt;/head&gt;&lt;body&gt; 
       {body} 
-      &lt;/body&gt;&lt;/html&gt; </code> </p> <p>&lt; <span class="codeph"> title&gt; </span> 요소는 제목 메타데이터 필드에 대한 매핑이 있을 때만 생성됩니다. 마찬가지로 <span class="codeph"> &lt;body&gt; </span> 요소는 본문 메타데이터 필드에 매핑이 있을 때만 생성됩니다. </p> <p> <b>중요</b>: 사전 정의된 URL 메타 태그에 값 할당을 지원하지 않습니다. </p> <p>다른 모든 매핑의 경우 <span class="codeph"> &lt;meta&gt; </span> 태그가 원본 문서에서 찾은 데이터가 있는 각 필드에 대해 생성됩니다. </p> <p>각 문서에 대한 필드가 캐시에 추가됩니다. 캐시에 기록된 각 문서에 대해 다음 예와 같이 링크가 생성됩니다. </p> <p> <code> &lt;a&nbsp;href="index:Adobe?key=&lt;primary&nbsp;key&nbsp;field&gt;\"&nbsp;/&gt; 
+      &lt;/body&gt;&lt;/html&gt; </code> </p> <p>&lt; <span class="codeph"> title&gt; </span> 요소는 제목 메타데이터 필드에 대한 매핑이 있을 때만 생성됩니다. 마찬가지로 <span class="codeph"> &lt;body&gt; </span> 요소는 본문 메타데이터 필드에 매핑이 있을 때만 생성됩니다. </p> <p> <b>중요</b>:사전 정의된 URL 메타 태그에 값 할당을 지원하지 않습니다. </p> <p>다른 모든 매핑의 경우 <span class="codeph"> &lt;meta&gt; </span> 태그가 원본 문서에서 찾은 데이터가 있는 각 필드에 대해 생성됩니다. </p> <p>각 문서에 대한 필드가 캐시에 추가됩니다. 캐시에 기록된 각 문서에 대해 다음 예와 같이 링크가 생성됩니다. </p> <p> <code> &lt;a&nbsp;href="index:Adobe?key=&lt;primary&nbsp;key&nbsp;field&gt;\"&nbsp;/&gt; 
       &lt;a&nbsp;href="index:Adobe?key=&lt;primary&nbsp;key&nbsp;field&gt;\"&nbsp;/&gt; 
       .... </code> </p> <p>구성의 매핑에는 기본 키로 식별된 필드가 하나만 있어야 합니다. 이 매핑은 캐시에서 데이터를 가져오는 데 사용되는 키를 형성합니다. </p> <p>크롤러(crawler)는 URL <span class="codeph"> 색인을 인식합니다. </span> 스키마 접두사를 사용합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>3 </p> </td> 
    <td colname="col2"> <p>캐시된 문서 집합을 크롤링합니다. </p> </td> 
-   <td colname="col3"> <p>색인: <span class="codeph"> </span> 링크가 크롤러 보류 중인 목록에 추가되고 일반 크롤링 시퀀스에서 처리됩니다. </p> </td> 
+   <td colname="col3"> <p>색인: <span class="codeph"></span> 링크가 크롤러 보류 중인 목록에 추가되고 일반 크롤링 시퀀스에서 처리됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4 </p> </td> 
@@ -1085,7 +1032,7 @@ index:<indexconnector_configuration_name>
 
 색인 커넥터 페이지에 있는 각 추가 항목이 발견되고 활성화된 경우 크롤러는 이를 처리합니다.
 
-참고: 각 문서의 URL은 색인 커넥터 구성 이름과 문서의 기본 키를 사용하여 구성되므로 증분 업데이트를 수행할 때 동일한 색인 커넥터 구성 이름을 사용해야 합니다. 이렇게 하면 이전에 인덱싱된 문서 [!DNL Adobe Search&Promote] 를 올바르게 업데이트할 수 있습니다.
+참고:각 문서의 URL은 색인 커넥터 구성 이름과 문서의 기본 키를 사용하여 구성되므로 증분 업데이트를 수행할 때 동일한 색인 커넥터 구성 이름을 사용해야 합니다. 이렇게 하면 이전에 인덱싱된 문서 [!DNL Adobe Search&Promote] 를 올바르게 업데이트할 수 있습니다.
 
 URL [시작 지점 정보를 참조하십시오](../c-about-settings-menu/c-about-crawling-menu.md#concept_5D857E3B5C124E85BC0B5AE77A509573).
 
@@ -1107,7 +1054,7 @@ URL [시작 지점 정보를 참조하십시오](../c-about-settings-menu/c-abou
   </tr> 
   <tr> 
    <td colname="col1"> <p>피드 </p> </td> 
-   <td colname="col2"> <p>데이터 소스를 다운로드하고 간단한 XML 파싱을 수행합니다. </p> <p>결과 XPath 식별자는 맵 테이블의 태그 행에 표시되며, 필드 값도 유사합니다. 이러한 행은 사용 가능한 데이터만 식별하고 더 복잡한 XPath 정의를 생성하지 않습니다. 그러나 XML 데이터를 설명하고 Itemtag 값을 식별하므로 여전히 유용합니다. </p> <p> <p>참고:  설정 맵 함수는 분석을 수행하기 위해 전체 XML 소스를 다운로드합니다. 파일이 크면 이 작업이 시간 초과될 수 있습니다. </p> </p> <p>이 기능은 모든 가능한 XPath 항목을 식별하는데, 이 항목 중 많은 항목을 사용하기 어렵습니다. 결과 맵 정의를 검사하고 필요 없거나 원하지 않는 정의를 제거해야 합니다. </p> </td> 
+   <td colname="col2"> <p>데이터 소스를 다운로드하고 간단한 XML 파싱을 수행합니다. </p> <p>결과 XPath 식별자는 맵 테이블의 태그 행에 표시되며, 필드 값도 유사합니다. 이러한 행은 사용 가능한 데이터만 식별하고 더 복잡한 XPath 정의를 생성하지 않습니다. 그러나 XML 데이터를 설명하고 Itemtag 값을 식별하므로 여전히 유용합니다. </p> <p> <p>참고: 설정 맵 함수는 분석을 수행하기 위해 전체 XML 소스를 다운로드합니다. 파일이 크면 이 작업이 시간 초과될 수 있습니다. </p> </p> <p>이 기능은 모든 가능한 XPath 항목을 식별하는데, 이 항목 중 많은 항목을 사용하기 어렵습니다. 결과 맵 정의를 검사하고 필요 없거나 원하지 않는 정의를 제거해야 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>XML </p> </td> 
@@ -1116,11 +1063,11 @@ URL [시작 지점 정보를 참조하십시오](../c-about-settings-menu/c-abou
  </tbody> 
 </table>
 
-**중요**: 파일 구문 분석기가 전체 파일을 메모리로 읽으려고 하므로 대형 XML 데이터 세트에서 설정 맵 기능을 사용할 수 없습니다. 그 결과 메모리 부족 상태가 발생할 수 있습니다. 하지만 색인 작성 시 동일한 문서를 처리할 때 메모리로 읽히지 않습니다. 대신 대용량 문서는 &quot;이동 중&quot;에 처리되고 메모리로 완전히 읽지 않습니다.
+**중요**:파일 구문 분석기가 전체 파일을 메모리로 읽으려고 하므로 대형 XML 데이터 세트에서 설정 맵 기능을 사용할 수 없습니다. 그 결과 메모리 부족 상태가 발생할 수 있습니다. 하지만 색인 작성 시 동일한 문서를 처리할 때 메모리로 읽히지 않습니다. 대신 대용량 문서는 &quot;이동 중&quot;에 처리되고 메모리로 완전히 읽지 않습니다.
 
 **색인 커넥터를 추가할 때 미리 보기 사용**
 
-색인 커넥터를 추가할 때 저장 중인 것처럼 이 기능을 사용하여 데이터 **[!UICONTROL Preview]** 의 유효성을 확인할 수도 있습니다. 구성에 대해 테스트를 실행하지만 구성을 계정에 저장하지 않습니다. 테스트는 구성된 데이터 소스에 액세스합니다. 그러나 다운로드 캐시가 임시 위치에 기록됩니다. 색인 크롤러가 사용하는 기본 캐시 폴더와 충돌하지 않습니다.
+색인 커넥터를 추가할 때 저장 중인 것처럼 이 기능을 사용하여 데이터 **[!UICONTROL Preview]** 의 유효성을 확인할 수도 있습니다. 구성에 대해 테스트를 실행하지만 구성을 계정에 저장하지 않습니다. 테스트는 구성된 데이터 소스에 액세스합니다. 그러나 다운로드 캐시가 임시 위치에 기록됩니다.색인 크롤러가 사용하는 기본 캐시 폴더와 충돌하지 않습니다.
 
 미리 보기는 Acct:IndexConnector-Preview-Max-Documents에 의해 제어되는 5개의 문서 기본값으로 처리만 합니다. 미리 본 문서는 색인 크롤러에 표시될 때 소스 양식으로 표시됩니다. 이 디스플레이는 웹 브라우저의 &quot;소스 보기&quot; 기능과 유사합니다. 표준 탐색 링크를 사용하여 미리 보기 세트에서 문서를 탐색할 수 있습니다.
 
@@ -1156,19 +1103,18 @@ URL [시작 지점 정보를 참조하십시오](../c-about-settings-menu/c-abou
       <ul id="ul_1ADC3DFBC929467385F7465BE8E13635"> 
       <li id="li_64FCD749F55442BAB316BD474128D4F9"> <span class="uicontrol"> 텍스트 </span> <p>간단한 일반 텍스트 파일, 쉼표로 구분된 파일, 탭으로 구분 또는 기타 일관적으로 구분된 형식. 각 줄바꿈 구분 텍스트 줄은 개별 문서에 해당하며 지정된 구분 기호를 사용하여 파싱됩니다. </p> <p>열 번호에서 참조하는 각 값 또는 열을 1부터 메타데이터 필드에 매핑할 수 있습니다. </p> </li> 
       <li id="li_2A4F16CE6DCE4114B7F8E4FE156252BB"> <span class="uicontrol"> 피드 </span> <p>여러 개의 "행" 정보가 포함된 기본 XML 문서를 다운로드합니다. </p> </li> 
-      <li id="li_5A61C53522D74D4C9A5F65989604BDEF"> <span class="uicontrol"> XML </span> <p>링크가 포함된 기본 XML 문서를 다운로드합니다( 
-      <userinput>
+      <li id="li_5A61C53522D74D4C9A5F65989604BDEF"> <span class="uicontrol"> XML </span> <p>개별 XML 문서에 대한 링크( <code>
         &lt;a&gt; 
-      </userinput>) to individual XML documents. </p> </li> 
+      </code>)가 포함된 기본 XML 문서를 다운로드합니다. </p> </li> 
       </ul> </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p> <b>데이터 소스 유형: 텍스트</b> </p> </td> 
+      <td colname="col1"> <p> <b>데이터 소스 유형:텍스트</b> </p> </td> 
       <td colname="col2"> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>활성화됨 </p> </td> 
-      <td colname="col2"> <p>크롤링 및 색인을 위해 구성을 "켜짐"으로 설정합니다. 또는 구성을 "해제"하여 크롤링 및 색인 작업을 방지할 수 있습니다. </p> <p> <b>참고</b>: 비활성화된 색인 커넥터 구성은 진입점 목록에 있으면 무시됩니다. </p> </td> 
+      <td colname="col2"> <p>크롤링 및 색인을 위해 구성을 "켜짐"으로 설정합니다. 또는 구성을 "해제"하여 크롤링 및 색인 작업을 방지할 수 있습니다. </p> <p> <b>참고</b>:비활성화된 색인 커넥터 구성은 진입점 목록에 있으면 무시됩니다. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>호스트 주소 </p> </td> 
@@ -1184,11 +1130,11 @@ URL [시작 지점 정보를 참조하십시오](../c-about-settings-menu/c-abou
       </tr> 
       <tr> 
       <td colname="col1"> <p>세로 파일 경로 </p> </td> 
-      <td colname="col2"> <p>세로 업데이트 중에 사용할 간단한 플랫 텍스트 파일, 쉼표로 구분, 탭으로 구분 또는 기타 일관적으로 구분된 형식 파일의 경로를 지정합니다. </p> <p>경로는 호스트 주소의 루트에 상대적입니다. </p> <p>이 파일은 지정된 경우 세로 업데이트 작업 중에 다운로드 및 처리됩니다. </p> <p> <b>참고</b>: 이 기능은 기본적으로 활성화되어 있지 않습니다. 해당 기능을 활성화하려면 기술 지원 센터에 문의하십시오. </p> </td> 
+      <td colname="col2"> <p>세로 업데이트 중에 사용할 간단한 플랫 텍스트 파일, 쉼표로 구분, 탭으로 구분 또는 기타 일관적으로 구분된 형식 파일의 경로를 지정합니다. </p> <p>경로는 호스트 주소의 루트에 상대적입니다. </p> <p>이 파일은 지정된 경우 세로 업데이트 작업 중에 다운로드 및 처리됩니다. </p> <p> <b>참고</b>:이 기능은 기본적으로 활성화되어 있지 않습니다. 해당 기능을 활성화하려면 기술 지원 센터에 문의하십시오. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>파일 경로 삭제 </p> </td> 
-      <td colname="col2"> <p>행당 단일 문서 식별자 값을 포함하는 간단한 플랫 텍스트 파일의 경로를 지정합니다. </p> <p>경로는 호스트 주소의 루트에 상대적입니다. </p> <p>이 파일은 지정된 경우 증분 색인 작업 중에 다운로드 및 처리됩니다. 이 파일에 있는 값은 이전에 인덱싱된 문서를 제거하기 위해 "삭제" 요청을 구성하는 데 사용됩니다. 이 파일의 값은 기본 키로 식별된 열에 있는 전체 또는 증분 파일 경로 파일에 있는 값과 <span class="uicontrol"> 일치해야 합니다 </span>. </p> <p> <b>참고</b>: 이 기능은 기본적으로 활성화되어 있지 않습니다. 해당 기능을 활성화하려면 기술 지원 센터에 문의하십시오. </p> </td> 
+      <td colname="col2"> <p>행당 단일 문서 식별자 값을 포함하는 간단한 플랫 텍스트 파일의 경로를 지정합니다. </p> <p>경로는 호스트 주소의 루트에 상대적입니다. </p> <p>이 파일은 지정된 경우 증분 색인 작업 중에 다운로드 및 처리됩니다. 이 파일에 있는 값은 이전에 인덱싱된 문서를 제거하기 위해 "삭제" 요청을 구성하는 데 사용됩니다. 이 파일의 값은 기본 키로 식별된 열에 있는 전체 또는 증분 파일 경로 파일에 있는 값과 <span class="uicontrol"> 일치해야 합니다 </span>. </p> <p> <b>참고</b>:이 기능은 기본적으로 활성화되어 있지 않습니다. 해당 기능을 활성화하려면 기술 지원 센터에 문의하십시오. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>프로토콜 </p> </td> 
@@ -1223,7 +1169,7 @@ URL [시작 지점 정보를 참조하십시오](../c-about-settings-menu/c-abou
       </tr> 
       <tr> 
       <td colname="col1"> <p>색인화를 위한 최소 문서 수 </p> </td> 
-      <td colname="col2"> <p>양수 값으로 설정된 경우 다운로드한 파일에 필요한 최소 레코드 수를 지정합니다. 수신되는 레코드 수가 적으면 색인 작업이 중단됩니다. </p> <p> <b>참고</b>: 이 기능은 기본적으로 활성화되어 있지 않습니다. 해당 기능을 활성화하려면 기술 지원 센터에 문의하십시오. </p> <p> <b>참고</b>: 이 기능은 전체 색인 작업 중에만 사용됩니다. </p> </td> 
+      <td colname="col2"> <p>양수 값으로 설정된 경우 다운로드한 파일에 필요한 최소 레코드 수를 지정합니다. 수신되는 레코드 수가 적으면 색인 작업이 중단됩니다. </p> <p> <b>참고</b>:이 기능은 기본적으로 활성화되어 있지 않습니다. 해당 기능을 활성화하려면 기술 지원 센터에 문의하십시오. </p> <p> <b>참고</b>:이 기능은 전체 색인 작업 중에만 사용됩니다. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>맵 </p> </td> 
@@ -1231,19 +1177,19 @@ URL [시작 지점 정보를 참조하십시오](../c-about-settings-menu/c-abou
       <ul id="ul_981AE2C6D30443BDBFC6575D413732A2"> 
       <li id="li_A42CB9DFFF8C45A7BAC2D471FE96CEBE"> <span class="uicontrol"> 열 </span> <p> 열 번호를 지정합니다. 첫 번째 열은 1입니다. 각 열에 대한 새 맵 행을 추가하려면 작업 아래에서 <span class="wintitle"> + </span>를 <span class="uicontrol"> 클릭합니다 </span>. </p> <p>데이터 소스의 각 열을 참조할 필요는 없습니다. 대신 값을 건너뛰도록 선택할 수 있습니다. </p> </li> 
       <li id="li_26E8C9554A5D4BC5A5073D6385E3626F"> <span class="uicontrol"> 필드 </span> <p>생성된 각 &lt;meta&gt; 태그에 사용되는 이름 속성 값을 정의합니다. </p> </li> 
-      <li id="li_5DFA514B7F9549B98D6CBC095A66033C"> <span class="uicontrol"> 메타데이터? </span> <p>필드가 <span class="uicontrol"> 현재 계정에 대해 정의된 메타데이터 필드를 선택할 수 있는 드롭다운 목록이 </span> 됩니다. </p> <p>원하는 경우 <span class="uicontrol"> 필드 </span> 값은 정의되지 않은 메타데이터 필드일 수 있습니다. 정의되지 않은 메타데이터 필드는 필터링 스크립트에서 사용하는 내용을 만드는 데 <span class="wintitle"> 유용합니다 </span>. </p> <p>스크립트 필터링 <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> 정보를 참조하십시오 </a>. </p> <p>색인 커넥터가 맵 필드에 여러 개의 히트가 있는 XML 문서를 처리할 때 여러 값이 캐시된 결과 문서의 단일 값으로 연결됩니다. 기본적으로 이러한 값은 쉼표 구분 기호를 사용하여 결합됩니다. 그러나 해당 필드 값이 정의된 메타데이터 <span class="wintitle"></span> 필드라고 가정합니다. 또한 이 필드에는 목록 <span class="wintitle"> 허용 </span> 속성이 설정되어 있습니다. 이 경우, 정의된 첫 번째 구분 기호인 필드의 목록 구분 기호 값이 연결에서 사용됩니다. </p> </li> 
+      <li id="li_5DFA514B7F9549B98D6CBC095A66033C"> <span class="uicontrol"> 메타데이터? </span> <p>필드가 <span class="uicontrol"> 현재 계정에 대해 정의된 메타데이터 필드를 선택할 수 있는 드롭다운 목록이 </span> 됩니다. </p> <p>원하는 경우 <span class="uicontrol"> 필드 </span> 값은 정의되지 않은 메타데이터 필드일 수 있습니다. 정의되지 않은 메타데이터 필드는 필터링 스크립트에서 사용하는 내용을 만드는 데 <span class="wintitle"> 유용합니다 </span>. </p> <p>스크립트 필터링 <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> 정보를 참조하십시오 </a>. </p> <p>색인 커넥터가 맵 필드에 여러 개의 히트가 있는 XML 문서를 처리할 때 여러 값이 캐시된 결과 문서의 단일 값으로 연결됩니다. 기본적으로 이러한 값은 쉼표 구분 기호를 사용하여 결합됩니다. 그러나 해당 필드 값이 정의된 메타데이터 <span class="wintitle"></span> 필드라고 가정합니다. 또한 해당 필드에는 <span class="wintitle"> 허용 목록 속성이 </span> 설정되어 있습니다. 이 경우, 정의된 첫 번째 구분 기호인 필드의 목록 구분 기호 값이 연결에서 사용됩니다. </p> </li> 
       <li id="li_80DB205525094CE1AA6762BFC7892C95"> <span class="uicontrol"> 기본 키? </span> <p>하나의 맵 정의만 기본 키로 식별됩니다. 이 필드는 색인에 이 문서를 추가할 때 나타나는 고유한 참조가 됩니다. 이 값은 색인의 문서 URL에 사용됩니다. </p> <p>기본 <span class="uicontrol"> 키 </span> 값은 색인 커넥터 구성으로 표시된 모든 문서에서 고유해야 합니다. 발견된 모든 중본은 무시됩니다. 소스 문서에 <span class="uicontrol"> 기본 키로 사용할 단일 고유 값이 포함되어 있지 않지만, 두 개 이상의 필드가 함께 </span>합쳐서 고유한 식별자를 만들 <i>수</i> 있는 <span class="uicontrol"> 경우, 여러 개의 </span> 기본 키 열을 세로 막대("|") 값과 구분해서 기본 키 <span class="uicontrol"> 를 정의할 수 있습니다 </span> . </p> </li> 
       <li id="li_80DB205525094CE1AA6762BFC7892D96"> <span class="uicontrol"> HTML 제거? </span> <p>이 옵션을 선택하면 이 필드의 데이터에 있는 모든 HTML 태그가 제거됩니다. </p> </li> 
       <li id="li_359D2902859B4C5BADB0BA26F0BA4DC0"> <span class="uicontrol"> 작업 </span> <p>맵에 행을 추가하거나 맵에서 행을 제거할 수 있습니다. 행의 순서는 중요하지 않습니다. </p> </li> 
       </ul> </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p> <b>데이터 소스 유형: 피드</b> </p> </td> 
+      <td colname="col1"> <p> <b>데이터 소스 유형:피드</b> </p> </td> 
       <td colname="col2"> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>활성화됨 </p> </td> 
-      <td colname="col2"> <p>크롤링 및 색인을 위해 구성을 "켜짐"으로 설정합니다. 또는 구성을 "해제"하여 크롤링 및 색인 작업을 방지할 수 있습니다. </p> <p> <b>참고</b>: 비활성화된 색인 커넥터 구성은 진입점 목록에 있으면 무시됩니다. </p> </td> 
+      <td colname="col2"> <p>크롤링 및 색인을 위해 구성을 "켜짐"으로 설정합니다. 또는 구성을 "해제"하여 크롤링 및 색인 작업을 방지할 수 있습니다. </p> <p> <b>참고</b>:비활성화된 색인 커넥터 구성은 진입점 목록에 있으면 무시됩니다. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>호스트 주소 </p> </td> 
@@ -1259,11 +1205,11 @@ URL [시작 지점 정보를 참조하십시오](../c-about-settings-menu/c-abou
       </tr> 
       <tr> 
       <td colname="col1"> <p>세로 파일 경로 </p> </td> 
-      <td colname="col2"> <p>세로 업데이트 중에 사용할 여러 가지 정보의 스파스 "행"이 포함된 XML 문서의 경로를 지정합니다. </p> <p>경로는 호스트 주소의 루트에 상대적입니다. </p> <p>이 파일은 지정된 경우 세로 업데이트 작업 중에 다운로드 및 처리됩니다. </p> <p> <b>참고</b>: 이 기능은 기본적으로 활성화되어 있지 않습니다. 해당 기능을 활성화하려면 기술 지원 센터에 문의하십시오. </p> </td> 
+      <td colname="col2"> <p>세로 업데이트 중에 사용할 여러 가지 정보의 스파스 "행"이 포함된 XML 문서의 경로를 지정합니다. </p> <p>경로는 호스트 주소의 루트에 상대적입니다. </p> <p>이 파일은 지정된 경우 세로 업데이트 작업 중에 다운로드 및 처리됩니다. </p> <p> <b>참고</b>:이 기능은 기본적으로 활성화되어 있지 않습니다. 해당 기능을 활성화하려면 기술 지원 센터에 문의하십시오. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>파일 경로 삭제 </p> </td> 
-      <td colname="col2"> <p>행당 단일 문서 식별자 값을 포함하는 간단한 플랫 텍스트 파일의 경로를 지정합니다. </p> <p>경로는 호스트 주소의 루트에 상대적입니다. </p> <p>이 파일은 지정된 경우 증분 색인 작업 중에 다운로드 및 처리됩니다. 이 파일에 있는 값은 이전에 인덱싱된 문서를 제거하기 위해 "삭제" 요청을 구성하는 데 사용됩니다. 이 파일의 값은 기본 키로 식별된 열에 있는 전체 또는 증분 파일 경로 파일에 있는 값과 <span class="uicontrol"> 일치해야 합니다 </span>. </p> <p> <b>참고</b>: 이 기능은 기본적으로 활성화되어 있지 않습니다. 해당 기능을 활성화하려면 기술 지원 센터에 문의하십시오. </p> </td> 
+      <td colname="col2"> <p>행당 단일 문서 식별자 값을 포함하는 간단한 플랫 텍스트 파일의 경로를 지정합니다. </p> <p>경로는 호스트 주소의 루트에 상대적입니다. </p> <p>이 파일은 지정된 경우 증분 색인 작업 중에 다운로드 및 처리됩니다. 이 파일에 있는 값은 이전에 인덱싱된 문서를 제거하기 위해 "삭제" 요청을 구성하는 데 사용됩니다. 이 파일의 값은 기본 키로 식별된 열에 있는 전체 또는 증분 파일 경로 파일에 있는 값과 <span class="uicontrol"> 일치해야 합니다 </span>. </p> <p> <b>참고</b>:이 기능은 기본적으로 활성화되어 있지 않습니다. 해당 기능을 활성화하려면 기술 지원 센터에 문의하십시오. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>프로토콜 </p> </td> 
@@ -1313,7 +1259,7 @@ URL [시작 지점 정보를 참조하십시오](../c-about-settings-menu/c-abou
       </tr> 
       <tr> 
       <td colname="col1"> <p>색인화를 위한 최소 문서 수 </p> </td> 
-      <td colname="col2"> <p>양수 값으로 설정된 경우 다운로드한 파일에 필요한 최소 레코드 수를 지정합니다. 수신되는 레코드 수가 적으면 색인 작업이 중단됩니다. </p> <p> <b>참고</b>: 이 기능은 기본적으로 활성화되어 있지 않습니다. 해당 기능을 활성화하려면 기술 지원 센터에 문의하십시오. </p> <p> <b>참고</b>: 이 기능은 전체 색인 작업 중에만 사용됩니다. </p> </td> 
+      <td colname="col2"> <p>양수 값으로 설정된 경우 다운로드한 파일에 필요한 최소 레코드 수를 지정합니다. 수신되는 레코드 수가 적으면 색인 작업이 중단됩니다. </p> <p> <b>참고</b>:이 기능은 기본적으로 활성화되어 있지 않습니다. 해당 기능을 활성화하려면 기술 지원 센터에 문의하십시오. </p> <p> <b>참고</b>:이 기능은 전체 색인 작업 중에만 사용됩니다. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>맵 </p> </td> 
@@ -1324,26 +1270,26 @@ URL [시작 지점 정보를 참조하십시오](../c-about-settings-menu/c-abou
       /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;desc 
       /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;body </code> </p> <p>위의 구문은 다음과 같이 해석됩니다. </p> <p> 
       <ul id="ul_6400EBD08D424EADA1612FE4F7EFB640"> 
-      <li id="li_9958F9B40D42434195597DBA9F2AF28F"> <code> /record/@displayurl&amp;nbsp;-&gt;&amp;nbsp;page-url </code> <p>레코드 요소의 <span class="codeph"> displayurl </span> 속성은 메타데이터 필드 <span class="codeph"> 페이지-url에 매핑됩니다 </span> <span class="codeph"> </span>. </p> </li> 
+      <li id="li_9958F9B40D42434195597DBA9F2AF28F"> <code> /record/@displayurl&amp;nbsp;-&gt;&amp;nbsp;page-url </code> <p>레코드 요소의 <span class="codeph"> displayurl </span> 속성이 메타데이터 필드 <span class="codeph"> 페이지-url에 매핑됩니다 </span> <span class="codeph"> </span>. </p> </li> 
       <li id="li_759013EA02CD48BE971A55B0A6A11424"> <code> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>이름 속성이 Title인 <span class="codeph"></span> 레코드 요소 내에 들어 있는 메타데이터 <span class="codeph"> 요소 내에 들어 있는 모든 메타 </span> 요소 <span class="codeph"> 의 컨텐트 속성 </span> 은 메타데이터 필드 <span class="codeph"> </span> <span class="codeph"> </span><span class="codeph"> </span>제목에 매핑됩니다. </p> </li> 
       <li id="li_E741CA59197D462EB2946EDE874AFDC8"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>이름 속성이 설명 <span class="codeph"> 인, cname 속성이 Cutlc인, cedc에 매핑되는, </span> came 요소 내에 들어 있는, 메타데이터 요소 내에 들어 있는 모든 메타 <span class="codeph"> 요소 </span> 의 컨텐트 <span class="codeph"> </span> <span class="codeph"> </span> <span class="codeph"> </span><span class="codeph"> </span>속성입니다. </p> </li> 
       <li id="li_E35EAE3D284D46D485D9064D7BB6AB13"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>이름 속성이 설명인 Cumulative에 포함된 <span class="codeph"> 레코드 요소 내에 포함된 메타데이터 </span> 요소 <span class="codeph"> 의 컨텐트 속성 </span> <span class="codeph"> </span> <span class="codeph"> </span> <span class="codeph"> </span><span class="codeph"> </span>은 메타데이터 필드 본문에 매핑됩니다. </p> </li> 
       </ul> </p> <p>XPath는 비교적 복잡한 표기법입니다. 자세한 내용은 다음 위치에서 확인할 수 있습니다. </p> <p>https://www.w3schools.com/xpath/을 참조하십시오 <a href="https://www.w3schools.com/xpath/" scope="external" format="html"> </a> </p> </li> 
       <li id="li_8147075D7ACD4811A7ED335F23FE62A6"> <span class="uicontrol"> 필드 </span> <p>생성된 각 &lt;meta&gt; 태그에 사용되는 이름 속성 값 <span class="codeph"> 을 </span> 정의합니다. </p> </li> 
-      <li id="li_2380199D63BF425A919606D8232FA6E2"> <span class="uicontrol"> 메타데이터? </span> <p>필드가 <span class="uicontrol"> 현재 계정에 대해 정의된 메타데이터 필드를 선택할 수 있는 드롭다운 목록이 </span> 됩니다. </p> <p>원하는 경우 <span class="uicontrol"> 필드 </span> 값은 정의되지 않은 메타데이터 필드일 수 있습니다. 정의되지 않은 메타데이터 필드는 필터링 스크립트에서 사용하는 내용을 만드는 데 <span class="wintitle"> 유용합니다 </span>. </p> <p>스크립트 필터링 <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> 정보를 참조하십시오 </a>. </p> <p>색인 커넥터가 맵 필드에 여러 개의 히트가 있는 XML 문서를 처리할 때 여러 값이 캐시된 결과 문서의 단일 값으로 연결됩니다. 기본적으로 이러한 값은 쉼표 구분 기호를 사용하여 결합됩니다. 그러나 해당 필드 값이 정의된 메타데이터 <span class="wintitle"></span> 필드라고 가정합니다. 또한 이 필드에는 목록 <span class="wintitle"> 허용 </span> 속성이 설정되어 있습니다. 이 경우, 정의된 첫 번째 구분 기호인 필드의 목록 구분 기호 값이 연결에서 사용됩니다. </p> </li> 
+      <li id="li_2380199D63BF425A919606D8232FA6E2"> <span class="uicontrol"> 메타데이터? </span> <p>필드가 <span class="uicontrol"> 현재 계정에 대해 정의된 메타데이터 필드를 선택할 수 있는 드롭다운 목록이 </span> 됩니다. </p> <p>원하는 경우 <span class="uicontrol"> 필드 </span> 값은 정의되지 않은 메타데이터 필드일 수 있습니다. 정의되지 않은 메타데이터 필드는 필터링 스크립트에서 사용하는 내용을 만드는 데 <span class="wintitle"> 유용합니다 </span>. </p> <p>스크립트 필터링 <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> 정보를 참조하십시오 </a>. </p> <p>색인 커넥터가 맵 필드에 여러 개의 히트가 있는 XML 문서를 처리할 때 여러 값이 캐시된 결과 문서의 단일 값으로 연결됩니다. 기본적으로 이러한 값은 쉼표 구분 기호를 사용하여 결합됩니다. 그러나 해당 필드 값이 정의된 메타데이터 <span class="wintitle"></span> 필드라고 가정합니다. 또한 해당 필드에는 <span class="wintitle"> 허용 목록 속성이 </span> 설정되어 있습니다. 이 경우, 정의된 첫 번째 구분 기호인 필드의 목록 구분 기호 값이 연결에서 사용됩니다. </p> </li> 
       <li id="li_DEA24003E97E406DA2510C43CCFDC70E"> <span class="uicontrol"> 기본 키? </span> <p>하나의 맵 정의만 기본 키로 식별됩니다. 이 필드는 색인에 이 문서를 추가할 때 나타나는 고유한 참조가 됩니다. 이 값은 색인의 문서 URL에 사용됩니다. </p> <p>기본 <span class="uicontrol"> 키 </span> 값은 색인 커넥터 구성으로 표시된 모든 문서에서 고유해야 합니다. 발견된 모든 중본은 무시됩니다. 소스 문서에 <span class="uicontrol"> 기본 키로 사용할 단일 고유 값이 포함되어 있지 않지만, 두 개 이상의 필드가 함께 </span>합쳐서 고유한 식별자를 만들 <i>수</i> 있는 <span class="uicontrol"> 경우, 여러 개의 </span> 기본 키 정의를 세로 막대("|") 값과 구분해서 기본 키 <span class="uicontrol"> 를 정의할 수 있습니다 </span> . </p> </li> 
       <li id="li_DEA24003E97E406DA2510C43CCFDC81F"> <span class="uicontrol"> HTML 제거? </span> <p>이 옵션을 선택하면 이 필드의 데이터에 있는 모든 HTML 태그가 제거됩니다. </p> </li> 
-      <li id="li_5E829D1D0DBD4BB7AAB5DB983053D248"> <span class="uicontrol"> 삭제에 사용하시겠습니까? </span> <p>증분 색인 작업 중에 사용됨, 이 XPath 패턴과 일치하는 레코드를 사용하여 삭제할 항목을 식별합니다. 이러한 각 레코드에 대한 <span class="uicontrol"> 기본 키 </span> 값은 파일 경로 삭제와 같이 "삭제" 요청을 구성하는 데 사용됩니다. </p> <p> <b>참고</b>: 이 기능은 기본적으로 활성화되어 있지 않습니다. 해당 기능을 활성화하려면 기술 지원 센터에 문의하십시오. </p> </li> 
+      <li id="li_5E829D1D0DBD4BB7AAB5DB983053D248"> <span class="uicontrol"> 삭제에 사용하시겠습니까? </span> <p>증분 색인 작업 중에 사용됨, 이 XPath 패턴과 일치하는 레코드를 사용하여 삭제할 항목을 식별합니다. 이러한 각 레코드에 대한 <span class="uicontrol"> 기본 키 </span> 값은 파일 경로 삭제와 같이 "삭제" 요청을 구성하는 데 사용됩니다. </p> <p> <b>참고</b>:이 기능은 기본적으로 활성화되어 있지 않습니다. 해당 기능을 활성화하려면 기술 지원 센터에 문의하십시오. </p> </li> 
       <li id="li_D40E2F9AD8AD49FC9AC4B8C75BA31E28"> <span class="uicontrol"> 작업 </span> <p>맵에 행을 추가하거나 맵에서 행을 제거할 수 있습니다. 행의 순서는 중요하지 않습니다. </p> </li> 
       </ul> </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p> <b>데이터 소스 유형: XML</b> </p> </td> 
+      <td colname="col1"> <p> <b>데이터 소스 유형:XML</b> </p> </td> 
       <td colname="col2"> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>활성화됨 </p> </td> 
-      <td colname="col2"> <p>크롤링 및 색인을 위해 구성을 "켜짐"으로 설정합니다. 또는 구성을 "해제"하여 크롤링 및 색인 작업을 방지할 수 있습니다. </p> <p> <b>참고</b>: 비활성화된 색인 커넥터 구성은 진입점 목록에 있으면 무시됩니다. </p> </td> 
+      <td colname="col2"> <p>크롤링 및 색인을 위해 구성을 "켜짐"으로 설정합니다. 또는 구성을 "해제"하여 크롤링 및 색인 작업을 방지할 수 있습니다. </p> <p> <b>참고</b>:비활성화된 색인 커넥터 구성은 진입점 목록에 있으면 무시됩니다. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>호스트 주소 </p> </td> 
@@ -1351,10 +1297,9 @@ URL [시작 지점 정보를 참조하십시오](../c-about-settings-menu/c-abou
       </tr> 
       <tr> 
       <td colname="col1"> <p>파일 경로 </p> </td> 
-      <td colname="col2"> <p>링크를 포함하는 기본 XML 문서의 경로를 지정합니다( 
-      <userinput>
+      <td colname="col2"> <p>개별 XML 문서에 대한 링크()를 포함하는 기본 XML 문서 <code>
         &lt;a&gt; 
-      </userinput>) to individual XML documents. </p> <p>경로는 호스트 주소의 루트에 상대적입니다. </p> </td> 
+      </code>의 경로를 지정합니다. </p> <p>경로는 호스트 주소의 루트에 상대적입니다. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>프로토콜 </p> </td> 
@@ -1365,7 +1310,7 @@ URL [시작 지점 정보를 참조하십시오](../c-about-settings-menu/c-abou
       <li id="li_2F967B5675254C949B31EAB19910751C"> FTP <p>FTP 서버에 액세스하려면 적절한 인증 자격 증명을 입력해야 합니다. </p> </li> 
       <li id="li_C24BE4C1DE79488AA64C7133D78CD3A6"> SFTP <p>SFTP 서버에 액세스하려면 적절한 인증 자격 증명을 입력해야 합니다. </p> </li> 
       <li id="li_7581C21CFC104986A361F62BD7A370C1"> 파일 </li> 
-      </ul> </p> <p> <b>참고</b>: 프로토콜 설정은 호스트 주소 및/또는 파일 경로 필드에 지정된 정보가 있는 경우에만 사용됩니다. 개별 XML 문서는 URL 사양에 따라 HTTP 또는 HTTPS를 사용하여 다운로드됩니다. </p> </td> 
+      </ul> </p> <p> <b>참고</b>:프로토콜 설정은 호스트 주소 및/또는 파일 경로 필드에 지정된 정보가 있는 경우에만 사용됩니다. 개별 XML 문서는 URL 사양에 따라 HTTP 또는 HTTPS를 사용하여 다운로드됩니다. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Itemtag </p> </td> 
@@ -1375,18 +1320,18 @@ URL [시작 지점 정보를 참조하십시오](../c-about-settings-menu/c-abou
       <td colname="col1"> <p>맵 </p> </td> 
       <td colname="col2"> <p>열 번호를 사용하여 열-메타데이터 매핑을 지정할 수 있습니다. </p> <p> 
       <ul id="ul_06F50CBA0AA64C7CB1AFAE076E629A64"> 
-      <li id="li_0FA2502869BA40DC93D790B79E15A9D2"> <span class="uicontrol"> 태그 </span> <p>파싱된 XML 데이터의 XPath 표현을 지정합니다. 위의 예제 Adobe XML 문서의 Itemtag 옵션에서 다음 구문을 사용하여 매핑할 수 있습니다. </p> <p> <code> /record/@displayurl&nbsp;-&gt;&nbsp;page-url 
+      <li id="li_0FA2502869BA40DC93D790B79E15A9D2"> <span class="uicontrol"> 태그 </span> <p>파싱된 XML 데이터의 XPath 표현을 지정합니다. 위의 예제 Adobe XML 문서를 사용하여 Itemtag 옵션 아래에서 다음 구문을 사용하여 매핑할 수 있습니다. </p> <p> <code> /record/@displayurl&nbsp;-&gt;&nbsp;page-url 
         /record/metadata/meta[@name='title']/@content&nbsp;-&gt;&nbsp;title 
         /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;desc 
         /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;body </code> </p> <p>위의 구문은 다음과 같이 해석됩니다. </p> <p> 
       <ul id="ul_F8C536E6E54546D9AA5B22B879C0AF39"> 
-      <li id="li_78A35DFFF1B4496CAC6EDC7B1E991F29"> <code> /record/@displayurl&amp;nbsp;-&gt;&amp;nbsp;page-url </code> <p>레코드 요소의 <span class="codeph"> displayurl </span> 속성은 메타데이터 필드 <span class="codeph"> 페이지-url에 매핑됩니다 </span> <span class="codeph"> </span>. </p> </li> 
+      <li id="li_78A35DFFF1B4496CAC6EDC7B1E991F29"> <code> /record/@displayurl&amp;nbsp;-&gt;&amp;nbsp;page-url </code> <p>레코드 요소의 <span class="codeph"> displayurl </span> 속성이 메타데이터 필드 <span class="codeph"> 페이지-url에 매핑됩니다 </span> <span class="codeph"> </span>. </p> </li> 
       <li id="li_FA7DF3D1942248B98660F3D0C82F4563"> <code> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>이름 속성이 Title인 <span class="codeph"></span> 레코드 요소 내에 들어 있는 메타데이터 <span class="codeph"> 요소 내에 들어 있는 모든 메타 </span> 요소 <span class="codeph"> 의 컨텐트 속성 </span> 은 메타데이터 필드 <span class="codeph"> </span> <span class="codeph"> </span><span class="codeph"> </span>제목에 매핑됩니다. </p> </li> 
       <li id="li_D8000A116FF84DE59ED19C656DDD3BC1"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>이름 속성이 설명 <span class="codeph"> 인, cname 속성이 Cutlc인, cedc에 매핑되는, </span> came 요소 내에 들어 있는, 메타데이터 요소 내에 들어 있는 모든 메타 <span class="codeph"> 요소 </span> 의 컨텐트 <span class="codeph"> </span> <span class="codeph"> </span> <span class="codeph"> </span><span class="codeph"> </span>속성입니다. </p> </li> 
       <li id="li_7FA6A53DFD3D42A98B7BA17CC29DDB81"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>이름 속성이 설명인 Cumulative에 포함된 <span class="codeph"> 레코드 요소 내에 포함된 메타데이터 </span> 요소 <span class="codeph"> 의 컨텐트 속성 </span> <span class="codeph"> </span> <span class="codeph"> </span> <span class="codeph"> </span><span class="codeph"> </span>은 메타데이터 필드 본문에 매핑됩니다. </p> </li> 
       </ul> </p> <p>XPath는 비교적 복잡한 표기법입니다. 자세한 내용은 다음 위치에서 확인할 수 있습니다. </p> <p>https://www.w3schools.com/xpath/을 참조하십시오 <a href="https://www.w3schools.com/xpath/" scope="external" format="html"> </a> </p> </li> 
       <li id="li_84999D07E0AE4265BC7928BBB49957B9"> <span class="uicontrol"> 필드 </span> <p>생성된 각 &lt;meta&gt; 태그에 사용되는 이름 속성 값을 정의합니다. </p> </li> 
-      <li id="li_E125788D0F5242958BD790E26A675C20"> <span class="uicontrol"> 메타데이터? </span> <p>필드가 <span class="uicontrol"> 현재 계정에 대해 정의된 메타데이터 필드를 선택할 수 있는 드롭다운 목록이 </span> 됩니다. </p> <p>원하는 경우 <span class="uicontrol"> 필드 </span> 값은 정의되지 않은 메타데이터 필드일 수 있습니다. 정의되지 않은 메타데이터 필드는 필터링 스크립트에서 사용하는 내용을 만드는 데 <span class="wintitle"> 유용합니다 </span>. </p> <p>스크립트 필터링 <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> 정보를 참조하십시오 </a>. </p> <p>색인 커넥터가 맵 필드에 여러 개의 히트가 있는 XML 문서를 처리할 때 여러 값이 캐시된 결과 문서의 단일 값으로 연결됩니다. 기본적으로 이러한 값은 쉼표 구분 기호를 사용하여 결합됩니다. 그러나 해당 필드 값이 정의된 메타데이터 <span class="wintitle"></span> 필드라고 가정합니다. 또한 이 필드에는 목록 <span class="wintitle"> 허용 </span> 속성이 설정되어 있습니다. 이 경우, 정의된 첫 번째 구분 기호인 필드의 목록 구분 기호 값이 연결에서 사용됩니다. </p> </li> 
+      <li id="li_E125788D0F5242958BD790E26A675C20"> <span class="uicontrol"> 메타데이터? </span> <p>필드가 <span class="uicontrol"> 현재 계정에 대해 정의된 메타데이터 필드를 선택할 수 있는 드롭다운 목록이 </span> 됩니다. </p> <p>원하는 경우 <span class="uicontrol"> 필드 </span> 값은 정의되지 않은 메타데이터 필드일 수 있습니다. 정의되지 않은 메타데이터 필드는 필터링 스크립트에서 사용하는 내용을 만드는 데 <span class="wintitle"> 유용합니다 </span>. </p> <p>스크립트 필터링 <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> 정보를 참조하십시오 </a>. </p> <p>색인 커넥터가 맵 필드에 여러 개의 히트가 있는 XML 문서를 처리할 때 여러 값이 캐시된 결과 문서의 단일 값으로 연결됩니다. 기본적으로 이러한 값은 쉼표 구분 기호를 사용하여 결합됩니다. 그러나 해당 필드 값이 정의된 메타데이터 <span class="wintitle"></span> 필드라고 가정합니다. 또한 해당 필드에는 <span class="wintitle"> 허용 목록 속성이 </span> 설정되어 있습니다. 이 경우, 정의된 첫 번째 구분 기호인 필드의 목록 구분 기호 값이 연결에서 사용됩니다. </p> </li> 
       <li id="li_9F435EFB3EC74B409EC82A851824609F"> <span class="uicontrol"> 기본 키? </span> <p>하나의 맵 정의만 기본 키로 식별됩니다. 이 필드는 색인에 이 문서를 추가할 때 나타나는 고유한 참조가 됩니다. 이 값은 색인의 문서 URL에 사용됩니다. </p> <p>기본 <span class="uicontrol"> 키 </span> 값은 색인 커넥터 구성으로 표시된 모든 문서에서 고유해야 합니다. 발견된 모든 중본은 무시됩니다. 소스 문서에 <span class="uicontrol"> 기본 키로 사용할 단일 고유 값이 포함되어 있지 않지만, 두 개 이상의 필드가 함께 </span>합쳐서 고유한 식별자를 만들 <i>수</i> 있는 <span class="uicontrol"> 경우, 여러 개의 </span> 기본 키 정의를 세로 막대("|") 값과 구분해서 기본 키 <span class="uicontrol"> 를 정의할 수 있습니다 </span> . </p> </li> 
       <li id="li_9F435EFB3EC74B409EC82A851824610G"> <span class="uicontrol"> HTML 제거? </span> <p>이 옵션을 선택하면 이 필드의 데이터에 있는 모든 HTML 태그가 제거됩니다. </p> </li> 
       <li id="li_6302D18971AD439FBECE27742649C56B"> <span class="uicontrol"> 작업 </span> <p>맵에 행을 추가하거나 맵에서 행을 제거할 수 있습니다. 행의 순서는 중요하지 않습니다. </p> </li> 
