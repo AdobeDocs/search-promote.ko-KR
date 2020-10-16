@@ -7,13 +7,13 @@ breadcrumb-title: Adobe Search&amp;Promote Guide
 translation-type: tm+mt
 source-git-commit: e211b8d01a8dea5b4232f3daeb430cb7ffe7ea76
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '254'
 ht-degree: 10%
 
 ---
 
 
-# Adobe 검색 및 홍보 안내서 {#using}
+# Adobe Search and Promote Guide {#using}
 
 + [Search &amp; Promote 설명서 개요](sp-home.md)
 + Release notes {#release-notes}
