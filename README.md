@@ -1,9 +1,16 @@
 ---
-source-git-commit: aa5364886b5e09fdbf5840c058ac3f3f364344ab
+source-git-commit: 2c0ca6307586f4b63599856bc20aee196cb8b98f
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '509'
+ht-degree: 72%
 
 ---
 # 검색 및 홍보를 위한 Contribute 아티클
+
+| EXL-PR | EXL | 미리 보기 | 활성화 | 게시됨 | 도움말 |
+|--- |--- |--- |--- |--- |--- |
+| [![빌드 상태](https://docs.ci.corp.adobe.com/view/exl-pr/job/search-promote.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/search-promote.en_pr-exl/lastBuild/) | [![빌드 상태](https://docs.ci.corp.adobe.com/view/exl-pr/job/search-promote.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/search-promote.en_exl/lastBuild/lastBuild) | [미리 보기 URL](https://experienceleague.corp.adobe.com/docs/search-promote/using/sp-home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [라이브 URL](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=en) | [Authoring 안내서](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 Adobe는 Adobe 커뮤니티는 물론 설명서 팀이 아닌 Adobe 직원들의 기여도 환영합니다.
 
@@ -13,7 +20,7 @@ Adobe는 Adobe 커뮤니티는 물론 설명서 팀이 아닌 Adobe 직원들의
 
 ## Adobe 컨텐츠에 대한 귀하의 기여에 대해
 
-Adobe Docs [Contributor Guide를 참조하십시오](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Adobe 문서 작성자 [가이드를 참조하십시오](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
 
 기여하는 방식은 사용자의 신분과 사용자가 기여하고 싶은 변경 내용의 종류에 따라 다릅니다.
 
