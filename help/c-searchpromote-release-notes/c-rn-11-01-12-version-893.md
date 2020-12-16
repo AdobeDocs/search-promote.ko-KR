@@ -1,20 +1,23 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Search&amp;Promote 8.9.3 릴리스 노트(2012/11/01)
+seo-title: Search&Amp;Promote 8.9.3 릴리스 노트(11/01/2012)
 solution: Target
-title: Search&amp;Promote 8.9.3 릴리스 노트(2012/11/01)
+title: Search&Amp;Promote 8.9.3 릴리스 노트(11/01/2012)
 topic: Release Notes,Site search and merchandising
 uuid: 7bc7bcb6-f47f-4e05-94e5-a22a13a187b7
 translation-type: tm+mt
 source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 84%
 
 ---
 
 
-# Search&amp;Promote 8.9.3 Release Notes (11/01/2012){#search-promote-release-notes}
+# Search &amp; Promote 8.9.3 릴리스 노트(11/01/2012){#search-promote-release-notes}
 
-## Search&amp;Promote 8.9.3 Release Notes (11/01/2012) {#concept_85F5B4B4C40C43FEA3AD63E6EA5593CF}
+## Search &amp; Promote 8.9.3 릴리스 노트(11/01/2012) {#concept_85F5B4B4C40C43FEA3AD63E6EA5593CF}
 
 <table> 
  <thead> 
@@ -55,9 +58,9 @@ source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
 * [!DNL Stage] 색인이 있을 때 비즈니스 규칙이 일관되지 않게 작동했습니다.
 * 이제 자동 맞춤 랜딩 페이지에 자동 등급 규칙이 적용됩니다.
 
-   등급 규칙 추가의 [옵션 표를](../c-about-rules-menu/c-about-ranking-rules.md#task_A132789FD4E5423DAD090DCDA7311E8A)참조하십시오.
+   [등급 규칙 추가](../c-about-rules-menu/c-about-ranking-rules.md#task_A132789FD4E5423DAD090DCDA7311E8A)의 옵션 표를 참조하십시오.
 
-* [!DNL promosearch.cgi] 가 프로모션을 반환하지 않았습니다.
+* [!DNL promosearch.cgi] 가 판촉을 반환하지 않았습니다.
 
    [검색 정보](../c-about-settings-menu/c-about-searching-menu.md#concept_207105CF26B1448F8A3D223787C56AB8)를 참조하십시오.
 
