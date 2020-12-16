@@ -8,6 +8,9 @@ topic: Appendices,Site search and merchandising
 uuid: 234fd563-f249-42b0-88ca-c89b44f8df77
 translation-type: tm+mt
 source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+workflow-type: tm+mt
+source-wordcount: '6298'
+ht-degree: 2%
 
 ---
 
@@ -18,50 +21,50 @@ XML 또는 JSON을 비롯한 모든 텍스트 기반 포맷으로 출력을 사�
 
 ## 검색 안내 출력 사용 {#concept_2A1BA3AD413848A1AC2A3ABC4FFE481F}
 
-출력 포맷은 디자인 프로세스 중에 수행되는 페팅, 정렬 및 기타 구현 관련 결정을 지원하도록 사용자 정의할 수 있습니다. 필요한 경우 포맷 자체를 조정하여 고객의 프런트 엔드 개발을 간소화할 수 있습니다.
+출력 형식은 디자인 프로세스 중에 수행되는 인사이트, 정렬 및 기타 구현 관련 결정을 지원하도록 사용자 정의할 수 있습니다. 필요한 경우 포맷 자체를 변경하여 고객의 프런트 엔드 개발을 간소화할 수 있습니다.
 
-전체 출력은 `<result>` 태그 내에 포함되며 대부분의 동적 데이터는 태그 내에 `<![CDATA[ ]]>` 포함됩니다. 이러한 조직에서는 결과에 HTML 및 기타 비 XML 엔티티가 포함될 수 있습니다.
+전체 출력은 `<result>` 태그 내에 포함되며 대부분의 동적 데이터는 `<![CDATA[ ]]>` 태그 내에 포함됩니다. 이러한 조직에서는 결과에 HTML 및 기타 비 XML 엔티티가 포함될 수 있습니다.
 
-다른 페이지에 대한 링크가 제공되는 경우 상대 URL 형식으로 표시됩니다. 이 결과에는 원하는 결과를 생성하기 위해 전달된 쿼리 문자열 매개 변수도 포함됩니다.
+다른 페이지로 연결되는 링크가 제공되는 경우 상대 URL 형식으로 표시됩니다. 이 결과에는 원하는 결과를 생성하기 위해 전달된 쿼리 문자열 매개 변수도 포함됩니다.
 
 ## 검색 안내 구현 이해 {#section_95483980930C4325BAB50A40BD47245A}
 
-검색 안내 구현을 시작하면 비즈니스 [!DNL Adobe Search&Promote] 레이어에 대한 책임이 있음을 기억하십시오. 즉, 어떤 결과 및 패싯이 지정된 시간에 고객에게 표시되는지를 둘러싸는 논리입니다.
+검색 안내 구현을 시작하면 [!DNL Adobe Search&Promote]이(가) 비즈니스 레이어에 책임이 있음을 기억하십시오. 즉, 어떤 결과와 패싯이 지정된 시간에 고객에게 보여지는 지에 대한 논리입니다.
 
-결과를 HTML로 구문 분석하여 표시하는 웹 애플리케이션 프런트 엔드를 구현할 때 기능만 표시하도록 제한합니다. 즉, 프레젠테이션 레이어를 만드는 데 사용하는 서버측 논리는 필요한 경우가 아니면 고객에게 제공할 항목을 결정하지 않습니다. 프런트 엔드 스크립트가 검색 결과를 변경하는 경우 비즈니스 규칙이 예상대로 작동하지 않습니다.
+결과를 HTML로 구문 분석하고 표시하는 웹 응용 프로그램 프런트 엔드를 구현할 때 기능만 표시하도록 제한합니다. 즉, 프레젠테이션 레이어를 만드는 데 사용하는 서버측 논리는 필요한 경우가 아니면 고객에게 제공할 항목을 결정하지 않습니다. 프런트 엔드 스크립트가 검색 결과를 변경하는 경우에는 비즈니스 규칙이 예상대로 작동하지 않습니다.
 
-[!DNL Adobe Search&Promote] url 매개 변수를 통해 선택한 검색 세부 조정 옵션의 사용자 상태를 유지합니다. 모든 `<link>` 노드에는 고객이 선택한 관련 매개 변수가 포함되어 있습니다. 이러한 매개 변수에는 탐색 표시, 페이지 매김, 정렬 및 패싯 선택 사항이 포함될 수 있습니다. 해당되는 경우 `<undolink>` 고객이 선택 항목을 &quot;뒤로&quot; 제거할 수 있도록 노드가 반환됩니다. 패싯 및 탐색 표시는 이러한 유형의 링크를 제공합니다.
+[!DNL Adobe Search&Promote] URL 매개 변수를 통해 선택한 검색 세부 조정 옵션의 사용자 상태를 유지합니다. 모든 `<link>` 노드에는 고객이 선택한 관련 매개 변수가 포함되어 있습니다. 이러한 매개 변수에는 탐색 표시, 페이지 매김, 정렬 및 패싯 선택 사항이 포함될 수 있습니다. 해당하는 경우 고객이 선택 항목 중 &quot;뒤로&quot; 이동할 수 있도록 `<undolink>` 노드가 반환됩니다. 패싯 및 탐색 표시는 이러한 유형의 링크를 제공합니다.
 
 ## 검색 서버 작업 {#section_8DBEACDECD714E59BDED6315E6041B8D}
 
-REST와 같은 API는 검색을 수행하고 결과를 받기 위해 상호 작용할 수 있는 데 사용됩니다. 결과에 사용되는 가장 일반적인 형식은 XML 또는 JSON입니다.
+검색을 수행하고 결과를 받기 위해 상호 작용할 수 있는 REST 좋아요 API가 사용됩니다. 결과에 사용되는 가장 일반적인 형식은 XML 또는 JSON입니다.
 
-기본 URI는 특정 계정 및 단계 또는 라이브 환경과 연결됩니다. 계정 관리자에서 기본 URI에 대해 여러 개의 별칭을 요청할 수 있습니다. 예를 들어 Megacorp라는 가상 회사는 다음과 같은 두 개의 기본 URL을 계정과 연관시킵니다.
+기본 URI는 특정 계정 및 단계 또는 라이브 환경과 연결됩니다. 계정 관리자에서 기본 URI에 대해 여러 별칭을 요청할 수 있습니다. 예를 들어 Megacorp라는 가상 회사는 다음과 같은 두 개의 기본 URL을 계정과 연관시킵니다.
 
 * `https://search.megacorp.com `
 * `https://stage.megacorp.com`
 
-이전 URI는 라이브 색인과 이후의 URI를 스테이지 인덱스에 대해 검색합니다.
+이전 URI는 자신의 스테이지수에 대해 라이브 색인과 후기 URI를 검색합니다.
 
-검색 요청은 기본 URI와 기본 URI와 연결된 계정에 대해 원하는 검색을 나타내는 CGI 매개 변수 또는 키-값 쌍으로 구성됩니다.
+검색 요청은 기본 URI와 기본 URI와 연결된 계정에 대해 원하는 검색을 나타내는 CGI 매개 변수 또는 키-값 쌍 집합으로 구성됩니다.
 
-세 가지 형식의 CGI 매개 변수가 지원됩니다. 기본적으로 계정은 다음 예와 같이 세미콜론( `;`)으로 CGI 매개 변수를 구분하도록 구성됩니다.
+CGI 매개 변수의 세 가지 형식이 지원됩니다. 다음 예와 같이 기본적으로 계정은 세미콜론( `;`)으로 CGI 매개 변수를 구분하도록 구성됩니다.
 
 * `https://search.megacorp.com?q=shoes ;page=2`
 
-원하는 경우 계정 관리자가 앰퍼샌드( `&`)를 사용하여 다음 예와 같이 CGI 매개 변수를 구분하도록 계정을 구성할 수 있습니다.
+원하는 경우 계정 관리자가 앰퍼샌드( `&`)를 사용하여 CGI 매개 변수를 구분하도록 다음 예와 같이 계정을 구성할 수 있습니다.
 
 * `https://search.megacorp.com?q=shoes &page=2`
 
-다음 예와 같이 슬래시( `/`)()를 구분 문자 대신 사용하고 등호를 사용하여 &quot;정리&quot; 링크를 생성하는 세 번째 형식도 지원됩니다.
+다음 예제와 같이 슬래시( `/`)를 구분 문자 대신 사용하고 등호를 사용하여 &quot;클린&quot; 링크를 생성하는 세 번째 형식도 지원됩니다.
 
 * `https://search.megacorp.com/q/shoes/page/2`
 
 SEO 형식을 사용하여 요청을 보낼 때마다 모든 출력 링크가 동일한 형식으로 반환됩니다.
 
-## 쿼리 매개 변수 검색 {#section_7ADA5E130E3040C9BE85D0D68EDD3223}
+## 검색 쿼리 매개 변수 {#section_7ADA5E130E3040C9BE85D0D68EDD3223}
 
-다음 표에서는 사용할 수 있는 표준 &quot;특별&quot; 검색 쿼리 매개 변수에 대해 설명합니다. 사용자 정의 쿼리 매개 변수를 기반으로 처리 규칙 및 비즈니스 규칙을 작성하여 회사와 관련된 사용자 정의 비즈니스 논리를 구현할 수 있습니다. 컨설팅 팀과 함께 이러한 매개 변수에 대한 설명서를 얻을 수 있습니다.
+다음 표에서는 사용할 수 있는 표준 &quot;특별&quot; 검색 쿼리 매개 변수에 대해 설명합니다. 처리 규칙 및 비즈니스 규칙은 사용자 정의 쿼리 매개 변수를 기반으로 작성하여 회사와 관련된 사용자 정의 비즈니스 논리를 구현할 수 있습니다. 컨설팅 팀과 함께 이러한 매개 변수에 대한 설명서를 볼 수 있습니다.
 
 <table> 
  <thead> 
@@ -74,82 +77,82 @@ SEO 형식을 사용하여 요청을 보낼 때마다 모든 출력 링크가 �
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> q </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> q= 문자열 </span> </p> </td> 
-   <td colname="col3"> <p> 검색에 대한 쿼리 문자열을 지정합니다. 이 매개 변수는 <span class="codeph"> sp_q </span> 백엔드 검색 매개 변수에 매핑합니다. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> q= 문자열  </span> </p> </td> 
+   <td colname="col3"> <p> 검색에 대한 쿼리 문자열을 지정합니다. 이 매개 변수는 <span class="codeph"> sp_q </span> 백엔드 검색 매개 변수에 매핑됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> q# </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> q#= 문자열 </span> </p> </td> 
-   <td colname="col3"> <p>번호가 매겨진 <span class="codeph"> q </span> 및 <span class="codeph"> x </span> 매개 변수는 특정 필드 내에서 faceting을 수행하거나 검색을 수행합니다. </p> <p>q <span class="codeph"> 매개 변수는 </span> 패싯에서 검색하는 용어를 해당 번호가 매겨진 <span class="codeph"> x </span> 매개 변수가 나타내는 용어로 정의합니다. 예를 들어 크기와 색상으로 이름이 지정된 두 개의 패싯이 있는 경우 다음과 같은 항목이 있을 수 있습니다. </p> <p> <span class="codeph"> q1=small;x1=size;q2=red;x2=color </span> </p> <p>이 매개 변수는 <span class="codeph"> sp_q_exact_# </span> 백엔드 검색 매개 변수에 매핑됩니다. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> q#= 문자열  </span> </p> </td> 
+   <td colname="col3"> <p><span class="codeph"> q </span> 및 <span class="codeph"> x </span> 매개 변수에 번호가 매겨진 &lt;a0/&gt; 매개 변수를 사용하여 이벤트를 수행하거나 지정된 필드 내에서 검색합니다. </p> <p><span class="codeph"> q </span> 매개 변수는 패싯에서 검색하는 용어를 해당 번호 <span class="codeph"> x </span> 매개 변수가 나타내는 것으로 정의합니다. 예를 들어 크기와 색상으로 이름이 지정된 두 개의 패싯이 있는 경우 다음과 같은 요소를 가질 수 있습니다. </p> <p> <span class="codeph"> q1=small;x1=size;q2=red;x2=color  </span> </p> <p>이 매개 변수는 <span class="codeph"> sp_q_exact_# </span> 백엔드 검색 매개 변수에 매핑됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> x# </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> x#= 문자열 </span> </p> </td> 
-   <td colname="col3"> <p> 번호가 매겨진 <span class="codeph"> q </span> 및 <span class="codeph"> x </span> 매개 변수는 특정 필드 내에서 faceting을 수행하거나 검색을 수행합니다. </p> <p>q <span class="codeph"> 매개 변수는 </span> 패싯에서 검색하는 용어를 해당 번호가 매겨진 <span class="codeph"> x </span> 매개 변수가 나타내는 용어로 정의합니다. 예를 들어 크기와 색상으로 이름이 지정된 두 개의 패싯이 있는 경우 다음과 같은 항목이 있을 수 있습니다. </p> <p> <span class="codeph"> q1=small;x1=size;q2=red;x2=color </span> </p> <p>이 매개 변수는 <span class="codeph"> sp_x_# </span> 백엔드 검색 매개 변수에 매핑됩니다. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> x#= 문자열  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> q </span> 및 <span class="codeph"> x </span> 매개 변수에 번호가 매겨진 &lt;a0/&gt; 매개 변수를 사용하여 이벤트를 수행하거나 지정된 필드 내에서 검색합니다. </p> <p><span class="codeph"> q </span> 매개 변수는 패싯에서 검색하는 용어를 해당 번호 <span class="codeph"> x </span> 매개 변수가 나타내는 것으로 정의합니다. 예를 들어 크기와 색상으로 이름이 지정된 두 개의 패싯이 있는 경우 다음과 같은 요소를 가질 수 있습니다. </p> <p> <span class="codeph"> q1=small;x1=size;q2=red;x2=color  </span> </p> <p>이 매개 변수는 <span class="codeph"> sp_x_# </span> 백엔드 검색 매개 변수에 매핑됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 컬렉션 </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> collection= string </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> collection= string  </span> </p> </td> 
    <td colname="col3"> <p> 검색에 사용할 컬렉션을 지정합니다. 이 매개 변수는 <span class="codeph"> sp_k </span> 백엔드 검색 매개 변수에 매핑됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> count </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> count= number </span> </p> </td> 
-   <td colname="col3"> <p> 표시되는 결과의 총 개수를 지정합니다. 기본값은 설정 &gt; <span class="uicontrol"> 검색 </span> &gt; <span class="uicontrol"> 검색 </span> &gt; <span class="uicontrol"> 검색에서 정의됩니다 </span>. 이 매개 변수는 <span class="codeph"> sp_c </span> 백엔드 검색 매개 변수에 매핑됩니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> count  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> count= 숫자  </span> </p> </td> 
+   <td colname="col3"> <p> 표시되는 결과의 총 개수를 지정합니다. 기본값은 <span class="uicontrol"> 설정 </span> &gt; <span class="uicontrol"> 검색 </span> &gt; <span class="uicontrol"> 검색 </span>에 정의됩니다. 이 매개 변수는 <span class="codeph"> sp_c </span> 백엔드 검색 매개 변수에 매핑됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> page </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> page= number </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> page= number  </span> </p> </td> 
    <td colname="col3"> <p> 반환되는 결과 페이지를 지정합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 순위 </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> rank= 필드 </span> </p> </td> 
-   <td colname="col3"> <p> 정적 등급에 사용할 등급 필드를 지정합니다. 필드는 0보다 큰 연관성이 있는 등급 유형의 필드여야 합니다. 이 매개 변수는 <span class="codeph"> sp_sr </span> 백엔드 매개 변수에 매핑됩니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 계급  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> rank= 필드  </span> </p> </td> 
+   <td colname="col3"> <p> 정적 등급에 사용할 등급 필드를 지정합니다. 필드는 0보다 큰 관련성이 있는 등급 유형의 필드여야 합니다. 이 매개 변수는 <span class="codeph"> sp_sr </span> 백엔드 매개 변수에 매핑됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> gs_store </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> gs_store= 문자열 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> gs_store  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> gs_store= 문자열  </span> </p> </td> 
    <td colname="col3"> <p> 검색할 스토어를 지정합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 정렬 </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> sort= number </span> </p> </td> 
-   <td colname="col3"> <p> 정렬 순서를 지정합니다. "0"은 기본값이며 관련 점수에 따라 정렬합니다."1"은 날짜별로 정렬합니다."-1"은 정렬되지 않습니다. </p> <p>사용자는 <span class="codeph"> sp_s </span> 매개 변수의 값에 대한 필드 이름을 지정할 수 있습니다. 예를 들어 <span class="codeph"> sp_s=title은 제목 필드에 포함된 값에 따라 결과를 </span> 정렬합니다. sp_s 매개 변수의 값에 필드 이름을 사용하면 <span class="codeph"> </span> 해당 필드별로 결과가 정렬된 다음 관련성별로 하위 정렬됩니다. </p> <p>이 기능을 활성화하려면 다음을 수행합니다. </p> 
+   <td colname="col1"> <p> <span class="codeph"> sort  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> sort= number  </span> </p> </td> 
+   <td colname="col3"> <p> 정렬 순서를 지정합니다. "0"은 기본값이며 관련성 점수에 따라 정렬합니다."1"은 날짜별로 정렬합니다."-1"은(는) 정렬되지 않습니다. </p> <p>사용자는 <span class="codeph"> sp_s </span> 매개 변수의 값에 대한 필드 이름을 지정할 수 있습니다. 예를 들어 <span class="codeph"> sp_s=title </span> 은 제목 필드에 포함된 값에 따라 결과를 정렬합니다. 필드 이름이 <span class="codeph"> sp_s </span> 매개 변수의 값에 사용될 경우 결과는 해당 필드별로 정렬된 다음 관련별로 하위 정렬됩니다. </p> <p>이 기능을 활성화하려면 다음을 수행합니다. </p> 
     <ol id="ol_3894F81EA7BF4827A84DE8662111ABEF"> 
-     <li id="li_C040C0B88F174A4885E1A8E721FD032A">제품 메뉴에서 설정 &gt; <span class="uicontrol"> 메타데이터 </span> &gt; <span class="uicontrol"> 정의를 </span> 클릭합니다 <span class="uicontrol"></span>. </li> 
-     <li id="li_2E83C3A46D1B4BF991EABAD9D3E52B7D">스테이지 <span class="wintitle"> 정의 </span> 페이지에서 다음 중 하나를 수행합니다. 
+     <li id="li_C040C0B88F174A4885E1A8E721FD032A">제품 메뉴에서 <span class="uicontrol"> 설정 </span> &gt; <span class="uicontrol"> 메타데이터 </span> &gt; <span class="uicontrol"> 정의 </span>를 클릭합니다. </li> 
+     <li id="li_2E83C3A46D1B4BF991EABAD9D3E52B7D"><span class="wintitle"> 단계 정의 </span> 페이지에서 다음 중 하나를 수행합니다. 
       <ul id="ul_8018FEE10E0A4C96A74F84A897080580"> 
-       <li id="li_E9A7CE43E2734F4D9522A1283CA111FB">Click <span class="uicontrol"> Add New Field </span>. </li> 
-       <li id="li_9D2434A321924FBD874569CA9AD2EEF7">특정 <span class="uicontrol"> 필드 </span> 이름에 대해 편집을 클릭합니다. </li> 
+       <li id="li_E9A7CE43E2734F4D9522A1283CA111FB"><span class="uicontrol"> 새 필드 추가 </span>를 클릭합니다. </li> 
+       <li id="li_9D2434A321924FBD874569CA9AD2EEF7">특정 필드 이름에 대해 <span class="uicontrol"> </span> 편집을 클릭합니다. </li> 
       </ul> </li> 
-     <li id="li_90D5E3F4AC0A4A6189934A5589F69903">정렬 <span class="wintitle"> 드롭다운 </span> 목록에서 오름차순 또는 <span class="uicontrol"> 내림차순을 </span> 클릭합니다 <span class="uicontrol"></span>. <p>이 매개 변수는 <span class="codeph"> sp_s의 </span> 백엔드 검색 매개 변수에 매핑합니다. </p> </li> 
+     <li id="li_90D5E3F4AC0A4A6189934A5589F69903"><span class="wintitle"> </span> 정렬 드롭다운 목록에서 <span class="uicontrol"> 오름차순 </span> 또는 <span class="uicontrol"> 내림차순 </span>을 클릭합니다. <p>이 매개 변수는 <span class="codeph"> sp_s </span> 백엔드 검색 매개 변수에 매핑됩니다. </p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 시스템과 통합 {#section_91261B19A44A4E579B3FC9FAB9AD3665}
+## 시스템 {#section_91261B19A44A4E579B3FC9FAB9AD3665}과 통합
 
 다음은 시스템 통합을 위한 권장 사항입니다.
 
 * 검색 서버와 통신합니다.
 
-   http GET 요청을 사용하여 [!DNL Adobe Search&Promote] 웹 서버와 통신할 수 있습니다. 서버에서 이러한 요청을 생성하거나 클라이언트 쪽에서 Ajax 요청을 수행합니다.
+   http GET 요청을 사용하여 [!DNL Adobe Search&Promote] 웹 서버와 통신할 수 있습니다. 서버에서 이러한 요청을 생성하거나 Ajax 요청을 수행하는 클라이언트측에서 해당 요청을 생성합니다.
 * 검색 내역 저장.
 
-[!DNL Adobe Search&Promote] 는 http 요청에서 전체 상태가 전달된 상태 비국적입니다.
-* 반환된 결과를 구문 분석합니다.
+[!DNL Adobe Search&Promote] 는 http 요청에서 전체 상태가 전달되는 상태 비국적입니다.
+* 반환된 결과를 구문 분석하는 중입니다.
 
-   SAX 기반 XML 파서를 사용하여 XML 응답을 분석하는 것이 좋습니다. Ajax 요청을 생성하는 경우 이러한 요청에 대한 JSON 응답을 반환하도록 [!DNL Adobe Search&Promote] 구성하여 응답을 보다 쉽게 구문 분석할 수 있도록 합니다.
+   SAX 기반 XML 파서를 사용하여 XML 응답을 구문 분석하는 것이 좋습니다. Ajax 요청을 생성하는 경우 이러한 요청에 대한 JSON 응답을 반환하도록 [!DNL Adobe Search&Promote]을 구성하여 응답을 보다 쉽게 구문 분석할 수 있습니다.
 
 ## 검색 안내 JSON 출력 {#reference_EB8182A564DE4374BB84158F2AABEF74}
 
 표준 JSON 응답 출력을 설명하는 표.
 
-검색 안내 [JSON 출력을 참조하십시오](../c-appendices/c-guidedsearchoutput.md#reference_EB8182A564DE4374BB84158F2AABEF74).
+[검색 안내 JSON 출력](../c-appendices/c-guidedsearchoutput.md#reference_EB8182A564DE4374BB84158F2AABEF74)도 참조하십시오.
 
-JSON 응답에 대한 다음 사항을 검토할 수 있습니다.
+JSON 응답은 다음에 대해 검토할 수 있습니다.
 
 * [배너](../c-appendices/c-guidedsearchoutput.md#section_88519CAAD25F4BD49D5E517077745B0E)
 * [탐색 표시](../c-appendices/c-guidedsearchoutput.md#section_A7DB0F1DA9ED4CBCAE18395122F3E01E)
@@ -185,23 +188,23 @@ JSON 응답에 대한 다음 사항을 검토할 수 있습니다.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;배너&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 개별 배너 노드 여러 배너 노드를 가질 수 있습니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;banner&gt; </span> </p> </td> 
+   <td colname="col2"> <p> 개별 배너 노드. 여러 배너 노드를 가질 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;영역&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;area&gt; </span> </p> </td> 
    <td colname="col2"> <p> 배너가 표시되는 웹 페이지의 영역입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;콘텐츠&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 배너 영역에 대한 HTML 콘텐츠 </p> </td> 
+   <td colname="col2"> <p> 배너 영역에 대한 HTML 내용. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 탐색 표시 {#section_A7DB0F1DA9ED4CBCAE18395122F3E01E}
 
-다음 예에서는 고객이 패싯을 통해 더 좁힐 때마다 선택 사항이 탐색 표시에 추가됩니다. 각 항목은 로 `<breadcrumb-item>`표시됩니다.
+다음 예제에서는 고객이 패싯을 통해 범위를 더 좁힐 때마다 선택 사항이 탐색 표시에 추가됩니다. 각 항목은 `<breadcrumb-item>`으로 표시됩니다.
 
 예:
 
@@ -228,20 +231,20 @@ JSON 응답에 대한 다음 사항을 검토할 수 있습니다.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;링크를 클릭합니다&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 원하는 보기를 보여주는 검색 결과에 대한 상대적 링크. 탐색 표시 링크를 클릭하면 후속 세부 조정이 모두 제거된 보기로 이동합니다. 다른 옵션도 제공됩니다. </p> </td> 
+   <td colname="col2"> <p> 원하는 보기를 표시하는 검색 결과에 대한 상대적 링크입니다. 탐색 표시 링크를 클릭하면 후속 세부 조정이 모두 제거되는 보기로 이동합니다. 기타 옵션도 제공됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;value&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 탐색 표시 항목에 대한 고객 대면 텍스트입니다. </p> </td> 
+   <td colname="col2"> <p> 탐색 표시 항목의 고객 표시 텍스트입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 패싯 {#section_65932C95931743A1BFAF1DF16D7E6D92}
 
-패싯은 고객에게 결과를 필터링할 수 있는 개선 옵션입니다. 패싯은 일반적으로 분류, 가격 범위, 색상 선택 및 기타 속성 다듬기에 사용됩니다. 인덱스의 메타데이터는 패싯을 유도하는 것입니다.
+패싯은 고객에게 결과를 필터링할 수 있는 다듬기 옵션입니다. 패싯은 일반적으로 범주화, 가격 범위, 색상 선택 및 기타 속성 다듬기에 사용됩니다. 인덱스의 메타데이터는 패싯을 유도하는 것입니다.
 
-고객이 범주화를 통해 아래로 이동할 때 분류 패싯을 숨기거나 표시하는 것은 일반적입니다. 가장 높은 수준의 분류(카테고리)를 계층 1이라고 합니다. 고객이 계층 1 옵션을 클릭하면 계층 2(하위 카테고리) 다듬기 옵션이 나타나고 계층 1 옵션이 사라집니다. 고객이 계층 2 옵션을 클릭하면 계층 3(하위 카테고리) 세부 조정 옵션이 나타나고 계층 2 옵션이 사라집니다. 위에서 설명한 바와 같이 이러한 옵션은 숨겨지고 표시됩니다. 웹 응용 프로그램은 영향을 받지 않습니다.
+고객이 범주화를 통해 아래로 이동할 때 분류 패싯을 숨기거나 표시하는 것이 일반적입니다. 가장 높은 수준의 분류(카테고리)를 계층 1이라고 합니다. 고객이 계층 1 옵션을 클릭하면 계층 2(하위 카테고리) 다듬기 옵션이 나타나고 계층 1 옵션이 사라집니다. 고객이 계층 2 옵션을 클릭하면 계층 3(하위 카테고리) 다듬기 옵션이 나타나고 계층 2 옵션이 사라집니다. 위에서 설명한 바와 같이 이러한 옵션은 숨겨지고 표시됩니다. 웹 응용 프로그램은 영향을 받지 않습니다.
 
 각 패싯은 `<facet-item>` 태그 내에 포함됩니다. 다음 예에서는 고객이 &quot;휴일&quot;별로 검색 결과를 세분화할 수 있는 하나의 패싯을 보여줍니다.
 
@@ -337,24 +340,24 @@ JSON 응답에 대한 다음 사항을 검토할 수 있습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;label&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 패싯 옵션의 고객 측면 레이블입니다. </p> </td> 
+   <td colname="col2"> <p> 패싯 옵션에 대한 고객 대면 레이블입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;링크를 클릭합니다&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 옵션이 다운된 결과에 대한 상대적 링크. </p> </td> 
+   <td colname="col2"> <p> 옵션이 다운된 결과에 대한 상대적 링크입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;count&gt; </span> </p> </td> 
    <td colname="col2"> <p> 세분화된 결과 세트의 결과 수입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;undollink&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 패싯 값을 선택하면 노드가 "실행 취소 링크"를 반환하여 고객이 결과에서 다시 벗어날 수 있습니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;undolink&gt; </span> </p> </td> 
+   <td colname="col2"> <p> 단면화 값을 선택하면 고객이 결과를 되돌릴 수 있는 "실행 취소 링크"를 반환합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 머리글 및 쿼리 {#section_1D57062259CA46E0B4F598FA4EB37065}
+## 헤더 및 쿼리 {#section_1D57062259CA46E0B4F598FA4EB37065}
 
 예:
 
@@ -368,7 +371,7 @@ JSON 응답에 대한 다음 사항을 검토할 수 있습니다.
  </query> 
 ```
 
-이러한 태그는 함께 사용되면 다음과 같은 메시지가 표시됩니다.&quot;Showing results 1-16 of 621 for &#39;new year&#39;.&quot;
+이러한 태그는 함께 사용되어 다음과 같은 메시지를 제공합니다.&quot;신년에 대한 621의 1-16을 보여.&quot;
 
 <table> 
  <thead> 
@@ -380,15 +383,15 @@ JSON 응답에 대한 다음 사항을 검토할 수 있습니다.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;user-query&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 요청과 함께 제출된 키워드 쿼리입니다. </p> </td> 
+   <td colname="col2"> <p> 요청과 함께 제출된 키워드 쿼리 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;lower-results&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 이 페이지의 첫 번째 결과의 항목 번호입니다. </p> </td> 
+   <td colname="col2"> <p> 이 페이지에서 첫 번째 결과의 항목 번호입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;upper-results&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 이 페이지의 마지막 결과 항목 번호입니다. </p> </td> 
+   <td colname="col2"> <p> 이 페이지의 마지막 결과의 항목 번호입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;total-results&gt; </span> </p> </td> 
@@ -396,7 +399,7 @@ JSON 응답에 대한 다음 사항을 검토할 수 있습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;custom-field&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 검색 결과에 전체적으로 적용되는 선택 필드입니다. </p> </td> 
+   <td colname="col2"> <p> 검색 결과에 전역적으로 적용되는 선택적 필드입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -441,26 +444,26 @@ JSON 응답에 대한 다음 사항을 검토할 수 있습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;page position="first"&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 고객이 이미 페이지 1을 보고 있는 경우를 제외하고 결과 세트의 첫 번째 페이지에 대한 상대적 링크를 포함합니다. 이 경우 비어 있습니다. </p> </td> 
+   <td colname="col2"> <p> 고객이 이미 페이지 1을 보고 있는 경우를 제외하고 결과 세트의 첫 번째 페이지에 대한 상대 링크를 포함합니다. 이 경우 비어 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;page position="last"&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 고객이 마지막 페이지를 보고 있는 경우를 제외하고 결과 세트의 마지막 페이지에 대한 상대 링크를 포함합니다. 이 경우 비어 있습니다. </p> </td> 
+   <td colname="col2"> <p> 고객이 마지막 페이지를 보고 있지 않는 한 결과 세트의 마지막 페이지에 대한 상대적 링크를 포함합니다. 이 경우 비어 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;page position="previous"&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 고객이 페이지 1을 보고 있는 경우를 제외하고 결과 세트의 이전 페이지에 대한 상대 링크를 포함합니다.이 경우 비어 있습니다. </p> </td> 
+   <td colname="col2"> <p> 고객이 페이지 1을 보고 있지 않는 한 결과 세트에서 이전 페이지에 대한 상대 링크를 포함합니다.이 경우 비어 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;page position="next"&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 고객이 마지막 페이지를 보고 있는 경우를 제외하고 결과 세트의 마지막 페이지에 대한 상대 링크를 포함합니다. 이 경우 비어 있습니다. </p> </td> 
+   <td colname="col2"> <p> 고객이 마지막 페이지를 보고 있지 않는 한 결과 세트의 마지막 페이지에 대한 상대적 링크를 포함합니다. 이 경우 비어 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;page position="x" </span> </p> </td> 
-   <td colname="col2"> <p> 특정 페이지 번호에 대한 상대 링크를 포함합니다. 10개의 연속 페이지 번호가 표시됩니다. 1페이지는 1-10페이지입니다. 결과 세트의 끝(이 경우 39)에는 30-39페이지가 있습니다. 예를 들어 결과 세트의 가운데에 있는 15페이지는 11-20페이지입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;page position="x"&gt;</span> </p> </td> 
+   <td colname="col2"> <p> 특정 페이지 번호에 대한 상대 링크를 포함합니다. 연속적인 10개의 페이지 번호가 표시됩니다. 1페이지에서는 1-10페이지가 됩니다. 결과 세트의 끝 부분(이 경우 39)에는 30-39페이지가 있습니다. 예를 들어 결과 세트의 중앙, 15페이지는 11-20페이지였습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> selected="true"&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> selected="true"&gt;  </span> </p> </td> 
    <td colname="col2"> <p> 현재 선택한 페이지에 속성으로 적용됩니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -490,12 +493,12 @@ JSON 응답에 대한 다음 사항을 검토할 수 있습니다.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;최근 검색&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 개별 최근 검색 노드. 여러 개의 최근 검색 노드를 가질 수 있습니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;recent-search&gt; </span> </p> </td> 
+   <td colname="col2"> <p> 개별 최근 검색 노드입니다. 최근 검색 노드를 여러 개 가질 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-term&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 고객이 이전에 검색한 용어. </p> </td> 
+   <td colname="col2"> <p> 고객이 이전에 검색했던 용어. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;링크를 클릭합니다&gt; </span> </p> </td> 
@@ -506,11 +509,11 @@ JSON 응답에 대한 다음 사항을 검토할 수 있습니다.
 
 ## 결과 {#section_41AC56BB0A084BF59379B06C8BEF2157}
 
-결과 집합은 JSON 응답의 사용자 정의 가능한 영역입니다. 각 인덱스는 메타데이터의 필드 이름 지정 메커니즘에서 고유합니다. 제목, 설명 및 URL과 같은 각 결과에 대해 반환되는 공통 필드가 있습니다. 하지만 인덱스의 페이지에 대해 정의된 모든 메타데이터는 각 결과 노드에서 사용할 수 있게 될 수 있습니다. 범주화, 가격, 색상 및 축소판은 결과에 적용할 수 있는 몇 가지 옵션을 통해 보다 매력적인 검색 결과를 얻을 수 있습니다.
+결과 집합은 JSON 응답의 사용자 지정 가능한 영역입니다. 각 인덱스는 메타데이터의 필드 이름 지정 메커니즘에서 고유합니다. 제목, 설명 및 URL과 같이 각 결과에 대해 반환되는 공통 필드가 있습니다. 하지만 색인의 페이지에 대해 정의된 모든 메타데이터는 각 결과 노드에서 사용할 수 있게 될 수 있습니다. 범주화, 가격, 색상 및 축소판은 보다 매력적인 검색 결과를 생성하는 데 결과에 적용할 수 있는 옵션 중 일부에 불과합니다.
 
-결과 형식은 구현에 맞는 메타데이터를 기반으로 사용자 지정됩니다. 축소판 이미지 URL을 비롯한 결과에 표시할 모든 결과 데이터는 여기에 포함됩니다.
+결과 형식은 구현 관련 메타데이터를 기반으로 사용자 지정됩니다. 축소판 이미지 URL을 포함하여 결과에 표시할 모든 결과 데이터는 여기에 포함됩니다.
 
-또한 &quot;주요 결과&quot;, &quot;제품&quot; 및 &quot;컨텐츠&quot; 결과 섹션과 같은 페이지 내의 여러 결과 영역을 구성할 수 있습니다. 이러한 경우 패싯은 기본 결과 집합과 연결되지만 여러 결과 영역이 HTML 내에 제공됩니다.
+또한 &quot;주요 결과&quot;와 같은 페이지 내의 여러 결과 영역을 구성하거나 &quot;제품&quot; 및 &quot;컨텐트&quot; 결과 섹션을 분리할 수 있습니다. 이러한 경우 패싯은 기본 결과 집합에만 연결되어 있지만 여러 결과 영역이 HTML 내에 제공됩니다.
 
 예:
 
@@ -634,7 +637,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;index&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 이 결과 집합 내의 결과 일련 번호입니다. 이 예에서 페이지당 10개의 결과가 표시되는 경우, 결과의 페이지 2에서 첫 번째 항목의 인덱스는 11입니다. </p> </td> 
+   <td colname="col2"> <p> 이 결과 집합 내의 결과 일련 번호입니다. 이 예에서 페이지당 10개의 결과가 표시되고 결과의 페이지 2에서는 첫 번째 항목의 인덱스가 11입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;result-title&gt; </span> </p> </td> 
@@ -642,7 +645,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;url&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 이 페이지의 URL. 고객이 결과를 클릭할 수 있는 하이퍼링크를 만드는 데 사용됩니다. </p> </td> 
+   <td colname="col2"> <p> 이 페이지의 URL. 고객이 결과를 클릭스루할 수 있는 하이퍼링크를 만드는 데 사용됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -685,11 +688,11 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;include-tnt-mbox&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 선택적. JSON에 값이 1이면 계정이 Test&amp;Target에 연결되어 <span class="keyword"> 있고 A:B 테스트에 있는 비즈니스 규칙이 하나 </span> 이상 있음을 나타냅니다. </p> </td> 
+   <td colname="col2"> <p> 선택적. JSON에 있을 때, 값 1은 계정이 <span class="keyword"> Test&amp;Target </span>에 연결되어 있고 A:B 테스트에 있는 비즈니스 규칙이 하나 이상 있음을 나타냅니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;자동 완성&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 선택적. 자동 완성 기능을 사용할 때 이 노드는 CSS 및 JavaScript가 양식에 있는 컨텐츠와 함께 페이지에 있음을 나타냅니다. 이러한 필드는 일반적으로 자동 완성 설정을 변경하지 않는 한 변경되지 않습니다. 이러한 경우 xxx_cache_ver 필드가 증가하여 고객 브라우저에서 캐시된 컨텐츠의 무효화가 적용됩니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;autocomplete&gt; </span> </p> </td> 
+   <td colname="col2"> <p> 선택적. 자동 완성 기능을 사용할 때 이 노드는 CSS 및 JavaScript가 양식에 있는 컨텐츠와 함께 페이지에 있음을 나타내기 위해 표시됩니다. 이러한 필드는 자동 완성 설정을 변경하지 않는 한 일반적으로 변경되지 않습니다. 이러한 경우 xxx_cache_ver 필드가 증가하여 고객 브라우저에 캐시된 컨텐츠의 무효화를 적용합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;css&gt; </span> </p> </td> 
@@ -697,22 +700,22 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;form-content&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 자동 완성 유틸리티에서 올바른 컨트롤에 연결하는 데 필요한 컨텐츠를 검색할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p> 자동 완성 유틸리티에서 올바른 컨트롤에 연결하는 데 필요한 내용. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;js&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 자동 완성에 필요한 사용자 지정 JavaScript. 페이지 렌더링을 향상시키려면 이 태그를 페이지에 낮게 배치하는 것이 좋습니다. 자동 완성에는 YUI JavaScript도 필요합니다. </p> </td> 
+   <td colname="col2"> <p> 자동 완성에 필요한 사용자 지정 JavaScript. 페이지 렌더링을 향상시키려면 이 태그를 페이지에 낮게 배치하는 것이 좋습니다. 자동 완성에 YUI JavaScript도 필요합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;hidden-parameters&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 검색 양식에 포함할 숨겨진 매개 변수(이름 및 값)를 모두 포함합니다. </p> </td> 
+   <td colname="col2"> <p> 검색 양식에 포함할 모든 숨겨진 매개 변수(이름 및 값)를 포함합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 정렬 {#section_558853CD376F4D71BACF211D53085D55}
+## {#section_558853CD376F4D71BACF211D53085D55} 정렬
 
-다음 예는 세 가지 옵션 정렬 메뉴에 대한 데이터를 보여줍니다. 이 메뉴를 통해 고객은 연관성, 제목 또는 등급별로 정렬할 수 있습니다. 현재 선택된 항목에는 &quot;selected=true&quot; 특성이 포함됩니다. &quot;. 고객이 원래 표시된 기본 검색 결과로 돌아갈 수 있도록 항상 관련성 옵션을 제공합니다.
+다음 예제는 3옵션 정렬 메뉴에 대한 데이터를 보여줍니다. 이 메뉴를 통해 고객은 연관성, 제목 또는 등급별로 정렬할 수 있습니다. 현재 선택된 항목에는 &quot;selected=true&quot; 특성이 포함됩니다. &quot; 고객이 원래 표시된 기본 검색 결과로 돌아갈 수 있도록 항상 관련성 옵션을 제공합니다.
 
 예:
 
@@ -746,22 +749,22 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;label&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 옵션을 위한 고객 대상 텍스트입니다. </p> </td> 
+   <td colname="col2"> <p> 옵션에 대한 고객 대상 텍스트입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;value&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 이 옵션에 대한 "정렬" 쿼리 문자열 매개 변수의 값을 나타냅니다. 이 태그는 <span class="codeph"> &lt;link&gt; </span> 값이 사용되는 경우에는 필요하지 않습니다. </p> </td> 
+   <td colname="col2"> <p> 이 옵션에 대한 "sort" 쿼리 문자열 매개 변수의 값을 나타냅니다. 이 태그는 <span class="codeph"> &lt;link&gt; </span> 값을 사용하는 경우에는 필요하지 않습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;링크를 클릭합니다&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 선택되지 않은 옵션의 경우 <span class="codeph"> &lt;link&gt; </span> 매개 변수에는 새 정렬 매개 변수를 기준으로 정렬된 동일한 결과 세트를 반환하는 상대 링크가 포함되어 있습니다. 이 필드는 현재 선택된 정렬 옵션에 대해 비어 있습니다. </p> </td> 
+   <td colname="col2"> <p> 선택되지 않은 옵션의 경우 <span class="codeph"> &lt;link&gt; </span> 매개 변수에는 새 정렬 매개 변수로 정렬된 동일한 결과 세트를 반환하는 상대 링크가 포함되어 있습니다. 현재 선택한 정렬 옵션에 대해 이 필드는 비어 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 제안 {#section_6EC104E1DDD94AC799B65E6E61A2FB3C}
 
-결과가 몇 개이거나 없는 경우 제안이 반환됩니다. 이 노드에는 성공적인 쿼리를 생성하는 용어가 들어 있으며 &quot;결과 없음&quot; 페이지에 표시할 수 있습니다. 또한 고객이 새 쿼리로 이동할 수 있도록 링크가 반환됩니다.
+결과가 몇 개이거나 결과가 없을 때 제안이 반환됩니다. 이 노드에는 성공적인 쿼리를 생성하는 용어가 들어 있으며 &quot;결과 없음&quot; 페이지에 표시할 수 있습니다. 또한 새 쿼리로 이동할 수 있도록 링크가 반환됩니다.
 
 예:
 
@@ -775,14 +778,14 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>제안의 태그 </p> </th> 
+   <th colname="col1" class="entry"> <p>제안 내용의 태그 </p> </th> 
    <th colname="col2" class="entry"> <p>설명 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;링크를 클릭합니다&gt; </span> </p> </td> 
-   <td colname="col2"> <p>추천 용어에 대한 검색 결과를 표시하는 하이퍼링크를 만드는 데 사용되는 상대적 링크. </p> </td> 
+   <td colname="col2"> <p>추천 용어에 대한 검색 결과에 대한 하이퍼링크를 만드는 데 사용되는 상대 링크입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;word&gt; </span> </p> </td> 
@@ -814,15 +817,15 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;zone&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 개별 영역 노드. 여러 영역 노드를 가질 수 있습니다. </p> </td> 
+   <td colname="col2"> <p> 개별 영역 노드입니다. 여러 영역 노드를 가질 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;이름&gt; </span> </p> </td> 
    <td colname="col2"> <p> 영역의 이름입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;표시&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 1 또는 0을 사용하여 영역이 표시되는지 여부를 나타냅니다. 실제 영역 컨텐츠는 웹 페이지나 검색 결과에서 정적인 영역(예: 베스트셀러 또는 관련 제품)일 수 있습니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;display&gt; </span> </p> </td> 
+   <td colname="col2"> <p> 1 또는 0을 클릭하여 영역이 표시되는지 여부를 나타냅니다. 실제 영역 컨텐츠는 웹 페이지나 검색 결과에서 정적인 영역(예: 베스트셀러 또는 관련 제품)일 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -831,7 +834,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
 
 표준 XML 응답 출력을 설명하는 표.
 
-XML 응답에서 다음을 검토할 수 있습니다.
+XML 응답을 다음과 같이 검토할 수 있습니다.
 
 * [배너](../c-appendices/c-guidedsearchoutput.md#section_6A19EC26DD3B494194AAA788151B78B5)
 * [탐색 표시](../c-appendices/c-guidedsearchoutput.md#section_E48A71B0EBDB4EDDA7587009AD865488)
@@ -867,23 +870,23 @@ XML 응답에서 다음을 검토할 수 있습니다.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;배너&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 개별 배너 노드 여러 배너 노드를 가질 수 있습니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;banner&gt; </span> </p> </td> 
+   <td colname="col2"> <p> 개별 배너 노드. 여러 배너 노드를 가질 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;영역&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;area&gt; </span> </p> </td> 
    <td colname="col2"> <p> 배너가 표시되는 웹 페이지의 영역입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;콘텐츠&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 배너 영역에 대한 HTML 콘텐츠 </p> </td> 
+   <td colname="col2"> <p> 배너 영역에 대한 HTML 내용. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 탐색 표시 {#section_E48A71B0EBDB4EDDA7587009AD865488}
 
-다음 예에서는 고객이 패싯을 통해 더 좁힐 때마다 선택 사항이 탐색 표시에 추가됩니다. 각 항목은 로 `<breadcrumb-item>`표시됩니다.
+다음 예제에서는 고객이 패싯을 통해 범위를 더 좁힐 때마다 선택 사항이 탐색 표시에 추가됩니다. 각 항목은 `<breadcrumb-item>`으로 표시됩니다.
 
 예:
 
@@ -910,20 +913,20 @@ XML 응답에서 다음을 검토할 수 있습니다.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;링크를 클릭합니다&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 원하는 보기를 보여주는 검색 결과에 대한 상대적 링크. 탐색 표시 링크를 클릭하면 후속 세부 조정이 모두 제거된 보기로 이동합니다. 다른 옵션도 제공됩니다. </p> </td> 
+   <td colname="col2"> <p> 원하는 보기를 표시하는 검색 결과에 대한 상대적 링크입니다. 탐색 표시 링크를 클릭하면 후속 세부 조정이 모두 제거되는 보기로 이동합니다. 기타 옵션도 제공됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;value&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 탐색 표시 항목에 대한 고객 대면 텍스트입니다. </p> </td> 
+   <td colname="col2"> <p> 탐색 표시 항목의 고객 표시 텍스트입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 패싯 {#section_5CEB1F966C004FFEA3CF675638966E25}
 
-패싯은 고객에게 결과를 필터링할 수 있는 개선 옵션입니다. 패싯은 일반적으로 분류, 가격 범위, 색상 선택 및 기타 속성 다듬기에 사용됩니다. 인덱스의 메타데이터는 패싯을 유도하는 것입니다.
+패싯은 고객에게 결과를 필터링할 수 있는 다듬기 옵션입니다. 패싯은 일반적으로 범주화, 가격 범위, 색상 선택 및 기타 속성 다듬기에 사용됩니다. 인덱스의 메타데이터는 패싯을 유도하는 것입니다.
 
-고객이 범주화를 통해 아래로 이동할 때 분류 패싯을 숨기거나 표시하는 것은 일반적입니다. 가장 높은 수준의 분류(카테고리)를 계층 1이라고 합니다. 고객이 계층 1 옵션을 클릭하면 계층 2(하위 카테고리) 다듬기 옵션이 나타나고 계층 1 옵션이 사라집니다. 고객이 계층 2 옵션을 클릭하면 계층 3(하위 카테고리) 세부 조정 옵션이 나타나고 계층 2 옵션이 사라집니다. 위에서 설명한 바와 같이 이러한 옵션은 숨겨지고 표시됩니다. 웹 응용 프로그램은 영향을 받지 않습니다.
+고객이 범주화를 통해 아래로 이동할 때 분류 패싯을 숨기거나 표시하는 것이 일반적입니다. 가장 높은 수준의 분류(카테고리)를 계층 1이라고 합니다. 고객이 계층 1 옵션을 클릭하면 계층 2(하위 카테고리) 다듬기 옵션이 나타나고 계층 1 옵션이 사라집니다. 고객이 계층 2 옵션을 클릭하면 계층 3(하위 카테고리) 다듬기 옵션이 나타나고 계층 2 옵션이 사라집니다. 위에서 설명한 바와 같이 이러한 옵션은 숨겨지고 표시됩니다. 웹 응용 프로그램은 영향을 받지 않습니다.
 
 각 패싯은 `<facet-item>` 태그 내에 포함됩니다. 다음 예에서는 고객이 &quot;휴일&quot;별로 검색 결과를 세분화할 수 있는 하나의 패싯을 보여줍니다.
 
@@ -1019,24 +1022,24 @@ XML 응답에서 다음을 검토할 수 있습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;label&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 패싯 옵션의 고객 측면 레이블입니다. </p> </td> 
+   <td colname="col2"> <p> 패싯 옵션에 대한 고객 대면 레이블입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;링크를 클릭합니다&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 옵션이 다운된 결과에 대한 상대적 링크. </p> </td> 
+   <td colname="col2"> <p> 옵션이 다운된 결과에 대한 상대적 링크입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;count&gt; </span> </p> </td> 
    <td colname="col2"> <p> 세분화된 결과 세트의 결과 수입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;undollink&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 패싯 값을 선택하면 노드가 "실행 취소 링크"를 반환하여 고객이 결과에서 다시 벗어날 수 있습니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;undolink&gt; </span> </p> </td> 
+   <td colname="col2"> <p> 단면화 값을 선택하면 고객이 결과를 되돌릴 수 있는 "실행 취소 링크"를 반환합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 머리글 및 쿼리 {#section_802835E19BCB48239C6770A1B72DFFF8}
+## 헤더 및 쿼리 {#section_802835E19BCB48239C6770A1B72DFFF8}
 
 예:
 
@@ -1051,7 +1054,7 @@ XML 응답에서 다음을 검토할 수 있습니다.
  </query> 
 ```
 
-이러한 태그는 함께 사용되면 다음과 같은 메시지가 표시됩니다.&quot;Showing results 1-16 of 621 for &#39;new year&#39;.&quot;
+이러한 태그는 함께 사용되어 다음과 같은 메시지를 제공합니다.&quot;신년에 대한 621의 1-16을 보여.&quot;
 
 <table> 
  <thead> 
@@ -1063,15 +1066,15 @@ XML 응답에서 다음을 검토할 수 있습니다.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;user-query&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 요청과 함께 제출된 키워드 쿼리입니다. </p> </td> 
+   <td colname="col2"> <p> 요청과 함께 제출된 키워드 쿼리 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;lower-results&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 이 페이지의 첫 번째 결과의 항목 번호입니다. </p> </td> 
+   <td colname="col2"> <p> 이 페이지에서 첫 번째 결과의 항목 번호입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;upper-results&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 이 페이지의 마지막 결과 항목 번호입니다. </p> </td> 
+   <td colname="col2"> <p> 이 페이지의 마지막 결과의 항목 번호입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;total-results&gt; </span> </p> </td> 
@@ -1079,7 +1082,7 @@ XML 응답에서 다음을 검토할 수 있습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;custom-field&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 검색 결과에 전체적으로 적용되는 선택 필드입니다. </p> </td> 
+   <td colname="col2"> <p> 검색 결과에 전역적으로 적용되는 선택적 필드입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1124,26 +1127,26 @@ XML 응답에서 다음을 검토할 수 있습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;page position="first"&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 고객이 이미 페이지 1을 보고 있는 경우를 제외하고 결과 세트의 첫 번째 페이지에 대한 상대적 링크를 포함합니다. 이 경우 비어 있습니다. </p> </td> 
+   <td colname="col2"> <p> 고객이 이미 페이지 1을 보고 있는 경우를 제외하고 결과 세트의 첫 번째 페이지에 대한 상대 링크를 포함합니다. 이 경우 비어 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;page position="last"&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 고객이 마지막 페이지를 보고 있는 경우를 제외하고 결과 세트의 마지막 페이지에 대한 상대 링크를 포함합니다. 이 경우 비어 있습니다. </p> </td> 
+   <td colname="col2"> <p> 고객이 마지막 페이지를 보고 있지 않는 한 결과 세트의 마지막 페이지에 대한 상대적 링크를 포함합니다. 이 경우 비어 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;page position="previous"&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 고객이 페이지 1을 보고 있는 경우를 제외하고 결과 세트의 이전 페이지에 대한 상대 링크를 포함합니다.이 경우 비어 있습니다. </p> </td> 
+   <td colname="col2"> <p> 고객이 페이지 1을 보고 있지 않는 한 결과 세트에서 이전 페이지에 대한 상대 링크를 포함합니다.이 경우 비어 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;page position="next"&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 고객이 마지막 페이지를 보고 있는 경우를 제외하고 결과 세트의 마지막 페이지에 대한 상대 링크를 포함합니다. 이 경우 비어 있습니다. </p> </td> 
+   <td colname="col2"> <p> 고객이 마지막 페이지를 보고 있지 않는 한 결과 세트의 마지막 페이지에 대한 상대적 링크를 포함합니다. 이 경우 비어 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;page position="x" </span> </p> </td> 
-   <td colname="col2"> <p> 특정 페이지 번호에 대한 상대 링크를 포함합니다. 10개의 연속 페이지 번호가 표시됩니다. 1페이지는 1-10페이지입니다. 결과 세트의 끝(이 경우 39)에는 30-39페이지가 있습니다. 예를 들어 결과 세트의 가운데에 있는 15페이지는 11-20페이지입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;page position="x"&gt;</span> </p> </td> 
+   <td colname="col2"> <p> 특정 페이지 번호에 대한 상대 링크를 포함합니다. 연속적인 10개의 페이지 번호가 표시됩니다. 1페이지에서는 1-10페이지가 됩니다. 결과 세트의 끝 부분(이 경우 39)에는 30-39페이지가 있습니다. 예를 들어 결과 세트의 중앙, 15페이지는 11-20페이지였습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> selected="true"&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> selected="true"&gt;  </span> </p> </td> 
    <td colname="col2"> <p> 현재 선택한 페이지에 속성으로 적용됩니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -1173,12 +1176,12 @@ XML 응답에서 다음을 검토할 수 있습니다.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;최근 검색&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 개별 최근 검색 노드. 여러 개의 최근 검색 노드를 가질 수 있습니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;recent-search&gt; </span> </p> </td> 
+   <td colname="col2"> <p> 개별 최근 검색 노드입니다. 최근 검색 노드를 여러 개 가질 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-term&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 고객이 이전에 검색한 용어. </p> </td> 
+   <td colname="col2"> <p> 고객이 이전에 검색했던 용어. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;링크를 클릭합니다&gt; </span> </p> </td> 
@@ -1189,11 +1192,11 @@ XML 응답에서 다음을 검토할 수 있습니다.
 
 ## 결과 {#section_EC496F5CA2634158891455E2F6DF6833}
 
-결과 집합은 XML 응답의 사용자 정의 가능한 영역입니다. 각 인덱스는 메타데이터의 필드 이름 지정 메커니즘에서 고유합니다. 제목, 설명 및 URL과 같은 각 결과에 대해 반환되는 공통 필드가 있습니다. 하지만 인덱스의 페이지에 대해 정의된 모든 메타데이터는 각 결과 노드에서 사용할 수 있게 될 수 있습니다. 범주화, 가격, 색상 및 축소판은 결과에 적용할 수 있는 몇 가지 옵션을 통해 보다 매력적인 검색 결과를 얻을 수 있습니다.
+결과 집합은 XML 응답의 사용자 지정 가능한 영역입니다. 각 인덱스는 메타데이터의 필드 이름 지정 메커니즘에서 고유합니다. 제목, 설명 및 URL과 같이 각 결과에 대해 반환되는 공통 필드가 있습니다. 하지만 색인의 페이지에 대해 정의된 모든 메타데이터는 각 결과 노드에서 사용할 수 있게 될 수 있습니다. 범주화, 가격, 색상 및 축소판은 보다 매력적인 검색 결과를 생성하는 데 결과에 적용할 수 있는 옵션 중 일부에 불과합니다.
 
-결과 형식은 구현에 맞는 메타데이터를 기반으로 사용자 지정됩니다. 축소판 이미지 URL을 비롯한 결과에 표시할 모든 결과 데이터는 여기에 포함됩니다.
+결과 형식은 구현 관련 메타데이터를 기반으로 사용자 지정됩니다. 축소판 이미지 URL을 포함하여 결과에 표시할 모든 결과 데이터는 여기에 포함됩니다.
 
-또한 &quot;주요 결과&quot;, &quot;제품&quot; 및 &quot;컨텐츠&quot; 결과 섹션과 같은 페이지 내의 여러 결과 영역을 구성할 수 있습니다. 이러한 경우 패싯은 기본 결과 집합과 연결되지만 여러 결과 영역이 HTML 내에 제공됩니다.
+또한 &quot;주요 결과&quot;와 같은 페이지 내의 여러 결과 영역을 구성하거나 &quot;제품&quot; 및 &quot;컨텐트&quot; 결과 섹션을 분리할 수 있습니다. 이러한 경우 패싯은 기본 결과 집합에만 연결되어 있지만 여러 결과 영역이 HTML 내에 제공됩니다.
 
 예:
 
@@ -1317,15 +1320,15 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;index&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 이 결과 집합 내의 결과 일련 번호입니다. 이 예에서 페이지당 10개의 결과가 표시되는 경우, 결과의 페이지 2에서 첫 번째 항목의 인덱스는 11입니다. </p> </td> 
+   <td colname="col2"> <p> 이 결과 집합 내의 결과 일련 번호입니다. 이 예에서 페이지당 10개의 결과가 표시되고 결과의 페이지 2에서는 첫 번째 항목의 인덱스가 11입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;result-title&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 이 페이지의 고객 대면 제목입니다. </p> </td> 
+   <td colname="col2"> <p> 이 페이지의 고객을 위한 제목입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;url&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 이 페이지의 URL. 고객이 결과를 클릭할 수 있는 하이퍼링크를 만드는 데 사용됩니다. </p> </td> 
+   <td colname="col2"> <p> 이 페이지의 URL. 고객이 결과를 클릭스루할 수 있는 하이퍼링크를 만드는 데 사용됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1368,11 +1371,11 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;include-tnt-mbox&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 선택적. XML에 있는 값 1은 계정이 Test&amp;Target에 연결되어 <span class="keyword"> 있고 A:B 테스트에 있는 비즈니스 규칙이 하나 </span> 이상 있음을 나타냅니다. </p> </td> 
+   <td colname="col2"> <p> 선택적. XML에 있는 값 1은 계정이 <span class="keyword"> Test&amp;Target </span>에 연결되어 있고 A:B 테스트에 있는 비즈니스 규칙이 하나 이상 있음을 나타냅니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;자동 완성&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 선택적. 자동 완성 기능을 사용할 때 이 노드는 CSS 및 JavaScript가 양식에 있는 컨텐츠와 함께 페이지에 있음을 나타냅니다. 이러한 필드는 일반적으로 자동 완성 설정을 변경하지 않는 한 변경되지 않습니다. 이러한 경우 xxx_cache_ver 필드가 증가하여 고객 브라우저에서 캐시된 컨텐츠의 무효화가 적용됩니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;autocomplete&gt; </span> </p> </td> 
+   <td colname="col2"> <p> 선택적. 자동 완성 기능을 사용할 때 이 노드는 CSS 및 JavaScript가 양식에 있는 컨텐츠와 함께 페이지에 있음을 나타내기 위해 표시됩니다. 이러한 필드는 자동 완성 설정을 변경하지 않는 한 일반적으로 변경되지 않습니다. 이러한 경우 xxx_cache_ver 필드가 증가하여 고객 브라우저에 캐시된 컨텐츠의 무효화를 적용합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;css&gt; </span> </p> </td> 
@@ -1380,22 +1383,22 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;form-content&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 자동 완성 유틸리티에서 올바른 컨트롤에 연결하는 데 필요한 컨텐츠를 검색할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p> 자동 완성 유틸리티에서 올바른 컨트롤에 연결하는 데 필요한 내용. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;js&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 자동 완성에 필요한 사용자 지정 JavaScript. 페이지 렌더링을 향상시키려면 이 태그를 페이지에 낮게 배치하는 것이 좋습니다. 자동 완성에는 YUI JavaScript도 필요합니다. </p> </td> 
+   <td colname="col2"> <p> 자동 완성에 필요한 사용자 지정 JavaScript. 페이지 렌더링을 향상시키려면 이 태그를 페이지에 낮게 배치하는 것이 좋습니다. 자동 완성에 YUI JavaScript도 필요합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;hidden-parameters&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 검색 양식에 포함할 숨겨진 매개 변수(이름 및 값)를 모두 포함합니다. </p> </td> 
+   <td colname="col2"> <p> 검색 양식에 포함할 모든 숨겨진 매개 변수(이름 및 값)를 포함합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 정렬 {#section_32DC50A103BF491BA3665A5CADCCAADE}
+## {#section_32DC50A103BF491BA3665A5CADCCAADE} 정렬
 
-다음 예는 세 가지 옵션 정렬 메뉴에 대한 데이터를 보여줍니다. 이 메뉴를 통해 고객은 연관성, 제목 또는 등급별로 정렬할 수 있습니다. 현재 선택된 항목에는 &quot;selected=true&quot; 특성이 포함됩니다. &quot;. 고객이 원래 표시된 기본 검색 결과로 돌아갈 수 있도록 항상 관련성 옵션을 제공합니다.
+다음 예제는 3옵션 정렬 메뉴에 대한 데이터를 보여줍니다. 이 메뉴를 통해 고객은 연관성, 제목 또는 등급별로 정렬할 수 있습니다. 현재 선택된 항목에는 &quot;selected=true&quot; 특성이 포함됩니다. &quot; 고객이 원래 표시된 기본 검색 결과로 돌아갈 수 있도록 항상 관련성 옵션을 제공합니다.
 
 예:
 
@@ -1429,22 +1432,22 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;label&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 옵션을 위한 고객 대상 텍스트입니다. </p> </td> 
+   <td colname="col2"> <p> 옵션에 대한 고객 대상 텍스트입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;value&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 이 옵션에 대한 "정렬" 쿼리 문자열 매개 변수의 값을 나타냅니다. 이 태그는 <span class="codeph"> &lt;link&gt; </span> 값이 사용되는 경우에는 필요하지 않습니다. </p> </td> 
+   <td colname="col2"> <p> 이 옵션에 대한 "sort" 쿼리 문자열 매개 변수의 값을 나타냅니다. 이 태그는 <span class="codeph"> &lt;link&gt; </span> 값을 사용하는 경우에는 필요하지 않습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;링크를 클릭합니다&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 선택되지 않은 옵션의 경우 <span class="codeph"> &lt;link&gt; </span> 매개 변수에는 새 정렬 매개 변수를 기준으로 정렬된 동일한 결과 세트를 반환하는 상대 링크가 포함되어 있습니다. 이 필드는 현재 선택된 정렬 옵션에 대해 비어 있습니다. </p> </td> 
+   <td colname="col2"> <p> 선택되지 않은 옵션의 경우 <span class="codeph"> &lt;link&gt; </span> 매개 변수에는 새 정렬 매개 변수로 정렬된 동일한 결과 세트를 반환하는 상대 링크가 포함되어 있습니다. 현재 선택한 정렬 옵션에 대해 이 필드는 비어 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 제안 {#section_D81BCE46F0AF443695DF9C4BA084B716}
 
-결과가 몇 개이거나 없는 경우 제안이 반환됩니다. 이 노드에는 성공적인 쿼리를 생성하는 용어가 들어 있으며 &quot;결과 없음&quot; 페이지에 표시할 수 있습니다. 또한 고객이 새 쿼리로 이동할 수 있도록 링크가 반환됩니다.
+결과가 몇 개이거나 결과가 없을 때 제안이 반환됩니다. 이 노드에는 성공적인 쿼리를 생성하는 용어가 들어 있으며 &quot;결과 없음&quot; 페이지에 표시할 수 있습니다. 또한 새 쿼리로 이동할 수 있도록 링크가 반환됩니다.
 
 예:
 
@@ -1458,14 +1461,14 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
 <table> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>제안의 태그 </p> </th> 
+   <th colname="col1" class="entry"> <p>제안 내용의 태그 </p> </th> 
    <th colname="col2" class="entry"> <p>설명 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;링크를 클릭합니다&gt; </span> </p> </td> 
-   <td colname="col2"> <p>추천 용어에 대한 검색 결과를 표시하는 하이퍼링크를 만드는 데 사용되는 상대적 링크. </p> </td> 
+   <td colname="col2"> <p>추천 용어에 대한 검색 결과에 대한 하이퍼링크를 만드는 데 사용되는 상대 링크입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;word&gt; </span> </p> </td> 
@@ -1497,26 +1500,26 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;zone&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 개별 영역 노드. 여러 영역 노드를 가질 수 있습니다. </p> </td> 
+   <td colname="col2"> <p> 개별 영역 노드입니다. 여러 영역 노드를 가질 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;이름&gt; </span> </p> </td> 
    <td colname="col2"> <p> 영역의 이름입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;표시&gt; </span> </p> </td> 
-   <td colname="col2"> <p> 1 또는 0을 사용하여 영역이 표시되는지 여부를 나타냅니다. 실제 영역 컨텐츠는 웹 페이지나 검색 결과에서 정적인 영역(예: 베스트셀러 또는 관련 제품)일 수 있습니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;display&gt; </span> </p> </td> 
+   <td colname="col2"> <p> 1 또는 0을 클릭하여 영역이 표시되는지 여부를 나타냅니다. 실제 영역 컨텐츠는 웹 페이지나 검색 결과에서 정적인 영역(예: 베스트셀러 또는 관련 제품)일 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Adobe Experience Manager를 위한 검색 XML 출력 {#reference_DBE13C606C3A4BB185DE53F88D0D3048}
+## Adobe Experience Manager {#reference_DBE13C606C3A4BB185DE53F88D0D3048}에 대한 검색 XML 출력
 
-AEM(Adobe Experience Manager)에 대한 표준 XML 응답 출력을 설명하는 표.
+AEM(Adobe Experience Manager)의 표준 XML 응답 출력을 설명하는 표.
 
 을 참조하십시오. [검색 안내 XML 출력](../c-appendices/c-guidedsearchoutput.md#reference_D93E859A277643068B10AE7A61C973EA)
 
-XML 응답에서 다음을 검토할 수 있습니다.
+XML 응답을 다음과 같이 검토할 수 있습니다.
 
 * [배너](../c-appendices/c-guidedsearchoutput.md#section_B16EDC5533FA4494AC9983AA7357CBE3)
 * [브레드크럼](../c-appendices/c-guidedsearchoutput.md#section_49EA7043FBE44315A79A4E738BE30114)
@@ -1539,7 +1542,7 @@ XML 응답에서 다음을 검토할 수 있습니다.
 
 배너 예:
 
-다음은 &quot;top&quot;이라는 페이지 영역에 배치된 배너의 예입니다.
+다음은 &quot;top&quot;이라는 페이지 영역에 배치되는 배너의 예입니다.
 
 ```xml
    <banners> 
@@ -1562,15 +1565,15 @@ XML 응답에서 다음을 검토할 수 있습니다.
   <tr> 
    <td colname="col1"> <p>배너 </p> </td> 
    <td colname="col2"> <p>고객 결과 </p> </td> 
-   <td colname="col3"> <p>각 배너 영역과 해당 영역에 연결된 컨텐츠를 나타내는 0-n 배너 노드를 포함합니다. </p> </td> 
+   <td colname="col3"> <p>각 배너 영역과 해당 영역에 연결된 컨텐츠를 나타내는 0-n 배너 노드가 포함되어 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>배너 </p> </td> 
    <td colname="col2"> <p>배너 </p> </td> 
-   <td colname="col3"> <p>개별 배너 노드 여러 배너 노드를 가질 수 있습니다. </p> </td> 
+   <td colname="col3"> <p>개별 배너 노드. 여러 배너 노드를 가질 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>영역 </p> </td> 
+   <td colname="col1"> <p>지역 </p> </td> 
    <td colname="col2"> <p>배너 </p> </td> 
    <td colname="col3"> <p>배너가 표시되는 웹 페이지의 영역입니다. </p> </td> 
   </tr> 
@@ -1584,9 +1587,9 @@ XML 응답에서 다음을 검토할 수 있습니다.
 
 ## 브레드크럼 {#section_49EA7043FBE44315A79A4E738BE30114}
 
-여러 탐색 표시를 지원합니다. > **[!UICONTROL Design]** 에서 탐색 표시 및 해당 동작을 정의할 **[!UICONTROL Navigation]** 수 **[!UICONTROL Breadcrumbs]**&#x200B;있습니다. 또한 정의한 각 탐색 표시에 대해 고유한 이름을 지정해야 합니다. 탐색 표시 XML 노드는 정의된 모든 탐색 표시를 반복합니다. 검색 결과에 탐색 표시를 하나만 표시하는 것이 좋습니다.
+여러 탐색 표시를 지원합니다. 탐색 표시 및 해당 비헤이비어는 **[!UICONTROL Design]** > **[!UICONTROL Navigation]** > **[!UICONTROL Breadcrumbs]**&#x200B;에서 정의할 수 있습니다. 또한 정의한 각 탐색 표시에 고유한 이름을 지정해야 합니다. 탐색 표시 XML 노드는 정의된 모든 탐색 표시를 반복합니다. 검색 결과에 탐색 표시를 하나만 표시하는 것이 좋습니다.
 
-다음 예에서는 고객이 패싯을 통해 더 좁힐 때마다 선택 사항이 탐색 표시에 추가됩니다. 각 항목은 로 `<breadcrumb-item>`표시됩니다.
+다음 예제에서는 고객이 패싯을 통해 범위를 더 좁힐 때마다 선택 사항이 탐색 표시에 추가됩니다. 각 항목은 `<breadcrumb-item>`으로 표시됩니다.
 
 탐색 표시 노드 예:
 
@@ -1618,46 +1621,46 @@ XML 응답에서 다음을 검토할 수 있습니다.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>탐색 </p> </td> 
+   <td colname="col1"> <p>탐색 표시 </p> </td> 
    <td colname="col2"> <p>고객 결과 </p> </td> 
-   <td colname="col3"> <p> 각 탐색 표시를 정의하는 0-n 탐색 표시 노드를 포함합니다. 대부분의 고객은 하나의 브레드크럼만 가지고 있습니다. </p> </td> 
+   <td colname="col3"> <p> 각 탐색 표시를 정의하는 0-n 탐색 표시 노드를 포함합니다. 대부분의 고객은 한 가지 탐색 표시를 가지고 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>탐색 표시 </p> </td> 
-   <td colname="col2"> <p>탐색 </p> </td> 
+   <td colname="col1"> <p>탐색 경로 </p> </td> 
+   <td colname="col2"> <p>탐색 표시 </p> </td> 
    <td colname="col3"> <p> 탐색 표시의 정의를 정의하는 하위 노드를 포함합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>이름 </p> </td> 
-   <td colname="col2"> <p>탐색 표시 </p> </td> 
+   <td colname="col2"> <p>탐색 경로 </p> </td> 
    <td colname="col3"> <p> 탐색 표시의 이름입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>탐색 표시 항목 </p> </td> 
-   <td colname="col2"> <p>탐색 표시 내의 개별 항목입니다. 각 항목은 사용자가 결과 집합을 축소할 때 트레일의 단계를 나타냅니다. </p> </td> 
+   <td colname="col2"> <p>탐색 표시 내의 개별 항목입니다. 사용자가 결과 집합을 좁힐 때 각 항목은 트레일에서 단계를 나타냅니다. </p> </td> 
    <td colname="col3"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>링크를 클릭합니다 </p> </td> 
    <td colname="col2"> <p>탐색 표시 항목 </p> </td> 
-   <td colname="col3"> <p> 원하는 보기를 보여주는 검색 결과에 대한 상대적 링크. 탐색 표시 링크를 클릭하면 후속 세부 조정이 모두 제거된 보기로 이동합니다. 드롭 및 제거와 같은 다른 옵션도 사용할 수 있습니다. </p> </td> 
+   <td colname="col3"> <p> 원하는 보기를 표시하는 검색 결과에 대한 상대적 링크입니다. 탐색 표시 링크를 클릭하면 후속 세부 조정이 모두 제거되는 보기로 이동합니다. 드롭 및 제거와 같은 다른 옵션도 사용할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>value </p> </td> 
    <td colname="col2"> <p>탐색 표시 항목 </p> </td> 
-   <td colname="col3"> <p> 탐색 표시 항목에 대한 고객 대면 텍스트입니다. </p> </td> 
+   <td colname="col3"> <p> 탐색 표시 항목의 고객 표시 텍스트입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>label </p> </td> 
    <td colname="col2"> <p>탐색 표시 항목 </p> </td> 
-   <td colname="col3"> <p> 레이블 태그는 탐색 표시 항목을 생성하기 위해 선택한 패싯을 자세히 설명하는 탐색 표시 값에 대한 레이블을 출력합니다. 안내 탐색 표시 블록의 컨텍스트에서만 사용됩니다. 쿼리 용어 단계의 경우 이 항목은 비어 있습니다. </p> </td> 
+   <td colname="col3"> <p> label 태그는 탐색 표시 항목을 생성하기 위해 선택한 패싯을 자세히 설명하는 탐색 표시 값에 대한 레이블을 출력합니다. 안내 탐색 표시 블록의 컨텍스트에서만 사용됩니다. 쿼리 용어 단계의 경우 이 항목은 비어 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 사용자 정의 필드 {#section_38DD31AFE5DD4263A63644AFF484E0F4}
+## 사용자 지정 필드 {#section_38DD31AFE5DD4263A63644AFF484E0F4}
 
-사용자 지정 필드는 글로벌 컨텍스트가 있는 기타 변수 모음입니다. 일반적으로 검색 결과 페이지의 메타데이터에 설정된 SEO 목적으로 변수를 전달하는 데 사용됩니다.
+사용자 지정 필드는 글로벌 컨텍스트가 있는 기타 변수 모음입니다. 일반적으로 검색 결과 페이지의 메타데이터에 설정된 SEO 용도로 변수를 전달하는 데 사용됩니다.
 
 사용자 정의 필드 노드 예:
 
@@ -1680,23 +1683,23 @@ XML 응답에서 다음을 검토할 수 있습니다.
   <tr> 
    <td colname="col1"> <p>사용자 정의 필드 </p> </td> 
    <td colname="col2"> <p>고객 결과 </p> </td> 
-   <td colname="col3"> <p> 사용자 지정 필드를 정의하는 0-n개의 하위 노드를 포함할 수 있습니다. </p> </td> 
+   <td colname="col3"> <p> 사용자 지정 필드를 정의하는 0n개의 하위 노드를 포함할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>custom-field </p> </td> 
    <td colname="col2"> <p>사용자 정의 필드 </p> </td> 
-   <td colname="col3"> <p> 선택적. name 속성으로 지정된 사용자 지정 필드의 값을 포함합니다. </p> </td> 
+   <td colname="col3"> <p> 선택적. name 속성에 지정된 사용자 정의 필드의 값을 포함합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 패싯 {#section_BE98990E3DD748A1BD4E0CA322314B79}
 
-패싯은 고객에게 결과를 필터링할 수 있는 개선 옵션입니다. 패싯은 일반적으로 분류, 가격 범위, 색상 선택 및 기타 속성 다듬기에 사용됩니다. 패싯은 인덱스의 메타데이터 위에 만들어집니다.
+패싯은 고객에게 결과를 필터링할 수 있는 다듬기 옵션입니다. 패싯은 일반적으로 범주화, 가격 범위, 색상 선택 및 기타 속성 다듬기에 사용됩니다. 패싯은 색인의 메타데이터 위에 만들어집니다.
 
-고객이 범주화를 통해 아래로 이동할 때 분류 패싯을 숨기거나 표시하는 것은 일반적입니다. 가장 높은 수준의 분류(카테고리)를 계층 1이라고 합니다. 고객이 계층 1 옵션을 클릭하면 계층 2(하위 카테고리) 다듬기 옵션이 나타나고 계층 1 옵션이 사라집니다. 고객이 계층 2 옵션을 클릭하면 계층 3(하위 카테고리) 세부 조정 옵션이 나타나고 계층 2 옵션이 사라집니다. 위에서 언급한 바와 같이, 이러한 옵션은 숨겨지고 표시됩니다.웹 애플리케이션은 영향을 주지 않습니다.
+고객이 범주화를 통해 아래로 이동할 때 분류 패싯을 숨기거나 표시하는 것이 일반적입니다. 가장 높은 수준의 분류(카테고리)를 계층 1이라고 합니다. 고객이 계층 1 옵션을 클릭하면 계층 2(하위 카테고리) 다듬기 옵션이 나타나고 계층 1 옵션이 사라집니다. 고객이 계층 2 옵션을 클릭하면 계층 3(하위 카테고리) 다듬기 옵션이 나타나고 계층 2 옵션이 사라집니다. 위에서 설명한 바와 같이 이러한 옵션은 숨겨지고 표시됩니다.웹 응용 프로그램은 영향을 주지 않습니다.
 
-각 패싯은 `<facet-item>` 태그 내에 포함됩니다. 다음 예에서는 고객이 검색 결과를 &quot;휴일&quot;별로 세분화할 수 있는 하나의 패싯을 보여줍니다.
+각 패싯은 `<facet-item>` 태그 내에 포함됩니다. 다음 예에서는 고객이 &quot;휴일&quot;별로 검색 결과를 세분화할 수 있는 하나의 패싯을 보여줍니다.
 
 패싯 블록의 예:
 
@@ -1787,38 +1790,38 @@ XML 응답에서 다음을 검토할 수 있습니다.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>단면화 </p> </td> 
+   <td colname="col1"> <p>단면 </p> </td> 
    <td colname="col2"> <p>고객 결과 </p> </td> 
    <td colname="col3"> <p>각 패싯을 나타내는 0n개의 하위 노드가 있는 컨테이너 패싯 노드입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>단면화 </p> </td> 
-   <td colname="col2"> <p>단면화 </p> </td> 
+   <td colname="col1"> <p>단면 </p> </td> 
+   <td colname="col2"> <p>단면 </p> </td> 
    <td colname="col3"> <p> 단일 패싯 인스턴스입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>facet-title </p> </td> 
-   <td colname="col2"> <p>단면화 </p> </td> 
+   <td colname="col2"> <p>단면 </p> </td> 
    <td colname="col3"> <p>패싯에 대한 고객 대면 제목입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>동작 </p> </td> 
-   <td colname="col2"> <p>단면화 </p> </td> 
-   <td colname="col3"> <p>패싯의 동작입니다. 예: 일반, 고정 또는 다중 선택. </p> </td> 
+   <td colname="col1"> <p>행동 </p> </td> 
+   <td colname="col2"> <p>단면 </p> </td> 
+   <td colname="col3"> <p>패싯 동작입니다. 예: 보통, 고정 또는 다중 선택. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>선택됨 </p> </td> 
-   <td colname="col2"> <p>단면화 </p> </td> 
-   <td colname="col3"> <p>1 패싯에 선택된 값이 있는 경우, 그렇지 않은 경우 0입니다. </p> </td> 
+   <td colname="col2"> <p>단면 </p> </td> 
+   <td colname="col3"> <p>1패싯에 선택한 값이 없으면 0이 됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>undo-link </p> </td> 
-   <td colname="col2"> <p>단면화 </p> </td> 
-   <td colname="col3"> <p> 패싯을 선택한 경우에만 표시됩니다. 실행 취소 링크는 전체 패싯을 되돌립니다. 예를 들어 다중 선택 패싯인 경우 패싯에 대해 선택한 모든 옵션을 선택 취소합니다. </p> </td> 
+   <td colname="col2"> <p>단면 </p> </td> 
+   <td colname="col3"> <p> 패싯을 선택한 경우에만 표시됩니다. 실행 취소 링크는 전체 패싯을 되돌립니다. 예를 들어 다중 선택 패싯인 경우 패싯에 대해 선택된 모든 옵션을 선택 취소합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>facet-value </p> </td> 
-   <td colname="col2"> <p>단면화 </p> </td> 
+   <td colname="col2"> <p>단면 </p> </td> 
    <td colname="col3"> <p>패싯에 속하는 모든 개별 패싯 항목을 포함합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -1829,12 +1832,12 @@ XML 응답에서 다음을 검토할 수 있습니다.
   <tr> 
    <td colname="col1"> <p>label </p> </td> 
    <td colname="col2"> <p>facet-value </p> </td> 
-   <td colname="col3"> <p>패싯 옵션의 고객 측면 레이블입니다. 기본적으로 HTML 이스케이프된 HTML로 이미 설정되었습니다. </p> </td> 
+   <td colname="col3"> <p>패싯 옵션에 대한 고객 대면 레이블입니다. 기본적으로 이것은 이미 HTML 이스케이프되었습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>링크를 클릭합니다 </p> </td> 
    <td colname="col2"> <p>facet-value </p> </td> 
-   <td colname="col3"> <p> 옵션에 대한 상대적 링크가 추가되어 결과가 수정됩니다. </p> </td> 
+   <td colname="col3"> <p> 옵션에 더 많은 벌금을 부과하는 결과에 대한 상대적 링크입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>count </p> </td> 
@@ -1844,7 +1847,7 @@ XML 응답에서 다음을 검토할 수 있습니다.
   <tr> 
    <td colname="col1"> <p>undo-link </p> </td> 
    <td colname="col2"> <p>facet-value </p> </td> 
-   <td colname="col3"> <p>패싯 값이 선택되면 노드는 고객이 개별 패싯 선택을 다시 선택할 수 있도록 해주는 "실행 취소 링크"를 반환합니다. </p> </td> 
+   <td colname="col3"> <p>패싯 값을 선택하면 노드에서 고객이 개별 패싯 선택을 다시 선택할 수 있도록 하는 "실행 취소 링크"를 반환합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1859,11 +1862,11 @@ xml version="1.0" encoding="utf-8" standalone="yes"
 
 ## 메뉴 및 정렬 {#section_A34CBB645DBF4C70A12A5B7E81211295}
 
-결과를 정렬하기 위한 메뉴가 지원되며 페이지당 반환되는 결과 수를 변경할 수 있습니다. 또한 &quot;검색으로 검색&quot;을 사용하는 데 유용한 탐색 메뉴를 지원합니다. 계정은 동일한 유형의 여러 메뉴를 정의하고 해당 프레젠테이션에 메뉴를 사용할 수 있습니다.
+결과를 정렬하기 위한 메뉴가 지원되며 페이지당 반환되도록 결과 수를 변경할 수 있습니다. 또한 &quot;탐색으로 검색&quot;을 사용하는 데 유용한 탐색 메뉴를 지원합니다. 계정은 동일한 유형의 여러 메뉴를 정의하고 해당 프레젠테이션에 메뉴를 사용할 수 있습니다.
 
-예제 메뉴 노드:
+메뉴 노드 예:
 
-다음 예제는 3옵션 정렬 메뉴와 탐색 메뉴에 대한 데이터를 보여줍니다. 정렬 메뉴를 통해 고객은 연관성, 제목 또는 등급별로 정렬할 수 있습니다. 현재 선택된 항목에는 &quot;selected=true&quot; 특성이 포함됩니다. &quot;. 고객이 원래 표시된 기본 검색 결과로 돌아갈 수 있도록 항상 관련성 옵션을 제공합니다.
+다음 예제에서는 3옵션 정렬 메뉴와 탐색 메뉴에 대한 데이터를 보여 줍니다. 정렬 메뉴를 통해 고객은 연관성, 제목 또는 등급별로 정렬할 수 있습니다. 현재 선택된 항목에는 &quot;selected=true&quot; 특성이 포함됩니다. &quot; 고객이 원래 표시된 기본 검색 결과로 돌아갈 수 있도록 항상 관련성 옵션을 제공합니다.
 
 ```xml
 <menus> 
@@ -1948,7 +1951,7 @@ xml version="1.0" encoding="utf-8" standalone="yes"
   <tr> 
    <td colname="col1"> <p>메뉴 </p> </td> 
    <td colname="col2"> <p>메뉴 </p> </td> 
-   <td colname="col3"> <p>메뉴의 단일 인스턴스([디자인] &gt; [탐색] &gt; [메뉴]에 정의된 메뉴에 <span class="uicontrol"> 해당 </span> ) <span class="uicontrol"> </span> 를 <span class="uicontrol"> 표시합니다 </span>. </p> </td> 
+   <td colname="col3"> <p>메뉴의 단일 인스턴스(<span class="uicontrol"> 디자인 </span> &gt; <span class="uicontrol"> 탐색 </span> &gt; <span class="uicontrol"> 메뉴 </span>에 정의된 메뉴에 해당합니다). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>이름 </p> </td> 
@@ -1958,31 +1961,31 @@ xml version="1.0" encoding="utf-8" standalone="yes"
   <tr> 
    <td colname="col1"> <p>항목 </p> </td> 
    <td colname="col2"> <p>메뉴 </p> </td> 
-   <td colname="col3"> <p>메뉴의 각 항목을 정의합니다. 선택한 선택적 속성이 현재 지정된 메뉴 항목을 선택한 경우 true로 설정됩니다. </p> </td> 
+   <td colname="col3"> <p>메뉴의 각 항목을 정의합니다. 주어진 메뉴 항목이 현재 선택된 경우 선택한 선택적 속성이 true로 설정됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>label </p> </td> 
    <td colname="col2"> <p>항목 </p> </td> 
-   <td colname="col3"> <p>메뉴 항목의 고객 대상 텍스트입니다. </p> </td> 
+   <td colname="col3"> <p>메뉴 항목에 대한 고객을 위한 텍스트입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>value </p> </td> 
    <td colname="col2"> <p>항목 </p> </td> 
-   <td colname="col3"> <p>메뉴 항목의 값을 나타냅니다(메뉴가 설정된 쿼리 매개 변수 값). &lt;link&gt; 값이 사용되는 경우에는 이 태그가 필요하지 않습니다. </p> </td> 
+   <td colname="col3"> <p>메뉴 항목의 값을 나타냅니다(메뉴가 설정된 쿼리 매개 변수 값). &lt;link&gt; 값을 사용하는 경우에는 이 태그가 필요하지 않습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>링크를 클릭합니다 </p> </td> 
    <td colname="col2"> <p>항목 </p> </td> 
-   <td colname="col3"> <p>선택하지 않은 옵션의 경우 &lt;link&gt; 매개 변수에는 동일한 결과 집합을 반환하지만 메뉴 옵션이 적용된 상대 링크가 포함되어 있습니다. 이 필드는 현재 선택된 정렬 옵션에 대해 비어 있습니다. </p> </td> 
+   <td colname="col3"> <p>선택되지 않은 옵션의 경우 &lt;link&gt; 매개 변수에는 동일한 결과 세트를 반환하지만 메뉴 옵션이 적용된 상대 링크가 포함됩니다. 현재 선택한 정렬 옵션에 대해 이 필드는 비어 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 페이지 매김 {#section_E52F81C6A6EB4B8F996157B657EC540F}
 
-결과 세트는 여러 페이지에 분할됩니다. 일반적으로 고객은 한 페이지에 10 - 20개의 결과를 표시합니다. 다음 페이지에 후속 결과가 표시됩니다. 페이지 매김 XML을 사용하면 탐색 링크 집합을 만들어 고객이 결과 집합을 통해 페이지별로 탐색할 수 있습니다. 다음 4개의 탐색 링크를 사용할 수 있습니다.first, last, next, and previous. 각 유형의 링크를 통해 신속하게 페이지를 이동할 수 있으므로 원하는 내용을 손쉽게 검토하고 조정할 수 있습니다.
+결과 세트는 여러 페이지에 분할됩니다. 일반적으로 고객은 한 페이지에 10 - 20개의 결과를 표시합니다. 다음 페이지에 결과가 표시됩니다. 페이지 매김 XML을 사용하면 고객이 결과 집합을 통해 탐색, 페이지별 페이지를 탐색할 수 있도록 일련의 탐색 링크를 만들 수 있습니다. 4개의 탐색 링크가 있습니다.첫 번째, 마지막, 다음 및 이전 각 유형의 링크를 통해 신속하게 페이지를 이동할 수 있으므로 원하는 내용을 손쉽게 검토하고 조정할 수 있습니다.
 
-다음 예는 다섯 페이지에 대한 링크를 표시하도록 페이지 매김이 구성된 첫 번째 페이지에 있는 검색에 대한 페이지 매김을 보여줍니다.
+다음 예는 5개 페이지에 대한 링크를 표시하도록 구성된 페이지 매김이 있는 첫 번째 페이지에 있는 검색에 대한 페이지 매김을 보여줍니다.
 
 페이지 매김 예:
 
@@ -2019,24 +2022,24 @@ xml version="1.0" encoding="utf-8" standalone="yes"
   <tr> 
    <td colname="col1"> <p>총 페이지 수 </p> </td> 
    <td colname="col2"> <p>페이지 매김 </p> </td> 
-   <td colname="col3"> <p>검색 결과가 분산되어 있는 총 페이지 수입니다. </p> </td> 
+   <td colname="col3"> <p>검색 결과가 분산되는 총 페이지 수입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>페이지 </p> </td> 
    <td colname="col2"> <p>페이지 매김 </p> </td> 
-   <td colname="col3"> <p>페이지의 각 페이지를 정의하는 0-n 페이지 노드를 포함합니다. </p> </td> 
+   <td colname="col3"> <p>페이지 매김에서 각 페이지를 정의하는 0-n 페이지 노드를 포함합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>page </p> </td> 
    <td colname="col2"> <p>페이지 </p> </td> 
-   <td colname="col3"> <p>4개의 특수 페이지 노드가 있습니다.first, last, previous, next 등이 있습니다. 이 네 개의 페이지는 선택 사항이며 해당 페이지가 적절할 경우에만 결과 세트에 나타납니다. 예를 들어, 1페이지에 있는 경우 "이전" 링크가 없습니다. 다른 모든 페이지는 위치를 나타냅니다. 나열되는 페이지 수는 페이지 지정 사용자 인터페이스에 구성된 "페이지에 대한 링크 수"에 따라 다릅니다. "selected" 속성은 고객이 현재 있는 페이지를 나타냅니다. </p> </td> 
+   <td colname="col3"> <p>4개의 특수 페이지 노드가 있습니다.첫 번째, 마지막, 이전 및 다음. 이 4개 페이지는 선택 사항이며, 의미가 있는 경우에만 결과 세트에 표시됩니다. 예를 들어, 1페이지에 있는 경우 "이전" 링크가 없습니다. 다른 모든 페이지는 위치를 나타냅니다. 나열되는 페이지 수는 페이지 매김 사용자 인터페이스에 구성된 "페이지에 대한 링크 수"에 따라 다릅니다. "selected" 속성은 고객이 현재 있는 페이지를 나타냅니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 쿼리 {#section_3DAA1013F09742869B80F6A361816E6C}
 
-쿼리 노드의 예:
+쿼리 노드 예:
 
 ```xml
     <query> 
@@ -2059,26 +2062,26 @@ xml version="1.0" encoding="utf-8" standalone="yes"
   <tr> 
    <td colname="col1"> <p>query </p> </td> 
    <td colname="col2"> <p>고객 결과 </p> </td> 
-   <td colname="col3"> <p> 쿼리에 대한 개요를 제공하는 전역 노드입니다. </p> </td> 
+   <td colname="col3"> <p> 쿼리에 대한 개요를 제공하는 글로벌 노드입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용자 쿼리 </p> </td> 
-   <td colname="col2"> <p>query </p> </td> 
-   <td colname="col3"> <p> 검색된 키워드입니다. Did <span class="uicontrol"> You Mean은 원래 용어가 결과를 반환하지 않아 제안된 용어를 </span> 자동으로 검색하면 검색된 새 키워드에 반영됩니다(원본 키워드를 가져오려면 제안 노드 참조). </p> </td> 
+   <td colname="col2"> <p>쿼리 </p> </td> 
+   <td colname="col3"> <p> 검색한 키워드입니다. 원래 용어에 결과가 없는 것으로 인해 <span class="uicontrol">이(가) 제안된 용어를 자동으로 검색했습니까?</span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>하단 결과 </p> </td> 
-   <td colname="col2"> <p>query </p> </td> 
-   <td colname="col3"> <p> 이 페이지의 첫 번째 결과의 항목 번호입니다. </p> </td> 
+   <td colname="col1"> <p>낮은 결과 </p> </td> 
+   <td colname="col2"> <p>쿼리 </p> </td> 
+   <td colname="col3"> <p> 이 페이지에서 첫 번째 결과의 항목 번호입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>상위 결과 </p> </td> 
-   <td colname="col2"> <p>query </p> </td> 
-   <td colname="col3"> <p> 이 페이지의 마지막 결과 항목 번호입니다. </p> </td> 
+   <td colname="col2"> <p>쿼리 </p> </td> 
+   <td colname="col3"> <p> 이 페이지의 마지막 결과의 항목 번호입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>총 결과 수 </p> </td> 
-   <td colname="col2"> <p>query </p> </td> 
+   <td colname="col2"> <p>쿼리 </p> </td> 
    <td colname="col3"> <p> 사용자 쿼리와 일치하는 총 결과 수입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -2086,7 +2089,7 @@ xml version="1.0" encoding="utf-8" standalone="yes"
 
 ## 최근 검색 {#section_17F942F6EC07456DABED7A483AC08446}
 
-최근 검색은 쿠키 정보를 사이트 검색/머천다이징 서버로 릴레이하는 경우에만 작동하는 쿠키 기반 기능입니다.
+최근 검색은 쿠키 정보를 사이트 검색/머천다이징 서버로 중계하는 경우에만 작동하는 쿠키 기반 기능입니다.
 
 최근 검색의 예:
 
@@ -2112,10 +2115,10 @@ xml version="1.0" encoding="utf-8" standalone="yes"
   <tr> 
    <td colname="col1"> <p>최근 검색 </p> </td> 
    <td colname="col2"> <p>고객 결과 </p> </td> 
-   <td colname="col3"> <p>Node is only present if search has recent searches. </p> </td> 
+   <td colname="col3"> <p>노드는 검색에 최근 검색이 있는 경우에만 존재합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>clear-link </p> </td> 
+   <td colname="col1"> <p>링크 지우기 </p> </td> 
    <td colname="col2"> <p>최근 검색 </p> </td> 
    <td colname="col3"> <p>모든 고객의 최근 검색을 삭제하는 상대 경로입니다. </p> </td> 
   </tr> 
@@ -2127,23 +2130,23 @@ xml version="1.0" encoding="utf-8" standalone="yes"
   <tr> 
    <td colname="col1"> <p>링크를 클릭합니다 </p> </td> 
    <td colname="col2"> <p>최근 검색 </p> </td> 
-   <td colname="col3"> <p>사용자가 최근에 수행한 검색을 수행하는 링크를 만드는 경로입니다. </p> </td> 
+   <td colname="col3"> <p>사용자가 최근 수행한 검색을 수행하는 링크를 만드는 경로입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>label </p> </td> 
    <td colname="col2"> <p>최근 검색 </p> </td> 
-   <td colname="col3"> <p>최근 검색에 대한 고객 대면 표시 레이블. </p> </td> 
+   <td colname="col3"> <p>최근 검색에 대한 고객 표시 레이블. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 결과 {#section_155A80B8C4F641678DD9C8F257108412}
 
-결과 집합은 XML 응답의 사용자 정의 가능한 영역입니다. 각 인덱스는 메타데이터의 필드 이름 지정 메커니즘에서 고유합니다. 제목, 설명 및 URL과 같은 각 결과에 대해 반환되는 공통 필드가 있습니다. 하지만 인덱스의 페이지에 대해 정의된 모든 메타데이터는 각 결과 노드에서 사용할 수 있게 될 수 있습니다. 범주화, 가격, 색상 및 축소판은 결과에 적용할 수 있는 몇 가지 옵션을 통해 보다 매력적인 검색 결과를 얻을 수 있습니다.
+결과 집합은 XML 응답의 사용자 지정 가능한 영역입니다. 각 인덱스는 메타데이터의 필드 이름 지정 메커니즘에서 고유합니다. 제목, 설명 및 URL과 같이 각 결과에 대해 반환되는 공통 필드가 있습니다. 하지만 색인의 페이지에 대해 정의된 모든 메타데이터는 각 결과 노드에서 사용할 수 있게 될 수 있습니다. 범주화, 가격, 색상 및 축소판은 보다 매력적인 검색 결과를 생성하는 데 결과에 적용할 수 있는 옵션 중 일부에 불과합니다.
 
-결과 형식은 구현에 맞는 메타데이터를 기반으로 사용자 지정됩니다. 축소판 이미지 URL을 비롯한 결과에 표시할 모든 결과 데이터는 여기에 포함됩니다.
+결과 형식은 구현 관련 메타데이터를 기반으로 사용자 지정됩니다. 축소판 이미지 URL을 포함하여 결과에 표시할 모든 결과 데이터는 여기에 포함됩니다.
 
-또한 &quot;주요 결과&quot;, &quot;제품&quot; 및 &quot;컨텐츠&quot; 결과 섹션과 같은 페이지 내의 여러 결과 영역을 구성할 수 있습니다. 이러한 경우 패싯은 기본 결과 집합과 연결되지만 여러 결과 영역이 HTML 내에 제공됩니다.
+또한 &quot;주요 결과&quot;와 같은 페이지 내의 여러 결과 영역을 구성하거나 &quot;제품&quot; 및 &quot;컨텐트&quot; 결과 섹션을 분리할 수 있습니다. 이러한 경우 패싯은 기본 결과 집합에만 연결되어 있지만 여러 결과 영역이 HTML 내에 제공됩니다.
 
 결과 노드 예:
 
@@ -2203,12 +2206,12 @@ xml version="1.0" encoding="utf-8" standalone="yes"
   <tr> 
    <td colname="col1"> <p>결과 </p> </td> 
    <td colname="col2"> <p>고객 결과 </p> </td> 
-   <td colname="col3"> <p>0n 결과 집합에 대한 컨테이너 노드입니다. 결과 세트가 0이면 특별한 결과가 없는 랜딩 페이지에 있는 것입니다. </p> </td> 
+   <td colname="col3"> <p>0-n 결과 집합에 대한 컨테이너 노드입니다. 결과 집합이 없다는 것은 특별한 결과가 없는 랜딩 페이지에 있음을 의미합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>결과 집합 </p> </td> 
    <td colname="col2"> <p>결과 </p> </td> 
-   <td colname="col3"> <p>들어오는 검색에서 여러 검색을 실행할 수 있습니다. 각 결과 세트에는 수행된 특정 명명된 검색에 대한 결과가 포함됩니다. </p> </td> 
+   <td colname="col3"> <p>들어오는 검색에서 여러 검색을 실행할 수 있습니다. 각 결과 집합에는 수행된 특정 명명된 검색에 대한 결과가 포함됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>이름 </p> </td> 
@@ -2218,7 +2221,7 @@ xml version="1.0" encoding="utf-8" standalone="yes"
   <tr> 
    <td colname="col1"> <p>결과 </p> </td> 
    <td colname="col2"> <p>결과 집합 </p> </td> 
-   <td colname="col3"> <p>결과 집합에 대한 개별 결과와 연결된 모든 필드를 포함합니다. </p> </td> 
+   <td colname="col3"> <p>결과 세트에 대한 개별 결과와 연관된 모든 필드를 포함합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>필드를 사용하여 참조할 수 있습니다 </p> </td> 
@@ -2230,7 +2233,7 @@ xml version="1.0" encoding="utf-8" standalone="yes"
 
 ## 검색 양식 {#section_9E4B99D4FEDC49629F6C7E866F3A7493}
 
-검색 양식은 검색 양식을 동적으로 만들 수 있도록 결과 세트에 포함됩니다. 이 단계는 선택 사항입니다. 대부분의 고객은 고정된 검색 양식을 가지고 있습니다. 그러나 A:B 테스트를 수행하는 비즈니스 규칙이 하나 이상 있는 것을 기준으로 검색 양식에 Test&amp;Target mbox가 필요한지 여부를 고객이 결정할 수 있습니다. 마찬가지로 고객은 최신 자동 완성 CSS 및 JavaScript를 자동으로 선택할 수 있습니다.
+검색 양식은 고객이 검색 양식을 동적으로 작성할 수 있도록 결과 세트에 포함됩니다. 이 단계는 선택 사항입니다. 대부분의 고객은 고정된 검색 양식을 가지고 있습니다. 하지만 A:B 테스트를 수행하는 비즈니스 규칙이 하나 이상 있는 것을 기준으로 검색 양식에 Test&amp;Library mbox가 필요한지 여부를 고객이 결정할 수 있도록 해줍니다. 유사하게, 고객은 최신 자동 완성 CSS 및 JavaScript를 자동으로 선택할 수 있습니다.
 
 검색 양식 XML의 예:
 
@@ -2265,17 +2268,17 @@ xml version="1.0" encoding="utf-8" standalone="yes"
   <tr> 
    <td colname="col1"> <p>검색 양식 </p> </td> 
    <td colname="col2"> <p>고객 결과 </p> </td> 
-   <td colname="col3"> <p>검색 양식을 구동하기 위한 데이터를 포함합니다. </p> </td> 
+   <td colname="col3"> <p>검색 양식을 유도하는 데이터를 포함합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>include-tnt-mbox </p> </td> 
    <td colname="col2"> <p> 검색 양식 </p> </td> 
-   <td colname="col3"> <p>기술적으로 Test&amp;Target A:B 테스트를 수행하는 비즈니스 규칙이 하나 이상 있을 때만 검색 양식에 mbox가 필요합니다. 이 노드는 mbox가 필요한지 또는 Test&amp;Target 서버의 히트 수를 줄일 수 있도록 허용하지 않는지 여부를 나타냅니다. </p> </td> 
+   <td colname="col3"> <p>기술적으로 Test&amp;Target A:B 테스트를 수행하는 비즈니스 규칙이 하나 이상 있을 때만 검색 양식에 mbox가 필요합니다. 이 노드는 mbox가 필요하거나 Test&amp;Target 서버의 히트 수를 줄일 수 있도록 허용하지 않는지 여부를 나타냅니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>자동 완성 </p> </td> 
    <td colname="col2"> <p>검색 양식 </p> </td> 
-   <td colname="col3"> <p>자동 완성과 관련된 하위 노드가 있습니다. </p> </td> 
+   <td colname="col3"> <p>자동 완성과 관련된 하위 노드를 포함합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>활성화됨 </p> </td> 
@@ -2285,26 +2288,26 @@ xml version="1.0" encoding="utf-8" standalone="yes"
   <tr> 
    <td colname="col1"> <p>css </p> </td> 
    <td colname="col2"> <p> 자동 완성 </p> </td> 
-   <td colname="col3"> <p> CSS를 사용하여 자동으로 완성 이 노드를 페이지에 가능한 한 높게 배치합니다. </p> </td> 
+   <td colname="col3"> <p> CSS를 사용하여 자동으로 완성 이 노드를 가능한 한 높은 페이지로 배치합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 양식 컨텐츠 </p> </td> 
    <td colname="col2"> <p>자동 완성 </p> </td> 
-   <td colname="col3"> <p>검색 양식에 삽입된 컨텐츠. </p> </td> 
+   <td colname="col3"> <p>검색 양식에 삽입되는 컨텐츠. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>javascript </p> </td> 
    <td colname="col2"> <p>자동 완성 </p> </td> 
-   <td colname="col3"> <p>JavaScript for autocomplete. 이 노드를 페이지에 가능한 낮게 배치합니다. </p> </td> 
+   <td colname="col3"> <p>자동 완성 기능을 위한 JavaScript 이 노드를 페이지에 가능한 낮게 배치합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 제안 {#section_2899FACB9AD84F60B3687C1B4EF09E15}
 
-고객은 다음 세 가지 방법으로 **[!UICONTROL Did You Mean]** 기능을 구성할 수 있습니다.결과가 없으므로 제안을 하거나, 결과가 없을 때 첫 번째 제안을 자동으로 검색하거나, 결과가 좋지 않아 제안(제안 결과 수가 높은 경우)를 수행합니다. 모든 제안 결과
+고객은 다음 3가지 방법으로 **[!UICONTROL Did You Mean]** 기능을 구성할 수 있습니다.결과가 없는 상태에서 제안을 하거나, 결과가 없을 때 첫 번째 제안을 자동으로 검색하거나, 결과가 낮은 경우(제안 결과가 더 많은 경우) 제안을 할 수 있습니다. 모든 제안 결과가 표시됩니다.
 
-이 제안 노드에는 성공적인 쿼리를 생성하는 용어가 포함되어 있습니다. 또한 고객이 새 쿼리로 이동할 수 있도록 링크가 반환됩니다.
+이 제안 노드에는 성공적인 쿼리를 생성하는 용어가 포함되어 있습니다. 또한 새 쿼리로 이동할 수 있도록 링크가 반환됩니다.
 
 결과 0으로 인한 제안을 만들기 위한 예제 출력:
 
@@ -2319,7 +2322,7 @@ xml version="1.0" encoding="utf-8" standalone="yes"
     </suggestions>
 ```
 
-제안 시 자동으로 검색을 위한 출력 예:
+제안을 자동으로 검색하는 출력 예:
 
 ```xml
     <suggestions> 
@@ -2329,7 +2332,7 @@ xml version="1.0" encoding="utf-8" standalone="yes"
     </suggestions> 
 ```
 
-낮은 결과로 인해 제안을 만들기 위한 예제 출력:
+결과가 낮기 때문에 제안을 만들기 위한 예제 출력:
 
 ```xml
    <suggestions> 
@@ -2354,27 +2357,27 @@ xml version="1.0" encoding="utf-8" standalone="yes"
   <tr> 
    <td colname="col1"> <p>제안 </p> </td> 
    <td colname="col2"> <p>고객 결과 </p> </td> 
-   <td colname="col3"> <p> 제안(있는 경우)을 정의하는 하위 노드를 포함합니다. </p> </td> 
+   <td colname="col3"> <p> 제안이 있을 경우 제안을 정의하는 하위 노드를 포함합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>자동 검색 </p> </td> 
    <td colname="col2"> <p>제안 </p> </td> 
-   <td colname="col3"> <p> 사이트 검색/머천다이징이 결과가 없으므로 새 용어에 대해 자동으로 검색되는지 여부를 나타냅니다. </p> </td> 
+   <td colname="col3"> <p> 결과가 없는 경우 사이트 검색/머천다이징이 새 용어에 대해 자동으로 검색되는지 여부를 나타냅니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>orig-query </p> </td> 
+   <td colname="col1"> <p>원본 쿼리 </p> </td> 
    <td colname="col2"> <p>제안 </p> </td> 
-   <td colname="col3"> <p> 사이트 검색/머천다이징이 첫 번째 제안을 자동으로 검색할 때 쿼리 노드의 사용자 쿼리는 검색된 키워드를 표시합니다. 이 노드는 원래 쿼리 용어를 표시합니다. 이 두 가지를 결합하여 고객은 "아카시가 아닌 아케이드 검색"과 같은 구조를 만들 수 있습니다. </p> </td> 
+   <td colname="col3"> <p> 사이트 검색/머천다이징이 첫 번째 제안을 자동으로 검색할 때 쿼리 노드의 사용자 쿼리는 검색된 키워드를 표시합니다. 이 노드는 원래 쿼리 용어를 표시합니다. 이 두 가지를 결합하면 "arcace 대신 아케이드 검색"과 같은 구조를 만들 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>제안 결과 낮음 </p> </td> 
+   <td colname="col1"> <p>제안/결과가 낮음 </p> </td> 
    <td colname="col2"> <p>제안 </p> </td> 
-   <td colname="col3"> <p>이 경우, 현재 검색어로 인해 사이트 검색/머천다이징이 제안을 하고 있는지 여부 및 제안이 더 높은 결과를 얻음을 나타냅니다. 두 임계값은 Did You Mean에서 <span class="uicontrol"> 구성할 수 </span>있습니다. </p> </td> 
+   <td colname="col3"> <p>있는 경우, 현재 검색 기간이 낮은 결과를 제공하는 데 따른 사이트 검색/머천다이징이 제안인지 여부 및 제안의 결과가 상당히 높은지 여부를 나타냅니다. 두 임계값은 <span class="uicontrol"> </span>을(를) 의미했습니까? </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>제안 항목 </p> </td> 
    <td colname="col2"> <p>제안 </p> </td> 
-   <td colname="col3"> <p>다양한 제안을 나타내는 0-n 노드를 포함합니다. </p> </td> 
+   <td colname="col3"> <p>다양한 제안을 나타내는 0n 노드를 포함합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>링크를 클릭합니다 </p> </td> 
@@ -2384,16 +2387,16 @@ xml version="1.0" encoding="utf-8" standalone="yes"
   <tr> 
    <td colname="col1"> <p>word </p> </td> 
    <td colname="col2"> <p>제안 항목 </p> </td> 
-   <td colname="col3"> <p> 추천 단어를 포함합니다. </p> </td> 
+   <td colname="col3"> <p> 제안된 단어를 포함합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 템플릿 {#section_1E2BB2F274B04F5491A4CCCC38F507BD}
 
-결과에 따라 고객 검색 경험을 전환할 수 있는 기능이 지원됩니다. 이 작업의 일부에는 다른 검색 결과 레이아웃으로 서로 다른 템플릿 간을 전환하는 작업이 포함됩니다. 예를 들어 제품이 많은 경우 제품의 격자 보기가 있는 템플릿이 있을 수 있습니다. 또는 더 자세한 정보가 있는 단일 결과를 표시할 때 &quot;스포트라이트&quot; 템플릿이 있을 수 있습니다. 검색에서 결과가 나오지 않는 경우 &quot;결과 없음&quot; 템플릿이 있을 수도 있습니다. 템플릿 노드는 검색 결과를 표시하는 데 사용되는 템플릿을 나타냅니다.
+결과에 따라 고객 검색 경험을 전환할 수 있는 기능이 지원됩니다. 이 중 일부에는 다른 검색 결과 레이아웃으로 서로 다른 템플릿 간을 전환하는 작업이 포함됩니다. 예를 들어 제품이 많은 경우 제품의 격자 보기가 있는 템플릿이 있을 수 있습니다. 또는 세부 사항이 더 많은 단일 결과를 표시할 때 &quot;주목 받는&quot; 템플릿이 있을 수 있습니다. 검색에서 결과를 반환하지 않는 경우 &quot;결과 없음&quot; 템플릿이 있을 수도 있습니다. 템플릿 노드는 검색 결과를 표시하는 데 사용되는 템플릿을 나타냅니다.
 
-템플릿 예:
+예제 템플릿:
 
 ```xml
 <template><![CDATA[grid]]></template>
@@ -2418,7 +2421,7 @@ xml version="1.0" encoding="utf-8" standalone="yes"
 
 ## 영역 {#section_26C4A947E7B1474A8E37D86D9579B93E}
 
-영역은 비즈니스 규칙으로 켜거나 끌 수 있는 페이지의 섹션입니다. 영역에는 패싯, 검색, 탐색 표시, 정적 컨텐츠를 포함하나 이에 제한되지 않는 모든 컨텐츠가 포함될 수 있습니다. 고객 웹 페이지의 영역은 사이트 검색/머천다이징과 동일한 영역에 매핑해야 합니다.
+영역은 비즈니스 규칙으로 활성화 또는 비활성화할 수 있는 페이지의 섹션입니다. 영역에는 패싯, 검색, 탐색 표시, 정적 컨텐트를 포함하나 이에 제한되지 않는 모든 컨텐트가 포함될 수 있습니다. 고객 웹 페이지의 영역은 사이트 검색/머천다이징과 동일한 영역에 매핑해야 합니다.
 
 영역 노드의 예:
 
@@ -2448,7 +2451,7 @@ xml version="1.0" encoding="utf-8" standalone="yes"
   <tr> 
    <td colname="col1"> <p>zone </p> </td> 
    <td colname="col2"> <p>zone </p> </td> 
-   <td colname="col3"> <p> 개별 영역 노드. 여러 영역 노드를 가질 수 있습니다. </p> </td> 
+   <td colname="col3"> <p> 개별 영역 노드입니다. 여러 영역 노드를 가질 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>이름 </p> </td> 
@@ -2456,8 +2459,8 @@ xml version="1.0" encoding="utf-8" standalone="yes"
    <td colname="col3"> <p>영역의 이름입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>표시 </p> </td> 
-   <td colname="col2"> <p>1 또는 0(영역 이름에 해당하는 영역이 표시되거나 숨겨졌는지를 나타냅니다.) </p> </td> 
+   <td colname="col1"> <p>디스플레이 </p> </td> 
+   <td colname="col2"> <p>1 또는 0(영역 이름에 해당하는 영역이 표시되거나 숨겨지는지 여부 표시) </p> </td> 
    <td colname="col3"> <p> </p> </td> 
   </tr> 
  </tbody> 
@@ -2465,14 +2468,14 @@ xml version="1.0" encoding="utf-8" standalone="yes"
 
 ## 예 {#reference_64B7D8D228AF4B8D90EDF4DE507B0F84}
 
-Geometrixx라는 가상의 웹 사이트에서 * 검색에 대한 예제 출력과 예제 출력을 생성하는 데 사용되는 예제 프레젠테이션 템플릿입니다.
+Geometrixx라는 가상 웹 사이트에서 * 검색에 대한 예제 출력 및 예제 출력을 생성하는 데 사용되는 예제 프레젠테이션 템플릿입니다.
 
 * [출력 예](../c-appendices/c-guidedsearchoutput.md#section_515C000A18B847D59097D0A9CCC02636)
 * [프레젠테이션 템플릿 예](../c-appendices/c-guidedsearchoutput.md#section_AD42571DFB88491AA7F0FDF0929EBE97)
 
 ## 출력 예 {#section_515C000A18B847D59097D0A9CCC02636}
 
-Geometrixx라는 가상 웹 사이트에서 * 검색에 대한 예제 출력입니다.
+가상 웹 사이트(Geometrixx)에서 * 검색에 대한 예제 출력입니다.
 
 ```xml
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?> 
@@ -2826,7 +2829,7 @@ Geometrixx라는 가상 웹 사이트에서 * 검색에 대한 예제 출력입�
 
 ## 프레젠테이션 템플릿 예 {#section_AD42571DFB88491AA7F0FDF0929EBE97}
 
-다음은 위의 예제 출력을 생성하는 데 사용되는 예제 프레젠테이션 템플릿입니다.
+다음은 위의 예제 출력을 만드는 데 사용되는 예제 프레젠테이션 템플릿입니다.
 
 ```xml
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?> 
