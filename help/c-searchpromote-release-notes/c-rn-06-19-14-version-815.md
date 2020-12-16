@@ -1,24 +1,27 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Search&amp;Promote 8.15.0 릴리스 노트(2014년 6월 19일)
+seo-title: Search&Amp;Promote 8.15.0 릴리스 노트(6/19/2014)
 solution: Target
-title: Search&amp;Promote 8.15.0 릴리스 노트(2014년 6월 19일)
+title: Search&Amp;Promote 8.15.0 릴리스 노트(6/19/2014)
 topic: Release Notes,Site search and merchandising
 uuid: bb250450-48b4-4563-84b9-66f2c3dc063a
 translation-type: tm+mt
 source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 58%
 
 ---
 
 
-# Search&amp;Promote 8.15.0 Release Notes (6/19/2014){#search-promote-release-notes}
+# Search &amp; Promote 8.15.0 릴리스 노트(6/19/2014){#search-promote-release-notes}
 
 **새로운 기능**
 
-* 구문 분석 - 이제 구문 내 동의어의 형태소가 지원됩니다.  [!DNL Adobe Search&Promote]에서 이 기능을 사용하도록 설정하고 사용하려면 Adobe 기술 계정 관리자에게 문의하십시오.
+* 구문 분석 - 이제 구문 내 동의어의 형태소 분석이 지원됩니다.  [!DNL Adobe Search&Promote]에서 이 기능을 사용하도록 설정하고 사용하려면 Adobe 기술 계정 관리자에게 문의하십시오.
 
-   웹 컨텐츠와 검색어를 일치시키는 **[!UICONTROL Alternate Word Forms]** [방법 구성의 옵션 표도 참조하십시오.](../c-about-linguistics-menu/c-about-words-and-language.md#task_351A9144A51F4B41923BDBACDEF3B616).
+   [웹 컨텐츠와 검색어가 일치하는 방법 구성의 옵션 표에서 **[!UICONTROL Alternate Word Forms]**&#x200B;도 참조하십시오.](../c-about-linguistics-menu/c-about-words-and-language.md#task_351A9144A51F4B41923BDBACDEF3B616).
 
 **수정 사항 및 개선 사항**
 
