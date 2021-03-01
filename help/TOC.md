@@ -2,14 +2,14 @@
 cloud: experience-cloud
 product: adobe search and promote
 solution: Search & Promote
-type: Documentation
+type: 설명서
 audience: end-user
 user-guide-title: Adobe 검색&amp;홍보 안내서
 breadcrumb-title: Adobe 검색&amp;홍보 안내서
 translation-type: tm+mt
 source-git-commit: 4f1daa8f4737e0e1f2693aa96ab067e552f51a0f
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '255'
 ht-degree: 9%
 
 ---
