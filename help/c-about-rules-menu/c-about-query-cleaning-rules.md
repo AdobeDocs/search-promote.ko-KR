@@ -1,15 +1,13 @@
 ---
 description: 쿼리 정리 규칙을 사용하여 들어오는 쿼리를 분석하고 수정합니다.
-seo-description: 쿼리 정리 규칙을 사용하여 들어오는 쿼리를 분석하고 수정합니다.
-seo-title: 쿼리 정리 규칙 정보
 solution: Target
 title: 쿼리 정리 규칙 정보
-topic: Rules,Site search and merchandising
+topic: 규칙, 사이트 검색 및 머천다이징
 uuid: 683af81f-f7c0-45f8-9212-e5e7cb82ccca
 translation-type: tm+mt
-source-git-commit: d07cdc2c88f93eed4cecb0ee8818f7fdea06ee9d
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1611'
+source-wordcount: '1601'
 ht-degree: 1%
 
 ---
