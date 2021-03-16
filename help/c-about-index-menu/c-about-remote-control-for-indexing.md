@@ -1,15 +1,13 @@
 ---
 description: 웹 사이트가 변경될 때마다 검색 로봇이 Remote Control을 사용하여 인덱스를 실행하도록 요청하는 스크립트 또는 프로그램을 실행할 수 있습니다.
-seo-description: 웹 사이트가 변경될 때마다 검색 로봇이 Remote Control을 사용하여 인덱스를 실행하도록 요청하는 스크립트 또는 프로그램을 실행할 수 있습니다.
-seo-title: 색인화를 위한 원격 제어 정보
 solution: Target
 title: 색인화를 위한 원격 제어 정보
-topic: Index,Site search and merchandising
+topic: 색인, 사이트 검색 및 머천다이징
 uuid: 20e230c6-5c1a-4bf4-bff3-b8236d14ab21
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1042'
 ht-degree: 1%
 
 ---
@@ -75,12 +73,12 @@ ht-degree: 1%
    <td colname="col2"> <p>실행할 다음 인덱싱 작업 중 하나를 지정할 수 있습니다. </p> <p> 
      <ul id="ul_6CA190AC41694BC293FC7C6BABA629FE"> 
       <li id="li_EFC76E31D47E473F9A56B2EBA8A97CA1"> <span class="codeph"> full_index  </span> <p>검색 로봇은 웹 사이트의 전체 인덱스를 실행합니다. </p> </li> 
-      <li id="li_A9ACE21718804A21B3DA7B84AB6729D3"> <span class="codeph"> increment_index  </span> <p>검색 로봇은 <span class="uicontrol"> <b> </b> </span> &gt; <span class="uicontrol"> <b> </b> </span> &gt; <span class="uicontrol"> <b> &lt;a9/&gt; 구성</b></span> 아래에 설정된 구성을 사용하여 증분 인덱스를 실행합니다. </p> </li> 
-      <li id="li_722FE409AE454AD48ACE95C4CDC7A00B"> <span class="codeph"> vertical_index  </span> <p>검색 로봇은 <span class="uicontrol"> <b> </b> </span> &gt; <span class="uicontrol"> <b> </b> </span> &gt; <span class="uicontrol"> <b> &lt;a9/&gt; 구성</b></span> 아래에 설정된 구성을 사용하여 수직 업데이트를 실행합니다. </p> <p><a href="../c-about-index-menu/c-about-vertical-updates.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> 수직 업데이트 정보</a>를 참조하십시오. </p> </li> 
+      <li id="li_A9ACE21718804A21B3DA7B84AB6729D3"> <span class="codeph"> increment_index  </span> <p>검색 로봇은 <span class="uicontrol"> <b> </b> </span> &gt; <span class="uicontrol"> <b> </b> </span> &gt; <span class="uicontrol"> <b>  구성</b></span> 아래에 설정된 구성을 사용하여 증분 인덱스를 실행합니다. </p> </li> 
+      <li id="li_722FE409AE454AD48ACE95C4CDC7A00B"> <span class="codeph"> vertical_index  </span> <p>검색 로봇은 <span class="uicontrol"> <b> </b> </span> &gt; <span class="uicontrol"> <b> </b> </span> &gt; <span class="uicontrol"> <b>  구성</b></span> 아래에 설정된 구성을 사용하여 수직 업데이트를 실행합니다. </p> <p><a href="../c-about-index-menu/c-about-vertical-updates.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> 수직 업데이트 정보</a>를 참조하십시오. </p> </li> 
       <li id="li_A40B513CE17043A4925CE3D4DE0B48A4"> <span class="codeph"> script_index  </span> <p>검색 로봇은 <span class="uicontrol"> <b>인덱스</b> </span> &gt; <span class="uicontrol"> <b> </b> </span> &gt; <span class="uicontrol"> <b> 구성</b></span> 아래에 지정된 텍스트 파일을 사용하여 증분 인덱스를 실행합니다. </p> </li> 
       <li id="li_A0BC7F1373B14393997BAB7690FD3EF7"> <span class="codeph"> full_staged_index  </span> <p>검색 로봇은 웹 사이트의 전체 스테이지 인덱스를 실행합니다. </p> </li> 
-      <li id="li_47753E358457443A95B384A278FACA83"> <span class="codeph"> increation_staged_index  </span> <p>검색 로봇은 <span class="uicontrol"> <b> </b> </span> &gt; <span class="uicontrol"> <b> </b> </span> &gt; <span class="uicontrol"> <b> &lt;a9/&gt; 구성</b></span> 아래에 설정된 구성을 사용하여 증분 단계 인덱스를 실행합니다. </p> </li> 
-      <li id="li_C8B5F8F1208E438ABEFDF9129A6B14A3"> <span class="codeph"> vertised_index  </span> <p>검색 로봇은 <span class="uicontrol"> <b> </b> </span> &gt; <span class="uicontrol"> <b> </b> </span> &gt; <span class="uicontrol"> <b> &lt;a9/&gt; 구성</b></span> 아래에 설정된 구성을 사용하여 수직 단계 업데이트를 실행합니다. </p> </li> 
+      <li id="li_47753E358457443A95B384A278FACA83"> <span class="codeph"> increation_staged_index  </span> <p>검색 로봇은 <span class="uicontrol"> <b> </b> </span> &gt; <span class="uicontrol"> <b> </b> </span> &gt; <span class="uicontrol"> <b>  구성</b></span> 아래에 설정된 구성을 사용하여 증분 단계 인덱스를 실행합니다. </p> </li> 
+      <li id="li_C8B5F8F1208E438ABEFDF9129A6B14A3"> <span class="codeph"> vertised_index  </span> <p>검색 로봇은 <span class="uicontrol"> <b> </b> </span> &gt; <span class="uicontrol"> <b> </b> </span> &gt; <span class="uicontrol"> <b>  구성</b></span> 아래에 설정된 구성을 사용하여 수직 단계 업데이트를 실행합니다. </p> </li> 
      </ul> </p> <p>참고: 수직 업데이트를 사용하려면 Adobe 계정 담당자 또는 Adobe 지원 담당자가 귀하의 계정에서 사용하도록 설정해야 할 수 있습니다. </p> <p><a href="../c-about-index-menu/c-about-vertical-updates.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> 수직 업데이트 </a> 정보를 참조하십시오. </p> <p>검색 로봇이 저장된 컨텐츠를 사용하려고 시도하도록 하려면 위의 <span class="codeph"> sp_operation </span> 값에 <span class="codeph"> _saved </span> 값을 추가할 수 있습니다. 예를 들어 다음을 지정할 수 있습니다. </p> <p> <code class="syntax html"> sp_operation=full_index_saved </code> </p> <p>또는  </p> <p> <code class="syntax html"> sp_operation=full_staged_index_saved </code> </p> <p>또는 위의 <span class="codeph"> sp_operation </span> 값에 <span class="codeph"> _status </span>를 추가하여 현재 또는 가장 최근 작업에 대한 상태 보고서를 요청할 수 있습니다. 예를 들어 다음을 지정할 수 있습니다. </p> <p> <code class="syntax html"> sp_operation=full_index_status </code> </p> <p>또는  </p> <p> <code class="syntax html"> sp_operation=full_staged_index_status </code> </p> <p>결과를 JSON 개체로 반환합니다. 연결된 로그 파일의 N 행을 포함하려면 <span class="codeph"> sp_lines=N </span>을 포함합니다. N이 음수이면 마지막 N 라인이 포함됩니다. </p> </td> 
   </tr> 
   <tr> 
