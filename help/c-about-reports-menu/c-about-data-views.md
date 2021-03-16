@@ -1,15 +1,13 @@
 ---
 description: 데이터 보기에는 메타 필드가 있는 검색 결과가 표시됩니다. 각 열은 메타 필드이며 각 행은 검색 쿼리에서 생성됩니다. 열을 선택하고 다시 정렬하여 데이터 보기 사용자 지정을 참조하십시오. 데이터 보기에는 사용자 정의 제목과 설명이 포함될 수도 있습니다.
-seo-description: 데이터 보기에는 메타 필드가 있는 검색 결과가 표시됩니다. 각 열은 메타 필드이며 각 행은 검색 쿼리에서 생성됩니다. 열을 선택하고 다시 정렬하여 데이터 보기 사용자 지정을 참조하십시오. 데이터 보기에는 사용자 정의 제목과 설명이 포함될 수도 있습니다.
-seo-title: 데이터 보기 정보
 solution: Target
 title: 데이터 보기 정보
-topic: Reports,Site search and merchandising
+topic: 보고서,사이트 검색 및 머천다이징
 uuid: 18930551-960d-40c2-b5b7-0807a2e11134
 translation-type: tm+mt
-source-git-commit: 7af85dd37f06fe506e5f57e28a25385ca7ab3db5
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1023'
 ht-degree: 1%
 
 ---
