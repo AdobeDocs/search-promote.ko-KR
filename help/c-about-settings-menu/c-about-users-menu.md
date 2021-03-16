@@ -1,16 +1,14 @@
 ---
 description: 사용자 메뉴를 사용하여 사용자를 보고 추가하고, 역할을 보고 추가하거나, 역할 멤버십을 변경할 수 있습니다. [사용자] 메뉴에서 작업을 수행하려면 관리자 권한이 있는 사이트 검색/머천다이징 사용자여야 합니다.
-seo-description: 사용자 메뉴를 사용하여 사용자를 보고 추가하고, 역할을 보고 추가하거나, 역할 멤버십을 변경할 수 있습니다. [사용자] 메뉴에서 작업을 수행하려면 관리자 권한이 있는 사이트 검색/머천다이징 사용자여야 합니다.
-seo-title: 사용자 메뉴 정보
 solution: Target
 subtopic: Users
 title: 사용자 메뉴 정보
-topic: Settings,Site search and merchandising
+topic: 설정,사이트 검색 및 머천다이징
 uuid: 6242b73c-5e8a-44b7-9942-0684530940bc
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1450'
 ht-degree: 0%
 
 ---
@@ -56,7 +54,7 @@ ht-degree: 0%
 
 [계정 사용자 보기](../c-about-settings-menu/c-about-users-menu.md#task_FDDF30EE23C548DF8CFBB2FB2605303C)를 참조하십시오.
 
-지정한 전자 메일 주소에는 ASCII 문자만 포함되어야 합니다. 표준 알파벳순 사용(a...z) 사용자 이름을 도메인과 구분하는 데 사용되는 문자가 정확히 하나의 `@`인 문자 또는 숫자(0..9)입니다. `_`, `+`, `-`, `.`, `!`, `#`, `'`, `%`, `&`, `*`, `=`, `?`, `^`, &lt;a13/>, a14/> 및 `}`도 허용됩니다. `$``{` 전자 메일 주소를 `.`으로 시작하지 마십시오.
+지정한 전자 메일 주소에는 ASCII 문자만 포함되어야 합니다. 표준 알파벳순 사용(a...z) 사용자 이름을 도메인과 구분하는 데 사용되는 문자가 정확히 하나의 `@`인 문자 또는 숫자(0..9)입니다. `_`, `+`, `-`, `.`, `!`, `#`, `'`, `%`, `&`, `*`, `=`, `?`, `^`, `$`, a14/> 및 `}`도 허용됩니다. `{` 전자 메일 주소를 `.`으로 시작하지 마십시오.
 
 새 사용자가 이미 Adobe 고객이 아닌 경우 해당 사용자에 대한 고객 로그인을 생성하라는 메시지가 표시됩니다. 새 사용자에게 로그인 암호 및 확인 메시지가 전송됩니다. 새 사용자가 처음 로그인하면 고객 프로필을 채웁니다.
 
@@ -182,7 +180,7 @@ ht-degree: 0%
       <td class="chdesc stentry"> <p>
       <ul id="ul_59E7C36210804EF9B6A2706A5357A892"> 
       <li id="li_2A8D31C968B543EBA7948DD4EFA350AA"> <span class="uicontrol"> 역할 변경</span> 드롭다운 목록에서 사용자를 추가할 역할을 선택합니다. <p><span class="uicontrol"> 역할 변경</span> 드롭다운 목록이 표시되지 않으면 <span class="uicontrol"> GROUP별 사용자 보기</span>를 클릭합니다. </p> </li> 
-      <li id="li_3A67F0DDBDBE4883A17300A3F088D71A"> (선택 사항) 표에서 <span class="uicontrol"> 역할 멤버만 표시</span> 테이블에 선택된 역할에 현재 할당된 계정 사용자만 테이블에 표시되도록 하십시오. </li> 
+      <li id="li_3A67F0DDBDBE4883A17300A3F088D71A"> (선택 사항) 표에서 <span class="uicontrol"> 역할 멤버만 표시</span> 테이블에 선택된 역할에 현재 할당된 계정 사용자만 표가 표시되도록 하십시오. </li> 
       <li id="li_4926A22D1ED94AC9972C2619A398A8C7"> 테이블의 확인란 열에서 선택한 역할에 할당할 계정 사용자를 하나 이상 선택합니다. <p>선택한 역할에서 제거하려는 계정 사용자를 하나 이상 선택 취소합니다. </p> </li> 
       </ul> </p> </td> 
       </tr> 
