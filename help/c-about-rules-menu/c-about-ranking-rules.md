@@ -1,16 +1,14 @@
 ---
 description: 등급 규칙을 사용하여 포함된 메타 태그 컨텐츠 및 관련 Adobe Analytics 지표를 기반으로 고객의 검색 결과의 상대적 위치 또는 등급을 제어할 수 있습니다.
-seo-description: 등급 규칙을 사용하여 포함된 메타 태그 컨텐츠 및 관련 Adobe Analytics 지표를 기반으로 고객의 검색 결과의 상대적 위치 또는 등급을 제어할 수 있습니다.
-seo-title: 등급 규칙 정보
 solution: Target
 subtopic: Ranking Rules
 title: 등급 규칙 정보
-topic: Rules,Site search and merchandising
+topic: 규칙, 사이트 검색 및 머천다이징
 uuid: 21962f9a-1d9c-442f-a6c4-5f452436c640
 translation-type: tm+mt
-source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '4647'
+source-wordcount: '4621'
 ht-degree: 0%
 
 ---
@@ -78,7 +76,7 @@ ht-degree: 0%
       <ol id="ol_BE57CBC303D941778B10D855ADC93C68"> 
       <li id="li_8DF5D8F924B24ECBBD2D93C76C69D00C"> 사이트 검색/머천다이징 내에서 Adobe Analytics 인증을 설정해야 합니다. <p><a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_8AA93F6273B747F9B4DE9E8DFBCBDC42" type="task" format="dita" scope="local"> Adobe Analytics 지표 인증 설정 </a>을 참조하십시오. </p> </li> 
       <li id="li_CF7DD073FC5A432DADBD282AA8BB9920"> 사용 가능한 보고서 세트를 선택하고 추가합니다. <p><a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_6DE17305EA7146DA8C30FF8FDF68A3C0" type="task" format="dita" scope="local"> Adobe Analytics 보고서 세트 </a> 추가를 참조하십시오. </p> </li> 
-      <li id="li_9A63448577D04E028DF211D8715F943A"> 새 등급 규칙 만들기에 사용할 수 있게 하려는 Adobe Analytics 지표 목록을 구성합니다. <p>보고서 세트 <a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664" type="task" format="dita" scope="local">의 Adobe Analytics 지표 편집을 참조하십시오.</a> </p> </li> 
+      <li id="li_9A63448577D04E028DF211D8715F943A"> 새 등급 규칙 만들기에 사용할 수 있게 하려는 Adobe Analytics 지표 목록을 구성합니다. <p>보고서 세트 </a>의 Adobe Analytics 지표 편집을 참조하십시오.<a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664" type="task" format="dita" scope="local"> </a></p> </li> 
       <li id="li_1ACA3611D9B44AC394604CD89209C966"> 웹 사이트 페이지에 대한 초기 Adobe Analytics 지표를 로드합니다. <p><a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_2F3C55189B0A4049AB2113F2291CC181" type="task" format="dita" scope="local"> Adobe Analytics 데이터 </a> 로드를 참조하십시오. </p> </li> 
       </ol> </p> </td> 
       </tr> 
@@ -91,9 +89,9 @@ ht-degree: 0%
 
 1. **[!UICONTROL regenerate your staged site index]**&#x200B;을 클릭하여 웹 사이트의 전체 인덱스(시작: **[!UICONTROL Index]** > **[!UICONTROL Full Index]**)를 수행합니다.
 
-   라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.[.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D)
+   라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D).[
 
-   스테이지된 웹 사이트[의 증분 인덱스 구성을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)
+   스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
 1. 등급 열의 값을 확인하여 등급 규칙이 올바르게 적용되었는지 확인합니다. **[!UICONTROL Settings]** > **[!UICONTROL Metadata]** > **[!UICONTROL Definitions]**
 
 ## {#topic_770815CF1B2A491F83FF765871B6F1B8}년별 등급 문서 정보
@@ -208,7 +206,7 @@ ht-degree: 0%
 
    선택하는 데이터 소스 유형은 [!DNL Data Source Name] 드롭다운 목록에서 사용할 수 있는 선택 사항에 영향을 줍니다. 예를 들어 데이터 소스 유형으로 **[!UICONTROL Meta Tag]**&#x200B;을 선택한 경우 데이터 소스 이름은 웹 사이트 페이지에서 메타 태그의 이름을 나타냅니다. **[!UICONTROL Adobe Analytics Metric (Number)]**&#x200B;을 선택한 경우 데이터 소스 이름은 사이트 검색/머천다이징의 **[!UICONTROL Edit Adobe Analytics Metrics]** 페이지에 있는 보고서 세트에서 선택한 Adobe Analytics 지표 이름 중 하나를 나타냅니다.
 
-   보고서 세트[의 Adobe Analytics 지표 편집을 참조하십시오.](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664)
+   보고서 세트](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664)의 Adobe Analytics 지표 편집을 참조하십시오.[
 
    <table> 
     <thead> 
@@ -228,7 +226,7 @@ ht-degree: 0%
       </tr> 
       <tr> 
       <td colname="col1"> <p>데이터 소스 이름 </p> </td> 
-      <td colname="col2"> <p>데이터 소스 유형으로 <span class="uicontrol"> 메타 태그 </span>를 선택한 경우 웹 사이트의 페이지에 있는 메타 태그의 이름입니다. 드롭다운 메뉴의 이름은 설정 &gt; 메타데이터 &gt; 정의에 구성된 정의된 메타데이터 값 목록에서 가져옵니다. </p> <p><a scope="local" href="../c-about-settings-menu/c-about-metadata-menu.md#task_6DF188C0FC7F4831A4444CA9AFA615E5" type="task" format="dita"> 새 메타 태그 필드 </a> 추가를 참조하십시오. </p> <p>데이터 소스 유형으로 Adobe Analytics 지표(숫자)를 선택한 경우, 이것은 Adobe Analytics 지표의 이름입니다. 드롭다운 메뉴의 이름은 설정 &gt; Adobe Analytics &gt; 지표 &gt; 편집에서 구성한 사용 가능한 Adobe Analytics 지표 정의 목록에서 가져옵니다. </p> <p>보고서 세트 <a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664" type="task" format="dita" scope="local">의 Adobe Analytics 지표 편집을 참조하십시오.</a> </p> <p>선택한 Adobe Analytics 지표 이름이 <span class="uicontrol"> 설정 </span> &gt; <span class="uicontrol"> 메타데이터 </span> &gt; <span class="uicontrol"> 정의 </span>에 아직 정의되지 않은 경우 텍스트 필드와 추가 단추가 표시됩니다. 메타데이터 필드 이름의 이름을 입력한 다음(메타데이터 필드 이름은 20자를 초과할 수 없음) <span class="uicontrol"> 추가 </span>를 클릭합니다. </p> <p>여러 Adobe Analytics 키가 있는 페이지가 발견되면, 제품 페이지에 여러 제품이 표시되는 것처럼 합성 체계를 사용하면 해당 페이지와 연관된 여러 Adobe Analytics 지표 값을 처리하는 방법을 지정할 수 있습니다. 다음 중 하나를 선택합니다. </p> <p> 
+      <td colname="col2"> <p>데이터 소스 유형으로 <span class="uicontrol"> 메타 태그 </span>를 선택한 경우 웹 사이트의 페이지에 있는 메타 태그의 이름입니다. 드롭다운 메뉴의 이름은 설정 &gt; 메타데이터 &gt; 정의에 구성된 정의된 메타데이터 값 목록에서 가져옵니다. </p> <p><a scope="local" href="../c-about-settings-menu/c-about-metadata-menu.md#task_6DF188C0FC7F4831A4444CA9AFA615E5" type="task" format="dita"> 새 메타 태그 필드 </a> 추가를 참조하십시오. </p> <p>데이터 소스 유형으로 Adobe Analytics 지표(숫자)를 선택한 경우, 이것은 Adobe Analytics 지표의 이름입니다. 드롭다운 메뉴의 이름은 설정 &gt; Adobe Analytics &gt; 지표 &gt; 편집에서 구성한 사용 가능한 Adobe Analytics 지표 정의 목록에서 가져옵니다. </p> <p>보고서 세트 </a>의 Adobe Analytics 지표 편집을 참조하십시오.<a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664" type="task" format="dita" scope="local"> </a></p> <p>선택한 Adobe Analytics 지표 이름이 <span class="uicontrol"> 설정 </span> &gt; <span class="uicontrol"> 메타데이터 </span> &gt; <span class="uicontrol"> 정의 </span>에 아직 정의되지 않은 경우 텍스트 필드와 추가 단추가 표시됩니다. 메타데이터 필드 이름의 이름을 입력한 다음(메타데이터 필드 이름은 20자를 초과할 수 없음) <span class="uicontrol"> 추가 </span>를 클릭합니다. </p> <p>여러 Adobe Analytics 키가 있는 페이지가 발견되면, 제품 페이지에 여러 제품이 표시되는 것처럼 합성 체계를 사용하면 해당 페이지와 연관된 여러 Adobe Analytics 지표 값을 처리하는 방법을 지정할 수 있습니다. 다음 중 하나를 선택합니다. </p> <p> 
       <ul id="ul_D6E51748BB3949048A37C1895F2C0A58"> 
       <li id="li_04F00F382A264C96A519B0D975E25E94"> <span class="uicontrol"> 합 </span> <p>지표 값의 합계를 반환합니다. </p> </li> 
       <li id="li_FA44219B663F4CC197BD3A094EB84396"> <span class="uicontrol"> 평균 </span> <p>값의 평균을 반환합니다(합계는 값 수로 나누어짐). </p> </li> 
@@ -278,9 +276,9 @@ ht-degree: 0%
 1. 클릭 **[!UICONTROL Add]**.
 1. 규칙 추가 결과를 미리 보려면 **[!UICONTROL regenerate your staged site index]**&#x200B;을 클릭하여 스테이지된 웹 사이트 인덱스를 다시 작성합니다.
 
-   라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.[.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D)
+   라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D).[
 
-   라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.[.](../c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB)
+   라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB).[
 1. (선택 사항) 다음 중 하나를 수행합니다.
 
    * **[!UICONTROL History]**&#x200B;을 클릭하여 변경한 내용을 되돌립니다.
@@ -314,9 +312,9 @@ ht-degree: 0%
 1. 클릭 **[!UICONTROL Save Changes]**.
 1. 스테이지된 웹 사이트 인덱스를 다시 작성하여 규칙 편집 결과를 미리 봅니다.
 
-   라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.[.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D)
+   라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D).[
 
-   라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.[.](../c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB)
+   라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB).[
 1. (선택 사항) 다음 중 하나를 수행합니다.
 
    * **[!UICONTROL History]**&#x200B;을 클릭하여 변경한 내용을 되돌립니다.
@@ -349,9 +347,9 @@ ht-degree: 0%
    [!DNL Define Ranking Rules] 페이지로 돌아갑니다.
 1. 스테이지된 웹 사이트 인덱스를 다시 작성하여 규칙 삭제 결과를 미리 봅니다.
 
-   라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.[.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D)
+   라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D).[
 
-   라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.[.](../c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB)
+   라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB).[
 1. (선택 사항) 다음 중 하나를 수행합니다.
 
    * **[!UICONTROL History]**&#x200B;을 클릭하여 변경한 내용을 되돌립니다.
@@ -391,9 +389,9 @@ ht-degree: 0%
 1. 클릭 **[!UICONTROL Add]**.
 1. 단계 웹 사이트 인덱스를 다시 작성하여 규칙 추가 결과를 미리 봅니다.
 
-   라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.[.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D)
+   라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D).[
 
-   라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.[.](../c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB)
+   라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB).[
 1. (선택 사항) 다음 중 하나를 수행합니다.
 
    * **[!UICONTROL History]**&#x200B;을 클릭하여 변경한 내용을 되돌립니다.
@@ -427,9 +425,9 @@ ht-degree: 0%
 1. 클릭 **[!UICONTROL Save Changes]**.
 1. 단계 웹 사이트 인덱스를 다시 작성하여 규칙 추가 결과를 미리 봅니다.
 
-   라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.[.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D)
+   라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D).[
 
-   라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.[.](../c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB)
+   라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB).[
 1. (선택 사항) 다음 중 하나를 수행합니다.
 
    * **[!UICONTROL History]**&#x200B;을 클릭하여 변경한 내용을 되돌립니다.
@@ -462,9 +460,9 @@ ht-degree: 0%
 1. [!DNL Delete Ranking Rule Group] 페이지에서 **[!UICONTROL Delete]**&#x200B;을 클릭합니다.
 1. 단계 웹 사이트 인덱스를 다시 작성하여 규칙 추가 결과를 미리 봅니다.
 
-   라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.[.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D)
+   라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D).[
 
-   라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.[.](../c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB)
+   라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB).[
 1. (선택 사항) 다음 중 하나를 수행합니다.
 
    * **[!UICONTROL History]**&#x200B;을 클릭하여 변경한 내용을 되돌립니다.
@@ -549,9 +547,9 @@ ht-degree: 0%
 1. 클릭 **[!UICONTROL Save Changes]**.
 1. 단계 웹 사이트 인덱스를 다시 작성하여 규칙 추가 결과를 미리 봅니다.
 
-   라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.[.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D)
+   라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D).[
 
-   라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.[.](../c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB)
+   라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB).[
 1. (선택 사항) 다음 중 하나를 수행합니다.
 
    * 클릭 **[!UICONTROL Live]**.
