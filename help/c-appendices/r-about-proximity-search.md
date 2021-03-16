@@ -1,15 +1,13 @@
 ---
 description: 근접 검색 기능을 사용하면 고유한 위치를 웹 사이트의 페이지와 연결한 다음 주어진 위치에서 근접(거리)하여 결과를 검색 및 정렬할 수 있습니다.
-seo-description: 근접 검색 기능을 사용하면 고유한 위치를 웹 사이트의 페이지와 연결한 다음 주어진 위치에서 근접(거리)하여 결과를 검색 및 정렬할 수 있습니다.
-seo-title: 근접 검색 정보
 solution: Target
 title: 근접 검색 정보
-topic: Appendices,Site search and merchandising
+topic: 부록, 사이트 검색 및 머천다이징
 uuid: 24fc9265-3400-46a7-b6e0-4de5b049a39a
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
