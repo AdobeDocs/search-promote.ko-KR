@@ -1,15 +1,13 @@
 ---
 description: 고객이 검색 쿼리를 입력할 때 사용자가 정의한 구 주위에 따옴표를 입력할 필요가 없도록 웹 사이트에서 사용되는 일반 구문을 정의할 수 있습니다.
-seo-description: 고객이 검색 쿼리를 입력할 때 사용자가 정의한 구 주위에 따옴표를 입력할 필요가 없도록 웹 사이트에서 사용되는 일반 구문을 정의할 수 있습니다.
-seo-title: 일반 구문 정보
 solution: Target
 title: 일반 구문 정보
-topic: Linguistics,Site search and merchandising
+topic: 언어학,사이트 검색 및 상품 판매
 uuid: 0f980a22-d826-4476-97de-0e9c14549bc8
 translation-type: tm+mt
-source-git-commit: 8efa90ac2927b263b7d48ccbf25d4b0e917dac79
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1183'
 ht-degree: 1%
 
 ---
@@ -106,7 +104,7 @@ ht-degree: 1%
 **일반 구문을 테스트하려면**
 
 1. 제품 메뉴에서 **[!UICONTROL Linguistics]** > **[!UICONTROL Common Phrases]**&#x200B;을 클릭합니다.
-1. [!DNL Common Phrases Groups] 페이지의 **테스트 구문에** 텍스트 필드가 포함된 &lt;a1/>테스트 구문에 테스트할 메타데이터 확장명을 포함하는 구문을 입력합니다.
+1. [!DNL Common Phrases Groups] 페이지의 **테스트 구문에** 텍스트 필드가 포함된 테스트 구문에 테스트할 메타데이터 확장명을 포함하는 구문을 입력합니다.
 1. 클릭 **[!UICONTROL Test]**.
 
    확장 결과가 텍스트 상자에 표시됩니다.
