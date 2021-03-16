@@ -1,15 +1,13 @@
 ---
 description: 사전을 사용하여 사전 모음과 연관된 동의어 및 HYPIREW를 관리할 수 있습니다.
-seo-description: 사전을 사용하여 사전 모음과 연관된 동의어 및 HYPIREW를 관리할 수 있습니다.
-seo-title: 사전 정보
 solution: Target
 title: 사전 정보
-topic: Linguistics,Site search and merchandising
+topic: 언어학,사이트 검색 및 상품 판매
 uuid: d4463896-30fe-4385-a283-c930c8264a02
 translation-type: tm+mt
-source-git-commit: 4531970404c189ffa1d4359d1431c97df893ba35
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '2475'
+source-wordcount: '2462'
 ht-degree: 1%
 
 ---
@@ -125,9 +123,9 @@ HYPIREW는 단방향 동의어이며 동의어가 부적절할 때 해결 방법
 
 1. 변경 결과를 미리 보려면 **[!UICONTROL regenerate your staged site index]**&#x200B;을 클릭하여 스테이지된 웹 사이트 인덱스를 다시 작성합니다.
 
-   라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.[.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D)
+   라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D).[
 
-   라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.[.](../c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB)
+   라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB).[
 1. (선택 사항) 제품 메뉴에서 **[!UICONTROL Linguistics]** > **[!UICONTROL Dictionaries]**&#x200B;을 클릭한 다음 다음 다음 중 하나를 수행합니다.
 
    * **[!UICONTROL History]**&#x200B;을 클릭하여 변경한 내용을 되돌립니다.
@@ -157,9 +155,9 @@ HYPIREW는 단방향 동의어이며 동의어가 부적절할 때 해결 방법
 1. 클릭 **[!UICONTROL Save Changes]**.
 1. 변경 결과를 미리 보려면 **[!UICONTROL regenerate your staged site index]**&#x200B;을 클릭하여 스테이지된 웹 사이트 인덱스를 다시 작성합니다.
 
-   라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.[.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D)
+   라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D).[
 
-   라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.[.](../c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB)
+   라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB).[
 1. (선택 사항) 제품 메뉴에서 **[!UICONTROL Linguistics]** > **[!UICONTROL Dictionaries]**&#x200B;을 클릭한 다음 다음 다음 중 하나를 수행합니다.
 
    * **[!UICONTROL History]**&#x200B;을 클릭하여 변경한 내용을 되돌립니다.
@@ -245,9 +243,9 @@ t_editing_a_dictionary.xml
 
 1. 변경 결과를 미리 보려면 **[!UICONTROL regenerate your staged site index]**&#x200B;을 클릭하여 스테이지된 웹 사이트 인덱스를 다시 작성합니다.
 
-   라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.[.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D)
+   라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D).[
 
-   라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.[.](../c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB)
+   라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB).[
 1. (선택 사항) 제품 메뉴에서 **[!UICONTROL Linguistics]** > **[!UICONTROL Dictionaries]**&#x200B;을 클릭한 다음 다음 다음 중 하나를 수행합니다.
 
    * **[!UICONTROL History]**&#x200B;을 클릭하여 변경한 내용을 되돌립니다.
@@ -337,9 +335,9 @@ t_configuring_a_dictionary_as_a_stemming_dictionary.xml
 1. 클릭 **[!UICONTROL Save Configuration]**.
 1. **[!UICONTROL regenerate your staged site index]**&#x200B;을 클릭하여 스테이지된 웹 사이트 인덱스를 다시 작성합니다.
 
-   라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.[.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D)
+   라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D).[
 
-   라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.[.](../c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB)
+   라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB).[
 1. (선택 사항) 제품 메뉴에서 **[!UICONTROL Linguistics]** > **[!UICONTROL Dictionaries]**&#x200B;을 클릭한 다음 다음 다음 중 하나를 수행합니다.
 
    * **[!UICONTROL History]**&#x200B;을 클릭하여 변경한 내용을 되돌립니다.
