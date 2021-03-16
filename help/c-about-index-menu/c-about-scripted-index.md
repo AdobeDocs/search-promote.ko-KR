@@ -1,16 +1,14 @@
 ---
 description: 스크립트 색인을 사용하면 로그인할 필요 없이 증분 색인 옵션을 작성, 업데이트 및 유지 관리할 수 있습니다. 검색 로봇은 서버에 호스팅된 텍스트 파일의 지침을 읽습니다.
-seo-description: 스크립트 색인을 사용하면 로그인할 필요 없이 증분 색인 옵션을 작성, 업데이트 및 유지 관리할 수 있습니다. 검색 로봇은 서버에 호스팅된 텍스트 파일의 지침을 읽습니다.
-seo-title: 스크립트 색인 정보
 solution: Target
 subtopic: Scripted Index
 title: 스크립트 색인 정보
-topic: Index,Site search and merchandising
+topic: 색인, 사이트 검색 및 머천다이징
 uuid: 51e726ad-414b-4cbd-8a68-fefc3cf9b565
 translation-type: tm+mt
-source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1730'
 ht-degree: 1%
 
 ---
@@ -165,7 +163,7 @@ HTTP 1.1 스타일을 사용할 때 10보다 낮은 모든 서수 날짜에 대�
 
 다음 스크립트 파일 예제에서 검색 로봇은 date-specifiers가 가장 최근에 처리된 블록의 date-specifier 이후 날짜로 제공된 블록을 처리합니다. 이러한 경우 다음 인덱싱 작업이 발생합니다.
 
-* 인덱스에서 `y2k-problems.html`을 삭제합니다.
+* 인덱스에서 `y2k-problems.html`을(를) 삭제합니다.
 * `no-y2k-problems.html`을(를) 검색 색인에 추가하고 `no-y2k-problems.html`에 대한 링크를 팔로우하지 않습니다.
 
 * 크롤링 중에 검색 인덱스에서 `housewares.htm` 및 `lightfixtures.htm`l과 일치하는 URL을 제외합니다.
