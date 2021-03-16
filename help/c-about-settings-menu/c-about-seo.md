@@ -1,16 +1,14 @@
 ---
 description: SEO(검색 엔진 최적화) 메타 태그를 사용하여 페이지의 특정 요소를 조정하고 검색 엔진 배치를 개선할 수 있습니다.
-seo-description: SEO(검색 엔진 최적화) 메타 태그를 사용하여 페이지의 특정 요소를 조정하고 검색 엔진 배치를 개선할 수 있습니다.
-seo-title: SEO 정보
 solution: Target
 subtopic: SEO
 title: SEO 정보
-topic: Settings,Site search and merchandising
+topic: 설정,사이트 검색 및 머천다이징
 uuid: 5c5d64f5-fe79-4489-85c6-399d1437f2c4
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1206'
 ht-degree: 1%
 
 ---
@@ -138,7 +136,7 @@ SEO 필드에 대한 `<search-include>` 태그의 `file` 속성에 대해 가능
 1. **변경 내용 저장**&#x200B;을 클릭합니다.
 1. (선택 사항) 결과를 미리 보려는 경우 스테이지된 사이트 인덱스를 다시 작성합니다.
 
-   스테이지된 웹 사이트[의 증분 인덱스 구성을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)
+   스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
 1. (선택 사항) [!DNL SEO Search Results Word List] 페이지에서 다음 중 하나를 수행합니다.
 
    * **[!UICONTROL History]**&#x200B;을 클릭하여 변경한 내용을 되돌립니다.
@@ -169,7 +167,7 @@ SEO 필드에 대한 `<search-include>` 태그의 `file` 속성에 대해 가능
 1. **변경 내용 저장**&#x200B;을 클릭합니다.
 1. (선택 사항) 결과를 미리 보려는 경우 스테이지된 사이트 인덱스를 다시 작성합니다.
 
-   스테이지된 웹 사이트[의 증분 인덱스 구성을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)
+   스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
 1. (선택 사항) [!DNL SEO Browse Pages Word List] 페이지에서 다음 중 하나를 수행합니다.
 
    * **[!UICONTROL History]**&#x200B;을 클릭하여 변경한 내용을 되돌립니다.
@@ -200,7 +198,7 @@ SEO 필드에 대한 `<search-include>` 태그의 `file` 속성에 대해 가능
 1. **변경 내용 저장**&#x200B;을 클릭합니다.
 1. (선택 사항) 결과를 미리 보려는 경우 스테이지된 사이트 인덱스를 다시 작성합니다.
 
-   스테이지된 웹 사이트[의 증분 인덱스 구성을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)
+   스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
 1. (선택 사항) [!DNL SEO Item Detail Word List] 페이지에서 다음 중 하나를 수행합니다.
 
    * **[!UICONTROL History]**&#x200B;을 클릭하여 변경한 내용을 되돌립니다.
