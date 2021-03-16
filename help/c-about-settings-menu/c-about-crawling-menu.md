@@ -1,16 +1,14 @@
 ---
 description: 크롤링 메뉴 세트 날짜와 URL 마스크, 암호, 컨텐츠 유형, 연결, 양식 정의 및 URL 시작 지점을 사용합니다.
-seo-description: 크롤링 메뉴 세트 날짜와 URL 마스크, 암호, 컨텐츠 유형, 연결, 양식 정의 및 URL 시작 지점을 사용합니다.
-seo-title: 크롤링 메뉴 정보
 solution: Target
 subtopic: Crawling
 title: 크롤링 메뉴 정보
-topic: Settings,Site search and merchandising
+topic: 설정,사이트 검색 및 머천다이징
 uuid: a58c03bf-90f7-4b5b-91ff-988b95c246b0
 translation-type: tm+mt
-source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '11033'
+source-wordcount: '11016'
 ht-degree: 0%
 
 ---
@@ -22,7 +20,7 @@ ht-degree: 0%
 
 ## URL 시작 지점 정보 {#concept_5D857E3B5C124E85BC0B5AE77A509573}
 
-대부분의 웹 사이트에는 고객이 처음으로 방문하는 하나의 기본 시작 지점 또는 홈 페이지가 있습니다. 이 기본 시작 지점은 검색 로봇이 색인 크롤링을 시작하는 URL 주소입니다. 그러나 웹 사이트에 도메인 또는 하위 도메인이 여러 개 있거나 사이트의 일부가 기본 시작 지점에서 연결되어 있지 않은 경우 URL 시작 지점을 사용하여 시작 지점을 더 추가할 수 있습니다.
+대부분의 웹 사이트에는 고객이 처음으로 방문하는 하나의 기본 시작 지점 또는 홈 페이지가 있습니다. 이 기본 시작 지점은 검색 로봇이 색인 크롤링을 시작하는 URL 주소입니다. 그러나 웹 사이트에 도메인 또는 하위 도메인이 여러 개 있거나 사이트의 일부가 기본 시작 지점에서 연결되어 있지 않은 경우 URL 시작 지점을 사용하여 더 많은 시작 지점을 추가할 수 있습니다.
 
 지정된 각 URL 시작 지점 아래의 모든 웹 사이트 페이지는 인덱싱됩니다. URL 시작 지점을 마스크와 결합하여 색인화할 웹 사이트의 특정 부분을 정확하게 제어할 수 있습니다. 고객이 URL 시작 지점 설정의 효과를 볼 수 있으려면 먼저 웹 사이트 인덱스를 다시 만들어야 합니다.
 
@@ -139,7 +137,7 @@ URL 마스크는 검색 로봇이 색인화하거나 색인화하지 않는 웹 
 
 URL 마스크의 결과가 고객에게 표시되도록 사이트 인덱스를 다시 작성하십시오.
 
-스테이지된 웹 사이트[의 증분 인덱스 구성을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)
+스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
 
 다음은 사용할 수 있는 두 가지 유형의 URL 마스크입니다.
 
@@ -233,7 +231,7 @@ include https://www.mydomain.com/photos/fall/redleaves4.html
 
 먼저 나타나는 URL 마스크는 마스크 설정 뒤에 나타나는 URL 마스크보다 항상 우선합니다. 또한 검색 로봇이 포함 URL 마스크와 제외 URL 마스크와 일치하는 페이지가 발견되면 먼저 나열된 마스크가 항상 우선합니다.
 
-스테이지된 웹 사이트[의 증분 인덱스 구성을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)
+스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
 
 ## URL 마스크가 {#section_7609A7A6D79B482ABCA8900886541AAB}인 키워드 사용 정보
 
@@ -311,7 +309,7 @@ include https://www.mydomain.com/photos/fall/redleaves4.html
 
 URL 마스크의 결과가 고객에게 표시되도록 사이트 인덱스를 다시 작성하십시오.
 
-스테이지된 웹 사이트[의 증분 인덱스 구성을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)
+스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
 
 **웹 사이트의 일부분을 색인화하거나 색인화하지 않도록 URL 마스크를 추가하려면**
 
@@ -349,7 +347,7 @@ URL 마스크의 결과가 고객에게 표시되도록 사이트 인덱스를 �
 
 URL 마스크의 결과가 고객에게 표시되도록 사이트 인덱스를 다시 작성하십시오.
 
-스테이지된 웹 사이트[의 증분 인덱스 구성을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)
+스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
 
 다음은 사용할 수 있는 두 가지 날짜 마스크입니다.
 
@@ -453,9 +451,9 @@ exclude-days 90 https://www.mydomain.com/archive/fall/
 include-days 0 https://www.mydomain.com/archive/fall/index.html 
 ```
 
-그런 다음 마스크에 `/archive/fall/index.html`이(가) 포함되도록 지정되더라도 &lt;a0/>은 포함되지 않습니다. 맨 처음 나타나는 날짜 마스크는 항상 마스크 설정에 나중에 나타날 수 있는 날짜 마스크보다 우선합니다. 또한 검색 로봇이 포함 날짜 마스크와 제외 날짜 마스크와 일치하는 페이지가 발견되면 먼저 나열된 마스크가 항상 우선합니다.
+그런 다음 마스크에 `/archive/fall/index.html`이(가) 포함되도록 지정되더라도 은 포함되지 않습니다. 맨 처음 나타나는 날짜 마스크는 항상 마스크 설정에 나중에 나타날 수 있는 날짜 마스크보다 우선합니다. 또한 검색 로봇이 포함 날짜 마스크와 제외 날짜 마스크와 일치하는 페이지가 발견되면 먼저 나열된 마스크가 항상 우선합니다.
 
-스테이지된 웹 사이트[의 증분 인덱스 구성을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)
+스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
 
 ## 날짜 마스크가 있는 키워드 사용 정보 {#section_CCBB3E3FDBDE4725B2B571FD6594470C}
 
@@ -528,7 +526,7 @@ include-days 0 https://www.mydomain.com/archive/fall/index.html
 
 URL 마스크의 결과가 고객에게 표시되도록 사이트 인덱스를 다시 작성하십시오.
 
-스테이지된 웹 사이트[의 증분 인덱스 구성을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)
+스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
 
 **웹 사이트의 일부를 색인화하거나 색인화하지 않고 날짜 마스크를 추가하려면**
 
@@ -556,7 +554,7 @@ HTTP 기본 인증을 통해 보호되는 웹 사이트의 일부에 액세스�
 
 고객이 암호 설정의 효과를 볼 수 있으려면 먼저 사이트 색인을 다시 구성해야 합니다.
 
-스테이지된 웹 사이트[의 증분 인덱스 구성을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)
+스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
 
 [!DNL Passwords] 페이지에서 각 암호를 한 줄에 입력합니다. 암호는 다음 예제와 같이 URL 또는 영역, 사용자 이름 및 암호로 구성됩니다.
 
@@ -605,7 +603,7 @@ https://www.mysite.com/path6 name6 password6
 
 암호의 효과가 고객에게 추가되기 전에 사이트 색인을 다시 작성하십시오
 
-스테이지된 웹 사이트[의 증분 인덱스 구성을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)
+스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
 
 **인증이 필요한 웹 사이트 영역에 액세스하기 위한 암호를 추가하려면**
 
@@ -643,7 +641,7 @@ https://www.mysite.com/path6 name6 password6
 
 고객이 컨텐츠 유형 설정의 효과를 볼 수 있으려면 먼저 사이트 인덱스를 다시 만들어야 합니다.
 
-스테이지된 웹 사이트[의 증분 인덱스 구성을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)
+스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
 
 ## MP3 음악 파일 색인 만들기 정보 {#section_AD2E28BEEE3E46629E2B05C34A963673}
 
@@ -686,7 +684,7 @@ MP3 음악 파일 크기는 보통 적은 양의 텍스트만 포함되더라도
 
 고객이 컨텐츠 유형 설정의 효과를 볼 수 있으려면 먼저 사이트 인덱스를 다시 만들어야 합니다.
 
-스테이지된 웹 사이트[의 증분 인덱스 구성을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)
+스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
 
 중국어, 일본어 또는 한국어 MP3 파일을 크롤링 및 색인하려면 아래 단계를 완료하십시오. 그런 다음 **[!UICONTROL Settings]** > **[!UICONTROL Metadata]** > **[!UICONTROL Injections]**&#x200B;에서 MP3 파일을 인코딩하는 데 사용할 문자 세트를 지정합니다.
 
@@ -754,7 +752,7 @@ MP3 음악 파일 크기는 보통 적은 양의 텍스트만 포함되더라도
 
 변경 내용이 고객에게 표시되도록 사이트 인덱스를 다시 작성해야 합니다.
 
-스테이지된 웹 사이트[의 증분 인덱스 구성을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)
+스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
 
 **웹 사이트에서 양식을 인덱싱하기 위한 양식 정의를 추가하려면**
 
@@ -921,7 +919,7 @@ MP3 음악 파일 크기는 보통 적은 양의 텍스트만 포함되더라도
 
 변경 내용이 고객에게 표시되도록 사이트 인덱스를 다시 작성해야 합니다.
 
-스테이지된 웹 사이트[의 증분 인덱스 구성을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)
+스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
 
 **양식 정의를 편집하려면**
 
@@ -929,7 +927,7 @@ MP3 음악 파일 크기는 보통 적은 양의 텍스트만 포함되더라도
 1. [!DNL Form Submission] 페이지에서 업데이트할 양식 정의 오른쪽에 있는 **[!UICONTROL Edit]**&#x200B;을 클릭합니다.
 1. [!DNL Edit Form Definition] 페이지에서 [!DNL Form Recognition] 및 [!DNL Form Submission] 옵션을 설정합니다.
 
-   웹 사이트[에서 양식을 인덱싱하기 위한 양식 정의 추가 아래의 옵션 표를 참조하십시오.](../c-about-settings-menu/c-about-crawling-menu.md#task_62FBCE9E6DBE4BDA8D1249233ADFC00F)
+   웹 사이트](../c-about-settings-menu/c-about-crawling-menu.md#task_62FBCE9E6DBE4BDA8D1249233ADFC00F)에서 양식을 인덱싱하기 위한 양식 정의 추가 아래의 옵션 표를 참조하십시오.[
 1. 클릭 **[!UICONTROL Save Changes]**.
 1. (선택 사항) 다음 중 하나를 수행합니다.
 
@@ -949,7 +947,7 @@ MP3 음악 파일 크기는 보통 적은 양의 텍스트만 포함되더라도
 
 변경 내용이 고객에게 표시되도록 사이트 인덱스를 다시 작성해야 합니다.
 
-스테이지된 웹 사이트[의 증분 인덱스 구성을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)
+스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
 
 **양식 정의를 삭제하려면**
 
@@ -1232,7 +1230,7 @@ index:<indexconnector_configuration_name>
       <li id="li_A42CB9DFFF8C45A7BAC2D471FE96CEBE"> <span class="uicontrol"> 열 </span> <p> 열 번호를 지정합니다. 첫 번째 열은 1입니다. 각 열에 대한 새 맵 행을 추가하려면 <span class="wintitle"> 작업 </span> 아래에서 <span class="uicontrol"> + </span>을 클릭합니다. </p> <p>데이터 소스의 각 열을 참조할 필요가 없습니다. 대신 값을 건너뛰도록 선택할 수 있습니다. </p> </li> 
       <li id="li_26E8C9554A5D4BC5A5073D6385E3626F"> <span class="uicontrol"> 필드 </span> <p>생성된 각 &lt;meta&gt; 태그에 사용되는 이름 속성 값을 정의합니다. </p> </li> 
       <li id="li_5DFA514B7F9549B98D6CBC095A66033C"> <span class="uicontrol"> 메타데이터? </span> <p><span class="uicontrol"> 필드 </span>이(가) 현재 계정에 대해 정의된 메타데이터 필드를 선택할 수 있는 드롭다운 목록이 됩니다. </p> <p>원하는 경우 <span class="uicontrol"> 필드 </span> 값은 정의되지 않은 메타데이터 필드일 수 있습니다. 정의되지 않은 메타데이터 필드는 <span class="wintitle"> 스크립트 필터링 </span>에서 사용하는 내용을 만드는 데 유용합니다. </p> <p><a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> 스크립트 필터링 정보를 참조하십시오 </a>. </p> <p>색인 커넥터가 맵 필드에서 여러 히트가 있는 XML 문서를 처리할 때 여러 값이 캐시된 결과 문서의 단일 값으로 연결됩니다. 기본적으로 이러한 값은 쉼표 구분 기호를 사용하여 결합됩니다. 그러나 해당 <span class="wintitle"> 필드 </span> 값이 정의된 메타데이터 필드라고 가정합니다. 또한 해당 필드에는 <span class="wintitle"> 허용 목록 </span> 특성이 설정되어 있습니다. 이 경우, 정의된 첫 번째 구분 기호인 필드의 목록 구분 기호 값이 연결에서 사용됩니다. </p> </li> 
-      <li id="li_80DB205525094CE1AA6762BFC7892C95"> <span class="uicontrol"> 기본 키?  </span> <p>하나의 맵 정의만 기본 키로 식별됩니다. 이 필드는 이 문서를 색인에 추가할 때 나타나는 고유한 참조가 됩니다. 이 값은 색인의 문서 URL에 사용됩니다. </p> <p><span class="uicontrol"> 기본 키 </span> 값은 색인 커넥터 구성으로 표시된 모든 문서에서 고유해야 합니다. 발견된 모든 복본은 무시됩니다. 소스 문서에 <span class="uicontrol"> 기본 키 </span>로 사용하기 위한 단일 고유 값이 포함되어 있지 않지만 <i>이(가) 함께 가져온 두 개 이상의 필드가 고유한 식별자를 만들 수 있는 경우, <span class="uicontrol"> 기본 키 </span> 값을 세로 막대("|")와 여러 <span class="uicontrol"> 열 </span> 값을 결합하여 정의할 수 있습니다. 값을 설정합니다.</i> </p> </li> 
+      <li id="li_80DB205525094CE1AA6762BFC7892C95"> <span class="uicontrol"> 기본 키?  </span> <p>하나의 맵 정의만 기본 키로 식별됩니다. 이 필드는 이 문서를 색인에 추가할 때 나타나는 고유한 참조가 됩니다. 이 값은 색인의 문서 URL에 사용됩니다. </p> <p><span class="uicontrol"> 기본 키 </span> 값은 색인 커넥터 구성으로 표시된 모든 문서에서 고유해야 합니다. 발견된 모든 복본은 무시됩니다. 소스 문서에 <span class="uicontrol"> 기본 키 </span>로 사용하기 위한 단일 고유 값이 포함되어 있지 않지만 <i>이(가) 함께 취합한 두 개 이상의 필드가 고유 식별자에서</i>이 될 수 있는 경우, <span class="uicontrol"> 기본 키 </span> 열을 세로 막대("|")와 결합하여 <span class="uicontrol"> 기본 키 </span> 값을 정의할 수 있습니다. 값을 설정합니다. </p> </li> 
       <li id="li_80DB205525094CE1AA6762BFC7892D96"> <span class="uicontrol"> HTML 제거?  </span> <p>이 옵션을 선택하면 이 필드의 데이터에 있는 모든 HTML 태그가 제거됩니다. </p> </li> 
       <li id="li_359D2902859B4C5BADB0BA26F0BA4DC0"> <span class="uicontrol"> 작업 </span> <p>맵에 행을 추가하거나 맵에서 행을 제거할 수 있습니다. 행 순서는 중요하지 않습니다. </p> </li> 
       </ul> </p> </td> 
@@ -1325,9 +1323,9 @@ index:<indexconnector_configuration_name>
       /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;body </code> </p> <p>위의 구문은 다음과 같이 해석됩니다. </p> <p> 
       <ul id="ul_6400EBD08D424EADA1612FE4F7EFB640"> 
       <li id="li_9958F9B40D42434195597DBA9F2AF28F"> <code> /record/@displayurl&amp;nbsp;-&gt;&amp;nbsp;page-url </code> <p><span class="codeph"> 레코드 </span> 요소의 </span> 특성이 메타데이터 필드 <span class="codeph"> page-url </span>에 매핑됩니다.<span class="codeph"> </span></p> </li> 
-      <li id="li_759013EA02CD48BE971A55B0A6A11424"> <code> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>이름 속성이 <span class="codeph"> title </span>인 </span> 레코드 &lt;a7/&gt; 요소 내에 포함된 <span class="codeph"> 메타데이터 </span> 요소 안에 포함된 <span class="codeph"> 메타 </span> 요소의 <span class="codeph"> 내용 </span> 특성이 메타데이터 필드 <span class="codeph"> 제목 &lt;a11&gt; /&gt;.</span><span class="codeph"> </span></p> </li> 
-      <li id="li_E741CA59197D462EB2946EDE874AFDC8"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>이름 속성이 <span class="codeph"> description </span>인 </span> 레코드 &lt;a7/&gt; 요소 내에 포함되어 있는 <span class="codeph"> 메타데이터 </span> 요소 내에 포함된 &lt;a3/&gt; 메타 요소의 <span class="codeph"> 내용 </span> 특성이 메타데이터 필드 <span class="codeph"> &lt;a111 /&gt;.<span class="codeph"><span class="codeph"></span></span> </span></p> </li> 
-      <li id="li_E35EAE3D284D46D485D9064D7BB6AB13"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>이름 속성이 <span class="codeph"> description </span>인 </span> 레코드 &lt;a7/&gt; 요소 내에 포함된 <span class="codeph"> 메타데이터 </span> 요소 내에 포함된 <span class="codeph"> 메타 </span> 요소의 <span class="codeph"> 내용 </span> 특성이 메타데이터 필드 <span class="codeph"> 본문 &lt;a11&gt; /&gt;.<span class="codeph"></span> </span></p> </li> 
+      <li id="li_759013EA02CD48BE971A55B0A6A11424"> <code> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>이름 속성이 <span class="codeph"> title </span>인 </span> 레코드 <span class="codeph"> 요소 내에 포함된 <span class="codeph"> 메타데이터 </span> 요소 안에 포함된 <span class="codeph"> 메타 </span> 요소의 <span class="codeph"> 내용 </span> 특성이 메타데이터 필드 <span class="codeph"> 제목 </span> /&gt;. </span></p> </li> 
+      <li id="li_E741CA59197D462EB2946EDE874AFDC8"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>이름 속성이 <span class="codeph"> description </span>인 </span> 레코드 </span> 요소 내에 포함되어 있는 <span class="codeph"> 메타데이터 </span> 요소 내에 포함된 <span class="codeph"> 메타 요소의 <span class="codeph"> 내용 </span> 특성이 메타데이터 필드 <span class="codeph"> <span class="codeph">.</span> </span></span></p> </li> 
+      <li id="li_E35EAE3D284D46D485D9064D7BB6AB13"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>이름 속성이 <span class="codeph"> description </span>인 </span> 레코드 <span class="codeph"> 요소 내에 포함된 <span class="codeph"> 메타데이터 </span> 요소 내에 포함된 <span class="codeph"> 메타 </span> 요소의 <span class="codeph"> 내용 </span> 특성이 메타데이터 필드 <span class="codeph"> 본문 </span> /&gt;. </span></p> </li> 
       </ul> </p> <p>XPath는 비교적 복잡한 표기법입니다. 자세한 내용은 다음 위치에 있습니다. </p> <p><a href="https://www.w3schools.com/xpath/" scope="external" format="html"> https://www.w3schools.com/xpath/ </a> 참조 </p> </li> 
       <li id="li_8147075D7ACD4811A7ED335F23FE62A6"> <span class="uicontrol"> 필드 </span> <p>생성된 각 <span class="codeph"> &lt;meta&gt; </span> 태그에 사용되는 이름 속성 값을 정의합니다. </p> </li> 
       <li id="li_2380199D63BF425A919606D8232FA6E2"> <span class="uicontrol"> 메타데이터? </span> <p><span class="uicontrol"> 필드 </span>이(가) 현재 계정에 대해 정의된 메타데이터 필드를 선택할 수 있는 드롭다운 목록이 됩니다. </p> <p>원하는 경우 <span class="uicontrol"> 필드 </span> 값은 정의되지 않은 메타데이터 필드일 수 있습니다. 정의되지 않은 메타데이터 필드는 <span class="wintitle"> 스크립트 필터링 </span>에서 사용하는 내용을 만드는 데 유용합니다. </p> <p><a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> 스크립트 필터링 정보를 참조하십시오 </a>. </p> <p>색인 커넥터가 맵 필드에서 여러 히트가 있는 XML 문서를 처리할 때 여러 값이 캐시된 결과 문서의 단일 값으로 연결됩니다. 기본적으로 이러한 값은 쉼표 구분 기호를 사용하여 결합됩니다. 그러나 해당 <span class="wintitle"> 필드 </span> 값이 정의된 메타데이터 필드라고 가정합니다. 또한 해당 필드에는 <span class="wintitle"> 허용 목록 </span> 특성이 설정되어 있습니다. 이 경우, 정의된 첫 번째 구분 기호인 필드의 목록 구분 기호 값이 연결에서 사용됩니다. </p> </li> 
@@ -1381,9 +1379,9 @@ index:<indexconnector_configuration_name>
         /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;body </code> </p> <p>위의 구문은 다음과 같이 해석됩니다. </p> <p> 
       <ul id="ul_F8C536E6E54546D9AA5B22B879C0AF39"> 
       <li id="li_78A35DFFF1B4496CAC6EDC7B1E991F29"> <code> /record/@displayurl&amp;nbsp;-&gt;&amp;nbsp;page-url </code> <p><span class="codeph"> 레코드 </span> 요소의 </span> 특성이 메타데이터 필드 <span class="codeph"> page-url </span>에 매핑됩니다.<span class="codeph"> </span></p> </li> 
-      <li id="li_FA7DF3D1942248B98660F3D0C82F4563"> <code> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>이름 속성이 <span class="codeph"> title </span>인 </span> 레코드 &lt;a7/&gt; 요소 내에 포함된 <span class="codeph"> 메타데이터 </span> 요소 안에 포함된 <span class="codeph"> 메타 </span> 요소의 <span class="codeph"> 내용 </span> 특성이 메타데이터 필드 <span class="codeph"> 제목 &lt;a11&gt; /&gt;.</span><span class="codeph"> </span></p> </li> 
-      <li id="li_D8000A116FF84DE59ED19C656DDD3BC1"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>이름 속성이 <span class="codeph"> description </span>인 </span> 레코드 &lt;a7/&gt; 요소 내에 포함되어 있는 <span class="codeph"> 메타데이터 </span> 요소 내에 포함된 &lt;a3/&gt; 메타 요소의 <span class="codeph"> 내용 </span> 특성이 메타데이터 필드 <span class="codeph"> &lt;a111 /&gt;.<span class="codeph"><span class="codeph"></span></span> </span></p> </li> 
-      <li id="li_7FA6A53DFD3D42A98B7BA17CC29DDB81"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>이름 속성이 <span class="codeph"> description </span>인 </span> 레코드 &lt;a7/&gt; 요소 내에 포함된 <span class="codeph"> 메타데이터 </span> 요소 내에 포함된 <span class="codeph"> 메타 </span> 요소의 <span class="codeph"> 내용 </span> 특성이 메타데이터 필드 <span class="codeph"> 본문 &lt;a11&gt; /&gt;.<span class="codeph"></span> </span></p> </li> 
+      <li id="li_FA7DF3D1942248B98660F3D0C82F4563"> <code> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>이름 속성이 <span class="codeph"> title </span>인 </span> 레코드 <span class="codeph"> 요소 내에 포함된 <span class="codeph"> 메타데이터 </span> 요소 안에 포함된 <span class="codeph"> 메타 </span> 요소의 <span class="codeph"> 내용 </span> 특성이 메타데이터 필드 <span class="codeph"> 제목 </span> /&gt;. </span></p> </li> 
+      <li id="li_D8000A116FF84DE59ED19C656DDD3BC1"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>이름 속성이 <span class="codeph"> description </span>인 </span> 레코드 </span> 요소 내에 포함되어 있는 <span class="codeph"> 메타데이터 </span> 요소 내에 포함된 <span class="codeph"> 메타 요소의 <span class="codeph"> 내용 </span> 특성이 메타데이터 필드 <span class="codeph"> <span class="codeph">.</span> </span></span></p> </li> 
+      <li id="li_7FA6A53DFD3D42A98B7BA17CC29DDB81"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>이름 속성이 <span class="codeph"> description </span>인 </span> 레코드 <span class="codeph"> 요소 내에 포함된 <span class="codeph"> 메타데이터 </span> 요소 내에 포함된 <span class="codeph"> 메타 </span> 요소의 <span class="codeph"> 내용 </span> 특성이 메타데이터 필드 <span class="codeph"> 본문 </span> /&gt;. </span></p> </li> 
       </ul> </p> <p>XPath는 비교적 복잡한 표기법입니다. 자세한 내용은 다음 위치에 있습니다. </p> <p><a href="https://www.w3schools.com/xpath/" scope="external" format="html"> https://www.w3schools.com/xpath/ </a> 참조 </p> </li> 
       <li id="li_84999D07E0AE4265BC7928BBB49957B9"> <span class="uicontrol"> 필드 </span> <p>생성된 각 &lt;meta&gt; 태그에 사용되는 이름 속성 값을 정의합니다. </p> </li> 
       <li id="li_E125788D0F5242958BD790E26A675C20"> <span class="uicontrol"> 메타데이터? </span> <p><span class="uicontrol"> 필드 </span>이(가) 현재 계정에 대해 정의된 메타데이터 필드를 선택할 수 있는 드롭다운 목록이 됩니다. </p> <p>원하는 경우 <span class="uicontrol"> 필드 </span> 값은 정의되지 않은 메타데이터 필드일 수 있습니다. 정의되지 않은 메타데이터 필드는 <span class="wintitle"> 스크립트 필터링 </span>에서 사용하는 내용을 만드는 데 유용합니다. </p> <p><a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> 스크립트 필터링 정보를 참조하십시오 </a>. </p> <p>색인 커넥터가 맵 필드에서 여러 히트가 있는 XML 문서를 처리할 때 여러 값이 캐시된 결과 문서의 단일 값으로 연결됩니다. 기본적으로 이러한 값은 쉼표 구분 기호를 사용하여 결합됩니다. 그러나 해당 <span class="wintitle"> 필드 </span> 값이 정의된 메타데이터 필드라고 가정합니다. 또한 해당 필드에는 <span class="wintitle"> 허용 목록 </span> 특성이 설정되어 있습니다. 이 경우, 정의된 첫 번째 구분 기호인 필드의 목록 구분 기호 값이 연결에서 사용됩니다. </p> </li> 
@@ -1496,7 +1494,7 @@ index:<indexconnector_configuration_name>
 **색인 커넥터 정의 이름을 변경하려면**
 
 1. 제품 메뉴에서 **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Index Connector]**&#x200B;를 클릭합니다.
-1. [!DNL Index Connector] 페이지의 [!DNL Actions] 열 머리글 아래에서 변경할 색인 커넥터 정의 이름에 대해 **[!UICONTROL Rename]**&#x200B;를 클릭합니다.
+1. [!DNL Index Connector] 페이지의 [!DNL Actions] 열 머리글 아래에서 변경할 색인 커넥터 정의 이름의 **[!UICONTROL Rename]**&#x200B;를 클릭합니다.
 1. [!DNL Index Connector Rename] 페이지의 [!DNL Name] 필드에 정의의 새 이름을 입력합니다.
 1. 클릭 **[!UICONTROL Rename]**.
 1. 클릭 **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL URL Entrypoints]**. 이전 색인 커넥터 이름이 목록에 있으면 해당 이름을 제거하고 새로 이름이 변경된 항목을 추가합니다.
