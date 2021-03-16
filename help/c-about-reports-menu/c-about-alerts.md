@@ -1,15 +1,13 @@
 ---
 description: 경고 페이지는 계정과 관련된 모든 경고를 보고 관리할 수 있는 중앙 장소를 제공합니다.
-seo-description: 경고 페이지는 계정과 관련된 모든 경고를 보고 관리할 수 있는 중앙 장소를 제공합니다.
-seo-title: 경고 정보
 solution: Target
 title: 경고 정보
-topic: Reports,Site search and merchandising
+topic: 보고서,사이트 검색 및 머천다이징
 uuid: 94524563-f9a6-40cf-89f3-e80b1d0113c7
 translation-type: tm+mt
-source-git-commit: 7af85dd37f06fe506e5f57e28a25385ca7ab3db5
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -51,5 +49,5 @@ ht-degree: 0%
    * 경고를 하나 이상 삭제하려면 왼쪽 열에서 삭제할 경고를 선택한 다음 **선택한 경고 삭제**&#x200B;를 클릭합니다.
    * 표시된 경고를 모두 선택하려면 왼쪽 열 맨 위에 있는 확인란을 선택합니다.
 
-      하나의 페이지가 아니라 일치하는 모든 경고를 선택하려면 오른쪽 드롭다운 목록에서 **[!UICONTROL All Alerts]**&#x200B;을 선택한 다음 열 맨 위의 확인란을 선택합니다.
+      하나의 페이지가 아닌 일치하는 모든 경고를 선택하려면 오른쪽 드롭다운 목록에서 **[!UICONTROL All Alerts]**&#x200B;을 선택한 다음 열 맨 위의 확인란을 선택합니다.
 
