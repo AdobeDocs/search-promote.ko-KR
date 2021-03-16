@@ -1,15 +1,13 @@
 ---
 description: 직접 히트를 사용하면 고객이 일치하는 용어를 검색할 때 지정된 URL로 고객을 리디렉션할 수 있습니다. 이러한 종류의 기능을 사용하면 웹 사이트 검색의 탐색을 개선할 수 있습니다.
-seo-description: 직접 히트를 사용하면 고객이 일치하는 용어를 검색할 때 지정된 URL로 고객을 리디렉션할 수 있습니다. 이러한 종류의 기능을 사용하면 웹 사이트 검색의 탐색을 개선할 수 있습니다.
-seo-title: 직접 히트 정보
 solution: Target
 title: 직접 히트 정보
-topic: Rules,Site search and merchandising
+topic: 규칙, 사이트 검색 및 머천다이징
 uuid: 374d63c8-2b82-4165-b543-05b587757baa
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '400'
 ht-degree: 1%
 
 ---
