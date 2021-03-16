@@ -1,16 +1,14 @@
 ---
 description: 사이트를 다시 크롤링하지 않고도 색인 재생성을 사용하여 웹 사이트의 인덱스를 업데이트할 수 있습니다.
-seo-description: 사이트를 다시 크롤링하지 않고도 색인 재생성을 사용하여 웹 사이트의 인덱스를 업데이트할 수 있습니다.
-seo-title: 색인 재생성 정보
 solution: Target
 subtopic: Regenerate Index
 title: 색인 재생성 정보
-topic: Index,Site search and merchandising
+topic: 색인, 사이트 검색 및 머천다이징
 uuid: 9d1f1d88-0453-4422-a625-a348febbf224
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '398'
 ht-degree: 1%
 
 ---
@@ -33,7 +31,7 @@ ht-degree: 1%
 
 기본적으로 새 웹 사이트 컨텐츠 또는 변경된 웹 사이트 컨텐츠는 색인에 포함되지 않습니다. 이러한 컨텐츠를 포함하려면 전체 또는 증분 인덱스를 실행합니다.
 
-라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.[.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D)
+라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D).[
 
 라이브 또는 스테이지된 웹 사이트의 증분 인덱스 실행 참조: [](../c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB).
 
