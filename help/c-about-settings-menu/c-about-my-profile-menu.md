@@ -1,16 +1,14 @@
 ---
 description: '[내 프로필] 메뉴를 사용하여 개인 정보, 환경 설정, 로그인 암호를 설정하고 액세스 권한을 봅니다.'
-seo-description: '[내 프로필] 메뉴를 사용하여 개인 정보, 환경 설정, 로그인 암호를 설정하고 액세스 권한을 봅니다.'
-seo-title: 내 프로필 메뉴 정보
 solution: Target
 subtopic: My Profile
 title: 내 프로필 메뉴 정보
-topic: Settings,Site search and merchandising
+topic: 설정,사이트 검색 및 머천다이징
 uuid: 6a0a4e57-59fa-48fb-b712-eb16a9f47c3a
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -26,7 +24,7 @@ ht-degree: 0%
 
 선택하는 문자 인코딩은 메타 태그에 대체 문자 집합 인코딩을 지정하지 않는 한 계정의 웹 페이지에 적용됩니다. 문자 인코딩은 계정 구성 페이지에도 적용됩니다. 기본값은 &quot;서유럽 (ISO-8859-1)&quot;입니다.
 
-이메일 주소를 지정하면 ASCII 문자만 포함되어야 합니다. 표준 알파벳순 사용(a...z) 사용자 이름을 도메인과 구분하는 데 사용되는 문자가 정확히 하나의 `@` 문자를 사용하는 `(0..9)` 문자 또는 숫자 `_`, `+`, `-`, `.`, `!`, `#`, `'`, `%`, `&`, `*`, `=`, `?`, `^`, &lt;a13/>, a14/> 및 `}`도 허용됩니다. `$``{` 이메일 주소는 마침표(`.`) 문자로 시작할 수 없습니다.
+이메일 주소를 지정하면 ASCII 문자만 포함되어야 합니다. 표준 알파벳순 사용(a...z) 사용자 이름을 도메인과 구분하는 데 사용되는 문자가 정확히 하나의 `@` 문자를 사용하는 `(0..9)` 문자 또는 숫자 `_`, `+`, `-`, `.`, `!`, `#`, `'`, `%`, `&`, `*`, `=`, `?`, `^`, `$`, a14/> 및 `}`도 허용됩니다. `{` 이메일 주소는 마침표(`.`) 문자로 시작할 수 없습니다.
 
 [환경 설정 구성](../c-about-settings-menu/c-about-my-profile-menu.md#task_5E06BF565C284C2EBBE18E10A1C4BFBB)을 참조하십시오.
 
