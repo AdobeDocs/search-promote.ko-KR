@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Search&Amp;Promote 15.1.1 릴리스 노트(01/15/2015)
+description: Search&amp;Promote 15.1.1 릴리스 노트.
 solution: Target
 title: Search&Amp;Promote 15.1.1 릴리스 노트(01/15/2015)
-topic: Release Notes,Site search and merchandising
+topic: 릴리스 노트,사이트 검색 및 머천다이징
 uuid: 070f9c46-426f-4ca1-80c7-8ca53d40a402
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 17%
+source-wordcount: '241'
+ht-degree: 16%
 
 ---
 
