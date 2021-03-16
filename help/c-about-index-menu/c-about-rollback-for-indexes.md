@@ -1,16 +1,14 @@
 ---
 description: 롤백을 사용하여 생성한 웹 사이트 인덱스를 백업 및 보관할 수 있습니다. 언제든지 색인의 백업을 복원할 수도 있습니다.
-seo-description: 롤백을 사용하여 생성한 웹 사이트 인덱스를 백업 및 보관할 수 있습니다. 언제든지 색인의 백업을 복원할 수도 있습니다.
-seo-title: 색인에 대한 롤백 정보
 solution: Target
 subtopic: Rollback
 title: 색인에 대한 롤백 정보
-topic: Index,Site search and merchandising
+topic: 색인, 사이트 검색 및 머천다이징
 uuid: abed878a-71b3-4122-9822-7410f4427a9a
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
