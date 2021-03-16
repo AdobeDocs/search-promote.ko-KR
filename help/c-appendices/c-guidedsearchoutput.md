@@ -1,15 +1,13 @@
 ---
-description: XML 또는 JSON을 비롯한 모든 텍스트 기반 포맷으로 출력을 사용자 정의할 수 있습니다.
-seo-description: XML 또는 JSON을 비롯한 모든 텍스트 기반 포맷으로 출력을 사용자 정의할 수 있습니다.
-seo-title: 검색 안내 출력
+description: XML 또는 JSON을 비롯한 모든 텍스트 기반 포맷으로 출력을 사용자 지정하는 방법을 살펴봅니다.
 solution: Target
 title: 검색 안내 출력
-topic: Appendices,Site search and merchandising
+topic: 부록, 사이트 검색 및 머천다이징
 uuid: 234fd563-f249-42b0-88ca-c89b44f8df77
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '6298'
+source-wordcount: '6289'
 ht-degree: 2%
 
 ---
@@ -83,12 +81,12 @@ SEO 형식을 사용하여 요청을 보낼 때마다 모든 출력 링크가 �
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> q# </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> q#= 문자열  </span> </p> </td> 
-   <td colname="col3"> <p><span class="codeph"> q </span> 및 <span class="codeph"> x </span> 매개 변수에 번호가 매겨진 &lt;a0/&gt; 매개 변수를 사용하여 이벤트를 수행하거나 지정된 필드 내에서 검색합니다. </p> <p><span class="codeph"> q </span> 매개 변수는 패싯에서 검색하는 용어를 해당 번호 <span class="codeph"> x </span> 매개 변수가 나타내는 것으로 정의합니다. 예를 들어 크기와 색상으로 이름이 지정된 두 개의 패싯이 있는 경우 다음과 같은 요소를 가질 수 있습니다. </p> <p> <span class="codeph"> q1=small;x1=size;q2=red;x2=color  </span> </p> <p>이 매개 변수는 <span class="codeph"> sp_q_exact_# </span> 백엔드 검색 매개 변수에 매핑됩니다. </p> </td> 
+   <td colname="col3"> <p><span class="codeph"> q </span> 및 <span class="codeph"> x </span> 매개 변수에 번호가 매겨진  매개 변수를 사용하여 이벤트를 수행하거나 지정된 필드 내에서 검색합니다. </p> <p><span class="codeph"> q </span> 매개 변수는 패싯에서 검색하는 용어를 해당 번호 <span class="codeph"> x </span> 매개 변수가 나타내는 것으로 정의합니다. 예를 들어 크기와 색상으로 이름이 지정된 두 개의 패싯이 있는 경우 다음과 같은 요소를 가질 수 있습니다. </p> <p> <span class="codeph"> q1=small;x1=size;q2=red;x2=color  </span> </p> <p>이 매개 변수는 <span class="codeph"> sp_q_exact_# </span> 백엔드 검색 매개 변수에 매핑됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> x# </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> x#= 문자열  </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> q </span> 및 <span class="codeph"> x </span> 매개 변수에 번호가 매겨진 &lt;a0/&gt; 매개 변수를 사용하여 이벤트를 수행하거나 지정된 필드 내에서 검색합니다. </p> <p><span class="codeph"> q </span> 매개 변수는 패싯에서 검색하는 용어를 해당 번호 <span class="codeph"> x </span> 매개 변수가 나타내는 것으로 정의합니다. 예를 들어 크기와 색상으로 이름이 지정된 두 개의 패싯이 있는 경우 다음과 같은 요소를 가질 수 있습니다. </p> <p> <span class="codeph"> q1=small;x1=size;q2=red;x2=color  </span> </p> <p>이 매개 변수는 <span class="codeph"> sp_x_# </span> 백엔드 검색 매개 변수에 매핑됩니다. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> q </span> 및 <span class="codeph"> x </span> 매개 변수에 번호가 매겨진  매개 변수를 사용하여 이벤트를 수행하거나 지정된 필드 내에서 검색합니다. </p> <p><span class="codeph"> q </span> 매개 변수는 패싯에서 검색하는 용어를 해당 번호 <span class="codeph"> x </span> 매개 변수가 나타내는 것으로 정의합니다. 예를 들어 크기와 색상으로 이름이 지정된 두 개의 패싯이 있는 경우 다음과 같은 요소를 가질 수 있습니다. </p> <p> <span class="codeph"> q1=small;x1=size;q2=red;x2=color  </span> </p> <p>이 매개 변수는 <span class="codeph"> sp_x_# </span> 백엔드 검색 매개 변수에 매핑됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 컬렉션 </span> </p> </td> 
@@ -2067,7 +2065,7 @@ xml version="1.0" encoding="utf-8" standalone="yes"
   <tr> 
    <td colname="col1"> <p>사용자 쿼리 </p> </td> 
    <td colname="col2"> <p>쿼리 </p> </td> 
-   <td colname="col3"> <p> 검색한 키워드입니다. 원래 용어에 결과가 없는 것으로 인해 <span class="uicontrol">이(가) 제안된 용어를 자동으로 검색했습니까?</span> </p> </td> 
+   <td colname="col3"> <p> 검색한 키워드입니다. 원래 용어에 결과가 없는 것으로 인해 </span>이(가) 제안된 용어를 자동으로 검색했습니까?<span class="uicontrol"> </span></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>낮은 결과 </p> </td> 
