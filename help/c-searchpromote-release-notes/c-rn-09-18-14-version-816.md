@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Search&Amp;Promote 8.16.0 릴리스 노트(9/18/2014)
+description: Search&amp;Promote 8.16.0 릴리스 노트.
 solution: Target
 title: Search&Amp;Promote 8.16.0 릴리스 노트(9/18/2014)
-topic: Release Notes,Site search and merchandising
+topic: 릴리스 노트,사이트 검색 및 머천다이징
 uuid: 0a59858b-213b-40d6-aea1-d085c4d6d2fa
 translation-type: tm+mt
-source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 37%
+source-wordcount: '338'
+ht-degree: 36%
 
 ---
 
@@ -50,7 +48,7 @@ ht-degree: 37%
 
    [용어 보고서 보기 또는 Null 검색어 보고서 보기...를 참조하십시오.](../c-about-reports-menu/c-about-reports-menu.md#task_53B7ED1582DD4B0E8376546A7AFC789A).
 
-* 색인 커넥터 **[!UICONTROL Strip HTML]** 설정은 항상 검사됨으로 표시되었습니다.
+* 색인 커넥터 **[!UICONTROL Strip HTML]** 설정이 항상 확인됨으로 표시되었습니다.
 * **[!UICONTROL Common Phrases]** 기능에 일관되지 않은 검색 결과가 있습니다.
 * 속성 이름 표시가 규칙 목록 요약에서 잘렸습니다.
 * 개별 비즈니스 규칙을 라이브로 적용하면 모든 비즈니스 규칙이 라이브로 적용됩니다.
