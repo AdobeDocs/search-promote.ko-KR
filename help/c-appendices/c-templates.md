@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 템플릿
+description: Search&amp;Promote에서 프레젠테이션 및 템플릿 태그를 사용하는 방법에 대해 알아보십시오.
 solution: Target
 title: 템플릿
-topic: Appendices,Site search and merchandising
+topic: 부록, 사이트 검색 및 머천다이징
 uuid: 78299032-dc23-4dfe-b68f-cd57b2b6d7d8
 translation-type: tm+mt
-source-git-commit: ca4156f80d7dbb85d2d56b6caf7c0f560299d86e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '15139'
+source-wordcount: '15153'
 ht-degree: 2%
 
 ---
@@ -208,7 +206,7 @@ ht-degree: 2%
     
     &amp;lt;ul&amp;gt;
     
-    lt;guided-result-attribute-table&amp;nbsp;gsname=&quot;다운로드&quot;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nnnnna&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;다운로드_링크&quot;&amp;nbsp;/&amp;nbsp;&quot;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; nbsp;&amp;nbsp;&amp;lt;/a&amp;gt;&amp;nbsp;(&amp;lt;guided-result-field&amp;nbsp;gsname=&quot;title&quot;/&amp;gt;)
+    lt;guided-result-attribute-table&amp;nbsp;gsname=&quot;다운로드&quot;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nnnnna&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;다운로드_링크&quot;&amp;nbsp;/&amp;nbsp;&quot;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; nbsp;&amp;nbsp;&amp;lt;/a&amp;gt;&amp;nbsp;(&amp;lt;guided-result-field&amp;nbsp;gsname=&quot;title&quot;/&amp;gt;)
     &amp;nbsp;&amp;nbsp;/li&amp;lt;lt;lt&amp;lt;lt;&amp;lt
      
      
@@ -269,7 +267,7 @@ ht-degree: 2%
    <td colname="col2"> <p>패싯의 표시 레이블을 반환합니다. </p> <p>패싯이 전송 템플릿에서 <span class="codeph"> &lt;display-name&gt; </span> 태그를 사용하는 경우 해당 태그의 컨텐츠가 레이블이 됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
      <!--In search-eng version 1/31/13--> <span class="codeph"> &lt;guided-facet-rail&gt;&lt;/guided-facet-rail&gt; </span> </p> </td> 
    <td colname="col2"> <p> 단면 레일의 각 패싯에 대한 반복 패턴으로 사용되는 프레젠테이션 템플릿의 섹션을 정의합니다. </p> <p> 패싯 레일에 속하는 각 패싯은 이 섹션을 사용하여 해당 출력을 평가합니다. </p> <p>다음은 패싯 레일의 예입니다. </p> <p> <code class="syntax html"> &lt;guided-facet-rail&gt; 
@@ -286,7 +284,7 @@ ht-degree: 2%
      <li id="li_176949227AC14E8CA643A419E10F7B5A">guided-facet-undo-path </li> 
      <li id="li_B32D981281744462BC680F6EFEAC0069">guided-facet-behavior </li> 
     </ul> <p><span class="wintitle"> 패싯 레일 </span> 페이지의 정렬 기준은 패싯의 위치를 결정합니다. 정렬 패싯 방법 드롭다운 목록에서 정렬 순서를 선택할 수 있습니다. </p> <p> 
-     <!--NEW 02/27/2014-->이 태그는 선택적으로 이 검색에 대한 동적 패싯에 대한 루프 컨텍스트를 제공하는  <span class="codeph"> _dynamic_facet </span>의 gsname 속성 값을 허용할 수 있습니다. 이 사전 정의된 패싯 레일은 패싯 레일 '_dynamic_facet'의 패싯 X를 푸시하여 Y </span>"을(를) 배치하는 작업 <span class="codeph"> 푸시 패싯 사용자 인터페이스에도 표시됩니다. </span></p> <p><a href="../c-about-design-menu/c-about-facet-rails.md#concept_1FDC8BCDFFC84A0889DA670F63D5F6DB" format="dita" scope="local">단면 레일 정보</a>를 참조하십시오 . </p> <p><a href="../c-about-design-menu/c-about-dynamic-facets.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> 동적 패싯 </a>도 참조하십시오. </p> </td> 
+     <!--NEW 02/27/2014-->이 태그는 선택적으로 이 검색에 대한 동적 패싯에 대한 루프 컨텍스트를 제공하는  <span class="codeph"> _dynamic_facet </span>의 gsname 속성 값을 허용할 수 있습니다. 이 사전 정의된 패싯 레일은 패싯 레일 '_dynamic_facet'의 패싯 X를 푸시하여 Y </span>"을(를) 배치하는 작업 <span class="codeph"> 푸시 패싯 사용자 인터페이스에도 표시됩니다. </span></p> <p><a href="../c-about-design-menu/c-about-facet-rails.md#concept_1FDC8BCDFFC84A0889DA670F63D5F6DB" format="dita" scope="local">단면 레일 정보</a>를 참조하십시오 . </p> <p><a href="../c-about-design-menu/c-about-dynamic-facets.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> 동적 패싯 정보 </a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
@@ -607,7 +605,7 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-breadcrumb&gt; breadcrumname  </span>"]&gt;&lt;/guided-breadcrumb&gt; </span><span class="varname"> </span></p> </td> 
    <td colname="col2"> <p>탐색 표시에 대한 루프 태그입니다. 열기 태그와 닫기 태그 사이의 모든 내용은 현재 상태의 각 쿼리 번호에 대해 반복됩니다. </p> <p><span class="codeph"> <span class="varname"> gsname </span> </span>이 생략되면 "default"라는 브레드크럼이 사용됩니다. </p> </td> 
   </tr> 
@@ -622,7 +620,7 @@ ht-degree: 2%
       &lt;/guided-breadcrumb&gt; </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
      <!--Updated to search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-breadcrumb-value /&gt; </span> </p> </td> 
    <td colname="col2"> <p>value 태그는 현재 탐색 경로 반복의 변형된 값을 인쇄합니다. <span class="codeph"> guided-breadcrumb </span> 블록 컨텍스트에서만 사용됩니다. </p> <p> <code class="syntax html"> &lt;guided-breadcrumb&gt; 
@@ -747,7 +745,7 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
      <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-pages&gt;&lt;/guided-pages&gt; </span> </p> </td> 
    <td colname="col2"> <p>페이지 탐색을 위한 루프 태그입니다. 열기 태그와 닫기 태그 사이의 모든 컨텐츠는 각 페이지에 대해 반복됩니다. </p> </td> 
@@ -759,7 +757,7 @@ ht-degree: 2%
    <td colname="col2"> <p>페이지 탐색에 링크를 만듭니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
      <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-page-link gsname="first|prev|next|last|viewall|viewpages"&gt;&lt;/guided-page-link&gt; </span> </p> </td> 
    <td colname="col2"> <p>첫 번째, 이전, 다음 또는 마지막 페이지에 대한 링크를 만듭니다. 또한 한 페이지의 모든 페이지를 볼 수 있는 링크를 만들 수도 있습니다. </p> </td> 
@@ -891,7 +889,7 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-recent-searches&gt;&lt;/guided-recent-searches&gt; </span> </p> </td> 
    <td colname="col2"> <p>최근 검색을 위한 루프 태그입니다. 열기 태그와 닫기 태그 사이의 모든 컨텐츠는 각 페이지에 대해 반복됩니다. </p> </td> 
   </tr> 
@@ -1088,7 +1086,7 @@ ht-degree: 2%
    <td colname="col2"> <p>사용자가 스토어에 있는지 검색합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-if-store gsname="store"&gt; &lt;guided-else-store&gt; &lt;/guided-if-store&gt; </span> </p> </td> 
    <td colname="col2"> <p>사용자가 <span class="codeph"> gsname </span> 매개 변수가 지정하는 스토어에 있는지 검색합니다. </p> </td> 
   </tr> 
@@ -1139,7 +1137,7 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
      <!--Updated to match search-eng version, 2/1/2013--> <code> &lt;guided-if[-not]-first&gt;&lt;guided-else[-not]-first&gt; 
       &lt;/guided-if[-not]-first&gt; </code> </p> </td> 
@@ -1210,7 +1208,7 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
      <!--Updated to match search-eng, 2/1/2013--> <span class="codeph"> &lt;guided-current-path&gt; </span> </p> </td> 
    <td colname="col2"> <p>사용되는 현재 경로를 제공합니다. 일반적으로 기존 검색에 새 매개 변수를 추가하는 링크를 만드는 데 사용됩니다. 기본적으로 경로는 URL 이스케이프됩니다. escape 매개 변수를 통해 사용할 이스케이프 모드를 지정할 수 있습니다. </p> <p>예: </p> <p> <code class="syntax html"> &lt;a&nbsp;href="&lt;guided-current-path&nbsp;/&gt;&amp;lang=fr"&gt; 
@@ -1225,7 +1223,7 @@ ht-degree: 2%
        </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
      <!--Updated to match search-eng, 2/1/2013--> <span class="codeph"> &lt;guided-query-param gsname="query_parameter"&gt; </span> </p> </td> 
    <td colname="col2"> <p>URL에 있는 쿼리 매개 변수의 기존 값을 가져올 수 있습니다. 매개 변수가 없으면 이 태그는 빈 문자열을 반환합니다. 이스케이프 옵션을 지정하지 않으면 반환된 문자열이 자동으로 HTML 이스케이프되는 경우 HTML 또는 URL 이스케이프 처리를 지정할 수 있습니다. </p> <p>예: </p> <p> 
@@ -1234,12 +1232,12 @@ ht-degree: 2%
     nbsp;값&amp;nbsp;pants
     
     &amp;nbsp;guided-query-param&amp;nbsp;gsname=&quot;lang&quot;&amp;nbsp;/&amp;get;
-    nbsp는&amp;nbsp; _nbsp;
+    nbsp는&amp;nbsp; _nbsp
     
-    nbsp;&amp;nbsp;gsname=&quot;test&quot;&amp;nbsp;/&amp;
-    nbsp;빈nbsp;문자열
+    ;도우미-query-param&amp;nbsp;gsname=&quot;test&quot;&amp;nbsp;/&amp;
+    nbsp;&amp;nbsp;빈
      
-    &amp;nbsp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nnbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;   &lt;/p>  &lt;/td>
+    nbsp;문자열&amp;nbsp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;   &lt;/p>  &lt;/td>
 </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
@@ -1588,7 +1586,7 @@ results 루프 태그는 템플릿 시스템의 작업 공간입니다. 검색 �
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-index&gt; </span> </p> </td> 
    <td colname="col2"> <p>현재 결과의 숫자 인덱스를 반환합니다. </p> </td> 
   </tr> 
@@ -1707,7 +1705,7 @@ results 루프 태그는 템플릿 시스템의 작업 공간입니다. 검색 �
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-title&gt; ...  &lt;/search-if-title&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-title&gt; ...  &lt;/search-if-not-title&gt; </span> </p> </td> 
    <td colname="col2"> <p>다음 호출에서 <span class="codeph"> &lt;search-title&gt; </span>을(를) 호출하면 문서 제목에서 텍스트를 반환하거나 반환하지 않을 경우 태그 사이에 HTML이 포함됩니다. </p> </td> 
   </tr> 
@@ -1717,7 +1715,7 @@ results 루프 태그는 템플릿 시스템의 작업 공간입니다. 검색 �
    <td colname="col2"> <p> 다음 호출에서 <span class="codeph"> &lt;search-description&gt; </span>을 호출하면 문서 설명에서 텍스트를 반환하거나 반환하지 않을 경우 태그 사이에 HTML이 포함됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-bodytext&gt; ...  &lt;/search-if-bodytext&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-bodytext&gt; ...  &lt;/search-if-not-bodytext&gt; </span> </p> </td> 
    <td colname="col2"> <p>다음 호출에서 <span class="codeph"> &lt;search-bodytext&gt; </span>을(를) 호출하면 문서 본문에서 텍스트를 반환하거나 반환하지 않을 경우 이러한 태그에는 그 사이에 HTML이 포함됩니다. </p> </td> 
   </tr> 
@@ -1768,7 +1766,7 @@ results 루프 태그는 템플릿 시스템의 작업 공간입니다. 검색 �
    <td colname="col2"> <p>이 태그 쌍은 <span class="codeph"> &lt;search-link&gt; ... &lt;/search-link&gt; </span> 태그와 유사합니다. 생성된 앵커 링크를 클릭하면 결과 페이지가 표시되지만, 가장 가까운 앵커 태그로 결과 앞에 페이지가 스크롤되었습니다. PDF 링크의 경우 Acrobat 뷰어에 결과가 포함된 페이지가 표시됩니다. 선택적 target 속성은 프레임 지원 브라우저에서 결과 페이지를 표시하는 명명된 창을 지정합니다. </p> <p>HBX을 통해 사용할 수 있는 분석을 활용하려면 hbox-enable 속성을 "yes"로 설정합니다. hbox-linkid-name을 추적할 메타 데이터 필드의 이름으로 설정합니다. 예를 들어 SKU 번호로 검색 결과를 추적하려면 hbox-linkid-name을 SKU 정보가 포함된 메타 데이터 필드의 이름으로 설정합니다. </p> <p>날짜 유형 필드는 현재 지원되지 않습니다. hbox-linkid-name의 값이 생성된 앵커의 링크 ID에 추가됩니다. 이름이 지정된 메타 데이터 필드가 비어 있을 때마다 hbx-linkid-none 속성의 값이 링크 ID에 추가됩니다. hbox-linkid-length 값은 Meta 태그에서 가져오고 표시되는 문자 수를 제한합니다. 기본 문자 수는 12자입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-link-extension&gt; ...  &lt;/search-if-link-extension&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-link-extension&gt; ...  &lt;/search-if-not-link-extension&gt; </span> </p> </td> 
    <td colname="col2"> <p>value 특성이 결과에 대한 URL의 끝과 일치하는 확장을 지정하는 경우 이러한 태그에는 HTML 사이에 HTML이 포함됩니다. 이 태그는 링크 확장명을 기반으로 검색 결과에 그래픽을 포함할 때 유용합니다. value 속성은 다음과 같이 하나 이상의 확장(공백으로 구분) 목록입니다.VALUE=".pdf" 또는 VALUE=".html .htm". </p> </td> 
   </tr> 
@@ -1791,7 +1789,7 @@ results 루프 태그는 템플릿 시스템의 작업 공간입니다. 검색 �
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-first&gt; ...  &lt;/search-if-first&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-first&gt; ...  &lt;/search-if-not-first&gt; </span> </p> </td> 
    <td colname="col2"> <p>현재 결과가 페이지의 첫 번째 결과(a0/&gt; &lt;search-results&gt; </span> 내에서 사용될 때) 또는 첫 번째 필드 값(<span class="codeph"> &lt;search-field-values&gt; </span> 내에서 사용될 때)인 경우 이 태그들 사이에 텍스트가 포함됩니다.<span class="codeph"> </span></p> </td> 
   </tr> 
@@ -1805,14 +1803,14 @@ results 루프 태그는 템플릿 시스템의 작업 공간입니다. 검색 �
       &lt;/search-results&gt; </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-inner&gt; ...  &lt;/search-if-inner&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-inner&gt; ...  &lt;/search-if-not-inner&gt; </span> </p> </td> 
    <td colname="col2"> <p>현재 결과가 페이지의 첫 번째 또는 마지막 결과가 아니거나(<span class="codeph"> &lt;search-results&gt; </span> 내에서 사용될 때) 첫 번째 필드 값과 마지막 필드 값이 아닌 경우(<span class="codeph"> &lt;search-field-values&gt; </span> 내에서 사용될 때) 이 태그들 사이에 텍스트가 포함됩니다. 태그 버전이 아닌 경우 결과가 첫 번째인지 마지막 버전인지 테스트합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-alt&gt; ...  &lt;/search-if-alt&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-alt&gt; ...  &lt;/search-if-not-alt&gt; </span> </p> </td> 
-   <td colname="col2"> <p>현재 결과가 페이지의 대체 결과(a0/&gt; &lt;search-results&gt; </span> 내에서 사용될 때) 또는 대체 필드 값(<span class="codeph"> &lt;search-field-values&gt; </span> 내에서 사용될 때)인 경우 이러한 태그들 사이에 텍스트가 포함됩니다. <span class="codeph"> "대체" 결과는 페이지의 두 번째, 네 번째, 여섯 번째 등입니다. 이 예제에서는 대체 테이블 행에 다른 클래스를 적용합니다. <span class="codeph"> </span> &lt;search-lt&gt; </span> 및 <span class="codeph"> &lt;search-gt&gt; </span>을 사용하여 <span class="codeph"> &lt;search-if-alt&gt; </span> 태그를 &lt;a6/&gt; &lt;tr&gt; &lt;a7/&gt; 태그의 "내부"에 배치할 수 있도록 하십시오.<span class="codeph"> </span></span></p> <p> <code class="syntax html"> &nbsp;&nbsp;&nbsp;&nbsp;&lt;search-results&gt; 
+   <td colname="col2"> <p>현재 결과가 페이지의 대체 결과(a0/&gt; &lt;search-results&gt; </span> 내에서 사용될 때) 또는 대체 필드 값(<span class="codeph"> &lt;search-field-values&gt; </span> 내에서 사용될 때)인 경우 이러한 태그들 사이에 텍스트가 포함됩니다. <span class="codeph"> "대체" 결과는 페이지의 두 번째, 네 번째, 여섯 번째 등입니다. 이 예제에서는 대체 테이블 행에 다른 클래스를 적용합니다. <span class="codeph"> </span> &lt;search-lt&gt; </span> 및 <span class="codeph"> &lt;search-gt&gt; </span>을 사용하여 <span class="codeph"> &lt;search-if-alt&gt; </span> 태그를 <span class="codeph"> &lt;tr&gt;  태그의 "내부"에 배치할 수 있도록 하십시오. </span></span></p> <p> <code class="syntax html"> &nbsp;&nbsp;&nbsp;&nbsp;&lt;search-results&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;search-lt&gt;tr&lt;search-if-alt&gt;&nbsp;class="alt"&lt;/search-if-alt&gt;&lt;search-gt&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;&lt;search-url&gt;&lt;/td&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt; 
@@ -1851,7 +1849,7 @@ results 루프 태그는 템플릿 시스템의 작업 공간입니다. 검색 �
    <td colname="col4"> <p>예 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 </p> </td> 
+   <td colname="col1"> <p>3 </p> </td> 
    <td colname="col2"> <p>세 번째 결과 </p> </td> 
    <td colname="col3"> <p>아니오 </p> </td> 
    <td colname="col4"> <p>아니오 </p> </td> 
@@ -1932,7 +1930,7 @@ results 루프 태그는 템플릿 시스템의 작업 공간입니다. 검색 �
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-field-value-list name="field-name" quotes="yes/no" commas="yes/no" data="values/counts/results" separator="X" sortby="none/values/counts/results" max-items="XX" date-format="date-format-string" gmt="yes/no" language="0/language-id" encoding="html/javascript/json/perl/url/none"&gt; </span> </p> </td> 
    <td colname="col2"> <p>이 태그는 전체 결과 세트 내의 고유한 필드 값, 값 수 또는 결과 카운트 목록을 표시합니다. </p> <p>이 태그는 검색 쿼리에서 <span class="codeph"> sp_sfvl_field </span> CGI 매개 변수에 의해 지정된 필드에 대한 출력만 산출합니다. 선택적 "따옴표" 속성은 개별 항목 출력이 큰따옴표(encoding=perl인 경우 작은따옴표)로 둘러싸여 있는지 여부를 제어합니다. "quote"의 기본값은 "yes"입니다. 선택적 "쉼표" 속성은 개별 항목 출력이 쉼표로 구분되는지 여부를 제어합니다. "쉼표"의 기본값은 "yes"입니다. 선택적 "data" 속성은 각 고유 필드 값이 출력인지(data="values"), 각 고유 필드 값의 총 카운트가 출력인지(data="counts") 또는 각 고유 값을 포함하는 결과 수(data="results")를 제어합니다. "data"의 기본값은 "values"입니다. 목록 유형이 아닌 필드의 경우 data="counts" 및 data="results"는 같습니다. separator 속성은 출력 값 사이에 삽입될 단일 문자 또는 구분 기호를 정의합니다. 선택적 "정렬" 속성은 출력 순서를 제어합니다.sortby="none"은 특정 순서를 의미하지 않으며, sortby="values"는 필드 값(필드의 정렬 속성에 따라 오름차순 또는 내림차순)으로 정렬하는 것을 의미하며, sortby="counts"는 필드 값 카운트의 내림차순으로 정렬하는 것을 의미하며, sortby="results"는 각 값이 들어 있는 결과 수의 내림차순으로 정렬하는 것을 의미합니다. </p> <p>sortby="counts" 및 sortby="results"는 목록 유형이 아닌 필드에 해당합니다. 선택적 "max-items" 속성은 출력할 항목 수를 제한합니다. "max-items"의 기본값은 -1이며, 이것은 "모든 항목 출력"을 의미합니다. </p> <p>최대 항목 수 제한은 100개입니다. "date-format", "gmt" 및 "language" 속성은 지정된 필드의 컨텐츠 유형이 "date"인 경우에만 관련이 있습니다. "date-format" 특성은 "%A, %B %d, %Y"(2016년 7월 25일 월요일) 등의 UNIX 스타일 날짜 형식 문자열을 사용합니다. "gmt"는 기본적으로 "yes"로 설정되며 날짜 문자열의 시간 부분이 GMT("yes") 또는 계정의 표준 시간대("no")로 출력되어야 하는지 여부를 제어합니다. </p> <p><a href="../c-appendices/c-templates.md#section_4BBDBBEF2B96414497617CD4B52D96E4" type="section" format="dita" scope="local"> 날짜 형식 문자열</a>을 참조하십시오. </p> <p>"language" 속성은 출력 날짜 문자열의 언어 및 로케일 규칙을 제어합니다. "0"(기본값)은 "계정 언어 사용"을 의미합니다. 다른 "언어" 값은 특정 언어 식별자로 해석됩니다. 예를 들어 "en_US"는 "영어(미국)"를 의미합니다. 선택적 "인코딩" 속성은 결과 페이지에서 출력할 출력 문자열 문자가 HTML 인코딩, JavaScript 인코딩, Perl 인코딩, URL 인코딩 또는 인코딩되지 않았는지 여부를 제어합니다. "encoding"의 기본값은 "html"입니다. </p> <p><a href="../c-appendices/c-templates.md#section_0490DECC00E34691ADE5A9ED90A6D911" type="section" format="dita" scope="local"> 언어 식별자</a>를 참조하십시오. </p> </td> 
   </tr> 
@@ -1978,7 +1976,7 @@ results 루프 태그는 템플릿 시스템의 작업 공간입니다. 검색 �
    <td colname="col2"> <p>이 태그는 현재 &lt;search-field-values&gt; 루프 반복에 대한 필드 값을 출력합니다. 이 태그는 <span class="codeph"> &lt;search-field-values&gt; </span> 루프 내에서만 유효합니다. "date-format", "gmt" 및 "language" 속성은 바깥쪽 &lt;search-field-values&gt; 태그에 지정된 필드 이름의 내용 유형이 "date"인 경우에만 관련이 있습니다. "date-format" 특성은 "%A, %B %d, %Y"(2020년 7월 25일 월요일) 등의 UNIX 스타일 날짜 형식 문자열을 사용합니다. </p> <p><a href="../c-appendices/c-templates.md#section_4BBDBBEF2B96414497617CD4B52D96E4" type="section" format="dita" scope="local"> 날짜 형식 문자열</a>을 참조하십시오. </p> <p>선택적 "인코딩" 속성은 결과 페이지에서 출력할 출력 문자열 문자가 HTML 인코딩, JavaScript 인코딩, Perl 인코딩, URL 인코딩 또는 인코딩되지 않았는지 여부를 제어합니다. "encoding"의 기본값은 "none"입니다. 일반적으로 인코딩 특성을 지정할 필요가 없습니다. "gmt"는 기본적으로 "yes"로 설정되며 날짜 문자열의 시간 부분이 GMT("yes") 또는 계정의 표준 시간대("no")로 출력되어야 하는지 여부를 제어합니다. "language" 속성은 출력 날짜 문자열의 언어 및 로케일 규칙을 제어합니다. "0"(기본값)은 "계정 언어 사용"을 의미합니다. 다른 "언어" 값은 특정 언어 식별자로 해석됩니다. 예를 들어 "en_US"는 "영어(미국)"를 의미합니다. </p> <p><a href="../c-appendices/c-templates.md#section_0490DECC00E34691ADE5A9ED90A6D911" type="section" format="dita" scope="local"> 언어 식별자</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-field-value-count results="yes/no"&gt; </span> </p> </td> 
    <td colname="col2"> <p>이 태그는 현재 <span class="codeph"> &lt;search-field-values&gt; </span> 루프 반복과 연관된 카운트를 출력합니다. 출력 개수는 필드 값(results="yes")을 포함하는 전체 결과 집합의 결과 수 또는 전체 결과 집합의 필드 값에 대한 총 계수입니다. "results"의 기본값은 "no"입니다. </p> <p>목록 유형이 아닌 필드의 경우 results="yes" 및 results="no"는 같습니다. 이 태그는 <span class="codeph"> &lt;search-field-values&gt; </span> 루프 내에서만 유효합니다. </p> </td> 
   </tr> 
@@ -2018,7 +2016,7 @@ results 루프 태그는 템플릿 시스템의 작업 공간입니다. 검색 �
    <td colname="col2"> <p>이 태그는 원래 "의도"로 입력한 쿼리에 대해 제안된 검색어 목록(예: "의도적", "의도적" 및 "의도적")을 포함하는 "제안" 루프를 생성합니다. 용어 목록을 생성할 때 검색 엔진은 중첩 HTML 및/또는 템플릿 태그를 최대 5배 반복하며, 이것은 최대 제안 수입니다. count 속성을 사용하여 생성된 제안 수(0-5 사이)를 지정합니다. </p> <p><span class="codeph"> &lt;search-suggestions&gt; </span> 태그는 페이지에 여러 번 나타나 제안 목록을 반복할 수 있습니다. 각 결과 수에 따라 여러 제안이 정렬됩니다. </p> <p><span class="codeph"> &lt;search-suggestions&gt; </span> 태그를 열고 <span class="codeph"> &lt;search-if-sugends&gt; </span> 태그 사이에 중첩합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-suggestion-link&gt; ...  &lt;/search-suggestion-link&gt; </span> </p> </td> 
    <td colname="col2"> <p>이 태그는 원래 용어 대신 선택한 제안된 검색어를 사용하여 원래 검색 쿼리에 대한 링크를 생성합니다. 이 태그는 클래스, 대상 및 스타일과 같은 HTML 특성을 수락하고 간단히 인쇄합니다. 태그는 생성된 링크의 기본 URL로 사용되는 URL 속성을 허용할 수도 있습니다. 태그는 <span class="codeph"> &lt;search-suggestions&gt; </span> 루프 내에만 나타날 수 있습니다. </p> </td> 
   </tr> 
@@ -2074,7 +2072,7 @@ results 루프 태그는 템플릿 시스템의 작업 공간입니다. 검색 �
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-body&gt; </span> </p> </td> 
    <td colname="col2"> <p>템플릿 링크 아래에 기본 모양 섹션이 설정하는 검색 링크 색상 설정이 있는 HTML 본문 태그입니다. 결과 페이지에 배경 이미지를 표시하려면 이 태그에 배경 속성을 추가하십시오. 이 태그에 추가된 모든 색상 속성은 [기본 모양] 섹션에 설정된 [검색 링크 색상] 설정을 무시합니다. </p> </td> 
   </tr> 
@@ -2084,7 +2082,7 @@ results 루프 태그는 템플릿 시스템의 작업 공간입니다. 검색 �
    <td colname="col2"> <p>템플릿 링크 아래의 기본 모양 섹션에 설정된 검색 결과 헤더의 HTML. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-cdata&gt; ...  &lt;/search-cdata&gt; </span> </p> </td> 
    <td colname="col2"> <p>search-data 태그는 해당 XML 태그로 대체됩니다.<span class="codeph"> &lt;search-cdata&gt; </span>이 <span class="codeph"> &lt;![CDATA[" 및 &lt;/search-cdata&gt; </span> 태그는 " <span class="codeph"> ]&gt; </span>"로 대체됩니다. XML 파서는 열린 태그와 닫기 태그 사이의 정보를 구문 분석하지 않습니다. </p> </td> 
   </tr> 
@@ -2233,7 +2231,7 @@ results 루프 태그는 템플릿 시스템의 작업 공간입니다. 검색 �
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-results&gt; ...  &lt;/search-if-results&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-results&gt; ...&lt;/search-if-not-results&gt; </span> </p> </td> 
    <td colname="col2"> <p>현재 페이지에 검색 결과가 있거나 없는 경우 이러한 태그에는 HTML이 포함됩니다. </p> </td> 
   </tr> 
@@ -2296,7 +2294,7 @@ results 루프 태그는 템플릿 시스템의 작업 공간입니다. 검색 �
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-input&gt; </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> &lt;input&gt; </span> 태그 대신 템플릿에 사용됩니다. 태그가 브라우저에 기록되면 <span class="codeph"> 입력 </span>은 <span class="codeph"> search-input </span>을 대체하며 태그에 있는 다른 모든 정보는 그대로 출력됩니다. 또한 태그에 지정된 <span class="codeph"> 이름 </span>이 CGI 매개 변수로 나열되고 태그에 지정된 <span class="codeph"> 값 </span>이 해당 CGI 매개 변수의 값이면 확인된 <span class="codeph"> 단어가 태그 끝에 추가됩니다. </span> 이렇게 하면 검색 결과의 기본 라디오 단추 또는 확인란 상태를 현재 쿼리와 동일하게 자동으로 만들 수 있습니다. </p> <p>예를 들어 체크 상자의 HTML 코드는 다음과 같을 수 있습니다. </p> <p> <span class="codeph"> &lt;input type="checkbox" name="sp_w" value="exact"&gt;유사한 사운드 일치 없음  </span> </p> <p>해당 확인란에 해당하는 템플릿 코드는 다음과 같습니다. </p> <p> <span class="codeph"> &lt;search-input type="checkbox" name="sp_w" value="exact"&gt;유사한 사운드 일치 없음  </span> </p> <p>쿼리에 대한 CGI 매개 변수 문자열에 <span class="codeph"> sp_w=exact </span>이 들어 있으면 검색 결과를 포함한 브라우저에 기록된 태그는 다음과 같이 표시됩니다(확인된 <span class="codeph"> 단어가 태그 끝에 삽입됨).</span> </p> <p> <span class="codeph"> &lt;input type="checkbox" name="sp_w" value="exact" checked=""&gt;유사한 사운드 일치 없음  </span> </p> <p>쿼리에 대한 CGI 매개 변수 문자열에 <span class="codeph"> sp_w=exact </span>이(가) 포함되어 있지 않으면 검색 결과가 포함된 브라우저에 기록된 태그는 다음과 같이 표시됩니다(<span class="codeph"> checked </span>이 태그에 나열되지 않음). </p> <p> <span class="codeph"> &lt;input type="checkbox" name="sp_w" value="exact"&gt;유사한 사운드 일치 없음  </span> </p> <p><span class="codeph"> &lt;search-input&gt; </span> 태그는 검색 템플릿에 확인란 및 라디오 단추를 입력하는 데 유용합니다. 검색 템플릿에서 <span class="codeph"> &lt;form&gt; </span>에 추가할 확인란 또는 라디오 단추가 있는 경우 <span class="codeph"> &lt;input..&gt;</span> 대신 </span>을(를) 사용합니다.<span class="codeph"> </span></p> </td> 
+   <td colname="col2"> <p><span class="codeph"> &lt;input&gt; </span> 태그 대신 템플릿에 사용됩니다. 태그가 브라우저에 기록되면 <span class="codeph"> 입력 </span>은 <span class="codeph"> search-input </span>을 대체하며 태그에 있는 다른 모든 정보는 그대로 출력됩니다. 또한 태그에 지정된 <span class="codeph"> 이름 </span>이 CGI 매개 변수로 나열되고 태그에 지정된 <span class="codeph"> 값 </span>이 해당 CGI 매개 변수의 값이면 확인된 <span class="codeph"> 단어가 태그 끝에 추가됩니다. </span> 이렇게 하면 검색 결과의 기본 라디오 단추 또는 확인란 상태를 현재 쿼리와 동일하게 자동으로 만들 수 있습니다. </p> <p>예를 들어 체크 상자의 HTML 코드는 다음과 같을 수 있습니다. </p> <p> <span class="codeph"> &lt;input type="checkbox" name="sp_w" value="exact"&gt;유사한 사운드 일치 없음  </span> </p> <p>해당 확인란에 해당하는 템플릿 코드는 다음과 같습니다. </p> <p> <span class="codeph"> &lt;search-input type="checkbox" name="sp_w" value="exact"&gt;유사한 사운드 일치 없음  </span> </p> <p>쿼리에 대한 CGI 매개 변수 문자열에 <span class="codeph"> sp_w=exact </span>이 들어 있으면 검색 결과를 포함한 브라우저에 기록된 태그는 다음과 같이 표시됩니다(확인된 <span class="codeph"> 단어가 태그 끝에 삽입됨).</span> </p> <p> <span class="codeph"> &lt;input type="checkbox" name="sp_w" value="exact" checked=""&gt;유사한 사운드 일치 없음  </span> </p> <p>쿼리에 대한 CGI 매개 변수 문자열에 <span class="codeph"> sp_w=exact </span>이(가) 포함되어 있지 않으면 검색 결과가 포함된 브라우저에 기록된 태그는 다음과 같이 표시됩니다(<span class="codeph"> checked </span>이 태그에 나열되지 않음). </p> <p> <span class="codeph"> &lt;input type="checkbox" name="sp_w" value="exact"&gt;유사한 사운드 일치 없음  </span> </p> <p><span class="codeph"> &lt;search-input&gt; </span> 태그는 검색 템플릿에 확인란 및 라디오 단추를 입력하는 데 유용합니다. 검색 템플릿에서 <span class="codeph"> &lt;form&gt; </span>에 추가할 확인란 또는 라디오 단추가 있는 경우 <span class="codeph"> &lt;input..&gt;</span> 대신 <span class="codeph"> &lt;search-input...&gt; </span>을 사용합니다.&gt; . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
@@ -2319,7 +2317,7 @@ results 루프 태그는 템플릿 시스템의 작업 공간입니다. 검색 �
       &lt;search-option&nbsp;value="alt"&gt;Alternate&nbsp;text&lt;/search-option&gt; 
       &lt;search-option&nbsp;value="url"&gt;URL&lt;/search-option&gt; 
       &lt;search-option&nbsp;value="target"&gt;Target&lt;/search-option&gt; 
-      &lt;/search-select&gt; </code> </p> <p>검색 템플릿의 <span class="codeph"> </span>에 추가할 목록 상자가 있는 경우 <span class="codeph"> &lt;select..&gt; </span> &lt;a5/&gt;, <span class="codeph"> &lt;/search-select&gt; <span class="codeph"> &lt;/select&gt; 대신 <span class="codeph"> &lt;search-select.&gt; </span> 대신 </span>을 사용합니다. <span class="codeph"> &lt;옵션...&gt; </span> 대신 </span>, <span class="codeph"> &lt;/search-option&gt; <span class="codeph"> &lt;/option&gt; 대신 </span> </span> .</span><span class="codeph"> </span></p> </td> 
+      &lt;/search-select&gt; </code> </p> <p>검색 템플릿의 <span class="codeph"> </span>에 추가할 목록 상자가 있는 경우 <span class="codeph"> &lt;select..&gt; </span> </span>, <span class="codeph"> &lt;/search-select&gt; <span class="codeph"> &lt;/select&gt; 대신 <span class="codeph"> &lt;search-select.&gt; </span> 대신 </span>을 사용합니다. <span class="codeph"> &lt;옵션...&gt; </span> 대신 </span>, <span class="codeph"> &lt;/search-option&gt; <span class="codeph"> &lt;/option&gt; 대신 </span> </span> .<span class="codeph"> </span></span></p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
