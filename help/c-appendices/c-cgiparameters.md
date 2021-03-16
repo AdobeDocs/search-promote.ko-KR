@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: CGI 매개 변수
+description: 다양한 CGI 매개 변수를 사용하는 방법에 대해 알아봅니다.
 solution: Target
 title: CGI 매개 변수
-topic: Appendices,Site search and merchandising
+topic: 부록, 사이트 검색 및 머천다이징
 uuid: a5f43547-bc15-44aa-ba23-6b8b573e09d2
 translation-type: tm+mt
-source-git-commit: 930ceebc6c35006c6b8bc96bc799b3242b6818e1
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1934'
+source-wordcount: '1943'
 ht-degree: 1%
 
 ---
@@ -114,7 +112,7 @@ SEO 형식을 사용하여 요청을 보낼 때마다 모든 출력 링크가 �
    <td colname="col2"> <p> </p> </td> 
    <td colname="col03"> <p> sp_d_# </p> </td> 
    <td colname="col3"> <p> <code>sp_d_#= type </code> </p> </td> 
-   <td colname="col4"> <p>해당 <code>sp_q_# </code> 쿼리에 대해 검색할 날짜 범위 유형을 지정합니다. "#"은(는) 1에서 16 사이의 숫자로 대체됩니다(예: <code>sp_d_8 </code>, 번호가 매겨진 쿼리 <code>sp_q_8 </code>)에 적용됩니다.) </p> <p><code>type </code>을(를) 원하는 대로 설정할 수 있습니다. 즉, 날짜 범위 검색, 사용자 지정을 수행하지 않습니다. 즉, <code>sp_date_range_# </code> 값이 검색할 날짜와 특정 날짜를 결정하는 데 사용됨을 나타내고, <code>sp_q_min_day_# </code>, <code>sp_q_min_month_# </code>, <code>sp_q_min_year_# </code>, <code>sp_q_max_day_# </code>, <code>sp_q_max_month_# </code> 및 <code>sp_q_max_year_# </code>의 값을 사용하여 날짜 범위를 결정합니다. <code>sp_d_# </code>의 사용은 검색 양식에 사용자 지정 범위(예: <code>sp_date_range_# </code>) 또는 특정 시작 및 종료 날짜 범위로 검색하는 옵션이 포함되어 있는 경우에만 필요합니다. </p> </td> 
+   <td colname="col4"> <p>해당 <code>sp_q_# </code> 쿼리에 대해 검색할 날짜 범위 유형을 지정합니다. "#"은(는) 1에서 16 사이의 숫자로 대체됩니다(예: <code>sp_d_8 </code>, 번호가 매겨진 쿼리 <code>sp_q_8 </code>)에 적용됩니다.) </p> <p><code>type </code>을(를) 원하는 대로 설정할 수 있습니다. 즉, 날짜 범위 검색, 사용자 지정을 수행하지 않습니다. 즉, <code>sp_date_range_# </code> 값이 검색할 날짜와 특정 날짜를 결정하는 데 사용됨을 나타내고, <code>sp_q_min_day_# </code>, <code>sp_q_min_month_# </code>, <code>sp_q_min_year_# </code>, <code>sp_q_max_day_# </code>, <code>sp_q_max_month_# </code> 및 <code>sp_q_max_year_# </code>의 값을 사용하여 날짜 범위를 결정해야 합니다. <code>sp_d_# </code>의 사용은 검색 양식에 사용자 지정 범위(예: <code>sp_date_range_# </code>) 또는 특정 시작 및 종료 날짜 범위로 검색하는 옵션이 포함되어 있는 경우에만 필요합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>7 </p> </td> 
@@ -213,7 +211,7 @@ Testing...</a>
 
 ## 백엔드 검색 CGI 매개 변수 {#section_5FA3C620D5124FB2AB28857F8D8473F6} 사용에 대한 자세한 예
 
-다음 양식 쿼리는 결과 `10`에서 시작하는 `25` 결과를 표시합니다. 요약은 표시되지 않고 정렬 순서는 날짜별로 지정되며 `support` 컬렉션이 사용됩니다. 지난 30일 이내에 발급된 문서만 반환됩니다.
+다음 양식 쿼리는 결과 `10`에서 시작하는 `25` 결과를 표시합니다. 요약이 표시되지 않고 정렬 순서는 날짜별로 지정되며 `support` 컬렉션이 사용됩니다. 지난 30일 이내에 발급된 문서만 반환됩니다.
 
 ```
 <form action="https://search.atomz.com/search/"> 
