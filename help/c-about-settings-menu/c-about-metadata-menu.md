@@ -1,16 +1,14 @@
 ---
 description: 메타데이터 메뉴를 사용하여 검색 정의 및 색인 주입을 사용자 정의합니다.
-seo-description: 메타데이터 메뉴를 사용하여 검색 정의 및 색인 주입을 사용자 정의합니다.
-seo-title: 메타데이터 메뉴 정보
 solution: Target
 subtopic: Metadata
 title: 메타데이터 메뉴 정보
-topic: Settings,Site search and merchandising
+topic: 설정,사이트 검색 및 머천다이징
 uuid: f12fc863-a140-45e8-b219-3dbfdef099cd
 translation-type: tm+mt
-source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '8039'
+source-wordcount: '8029'
 ht-degree: 1%
 
 ---
@@ -279,7 +277,7 @@ ht-degree: 1%
 1. 클릭 **[!UICONTROL Add]**.
 1. (선택 사항) 결과를 미리 보려는 경우 스테이지된 사이트 인덱스를 다시 작성합니다.
 
-   스테이지된 웹 사이트[의 증분 인덱스 구성을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)
+   스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
 1. (선택 사항) [!DNL Definitions] 페이지에서 다음 중 하나를 수행합니다.
 
    * **[!UICONTROL History]**&#x200B;을 클릭하여 변경한 내용을 되돌립니다.
@@ -313,7 +311,7 @@ ht-degree: 1%
 1. 클릭 **[!UICONTROL Save Changes]**.
 1. (선택 사항) 결과를 미리 보려는 경우 스테이지된 사이트 인덱스를 다시 작성합니다.
 
-   스테이지된 웹 사이트[의 증분 인덱스 구성을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)
+   스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
 1. (선택 사항) [!DNL Definitions] 페이지에서 다음 중 하나를 수행합니다.
 
    * **[!UICONTROL History]**&#x200B;을 클릭하여 변경한 내용을 되돌립니다.
@@ -345,7 +343,7 @@ ht-degree: 1%
 1. 확인 대화 상자에서 **[!UICONTROL OK]**&#x200B;을 클릭합니다.
 1. (선택 사항) 결과를 미리 보려는 경우 스테이지된 사이트 인덱스를 다시 작성합니다.
 
-   스테이지된 웹 사이트[의 증분 인덱스 구성을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)
+   스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
 1. (선택 사항) [!DNL Definitions] 페이지에서 다음 중 하나를 수행합니다.
 
    * **[!UICONTROL History]**&#x200B;을 클릭하여 변경한 내용을 되돌립니다.
@@ -446,7 +444,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
  </tbody> 
 </table>
 
-크롤링할 내용 유형 선택 및 인덱스[도 참조하십시오.](../c-about-settings-menu/c-about-crawling-menu.md#task_CCAC5C67C8BF4AB7B79D34A1495D5EE8)
+크롤링할 내용 유형 선택 및 인덱스](../c-about-settings-menu/c-about-crawling-menu.md#task_CCAC5C67C8BF4AB7B79D34A1495D5EE8)도 참조하십시오.[
 
 ## 필드 삽입 정의 추가 중 {#task_E86566FA1FF74CF68115C0ADA05172AE}
 
@@ -769,9 +767,9 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
         /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;body </code> </p> <p>위의 구문은 다음과 같이 해석됩니다. </p> <p> 
         <ul id="ul_6400EBD08D424EADA1612FE4F7EFB640"> 
         <li id="li_9958F9B40D42434195597DBA9F2AF28F"> <code class="syntax xml"> /record/@displayurl&amp;nbsp;-&gt;&amp;nbsp;page-url </code> <p><span class="codeph"> 레코드 </span> 요소의 </span> 특성이 메타데이터 필드 <span class="codeph"> page-url </span>에 매핑됩니다.<span class="codeph"> </span></p> </li> 
-        <li id="li_759013EA02CD48BE971A55B0A6A11424"> <code class="syntax xml"> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>이름 속성이 <span class="codeph"> title </span>인 </span> 레코드 &lt;a7/&gt; 요소 내에 포함된 <span class="codeph"> 메타데이터 </span> 요소 안에 포함된 <span class="codeph"> 메타 </span> 요소의 <span class="codeph"> 내용 </span> 특성이 메타데이터 필드 <span class="codeph"> 제목 &lt;a11&gt; /&gt;.</span><span class="codeph"> </span></p> </li> 
-        <li id="li_E741CA59197D462EB2946EDE874AFDC8"> <code class="syntax xml"> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>이름 속성이 <span class="codeph"> description </span>인 </span> 레코드 &lt;a7/&gt; 요소 내에 포함되어 있는 <span class="codeph"> 메타데이터 </span> 요소 내에 포함된 &lt;a3/&gt; 메타 요소의 <span class="codeph"> 내용 </span> 특성이 메타데이터 필드 <span class="codeph"> &lt;a111 /&gt;.<span class="codeph"><span class="codeph"></span></span> </span></p> </li> 
-        <li id="li_E35EAE3D284D46D485D9064D7BB6AB13"> <code class="syntax xml"> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>이름 속성이 <span class="codeph"> description </span>인 </span> 레코드 &lt;a7/&gt; 요소 내에 포함된 <span class="codeph"> 메타데이터 </span> 요소 내에 포함된 <span class="codeph"> 메타 </span> 요소의 <span class="codeph"> 내용 </span> 특성이 메타데이터 필드 <span class="codeph"> 본문 &lt;a11&gt; /&gt;.<span class="codeph"></span> </span></p> </li> 
+        <li id="li_759013EA02CD48BE971A55B0A6A11424"> <code class="syntax xml"> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>이름 속성이 <span class="codeph"> title </span>인 </span> 레코드 <span class="codeph"> 요소 내에 포함된 <span class="codeph"> 메타데이터 </span> 요소 안에 포함된 <span class="codeph"> 메타 </span> 요소의 <span class="codeph"> 내용 </span> 특성이 메타데이터 필드 <span class="codeph"> 제목 </span> /&gt;. </span></p> </li> 
+        <li id="li_E741CA59197D462EB2946EDE874AFDC8"> <code class="syntax xml"> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>이름 속성이 <span class="codeph"> description </span>인 </span> 레코드 </span> 요소 내에 포함되어 있는 <span class="codeph"> 메타데이터 </span> 요소 내에 포함된 <span class="codeph"> 메타 요소의 <span class="codeph"> 내용 </span> 특성이 메타데이터 필드 <span class="codeph"> <span class="codeph">.</span> </span></span></p> </li> 
+        <li id="li_E35EAE3D284D46D485D9064D7BB6AB13"> <code class="syntax xml"> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>이름 속성이 <span class="codeph"> description </span>인 </span> 레코드 <span class="codeph"> 요소 내에 포함된 <span class="codeph"> 메타데이터 </span> 요소 내에 포함된 <span class="codeph"> 메타 </span> 요소의 <span class="codeph"> 내용 </span> 특성이 메타데이터 필드 <span class="codeph"> 본문 </span> /&gt;. </span></p> </li> 
         </ul> </p> <p>XPath는 비교적 복잡한 표기법입니다. 자세한 내용은 다음 위치에 있습니다. </p> <p><a href="https://www.w3schools.com/xpath/" scope="external" format="html"> https://www.w3schools.com/xpath/ </a> 참조 </p> </li> 
       <li id="li_8147075D7ACD4811A7ED335F23FE62A6"> <span class="uicontrol"> 필드 </span> <p>생성된 각 <span class="codeph"> &lt;meta&gt; </span> 태그에 사용되는 이름 속성 값을 정의합니다. </p> </li> 
       <li id="li_2380199D63BF425A919606D8232FA6E2"> <span class="uicontrol"> 메타데이터? </span> <p><span class="uicontrol"> 필드 </span>이(가) 현재 계정에 대해 정의된 메타데이터 필드를 선택할 수 있는 드롭다운 목록이 됩니다. </p> <p>원하는 경우 <span class="uicontrol"> 필드 </span> 값은 정의되지 않은 메타데이터 필드일 수 있습니다. 정의되지 않은 메타데이터 필드는 <span class="wintitle"> 스크립트 필터링 </span>에서 사용하는 내용을 만드는 데 유용합니다. </p> <p><a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> 스크립트 필터링 정보를 참조하십시오 </a>. </p> <p>Attribute Loader가 맵 필드에 여러 개의 히트가 있는 XML 문서를 처리할 때 여러 값이 캐시된 문서의 단일 값으로 연결됩니다. 기본적으로 이러한 값은 쉼표 구분 기호를 사용하여 결합됩니다. 그러나 해당 <span class="wintitle"> 필드 </span> 값이 정의된 메타데이터 필드라고 가정합니다. 또한 해당 필드에는 <span class="wintitle"> 허용 목록 </span> 특성이 설정되어 있습니다. 이 경우, 정의된 첫 번째 구분 기호인 필드의 목록 구분 기호 값이 연결에서 사용됩니다. </p> </li> 
