@@ -1,15 +1,13 @@
 ---
 description: 비즈니스 규칙을 사용하여 검색을 상품화할 수 있습니다.
-seo-description: 비즈니스 규칙을 사용하여 검색을 상품화할 수 있습니다.
-seo-title: 비즈니스 규칙 정보
 solution: Target
 title: 비즈니스 규칙 정보
-topic: Rules,Site search and merchandising
+topic: 규칙, 사이트 검색 및 머천다이징
 uuid: f2186f54-7a39-4f46-bb29-5115d5a17f07
 translation-type: tm+mt
-source-git-commit: fc1f0b15a15a9d0308494fc23c5b4258442c8aab
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '3127'
+source-wordcount: '3120'
 ht-degree: 1%
 
 ---
@@ -191,7 +189,7 @@ ht-degree: 1%
       </tr> 
       <tr> 
       <td colname="col1"> <p>배너 명령 추가 </p> </td> 
-      <td colname="col2"> <p>Adobe Dynamic Media Classic 템플릿에만 적용됩니다. </p> <p>배너 템플릿에 사용되는 기본 매개 변수를 변경할 수 있습니다. </p> <p>Adobe Dynamic Media Classic <a scope="local" href="../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3" type="reference" format="dita">을(를) 사용하여 배너 추가의 옵션 표를 참조하십시오.</a> </p> <p>Adobe Dynamic Media Classic <a href="../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9" type="task" format="dita" scope="local">을(를) 사용하여 배너 편집을 참조하십시오.</a> </p> </td> 
+      <td colname="col2"> <p>Adobe Dynamic Media Classic 템플릿에만 적용됩니다. </p> <p>배너 템플릿에 사용되는 기본 매개 변수를 변경할 수 있습니다. </p> <p>Adobe Dynamic Media Classic </a>을(를) 사용하여 배너 추가의 옵션 표를 참조하십시오.<a scope="local" href="../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3" type="reference" format="dita"> </a></p> <p>Adobe Dynamic Media Classic </a>을(를) 사용하여 배너 편집을 참조하십시오.<a href="../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9" type="task" format="dita" scope="local"> </a></p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>배너 제거 </p> </td> 
@@ -245,13 +243,13 @@ ht-degree: 1%
 
    * [!DNL Business Rule Builder] 페이지의 프레젠테이션 템플릿 영역에서 매개 변수를 변경할 Adobe Dynamic Media Classic 템플릿 배너를 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL Add banner commands]** 을 클릭합니다. [!DNL Change Parameters] 대화 상자에서 원하는 매개 변수 옵션을 설정합니다.
 
-      Adobe Dynamic Media Classic[을(를) 사용하여 배너 추가의 옵션 표를 참조하십시오.](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3)
+      Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3)을(를) 사용하여 배너 추가의 옵션 표를 참조하십시오.[
 
       클릭 **[!UICONTROL Save]**.
 
       매개 변수 변경 사항이 [!DNL Actions] 패널에 추가됩니다.
 
-      Adobe Dynamic Media Classic[을(를) 사용하여 배너 편집을 참조하십시오.](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9)
+      Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9)을(를) 사용하여 배너 편집을 참조하십시오.[
 
    * 비즈니스 규칙 빌더 페이지의 프레젠테이션 템플릿 영역에서 페이지에서 삭제할 배너를 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL Remove banner]**&#x200B;을 클릭합니다. 배너 제거 동작이 [액션] 패널에 추가됩니다.
 
@@ -297,19 +295,19 @@ ht-degree: 1%
    [새 비즈니스 규칙 추가](../c-about-rules-menu/c-about-business-rules.md#task_BD3B31ED48BB4B1B8F1DCD3BFA2528E7) 아래의 옵션 표를 참조하십시오.
 1. (선택 사항) **[!UICONTROL Business Rule Builder]** 패널( [!DNL Triggers], [!DNL Actions] 또는 [!DNL Schedule]에서 다음 중 하나를 수행합니다.
 
-   * [!DNL Business Rule Builder] 페이지의 프레젠테이션 템플릿 영역에서 배너를 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL Select different banner]** 을 클릭합니다. [!DNL Pick Banner page]에서 배너 축소판 아래 **[!UICONTROL Pick this banner]**&#x200B;를 클릭하여 프레젠테이션 템플릿에 추가합니다. 프레젠테이션 템플릿의 원래 배너의 크기 및 영역과 일치하는 배너만 선택할 수 있습니다.
+   * [!DNL Business Rule Builder] 페이지의 프레젠테이션 템플릿 영역에서 배너를 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL Select different banner]** 을 클릭합니다. [!DNL Pick Banner page]에서 배너 축소판 아래의 **[!UICONTROL Pick this banner]**&#x200B;을 클릭하여 프레젠테이션 템플릿에 추가합니다. 프레젠테이션 템플릿의 원래 배너의 크기 및 영역과 일치하는 배너만 선택할 수 있습니다.
 
       배너 추가 작업이 [!DNL Actions] 패널에 추가됩니다.
 
    * [!DNL Business Rule Builder] 페이지의 프레젠테이션 템플릿 영역에서 매개 변수를 변경할 Adobe Dynamic Media Classic 템플릿 배너를 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL Add banner commands]** 을 클릭합니다. [!DNL Change Parameters] 대화 상자에서 원하는 매개 변수 옵션을 설정합니다.
 
-      Adobe Dynamic Media Classic[을(를) 사용하여 배너 추가의 옵션 표를 참조하십시오.](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3)
+      Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3)을(를) 사용하여 배너 추가의 옵션 표를 참조하십시오.[
 
       클릭 **[!UICONTROL Save]**.
 
       매개 변수 변경 사항이 [!DNL Actions] 패널에 추가됩니다.
 
-      Adobe Dynamic Media Classic[을(를) 사용하여 배너 편집을 참조하십시오.](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9)
+      Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9)을(를) 사용하여 배너 편집을 참조하십시오.[
 
    * [!DNL Business Rule Builder] 페이지의 프레젠테이션 템플릿 영역에서 페이지에서 삭제할 배너를 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL Remove banner]** 을 클릭합니다. 배너 제거 동작이 [!DNL Actions] 패널에 추가됩니다.
 
