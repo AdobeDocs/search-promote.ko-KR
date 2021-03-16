@@ -1,31 +1,27 @@
 ---
 title: Adobe Search&amp;기술 문서 홍보
-seo-title: Adobe Search&amp;기술 문서 및 자체 도움말 홍보
 description: Adobe Search&amp;Promote에 대한 기술 문서 및 자체 도움말 자료
-seo-description: Adobe Search&amp;Promote에 대한 기술 문서, 릴리스 노트 및 자체 도움말 자료
 solution: Target
 topic: 사이트 검색 및 머천다이징
 uuid: bb1c49be-7cfd-485a-a848-c5dc8733b009
 translation-type: tm+mt
-source-git-commit: ce3b55f0265c52670a81a17b9eff79309ff32bc0
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 19%
+source-wordcount: '145'
+ht-degree: 22%
 
 ---
 
 
 # Adobe Search &amp; Promote 안내서 {#search-promote-documentation}
 
-<!-- ## [Option 1: Lorem Ipsum FAQ announcement](#lorem-ipsum) -->
-
 ## 뉴스 및 공지 사항 {#topic_02625547D07F411DBAC9593FCBD4741B}
 
-<!-- * [Option 2: Lorem ipsum FAQ announcement](anchor) -->
+* **주의:** [Adobe Search &amp; Promote 서비스 종료 알림](/help/sp-eol.md).
 
 * Adobe Marketing Cloud 릴리스 노트 - 모든 Marketing Cloud 솔루션에서 새로운 기능, 수정 사항 및 알려진 문제가 포함되어 있습니다. 기능 릴리스는 봄과 가을에, 유지보수 릴리스는 매달 진행됩니다.
 
-   **빠른 액세스**:각 릴리스 1주 전에 Adobe Marketing Cloud 릴리스  [노트를 ](https://campaign.adobe.com/webApp/adbePriorityProductSubscribe) 받으려면 Adobe 우선 순위 제품 업데이트를 등록하십시오.
+   빠른 액세스:각 릴리스 1주 전에 Adobe Marketing Cloud 릴리스 노트를 받으려면 [Adobe 우선 순위 제품 업데이트](https://campaign.adobe.com/webApp/adbePriorityProductSubscribe)에 등록하십시오.
 
 * 최신 Adobe Search &amp; Promote 릴리스 노트:
 
