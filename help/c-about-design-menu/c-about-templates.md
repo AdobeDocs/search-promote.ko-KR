@@ -1,15 +1,13 @@
 ---
 description: 템플릿을 사용하여 프레젠테이션 템플릿과 전송 템플릿을 관리할 수 있습니다.
-seo-description: 템플릿을 사용하여 프레젠테이션 템플릿과 전송 템플릿을 관리할 수 있습니다.
-seo-title: 템플릿 정보
 solution: Target
 title: 템플릿 정보
-topic: Design,Site search and merchandising
+topic: 디자인,사이트 검색 및 상품 판매
 uuid: f5805d3e-43bf-4e13-95df-b6bd6b762d11
 translation-type: tm+mt
-source-git-commit: 60cedaac1846e384a37699a42bf7fda33828e1c0
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '2661'
+source-wordcount: '2652'
 ht-degree: 1%
 
 ---
@@ -391,7 +389,7 @@ t_editing_a_template.xml
 
  -->
 
-웹 사이트 방문자가 템플릿의 라이브 버전을 계속 사용하는 동안 스테이지된 프레젠테이션 및 전송 템플릿을 편집하고 테스트할 수 있습니다. 검색 도메인 URL의 단계 버전을 사용하여 스테이징 템플릿을 테스트합니다. 예를 들어 전송 템플릿의 이름으로 설정된 스테이지 쿼리( `sp_staged=1`)를 실행하여 스테이지된 전송 템플릿을 테스트할 수 있습니다. `sp_t` 레이아웃 표시 방식에 만족하면 템플릿 편집기 내에서 **[!UICONTROL Push Live]**&#x200B;을 사용하여 템플릿을 라이브로 푸시할 수 있습니다. 템플릿이 라이브되면 사이트 방문자가 템플릿을 사용하기 시작합니다.
+웹 사이트 방문자가 템플릿의 라이브 버전을 계속 사용하는 동안 스테이지된 프레젠테이션 및 전송 템플릿을 편집하고 테스트할 수 있습니다. 검색 도메인 URL의 단계 버전을 사용하여 스테이징 템플릿을 테스트합니다. 예를 들어 전송 템플릿의 이름으로 설정된 스테이지 쿼리( `sp_t`)를 실행하여 스테이지된 전송 템플릿을 테스트할 수 있습니다. `sp_staged=1` 레이아웃 표시 방식에 만족하면 템플릿 편집기 내에서 **[!UICONTROL Push Live]**&#x200B;을 사용하여 템플릿을 라이브로 푸시할 수 있습니다. 템플릿이 라이브되면 사이트 방문자가 템플릿을 사용하기 시작합니다.
 
 프레젠테이션 템플릿 태그 참조를 사용하여 패싯, 탐색 표시 및 메뉴와 같은 검색 구성 요소에 프레젠테이션 템플릿을 연결하는 방법을 알아봅니다.
 
@@ -557,7 +555,7 @@ t_previewing_the_presentation_template_minimized.xml
 
 전송 템플릿 파일의 XML 코드를 미리 볼 수 있습니다.
 
-전송 템플릿 파일[의 XML 미리 보기를 참조하십시오.](../c-about-design-menu/c-about-templates.md#task_58C6C52078E14AD88D2B2F0B3C439AE8)
+전송 템플릿 파일](../c-about-design-menu/c-about-templates.md#task_58C6C52078E14AD88D2B2F0B3C439AE8)의 XML 미리 보기를 참조하십시오.[
 
 **최소화 상태로 프레젠테이션 템플릿을 미리 보려면**
 
