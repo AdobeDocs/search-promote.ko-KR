@@ -1,42 +1,45 @@
 ---
-title: 'Lorem Ipsum '
-description: Lorem ipsum dolor sit amet, consectetur adipising elit. 에티암은 Nulla quis libero sagittis 솔리시튜딘을 취약점으로 삼았다.
-solution: Target
+title: Adobe Search & Promote 서비스 종료 알림
+description: Adobe Search & Promote의 서비스 종료 발표에 대한 자세한 내용을 살펴보십시오.
+feature: null
+role: 관리자,비즈니스 전문가,데이터 엔지니어,개발자
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: ce3b55f0265c52670a81a17b9eff79309ff32bc0
+source-git-commit: aa10a950262e5d1828da3d2e417dd5a5b752029b
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
 
 
-# Lorem Ipsum
+# Adobe Search &amp; Promote 서비스 종료 알림
 
-## Lorem ipsum dolor sit amet
+## Search &amp; Promote 서비스 종료에 대한 FAQ
 
-연속 조정. 에티암은 Nulla quis libero sagittis 솔리시튜딘을 취약점으로 삼았다. 퀴스케 펠렌테케님 앉으시고 무표속 콤모도입니다 현탁생이목 볼루트패스, 차 오르치 a, 플래셔트 널라. 쿠라비투르 울람코르퍼 쿠이돌로 아크 라시니아. mi nec 시설로 후스체 알레게테스타입니다.
+### **_Search &amp; Promote은 언제 운영을 중단합니까?_**
 
-도네크 오디오, 가속페리스케는 오디오 a를 넣었고, 통합테투르 효율이다. 난씨 소달레스 비타 터피스 Mauris unreimpitedilitudin leo vel efficitour. Quisque mattis nulla eget nulla ornare, ac tempor lorem maximus. 편의시설에서는 vulputate nunc maximus quis.
+Search &amp; Promote의 서비스 종료는 2022년 8월 1일에 예정되어 있습니다. 그 날짜에 Search &amp; Promote 관리 사용자 인터페이스에 더 이상 액세스할 수 없으며 Search &amp; Promote API에 대한 요청은 더 이상 결과를 전달하지 않습니다. 이 날짜 전에는 서비스를 완전히 사용할 수 있으며 사용할 수 있습니다.
 
-### **_Lorem ipsum dolor sit amet, consectetur adipising elit?_**
+### **_검색 또는 기타 API 요청이 Search &amp; Promote에 수행된 경우 어떻게 됩니까?_**
 
-유토반향으로 도네섬 다이어트 금지법 반구절제 반점술실 듀스 소달레스 리큘라 맥시무스 전 경매인입니다.
+Search &amp; Promote에 대한 검색 및 기타 API 요청은 더 이상 결과를 반환하지 않습니다. 요청은 &quot;호스트를 찾을 수 없음&quot; 오류, 3xx HTTP 리디렉션 또는 404, 408 또는 기타 HTTP 오류 코드와 같은 HTTP 오류를 초래할 수 있습니다.
 
-### **_펠렌테스크 프링질라 푸라케탈리스, 솔리치투딘 케미넷_**
+### **_Adobe에 사이트 검색 및 상거래 검색에 대한 대체 옵션이 있습니까?_**
 
-퀴스케는 마그나티탐을 쓰고, 몰레스티마우리스는 이아쿠리스 레오. 펠렌테스크어 베라트는 자동차 울트라키스를 말한다. 모르비 조미료 합량 무미분 결과
+예. 제품 및 상거래 검색의 경우 Magento Commerce](https://blog.adobe.com/en/publish/2020/11/23/new-ai-capabilities-for-magento-commerce-improve-retail.html)의 실시간 검색은 앞으로 Adobe의 검색 응용 프로그램입니다. [ Magento Commerce의 라이브 검색은 2021년 상반기에 시작할 예정입니다.
 
-### **_마사피 프링질라 콘티멘텀에서 쿠라비터 id nunc?_**
+### **_Adobe은 Search &amp; Promote과 유사한 기능을 제공하는 프레임워크 또는 플랫폼을 권장할 수 있습니까?_**
 
-Morbi eu nl nec urna aliquet. 베벤스크레르생스크의 멜러스크에서 멜빵부세 펠렌테스크좌석은 아메트라쿠스에라 케랄리스오리이다. 퀴스케 그라비다 eu 다피버스 템포르
+예. Search &amp; Promote 기능이 마케팅 전략에 중요한 경우 [Apache Solr](https://solr.apache.org/) 및 [Elastic Free 및 Open](https://www.elastic.co/about/free-and-open)을(를) 포함하여 검색에 사용되는 많은 오픈 소스 프레임워크를 고려하십시오.
 
-### **_마사 프링길라티멘토룸?_**
+또한 [AWS](https://aws.amazon.com/cloudsearch/) 및 [Microsoft® Azure](https://azure.microsoft.com/en-us/services/search/) 모두 각 클라우드 플랫폼에서 클라우드 기본 검색 기능을 제공합니다. 두 옵션을 모두 Adobe Experience Manager Sites에 통합하여 사이트 검색 기능을 강화할 수 있습니다.
 
-Morbi eu nl nec urna aliquet. 베벤스크레르생스크의 멜러스크에서 멜빵부세 펠렌테스크좌석은 아메트라쿠스에라 케랄리스오리이다. 퀴스케 그라비다 eu 다피버스 템포르
+### **_자세한 내용은 누구에게 문의해야 합니까?_**
 
-### **_남향에 삼음솔리치티우딘 에제스타스, 타메트 리글라?_**
+문의 사항이 있으면 고객 성공 관리자(CSM)에게 문의하거나 [searchquestions@adobe.com](mailto:searchquestions@adobe.com)에서 Adobe 팀에 문의하십시오.
 
-하지만 벨릿 포팅기 레이시니아 사지티티티스는 아메트 지표에 앉아 있다. Nulla차 Odio mollis dolor는 시설을 갖추고 있다. Morbi sit amet felis sit amet dolor varius vehiccola. Nulla Leo는 다양한 고추형 반상초를 사용하였다.
+### **_서비스 종료 전에 해당 Search &amp; Promote 라이선스를 갱신할 수 있습니까?_**
+
+예. 2022년 8월 1일까지 계약 종료 날짜에 라이선스를 갱신하려면 Adobe 담당자에게 문의하십시오.
