@@ -1,15 +1,13 @@
 ---
 description: 스테이징을 사용하면 라이브 색인에 영향을 주지 않고 설정 및 구성 변경 사항을 테스트하고 미리 볼 수 있습니다.
-seo-description: 스테이징을 사용하면 라이브 색인에 영향을 주지 않고 설정 및 구성 변경 사항을 테스트하고 미리 볼 수 있습니다.
-seo-title: 스테이징 정보
 solution: Target
 title: 스테이징 정보
-topic: Staging,Site search and merchandising
+topic: 스테이징, 사이트 검색 및 머천다이징
 uuid: 2e5889a6-2e9c-4ac7-9d6e-d35e7cafda5b
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
