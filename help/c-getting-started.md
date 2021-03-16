@@ -1,15 +1,13 @@
 ---
 description: Search & Promote 및 동적 탐색을 처음 사용하는 경우 여기에서 시작해 계정을 사용하여 실행하십시오. 무엇보다도 웹 사이트를 색인화하고 검색 결과의 모양과 느낌을 사용자 정의하는 방법을 배웁니다.
-seo-description: Search & Promote 및 동적 탐색을 처음 사용하는 경우 여기에서 시작해 계정을 사용하여 실행하십시오. 무엇보다도 웹 사이트를 색인화하고 검색 결과의 모양과 느낌을 사용자 정의하는 방법을 배웁니다.
-seo-title: 시작하기
 solution: Target
 title: 시작하기
-topic: Getting Started,Site search and merchandising
+topic: 시작하기, 사이트 검색 및 머천다이징
 uuid: 816ad003-15c9-4e44-b09d-cab284518634
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1028'
 ht-degree: 0%
 
 ---
@@ -61,25 +59,25 @@ Search&amp;Promote 및 동적 탐색을 처음 사용하는 경우 여기에서 
 
 템플릿 모양이 만족스러우면 변경 내용을 저장한 다음 **[!UICONTROL Push Live]**&#x200B;을 클릭합니다.
 
-라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.[.](c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D)
+라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.](c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D).[
 
 ## 웹 사이트 {#section_6BBD16929CF04CB2A78BD657681C06B8} 인덱싱
 
 웹 사이트는 계정을 처음 만들 때 색인이 만들어집니다. 그러나 새 컨텐츠를 추가하거나 기존 컨텐츠를 편집한 경우에는 웹 사이트를 다시 색인화합니다.
 
-라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.[.](c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D)
+라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.](c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D).[
 
 정규 색인 시간을 예약할 수도 있습니다.
 
-라이브 웹 사이트[에 대한 전체 인덱스 일정 설정을 참조하십시오.](c-about-index-menu/c-about-full-index.md#task_6760F3256D004A228B38968DF15421F0)
+라이브 웹 사이트](c-about-index-menu/c-about-full-index.md#task_6760F3256D004A228B38968DF15421F0)에 대한 전체 인덱스 일정 설정을 참조하십시오.[
 
-라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.[.](c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB)
+라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.](c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB).[
 
 웹 사이트가 큰 경우 또는 자주 변경하는 페이지 세트만 다시 색인화하려면 증분 인덱스를 구성한 다음 대신 수행할 수 있습니다.
 
-스테이지된 웹 사이트[의 증분 인덱스 구성을 참조하십시오.](c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)
+스테이지된 웹 사이트](c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
 
-라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.[.](c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB)
+라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.](c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB).[
 
 로그인하지 않고도 증분 인덱스를 수행하려면 스크립팅된 인덱스를 만들 수 있습니다.
 
