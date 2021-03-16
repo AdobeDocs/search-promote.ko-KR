@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Search&Amp;Promote 8.17.0 릴리스 노트(10/30/2014)
+description: Search&amp;Promote 8.17.0 릴리스 노트.
 solution: Target
 title: Search&Amp;Promote 8.17.0 릴리스 노트(10/30/2014)
-topic: Release Notes,Site search and merchandising
+topic: 릴리스 노트,사이트 검색 및 머천다이징
 uuid: ea1725df-778c-4875-a269-f33d0c367126
 translation-type: tm+mt
-source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 14%
+source-wordcount: '172'
+ht-degree: 13%
 
 ---
 
@@ -30,7 +28,7 @@ ht-degree: 14%
 
    [색인 등급 다시 지정 정보](../c-about-index-menu/c-about-re-rank-index.md#concept_147B0A9FCD51451787DA898E06F7C692)를 참조하십시오.
 
-* **[!UICONTROL Ignore Apostrophes]** > **[!UICONTROL Words & Language]**&#x200B;에서 **[!UICONTROL Ignore Hyphens]**&#x200B;과 &lt;a1/>이(가) 활성화된 경우 이제 자동 완성이 쿼리 데이터에서 아포스트로피와 하이픈을 예상대로 제거합니다.**[!UICONTROL Linguistics]**
+* **[!UICONTROL Ignore Apostrophes]** > **[!UICONTROL Words & Language]**&#x200B;에서 **[!UICONTROL Ignore Hyphens]**&#x200B;과 **[!UICONTROL Linguistics]**&#x200B;이(가) 활성화된 경우 이제 자동 완성이 쿼리 데이터에서 아포스트로피와 하이픈을 예상대로 제거합니다.
 
    [단어 및 언어 정보](../c-about-linguistics-menu/c-about-words-and-language.md#concept_CEB4B9576F3C4E2EB87B352EEC738D79) 및 [자동 완성 정보](../c-about-auto-complete.md#concept_093A9CD754864BA79B456FE4BEB64578)를 참조하십시오.
 
