@@ -1,16 +1,14 @@
 ---
 description: 대량의 데이터를 처리할 필요 없이 수직 업데이트를 사용하여 인덱스의 일부를 빠르게 업데이트할 수 있습니다.
-seo-description: 대량의 데이터를 처리할 필요 없이 수직 업데이트를 사용하여 인덱스의 일부를 빠르게 업데이트할 수 있습니다.
-seo-title: 수직 업데이트 정보
 solution: Target
 subtopic: Vertical Update
 title: 수직 업데이트 정보
-topic: Index,Site search and merchandising
+topic: 색인, 사이트 검색 및 머천다이징
 uuid: ded09e89-5a52-4e8c-a6f7-3e25b4191183
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -86,7 +84,7 @@ ht-degree: 0%
 >[!NOTE]
 이 예제에서 `<price>` 및 `<inventory>` 메타데이터 필드는 **수직 업데이트 필드** 옵션이 선택된 상태로 정의해야 합니다.
 
-색인[ 및 ](../c-about-index-menu/c-about-remote-control-for-indexing.md#concept_C79B322190E84106A434E5C6D4A4118F)새 메타 태그 필드 추가[도 참조하십시오.](../c-about-settings-menu/c-about-metadata-menu.md#task_6DF188C0FC7F4831A4444CA9AFA615E5)
+색인](../c-about-index-menu/c-about-remote-control-for-indexing.md#concept_C79B322190E84106A434E5C6D4A4118F) 및 [새 메타 태그 필드 추가](../c-about-settings-menu/c-about-metadata-menu.md#task_6DF188C0FC7F4831A4444CA9AFA615E5)도 참조하십시오.[
 
 ## 단계 웹 사이트 {#task_46A367B0786C4C90BFFA5D3F95FD86C0}의 수직 업데이트 구성
 
@@ -121,7 +119,7 @@ URL을 지정하여 수직 업데이트에 포함할 색인 커넥터 소스를 
 
 라이브 수직 업데이트 또는 스테이지된 수직 업데이트가 완료되면 연결된 로그를 보고 발생한 오류를 해결할 수 있습니다.
 
-수직 업데이트 로그 파일은 내보낼 수 없으며 저장할 수 없습니다. 다음 인덱스가 발생할 때까지 로그 파일을 볼 수 있습니다.
+수직 업데이트 로그 파일을 내보내거나 저장할 수 없습니다. 다음 인덱스가 발생할 때까지 로그 파일을 볼 수 있습니다.
 
 **라이브 또는 스테이징 웹 사이트의 수직 업데이트 로그를 보려면**
 
