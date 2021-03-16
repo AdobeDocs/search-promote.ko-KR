@@ -1,16 +1,14 @@
 ---
 description: 검색 메뉴를 사용하여 제외된 단어, 컬렉션, 제한 사항, 미리 보기 및 프레임을 설정합니다.
-seo-description: 검색 메뉴를 사용하여 제외된 단어, 컬렉션, 제한 사항, 미리 보기 및 프레임을 설정합니다.
-seo-title: 검색 메뉴 정보
 solution: Target
 subtopic: Searching
 title: 검색 메뉴 정보
-topic: Settings,Site search and merchandising
+topic: 설정,사이트 검색 및 머천다이징
 uuid: 072111fc-a32b-4acb-8337-cb21bcdb5542
 translation-type: tm+mt
-source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '11182'
+source-wordcount: '11170'
 ht-degree: 1%
 
 ---
@@ -1159,7 +1157,7 @@ t_creating_a_feed.xml
         </ul> <p>일반 피드에 특수 CGI 매개 변수가 지정되어 있어야 합니다. 이 피드와 연결된 특수 템플릿을 바인딩하려면 <span class="codeph"> sp_t </span> 매개 변수를 정의합니다. <span class="codeph"> sp_t </span> 값을 전송 템플릿 파일의 이름으로 설정합니다. 예를 들어 <span class="codeph"> super_feed.tpl </span>이라는 전송 템플릿 파일을 추가한 경우 사용자 정의 CGI 검색 매개 변수를 <span class="codeph"> sp_t=super_feed </span>로 만듭니다. <span class="wintitle"> 메타 필드 </span> 드롭다운 목록에서 <span class="uicontrol"> 무료 양식 </span>을 선택해야 <span class="codeph"> sp_t </span>를 입력하는 텍스트 상자가 나타납니다. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>1 </p> </td> 
+      <td colname="col1"> <p>3 </p> </td> 
       <td colname="col2"> <p>파일 제출 </p> </td> 
       <td colname="col3"> <p>피드 파일 제출 일정을 구성하고 파일을 업로드하는 데 사용할 방법을 설정할 수 있습니다. </p> 
         <ul id="ul_30E830C41F6A4526822AF1FD3083075A"> 
@@ -1201,7 +1199,7 @@ t_creating_a_feed.xml
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>1 </p> </td> 
+      <td colname="col1"> <p>3 </p> </td> 
       <td colname="col2"> <p>피드 이름 </p> </td> 
       <td colname="col3"> <p>피드의 이름을 지정합니다. </p> </td> 
       </tr> 
@@ -1276,7 +1274,7 @@ t_creating_a_feed.xml
       <td colname="col3"> <p>벤더별 피드 필드를 사이트 검색/머천다이징 메타데이터 필드에 매핑할 수 있습니다. 이 매핑 단계는 피드가 인덱스의 필드와 피드 데이터의 필드 간에 정보를 상호 연관시킬 수 있도록 하기 때문에 마법사의 이 매핑 단계에서는 중요합니다. <span class="wintitle"> 범용 피드 </span>를 제외한 대부분의 경우 상관 관계는 동적으로 생성된 검색 템플릿에 저장됩니다. </p> <p>필드 맵 테이블의 각 행은 필드 매핑을 나타냅니다. 테이블의 추가/제거 열에서 <span class="uicontrol"> + </span>을 클릭하여 새 필드 매핑 행을 추가합니다.표에서 현재 선택된 필드 매핑 행을 삭제하려면 <span class="uicontrol"> - </span>을 클릭합니다. 피드 필드를 메타데이터 필드와 연결하려면 각 드롭다운 목록을 사용하여 원하는 필드를 선택합니다. </p> <p> <b>고급 사용</b> </p> <p>고유한 사용자 정의 필드를 만들 수 있습니다. <span class="wintitle"> 피드 필드 </span> 드롭다운 목록에서 <span class="uicontrol"> 사용자 지정 </span>을 클릭합니다. 연결된 텍스트 필드에 해당 필드에 대한 사용자 지정 태그 이름을 입력합니다. 이 사용자 지정 옵션은 피드에 특정 공급업체별 필드가 필요한 경우에 유용합니다. </p> <p>사용자 정의 메타데이터 필드를 만들 수도 있습니다. <span class="wintitle"> 메타데이터 필드 </span> 드롭다운 목록에서 <span class="uicontrol"> 사용자 지정 </span>을 클릭합니다. 연결된 텍스트 필드에 사용자 정의 메타데이터 필드 값을 입력합니다. 이 값은 사전 생성된 템플릿에 삽입되며 사용자 지정 검색 템플릿 태그를 삽입하는 데 사용할 수도 있습니다. </p> <p><a href="../c-appendices/c-templates.md#reference_F7AA3FF602314E42842BBC740D2CA1A4" type="reference" format="dita" scope="local"> 검색 템플릿 태그 </a>를 참조하십시오. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>1 </p> </td> 
+      <td colname="col1"> <p>3 </p> </td> 
       <td colname="col2"> <p>검색 기준 </p> </td> 
       <td colname="col3"> <p>피드 파일이 생성되면 검색 쿼리를 사용하여 데이터를 필터링합니다. 이 패널에서 검색 쿼리에 사용할 필터를 정의합니다. </p> 
         <ul id="ul_994585E89A044BD3A89A99D30F277432"> 
@@ -1301,7 +1299,7 @@ t_creating_a_feed.xml
           <li id="li_EAE504436CD84452BA04BE51855A2BEF"> <span class="uicontrol"> 호스팅 컨텐트 네트워크  </span> <p>컨텐트 네트워크는 사이트 검색/머천다이징의 웹 서버에서 파일을 제공하는 방법입니다. 피드의 수신자는 HTTP 요청을 사용하여 웹 서버에서 피드를 가져옵니다. </p> <p> 
             <!--After the base filename is entered and the feed is successfully saved, the URL of the Content Network file is displayed on the Verification panel of the wizard. The URL becomes active after the feed is successfully processed. The vendor can get the feed data from this URL. Multiple files use the same URL path. However, be sure that you replace or change the filename according to the enumeration scheme. --> </p> </li> 
           </ul> </li> 
-        </ul> <p>업로드 방법을 사용하려면 <span class="wintitle"> 기본 사이트 맵 URL </span> 필드에 Google이 사이트 맵을 검색하는 데 사용하는 URL을 지정해야 합니다. 사이트 맵 파일의 이름도 여기에서 결정합니다. 사이트 맵이 크면 여러 파일이 존재할 수 있으며 이름 지정 규칙은 파일 끝에 숫자 1로 시작하는 인덱스 번호를 첨부하는 것입니다. <span class="codeph"> sitemap.xml </span>, <span class="codeph"> sitemap1.xml </span>, <span class="codeph"> sitemap2.xml </span> .. <span class="codeph"> sitemap12.xml </span>에서와 같이 첫 번째 파일 또는 인덱스 파일에 인덱스가 없습니다. </p> <p>업로드 방법으로 <span class="uicontrol"> 호스팅 컨텐트 네트워크 </span>를 선택한 경우 파일의 URL은 파일 이름이 동일하지만 URL에는 호스팅 서비스의 경로와 호스트 이름이 있습니다. 따라서 사이트 맵에 대한 요청을 호스팅 컨텐트 네트워크로 리디렉션합니다. 같은 위치에서 파일을 가져올 수도 있습니다. </p> <p>피드 파일을 만들어 중간 대상에 제출하면 Google이 핑되고 사이트 맵 피드가 준비되었음을 알 수 있습니다. </p> </td> 
+        </ul> <p>업로드 방법을 사용하려면 <span class="wintitle"> 기본 사이트 맵 URL </span> 필드에 Google이 사이트 맵을 검색하는 데 사용하는 URL을 지정해야 합니다. 사이트 맵 파일의 이름도 여기에서 결정합니다. 사이트 맵이 크면 여러 파일이 존재할 수 있으며 이름 지정 규칙은 파일 끝에 숫자 1로 시작하는 인덱스 번호를 첨부하는 것입니다. <span class="codeph"> sitemap.xml </span>, <span class="codeph"> sitemap1.xml </span>, <span class="codeph"> sitemap2.xml </span> .. <span class="codeph"> sitemap12.xml </span>에서와 같이 첫 번째 파일 또는 인덱스 파일에 인덱스가 없습니다. </p> <p>업로드 방법으로 <span class="uicontrol"> 호스트 컨텐트 네트워크 </span>를 선택한 경우 파일의 URL은 파일 이름이 동일하지만 URL에는 호스팅 서비스의 경로와 호스트 이름이 있습니다. 따라서 사이트 맵에 대한 요청을 호스팅 컨텐트 네트워크로 리디렉션합니다. 같은 위치에서 파일을 가져올 수도 있습니다. </p> <p>피드 파일을 만들어 중간 대상에 제출하면 Google이 핑되고 사이트 맵 피드가 준비되었음을 알 수 있습니다. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>5 </p> </td> 
