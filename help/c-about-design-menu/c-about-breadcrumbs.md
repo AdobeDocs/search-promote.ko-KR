@@ -1,16 +1,14 @@
 ---
 description: 탐색 표시는 웹 사이트에 추가할 수 있는 탐색 컨트롤입니다. 탐색 표시는 고객이 검색 결과 세트 내 위치에 대한 피드백을 제공합니다. 또한 이전 단계로 빠르게 돌아갈 수 있습니다.
-seo-description: 탐색 표시는 웹 사이트에 추가할 수 있는 탐색 컨트롤입니다. 탐색 표시는 고객이 검색 결과 세트 내 위치에 대한 피드백을 제공합니다. 또한 이전 단계로 빠르게 돌아갈 수 있습니다.
-seo-title: 탐색 표시 정보
 solution: Target
 subtopic: Navigation
 title: 탐색 표시 정보
-topic: Design,Site search and merchandising
+topic: 디자인,사이트 검색 및 상품 판매
 uuid: 3e630a72-a631-4f4f-8aa5-adf2882cdf1c
 translation-type: tm+mt
-source-git-commit: 7f1b5d94e8002992d62ec1e3dce11f9c5605fde8
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '755'
 ht-degree: 1%
 
 ---
@@ -22,7 +20,7 @@ ht-degree: 1%
 
 ## 탐색 표시 사용 {#concept_FB8A943C594A4A1593B118141DA61F03}
 
-탐색 표시는 결과 세트의 범위를 좁히기 위해 선택한 검색어 및 후속 패싯을 추적합니다.
+탐색 표시는 결과 세트의 범위를 좁히기 위해 검색된 용어 및 선택한 후속 패싯을 추적합니다.
 
 탐색 표시 설정을 사용하여 검색 프레젠테이션 레이어의 탐색 표시 컨트롤을 사용자 정의합니다. 프레젠테이션 레이어에 검색 결과 집합이 두 개 이상 있으면 탐색 표시 컨트롤은 페이지의 기본 검색에 사용됩니다.
 
@@ -96,8 +94,8 @@ t_adding_a_new_breadcrumb.xml
       </tr> 
       <tr> 
       <td colname="col1"> <p>사용자 정의 표시 사용 </p> </td> 
-      <td colname="col2"> <p>URL의 <span class="codeph"> uX=[name]&amp;[name]=[value] </span> 매개 변수를 사용하여 탐색 표시에 사용자 정의 항목을 사용할 수 있도록 확인하십시오. 처리 규칙을 사용하여 이 매개 변수를 원하는 방식으로 처리할 수 있습니다. </p> <p>예를 들어 이 기능이 활성화되어 있고 <span class="codeph"> <span class="varname"> 카테고리 </span> </span> 및 <span class="codeph"> <span class="varname"> 종류 </span> </span> 종류 &lt;a7/&gt; &lt;a8/&gt;이 있는 경우, 탐색 암호는 &lt;cruma9/&gt; 의류 &gt; 남성 &gt; </span>과 같이 표시됩니다. .<span class="codeph"><code> https://search.host.com/?1=category&amp;q1=Clothes&amp;u2= 
-          type&amp;type=Men&amp;x3=kind&amp;q3=Sweater </code> </span></p> </td> 
+      <td colname="col2"> <p>URL의 <span class="codeph"> uX=[name]&amp;[name]=[value] </span> 매개 변수를 사용하여 탐색 표시에 사용자 정의 항목을 사용할 수 있도록 확인하십시오. 처리 규칙을 사용하여 이 매개 변수를 원하는 방식으로 처리할 수 있습니다. </p> <p>예를 들어 이 기능이 활성화되어 있고 <span class="codeph"> <span class="varname"> 카테고리 </span> </span> 및 <span class="codeph"> <span class="varname"> 종류 </span> </span> 종류 <code> https://search.host.com/?1=category&amp;q1=Clothes&amp;u2= 
+          type&amp;type=Men&amp;x3=kind&amp;q3=Sweater </code> <span class="codeph">이 있는 경우, 탐색 암호는 &lt;cruma9/&gt; 의류 &gt; 남성 &gt; </span>과 같이 표시됩니다. . </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>사용자 정의 표시 이름 </p> </td> 
