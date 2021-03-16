@@ -1,15 +1,13 @@
 ---
 description: 단어 및 언어를 사용하여 검색어가 웹 페이지의 컨텐츠와 일치하는 방식을 결정할 수 있습니다.
-seo-description: 단어 및 언어를 사용하여 검색어가 웹 페이지의 컨텐츠와 일치하는 방식을 결정할 수 있습니다.
-seo-title: 단어 및 언어 정보
 solution: Target
 title: 단어 및 언어 정보
-topic: Linguistics,Site search and merchandising
+topic: 언어학,사이트 검색 및 상품 판매
 uuid: 793d7a40-4609-44b8-a170-536eb1434537
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
@@ -74,7 +72,7 @@ t_configuring_how_search_terms_matched_to_your_web_content.xml
       </tr> 
       <tr> 
       <td colname="col1"> <p>부분 영숫자 일치 </p> </td> 
-      <td colname="col2"> <p>기본적으로 선택되지 않았습니다. </p> <p>이 옵션을 선택하면 토큰을 알파벳순으로 분할할 수 있으므로 자유 텍스트가 부품 또는 제품 토큰에서 일치할 수 있습니다. </p> <p>예를 들어 웹 사이트에서 하나 이상의 페이지의 본문 내용에 <span class="codeph"> 910XT </span>의 제품 식별자가 있다고 가정합니다. 이 옵션이 선택되어 있지 않은 <i>인 경우 <span class="keyword"> Adobe Search &amp; Promote </span>은 <span class="codeph"> 910XT </span>를 검색할 때 이 제품 식별자와 일치하는 항목을 찾습니다. </i> 또한 <span class="uicontrol"> 검색 Concat-Div-Enable </span>이 켜져 있으면 <span class="keyword"> Adobe Search &amp; Promote </span>도 <span class="codeph"> 910 XT </span>을 찾습니다. 그러나 <span class="codeph"> 910 </span> 또는 <span class="codeph"> XT </span>의 인스턴스는 찾을 수 없습니다. </p> <p><span class="uicontrol"> 부분 영숫자 일치 </span>를 선택하면 인덱서가 혼합된 영숫자 토큰을 여러 토큰으로 구분합니다. 예를 들어 <span class="codeph"> XYZ123 </span> 같은 제품 ID는 다음 3개의 토큰으로 인덱싱됩니다.<span class="codeph"> XYZ123 </span>, <span class="codeph"> XYZ </span> 및 <span class="codeph"> 123 </span>. 이러한 기능을 사용하면 이러한 변형이 있을 때 검색 시간 자유 텍스트를 일치시킬 수 있습니다. </p> <p>다른 예로 제품 식별자 <span class="codeph"> AB910XT </span>가 있다고 가정합니다. <span class="uicontrol"> 부분 영숫자 일치 </span> <i>를 선택하고</i>에 <span class="uicontrol"> 검색 Concat-Div-Enable </span>이 켜져 있으면 <span class="keyword"> Adobe Search &amp; Promote </span>은 <span class="codeph"> AB910XT </span>, &lt;a11 0/&gt; AB </span>, <span class="codeph"> 910 </span> 및 <span class="codeph"> XT </span>. <span class="codeph"> 그런 다음 사용자가 <span class="codeph"> 910XT </span>를 검색할 때 검색은 확장되어 <span class="codeph"> 910XT </span>, <span class="codeph"> 910 </span> 또는 <span class="codeph"> XT </span> 인스턴스도 찾습니다. </span></p> <p> <p>참고: <span class="uicontrol"> Search Concat-Div-Enable </span>은(는) 기본적으로 활성화되지 않습니다. 해당 기능을 사용하려면 기술 지원에 문의하십시오. </p> </p> <p> <p>참고: <span class="uicontrol"> 부분 영숫자 일치 </span>는 모든 인덱스 필드에 전체적으로 적용됩니다. 그러나 자유 텍스트 일치에만 영향을 줍니다.정확한 일치 또는 범위 일치에는 영향을 주지 않습니다. </p> </p> </td> 
+      <td colname="col2"> <p>기본적으로 선택되지 않았습니다. </p> <p>이 옵션을 선택하면 토큰을 알파벳순으로 분할할 수 있으므로 자유 텍스트가 부품 또는 제품 토큰에서 일치할 수 있습니다. </p> <p>예를 들어 웹 사이트에서 하나 이상의 페이지의 본문 내용에 <span class="codeph"> 910XT </span>의 제품 식별자가 있다고 가정합니다. 이 옵션이 선택되어 있지 않은 <i>인 경우 <span class="keyword"> Adobe Search &amp; Promote </span>은 <span class="codeph"> 910XT </span>를 검색할 때 이 제품 식별자와 일치하는 항목을 찾습니다. </i> 또한 <span class="uicontrol"> 검색 Concat-Div-Enable </span>이 켜져 있으면 <span class="keyword"> Adobe Search &amp; Promote </span>도 <span class="codeph"> 910 XT </span>을 찾습니다. 그러나 <span class="codeph"> 910 </span> 또는 <span class="codeph"> XT </span>의 인스턴스는 찾을 수 없습니다. </p> <p><span class="uicontrol"> 부분 영숫자 일치 </span>를 선택하면 인덱서가 혼합된 영숫자 토큰을 여러 토큰으로 구분합니다. 예를 들어 <span class="codeph"> XYZ123 </span> 같은 제품 ID는 다음 3개의 토큰으로 인덱싱됩니다.<span class="codeph"> XYZ123 </span>, <span class="codeph"> XYZ </span> 및 <span class="codeph"> 123 </span>. 이러한 기능을 사용하면 이러한 변형이 있을 때 검색 시간 자유 텍스트를 일치시킬 수 있습니다. </p> <p>다른 예로 제품 식별자 <span class="codeph"> AB910XT </span>가 있다고 가정합니다. <span class="uicontrol"> 부분 영숫자 일치 </span> <i>를 선택하고</i>에 <span class="uicontrol"> Search Concat-Div-Enable </span>이 켜져 있으면 <span class="keyword"> Adobe Search &amp; Promote </span>은 <span class="codeph"> AB910XT </span>, &lt;a11 0/&gt; AB </span>, <span class="codeph"> 910 </span> 및 <span class="codeph"> XT </span>. <span class="codeph"> 그런 다음 사용자가 <span class="codeph"> 910XT </span>를 검색할 때 검색은 확장되어 <span class="codeph"> 910XT </span>, <span class="codeph"> 910 </span> 또는 <span class="codeph"> XT </span> 인스턴스도 찾습니다. </span></p> <p> <p>참고: <span class="uicontrol"> Search Concat-Div-Enable </span>은(는) 기본적으로 활성화되지 않습니다. 해당 기능을 사용하려면 기술 지원에 문의하십시오. </p> </p> <p> <p>참고: <span class="uicontrol"> 부분 영숫자 일치 </span>는 모든 인덱스 필드에 전체적으로 적용됩니다. 그러나 자유 텍스트 일치에만 영향을 줍니다.정확한 일치 또는 범위 일치에는 영향을 주지 않습니다. </p> </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>유사한 사운드 일치 </p> </td> 
