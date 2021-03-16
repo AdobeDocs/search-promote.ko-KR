@@ -1,15 +1,13 @@
 ---
 description: 검색 후 규칙을 사용하여 검색 결과를 검토하고 검색 결과가 표시된 컨텐트에 미치는 영향을 확인할 수 있습니다.
-seo-description: 검색 후 규칙을 사용하여 검색 결과를 검토하고 검색 결과가 표시된 컨텐트에 미치는 영향을 확인할 수 있습니다.
-seo-title: 사후 검색 규칙 정보
 solution: Target
 title: 사후 검색 규칙 정보
-topic: Rules,Site search and merchandising
+topic: 규칙, 사이트 검색 및 머천다이징
 uuid: 312d1e4a-f5b6-4629-8645-17e6f6c09fc4
 translation-type: tm+mt
-source-git-commit: d07cdc2c88f93eed4cecb0ee8818f7fdea06ee9d
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2102'
 ht-degree: 0%
 
 ---
