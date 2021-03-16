@@ -1,15 +1,13 @@
 ---
 description: 제품 메뉴의 계정을 사용하여 액세스하여 사용할 계정을 선택합니다.
-seo-description: 제품 메뉴의 계정을 사용하여 액세스하여 사용할 계정을 선택합니다.
-seo-title: 계정 메뉴 정보
 solution: Target
 title: 계정 메뉴 정보
-topic: Settings,Site search and merchandising
+topic: 설정,사이트 검색 및 머천다이징
 uuid: 7cfc1b68-5126-484a-8a1d-54995a8fd19b
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '172'
 ht-degree: 2%
 
 ---
