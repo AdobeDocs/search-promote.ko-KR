@@ -1,15 +1,13 @@
 ---
 description: 고객 검색 쿼리의 보고서를 보거나 재설정하려면 보고서 메뉴를 사용합니다.
-seo-description: 고객 검색 쿼리의 보고서를 보거나 재설정하려면 보고서 메뉴를 사용합니다.
-seo-title: 보고서 메뉴 정보
 solution: Target
 title: 보고서 메뉴 정보
-topic: Reports,Site search and merchandising
+topic: 보고서,사이트 검색 및 머천다이징
 uuid: 3ea856d7-dc07-455f-8dc7-c7f7f56355d7
 translation-type: tm+mt
-source-git-commit: 7af85dd37f06fe506e5f57e28a25385ca7ab3db5
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1245'
 ht-degree: 2%
 
 ---
@@ -94,15 +92,15 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>보고서 세트 </p> </td> 
-   <td colname="col2"> <p>Adobe Analytics 보고서 세트의 이름을 식별합니다. </p> <p><a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_6DE17305EA7146DA8C30FF8FDF68A3C0" type="task" format="dita" scope="local"> Adobe Analytics 보고서 세트 추가</a>를 참조하십시오. </p> <p>보고서 세트<a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664" type="task" format="dita" scope="local">의 Adobe Analytics 지표 편집을 참조하십시오.</a> </p> </td> 
+   <td colname="col2"> <p>Adobe Analytics 보고서 세트의 이름을 식별합니다. </p> <p><a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_6DE17305EA7146DA8C30FF8FDF68A3C0" type="task" format="dita" scope="local"> Adobe Analytics 보고서 세트 추가</a>를 참조하십시오. </p> <p>보고서 세트</a>의 Adobe Analytics 지표 편집을 참조하십시오.<a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664" type="task" format="dita" scope="local"> </a></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>보고서 유형(Adobe Analytics 요소) </p> </td> 
-   <td colname="col2"> <p>보고서 세트 요청에서 사용되는 Adobe Analytics 요소, 분류 값 또는 둘 다. </p> <p>보고서 세트<a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664" type="task" format="dita" scope="local">의 Adobe Analytics 지표 편집을 참조하십시오.</a> </p> </td> 
+   <td colname="col2"> <p>보고서 세트 요청에서 사용되는 Adobe Analytics 요소, 분류 값 또는 둘 다. </p> <p>보고서 세트</a>의 Adobe Analytics 지표 편집을 참조하십시오.<a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664" type="task" format="dita" scope="local"> </a></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>상호 참조 필드 </p> </td> 
-   <td colname="col2"> <p>보고서 세트에 대한 조회 "키"로 사용되는 선택적 메타데이터 필드입니다. </p> <p>보고서 세트<a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664" type="task" format="dita" scope="local">의 Adobe Analytics 지표 편집을 참조하십시오.</a> </p> </td> 
+   <td colname="col2"> <p>보고서 세트에 대한 조회 "키"로 사용되는 선택적 메타데이터 필드입니다. </p> <p>보고서 세트</a>의 Adobe Analytics 지표 편집을 참조하십시오.<a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664" type="task" format="dita" scope="local"> </a></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>작업 </p> </td> 
