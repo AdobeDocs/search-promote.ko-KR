@@ -1,16 +1,14 @@
 ---
 description: 증분 색인을 사용하여 자주 변경되는 페이지의 컬렉션과 같이 라이브 또는 스테이징 웹 사이트의 "조각"을 색인화할 수 있습니다.
-seo-description: 증분 색인을 사용하여 자주 변경되는 페이지의 컬렉션과 같이 라이브 또는 스테이징 웹 사이트의 "조각"을 색인화할 수 있습니다.
-seo-title: 증분 색인 정보
 solution: Target
 subtopic: Incremental Index
 title: 증분 색인 정보
-topic: Index,Site search and merchandising
+topic: 색인, 사이트 검색 및 머천다이징
 uuid: b1ee9b08-dcbe-4ffe-b0b4-d379daaac9b5
 translation-type: tm+mt
-source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1357'
 ht-degree: 1%
 
 ---
