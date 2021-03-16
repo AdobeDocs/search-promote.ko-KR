@@ -1,15 +1,13 @@
 ---
 description: 배너를 사용하여 웹 사이트의 배너 광고를 관리할 수 있습니다.
-seo-description: 배너를 사용하여 웹 사이트의 배너 광고를 관리할 수 있습니다.
-seo-title: 배너 정보
 solution: Target
 title: 배너 정보
-topic: Design,Site search and merchandising
+topic: 디자인,사이트 검색 및 상품 판매
 uuid: 653b567d-5cf3-41a0-a260-a6912d0fd20d
 translation-type: tm+mt
-source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '4810'
+source-wordcount: '4801'
 ht-degree: 1%
 
 ---
@@ -91,7 +89,7 @@ t_adding_a_new_banner.xml
 
 유효한 Adobe Dynamic Media Classic 계정이 있는 경우 Scene7 Publishing System을 통해 배너 광고를 추가할 수 있습니다.
 
-Adobe Dynamic Media Classic[을(를) 사용하여 배너 추가를 참조하십시오.](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3)
+Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3)을(를) 사용하여 배너 추가를 참조하십시오.[
 
 [Adobe Dynamic Media Classic 계정 ](../c-about-settings-menu/c-about-account-options-menu.md#task_CEFF88C2033D41D0B2FE86C435EDAC6D)에 대한 액세스 권한 구성을 참조하십시오.
 
@@ -169,7 +167,7 @@ t_editing_a_banner.xml
 
 사이트 검색/머천다이징을 사용하여 배너를 추가한 경우 Adobe Dynamic Media Classic을 사용하여 배너를 편집할 수도 있습니다.
 
-Adobe Dynamic Media Classic[을(를) 사용하여 배너 편집을 참조하십시오.](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9)
+Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9)을(를) 사용하여 배너 편집을 참조하십시오.[
 
 **배너를 편집하려면**
 
@@ -223,7 +221,7 @@ Adobe Dynamic Media Classic을 사용하여 배너를 추가하려면 유효한 
    >
    >[!DNL Change Parameters] 대화 상자에서 배너를 편집할 때 에셋 탐색 옵션이 표시되지 않습니다.
 
-   Adobe Dynamic Media Classic[을(를) 사용하여 배너 편집을 참조하십시오.](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9)
+   Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9)을(를) 사용하여 배너 편집을 참조하십시오.[
 
    **자산 탐색 옵션**
 
@@ -257,7 +255,7 @@ Adobe Dynamic Media Classic을 사용하여 배너를 추가하려면 유효한 
       </tr> 
       <tr> 
       <td colname="col1"> <p> <img src="assets/s7_upload.png"> </p> </td> 
-      <td colname="col2"> <p>데스크탑이나 외부 서버에서 선택한 디지털 자산을 업로드할 수 있는 <span class="wintitle"> 업로드 </span> 대화 상자를 열어 배너로 사용할 수 있습니다. </p> <p>자산을 업로드하면 Scene7 Publishing System에서 게시 작업이 자동으로 예약됩니다. </p> <p>Adobe Dynamic Media Classic <a href="../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3" type="reference" format="dita" scope="local">을(를) 사용하여 배너 추가의 옵션 표를 참조하십시오.</a> </p> <p>Scene7 Publishing System을 사용하여 디지털 자산을 업로드하고 게시하는 방법에 대해 자세히 알아볼 수 있습니다. </p> <p>Scene7 Publishing System 사용자 안내서의 <a href="https://help.adobe.com/en_US/scene7/using/WS3673AD39-098B-4f08-8A24-CA51261B7366.html" scope="external" format="html"> 자산 업로드 및 게시 </a>를 참조하십시오. </p> </td> 
+      <td colname="col2"> <p>데스크탑이나 외부 서버에서 선택한 디지털 자산을 업로드할 수 있는 <span class="wintitle"> 업로드 </span> 대화 상자를 열어 배너로 사용할 수 있습니다. </p> <p>자산을 업로드하면 Scene7 Publishing System에서 게시 작업이 자동으로 예약됩니다. </p> <p>Adobe Dynamic Media Classic </a>을(를) 사용하여 배너 추가의 옵션 표를 참조하십시오.<a href="../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3" type="reference" format="dita" scope="local"> </a></p> <p>Scene7 Publishing System을 사용하여 디지털 자산을 업로드하고 게시하는 방법에 대해 자세히 알아볼 수 있습니다. </p> <p>Scene7 Publishing System 사용자 안내서의 <a href="https://help.adobe.com/en_US/scene7/using/WS3673AD39-098B-4f08-8A24-CA51261B7366.html" scope="external" format="html"> 자산 업로드 및 게시 </a>를 참조하십시오. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p> <img src="assets/s7_searchfield.png"> </p> </td> 
@@ -737,7 +735,7 @@ t_pushing_banners_live.xml
 
  -->
 
-또는 원하는 경우 [!DNL Banners] 페이지 아래쪽에 있는 **[!UICONTROL Push Live]** 옵션을 사용하여 배너에 대한 모든 변경 사항을 라이브로 푸시할 수 있습니다.
+또는 원하는 경우 [!DNL Banners] 페이지 아래쪽에 있는 **[!UICONTROL Push Live]** 옵션을 사용하여 배너에 대한 모든 변경 사항을 실시간으로 푸시할 수 있습니다.
 
 [스테이지 설정 라이브 푸시](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)를 참조하십시오.
 
