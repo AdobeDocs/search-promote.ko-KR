@@ -1,15 +1,13 @@
 ---
 description: '제외된 단어를 사용하여 검색 결과 밖으로 나가려는 자주 사용하는 구문 및 일반 단어(예: "a" 및 "the")를 지정할 수 있습니다.'
-seo-description: '제외된 단어를 사용하여 검색 결과 밖으로 나가려는 자주 사용하는 구문 및 일반 단어(예: "a" 및 "the")를 지정할 수 있습니다.'
-seo-title: 제외된 단어 정보
 solution: Target
 title: 제외된 단어 정보
-topic: Linguistics,Site search and merchandising
+topic: 언어학,사이트 검색 및 상품 판매
 uuid: 1c879462-1b19-44f6-a3b2-20aa786b3221
 translation-type: tm+mt
-source-git-commit: 46cdbdf94ba8f92dba7d03ce80b25a2ae73b228a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -59,9 +57,9 @@ ht-degree: 0%
 1. 클릭 **[!UICONTROL Save Changes]**.
 1. 변경 결과를 미리 보려면 **[!UICONTROL regenerate your staged site index]**&#x200B;을 클릭하여 스테이지된 웹 사이트 인덱스를 다시 작성합니다.
 
-   라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.[.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D)
+   라이브 또는 스테이징된 웹 사이트의 전체 인덱스 실행...을 참조하십시오.](../c-about-index-menu/c-about-full-index.md#task_F7FE04D8A1654A7787FCCA31B45EB42D).[
 
-   라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.[.](../c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB)
+   라이브 또는 스테이징된 웹 사이트의 증분 인덱스 실행 중...을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_9BFB6157F3884B2FAECB7E0E9CA318CB).[
 1. (선택 사항) 제품 메뉴에서 **[!UICONTROL Linguistics]** > **[!UICONTROL Excluded Words]**&#x200B;을 클릭한 다음 다음 다음 중 하나를 수행합니다.
 
    * **[!UICONTROL History]**&#x200B;을 클릭하여 변경한 내용을 되돌립니다.
