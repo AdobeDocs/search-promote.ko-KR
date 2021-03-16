@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Search&Amp;Promote 8.9.6 릴리스 노트(03/21/2013)
+description: Search&amp;Promote 8.9.6 릴리스 노트.
 solution: Target
 title: Search&Amp;Promote 8.9.6 릴리스 노트(03/21/2013)
-topic: Release Notes,Site search and merchandising
+topic: 릴리스 노트,사이트 검색 및 머천다이징
 uuid: f0f32eba-35c1-4666-a0b8-ec8adc4a832f
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 20%
+source-wordcount: '69'
+ht-degree: 15%
 
 ---
 
