@@ -1,16 +1,14 @@
 ---
 description: 계정 옵션 메뉴를 사용하여 계정 설정을 업데이트하거나, 머천다이징 환경 설정을 지정하거나, 고유한 Search&amp;Promote 계정을 제거합니다.
-seo-description: 계정 옵션 메뉴를 사용하여 계정 설정을 업데이트하거나, 머천다이징 환경 설정을 지정하거나, 고유한 Search&amp;Promote 계정을 제거합니다.
-seo-title: 계정 옵션 메뉴 정보
 solution: Target
 subtopic: Account Options
 title: 계정 옵션 메뉴 정보
-topic: Settings,Site search and merchandising
+topic: 설정,사이트 검색 및 머천다이징
 uuid: 0f830033-de9e-4197-8d76-906c818662eb
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1662'
 ht-degree: 2%
 
 ---
@@ -139,7 +137,7 @@ Adobe CQ5와 사이트 검색/머천다이징의 통합을 구성할 수 있습�
 
 [배너 정보](../c-about-design-menu/c-about-banners.md#concept_5BBE01FEC6134393B43CC917C8CC64DA)를 참조하십시오.
 
-Adobe Dynamic Media Classic[을(를) 사용하여 배너 추가를 참조하십시오.](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3)
+Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3)을(를) 사용하여 배너 추가를 참조하십시오.[
 
 **Adobe Dynamic Media Classic 계정에 대한 액세스를 구성하려면**
 
@@ -238,7 +236,7 @@ Adobe Dynamic Media Classic[을(를) 사용하여 배너 추가를 참조하십�
 1. 클릭 **[!UICONTROL Save Changes]**.
 1. (선택 사항) 결과를 미리 보려는 경우 스테이지된 사이트 인덱스를 다시 작성합니다.
 
-   스테이지된 웹 사이트[의 증분 인덱스 구성을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)
+   스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
 1. (선택 사항) [!DNL Adobe Analytics Redirector] 페이지에서 다음 중 하나를 수행합니다.
 
    * 클릭 **[!UICONTROL Live]**.
@@ -288,7 +286,7 @@ Adobe Dynamic Media Classic[을(를) 사용하여 배너 추가를 참조하십�
 1. 클릭 **[!UICONTROL Save Changes]**.
 1. (선택 사항) 결과를 미리 보려는 경우 스테이지된 사이트 인덱스를 다시 작성합니다.
 
-   스테이지된 웹 사이트[의 증분 인덱스 구성을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)
+   스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
 1. (선택 사항) [!DNL Root Files] 페이지에서 다음 중 하나를 수행합니다.
 
    * 클릭 **[!UICONTROL Live]**.
