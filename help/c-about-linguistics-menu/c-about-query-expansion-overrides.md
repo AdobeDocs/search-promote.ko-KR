@@ -1,15 +1,13 @@
 ---
 description: 검색 쿼리 결과 확장을 재정의할 수 있습니다.
-seo-description: 검색 쿼리 결과 확장을 재정의할 수 있습니다.
-seo-title: 쿼리 확장 무시 정보
 solution: Target
 title: 쿼리 확장 무시 정보
-topic: Linguistics,Site search and merchandising
+topic: 언어학,사이트 검색 및 상품 판매
 uuid: dfe18004-b8fd-4889-b01c-72a3b0c82b9c
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
