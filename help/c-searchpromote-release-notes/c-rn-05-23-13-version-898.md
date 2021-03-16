@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Search&Amp;Promote 8.9.8 릴리스 노트(05/23/2013)
+description: Search&amp;Promote 8.9.8 릴리스 노트.
 solution: Target
 title: Search&Amp;Promote 8.9.8 릴리스 노트(05/23/2013)
-topic: Release Notes,Site search and merchandising
+topic: 릴리스 노트,사이트 검색 및 머천다이징
 uuid: ff4bfc53-1d0e-4b7d-83ad-54c81d3f9769
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 57%
+source-wordcount: '209'
+ht-degree: 55%
 
 ---
 
