@@ -1,22 +1,20 @@
 ---
 description: 패싯 레일을 사용하여 웹 페이지에서 패싯 그룹의 순서를 조정합니다.
-seo-description: 패싯 레일을 사용하여 웹 페이지에서 패싯 그룹의 순서를 조정합니다.
-seo-title: 패싯 레일 정보
 solution: Target
 subtopic: Navigation
 title: 패싯 레일 정보
-topic: Design,Site search and merchandising
+topic: 디자인,사이트 검색 및 상품 판매
 uuid: 6da2bd67-8c20-4955-9836-bc8ba88546c5
 translation-type: tm+mt
-source-git-commit: 6b3aa733b0dfaace956f0ffc25f433fefd21e15f
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '781'
 ht-degree: 1%
 
 ---
 
 
-# 패싯 레일 {#about-facet-rail} 정보
+# 패싯 레일 정보{#about-facet-rail}
 
 패싯 레일을 사용하여 웹 페이지에서 패싯 그룹의 순서를 조정합니다.
 
@@ -26,7 +24,7 @@ ht-degree: 1%
 
 [패싯 정보](../c-about-design-menu/c-about-facets.md#concept_FA912B3B41EE493DB2F492D188457FF5)를 참조하십시오.
 
-패싯 레일을 사용하여 웹 페이지에서 이러한 패싯 그룹의 순서를 조정합니다. 예를 들어 웹 페이지의 왼쪽에 검색 결과 섹션이 있다고 가정합니다. 나열된 섹션, 위에서 아래로, 카테고리 패싯, 브랜드 패싯, 가격 패싯 및 가장 인기 있는 패싯. 예를 들어, 패싯 레일을 사용하여 가장 빈도가 높은 패싯이 카테고리 패싯 위나 아래에 나타나도록 할 수 있습니다.
+패싯 레일을 사용하여 웹 페이지에서 이러한 패싯 그룹의 순서를 조정합니다. 예를 들어 웹 페이지의 왼쪽에 검색 결과 섹션이 있다고 가정합니다. 나열된 섹션, 위에서 아래로, 카테고리 패싯, 브랜드 패싯, 가격 패싯 및 가장 인기 있는 패싯. 예를 들어, 패싯 레일을 사용하여 가장 빈도가 높은 패싯이 카테고리 패싯 위나 아래에 표시되도록 할 수 있습니다.
 
 함께 순서를 바꾸려는 패싯 그룹은 패싯 레일 태그에 속합니다. 패싯은 하나의 패싯 레일만 포함할 수 있습니다. 패싯 레일은 프레젠테이션 템플릿 태그이며 패싯의 단일 표현을 포함합니다. 이 레일에 속하는 모든 패싯은 해당 단일 패싯 표현을 공유합니다.
 
