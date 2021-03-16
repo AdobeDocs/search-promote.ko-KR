@@ -1,16 +1,14 @@
 ---
 description: Adobe Analytics 메뉴를 사용하여 Adobe Analytics 지표 인증을 설정하거나, 보고서 세트의 Adobe Analytics 지표를 관리하거나, SAINT을 사용하여 외부 소스에서 표 형식으로 데이터를 받아 Adobe Analytics 보고서를 향상시킵니다.
-seo-description: Adobe Analytics 메뉴를 사용하여 Adobe Analytics 지표 인증을 설정하거나, 보고서 세트의 Adobe Analytics 지표를 관리하거나, SAINT을 사용하여 외부 소스에서 표 형식으로 데이터를 받아 Adobe Analytics 보고서를 향상시킵니다.
-seo-title: Adobe Analytics 메뉴 정보
 solution: Target
 subtopic: Adobe Analytics
 title: Adobe Analytics 메뉴 정보
-topic: Settings,Site search and merchandising
+topic: 설정,사이트 검색 및 머천다이징
 uuid: 5536edf1-d3a4-47af-a307-6e46f385f738
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '3448'
+source-wordcount: '3412'
 ht-degree: 1%
 
 ---
@@ -85,7 +83,7 @@ Adobe Analytics 보고서 세트 정의를 새로 만들거나 기존 Adobe Anal
 
 Adobe Analytics 보고서 세트를 추가한 후 해당 지표를 편집할 수 있습니다.
 
-보고서 세트[의 Adobe Analytics 지표 편집을 참조하십시오.](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664)
+보고서 세트](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664)의 Adobe Analytics 지표 편집을 참조하십시오.[
 
 **Adobe Analytics 보고서 세트를 추가하려면**
 
@@ -130,7 +128,7 @@ Adobe Analytics 보고서 세트를 추가한 후 해당 지표를 편집할 수
       </tr> 
       <tr> 
       <td colname="col1"> <p>상호 참조 필드 이름 </p> </td> 
-      <td colname="col2"> <p>값이 보고서 세트의 데이터에 대한 조회 "키"로 사용되는 메타데이터 필드를 지정합니다. </p> <p>값을 선택하지 않으면("— None —") 이 보고서 세트의 데이터를 등급 계산에 사용할 수 없습니다( <span class="uicontrol"> <b>규칙</b> </span> &gt; <span class="uicontrol"> <b> </b> </span> <span class="uicontrol"> <b> 규칙 편집&lt;a9/&gt; &lt;a9/&gt; &lt;a9/&gt;규칙 편집&lt;a11 0/&gt; </span>).</b> </p> <p>값을 선택할 때 이 필드의 값은 이전에 설정한 선택된 보고서 유형 값을 사용하여 이 보고서 세트의 Adobe Analytics 데이터로 사이트 검색/머천다이징 문서를 상호 참조하는 데 사용됩니다. </p> </td> 
+      <td colname="col2"> <p>값이 보고서 세트의 데이터에 대한 조회 "키"로 사용되는 메타데이터 필드를 지정합니다. </p> <p>값을 선택하지 않으면("— None —") 이 보고서 세트의 데이터를 등급 계산에 사용할 수 없습니다( <span class="uicontrol"> <b>규칙</b> </span> &gt; <span class="uicontrol"> <b> </b> </span> <span class="uicontrol"> <b> 규칙 편집</b>  규칙 편집&lt;a11 0/&gt; </span>). </p> <p>값을 선택할 때 이 필드의 값은 이전에 설정한 선택된 보고서 유형 값을 사용하여 이 보고서 세트의 Adobe Analytics 데이터로 사이트 검색/머천다이징 문서를 상호 참조하는 데 사용됩니다. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>검색어 보고서 </p> </td> 
@@ -175,7 +173,7 @@ Adobe Analytics 보고서 세트를 추가한 후 해당 지표를 편집할 수
 
 ## Adobe Analytics 보고서 세트 삭제 {#task_0ACA172214D14654ABDB139F417B9F7D}
 
-삭제를 사용하여 [!DNL Adobe Analytics Report Suites] 페이지에서 보고서 세트를 제거할 수 있습니다. 보고서 세트를 삭제하면 사이트 검색/머천다이징 서버에서 데이터 복사본만 제거됩니다.adobe analytics 시스템의 데이터는 영향을 주지 않습니다.
+삭제를 사용하여 [!DNL Adobe Analytics Report Suites] 페이지에서 보고서 세트를 제거할 수 있습니다. 보고서 세트를 삭제하면 사이트 검색/머천다이징 서버에서 데이터 복사본만 제거됩니다.Adobe Analytics 시스템의 데이터는 영향을 주지 않습니다.
 
 **Adobe Analytics 보고서 세트를 삭제하려면**
 
