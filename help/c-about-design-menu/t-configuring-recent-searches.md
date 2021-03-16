@@ -1,16 +1,14 @@
 ---
 description: 최근 검색은 프레젠테이션 템플릿을 사용하여 고객의 최근 검색 내역을 표시할 수 있는 쿠키 기반 시스템입니다.
-seo-description: 최근 검색은 프레젠테이션 템플릿을 사용하여 고객의 최근 검색 내역을 표시할 수 있는 쿠키 기반 시스템입니다.
-seo-title: 최근 검색 구성
 solution: Target
 subtopic: Navigation
 title: 최근 검색 구성
-topic: Design,Site search and merchandising
+topic: 디자인,사이트 검색 및 상품 판매
 uuid: 8ab1b35c-f953-4c26-921f-524af1fea4ef
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '186'
 ht-degree: 2%
 
 ---
