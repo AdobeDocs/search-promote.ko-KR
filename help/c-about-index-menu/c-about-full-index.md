@@ -1,16 +1,14 @@
 ---
 description: 전체 인덱스를 사용하여 스테이징 또는 라이브 웹 사이트의 모든 페이지를 색인화할 수 있습니다. 색인화를 통해 고객이 원하는 것 또는 검색을 수행할 때 필요한 내용을 보다 손쉽게 찾을 수 있습니다.
-seo-description: 전체 인덱스를 사용하여 스테이징 또는 라이브 웹 사이트의 모든 페이지를 색인화할 수 있습니다. 색인화를 통해 고객이 원하는 것 또는 검색을 수행할 때 필요한 내용을 보다 손쉽게 찾을 수 있습니다.
-seo-title: 전체 색인 정보
 solution: Target
 subtopic: Full Index
 title: 전체 색인 정보
-topic: Index,Site search and merchandising
+topic: 색인, 사이트 검색 및 머천다이징
 uuid: dce1eafd-5aea-4945-8305-8f9e7dc392df
 translation-type: tm+mt
-source-git-commit: 7af85dd37f06fe506e5f57e28a25385ca7ab3db5
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '760'
 ht-degree: 1%
 
 ---
