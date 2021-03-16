@@ -1,16 +1,14 @@
 ---
 description: 페이지 탐색 기능을 사용하여 검색 프레젠테이션 레이어의 페이지 탐색 컨트롤을 사용자 정의할 수 있습니다.
-seo-description: 페이지 탐색 기능을 사용하여 검색 프레젠테이션 레이어의 페이지 탐색 컨트롤을 사용자 정의할 수 있습니다.
-seo-title: 페이지 탐색 정보
 solution: Target
 subtopic: Navigation
 title: 페이지 탐색 정보
-topic: Design,Site search and merchandising
+topic: 디자인,사이트 검색 및 상품 판매
 uuid: fb17a99e-d7b4-415e-ba1b-ca194fe41a5d
 translation-type: tm+mt
-source-git-commit: 7f1b5d94e8002992d62ec1e3dce11f9c5605fde8
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '405'
 ht-degree: 2%
 
 ---
@@ -70,7 +68,7 @@ t_configuring_web_page_navigation.xml
       </tr> 
       <tr> 
       <td colname="col1"> <p>최고 결과 </p> </td> 
-      <td colname="col2"> <p>검색을 반환할 수 있는 최대 결과 수를 지정합니다. 기본값은 50000입니다. </p> </td> 
+      <td colname="col2"> <p>검색에서 반환할 수 있는 최대 결과 수를 지정합니다. 기본값은 50000입니다. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>결과 범위 표시 </p> </td> 
