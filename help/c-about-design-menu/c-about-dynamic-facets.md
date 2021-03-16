@@ -1,16 +1,14 @@
 ---
 description: 동적 패싯을 사용하여 검색 시 자동으로 새 범위 선택 영역을 만들 수 있습니다. 선택적으로 Adobe Search&amp;Promote 계정에서 최대 하나의 테이블 이름과 각 동적 패싯 필드를 연결할 수 있습니다. 검색과 관련된 모든 다이내믹 패싯 필드에 대해 검색 시 해당 테이블 관계를 적용합니다.
-seo-description: 동적 패싯을 사용하여 검색 시 자동으로 새 범위 선택 영역을 만들 수 있습니다. 선택적으로 Adobe Search&amp;Promote 계정에서 최대 하나의 테이블 이름과 각 동적 패싯 필드를 연결할 수 있습니다. 검색과 관련된 모든 다이내믹 패싯 필드에 대해 검색 시 해당 테이블 관계를 적용합니다.
-seo-title: 동적 패싯 정보
 solution: Target
 subtopic: Navigation
 title: 동적 패싯 정보
-topic: Design,Site search and merchandising
+topic: 디자인,사이트 검색 및 상품 판매
 uuid: 1ea91c22-dcc2-4173-aa50-ce618ad0a99c
 translation-type: tm+mt
-source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
