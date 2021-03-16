@@ -1,16 +1,14 @@
 ---
 description: 패싯을 사용하여 프레젠테이션 레이어를 사용자 정의하고 사용자에게 검색 결과를 드릴다운할 수 있는 검색 안내 검색을 제공할 수 있습니다.
-seo-description: 패싯을 사용하여 프레젠테이션 레이어를 사용자 정의하고 사용자에게 검색 결과를 드릴다운할 수 있는 검색 안내 검색을 제공할 수 있습니다.
-seo-title: 패싯 정보
 solution: Target
 subtopic: Navigation
 title: 패싯 정보
-topic: Design,Site search and merchandising
+topic: 디자인,사이트 검색 및 상품 판매
 uuid: 28bc4d4d-a84c-4a77-befb-b0fb3bbdb966
 translation-type: tm+mt
-source-git-commit: 52c8d7985e7cb0aa35be1deabeb7cb92a55f07c2
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '3855'
+source-wordcount: '3832'
 ht-degree: 1%
 
 ---
@@ -151,7 +149,7 @@ Womens 및 Mens 카테고리는 상위 또는 상위 패싯에 있습니다. 액
 
 ## 새 패싯 {#task_FC07BFFA62CA4B718D6CBF4F2855C89B} 추가
 
-패싯을 추가하여 프레젠테이션 레이어를 사용자 정의하고 검색 결과를 드릴다운할 수 있는 검색 안내 기능을 고객에게 제공할 수 있습니다.
+패싯을 추가하여 프레젠테이션 레이어를 사용자 정의하고 검색 결과를 드릴다운할 수 있는 안내 검색을 고객에게 제공할 수 있습니다.
 
 <!-- 
 
@@ -378,7 +376,7 @@ t_adding_a_nested_facet.xml
 1. 클릭 **[!UICONTROL Add]**.
 1. (선택 사항) 결과를 미리 보려는 경우 스테이지된 사이트 인덱스를 다시 작성합니다.
 
-   스테이지된 웹 사이트[의 증분 인덱스 구성을 참조하십시오.](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)
+   스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
 
    나머지 작업은 이 메타 태그 필드를 **n1**&#x200B;로 참조합니다.
 
