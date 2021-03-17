@@ -7,9 +7,9 @@ audience: end-user
 user-guide-title: Adobe 검색&amp;홍보 안내서
 breadcrumb-title: Adobe 검색&amp;홍보 안내서
 translation-type: tm+mt
-source-git-commit: 1914d67d2634cb13368ab72d54da7da5988de13f
+source-git-commit: bdfd504301d8c0a6b0f364ecd6fd451c0c1cdcba
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '260'
 ht-degree: 9%
 
 ---
@@ -17,8 +17,7 @@ ht-degree: 9%
 
 # Adobe 검색 및 홍보 안내서 {#using}
 
-<!-- + Attention {#attention}
-  + [Adobe Search&amp;Promote End-of-Service Announcement](sp-eol.md) -->
++ [Adobe Search &amp; Promote 서비스 종료 알림](sp-eol.md)
 + [Search &amp; Promote 설명서 개요](sp-home.md)
 + 릴리스 노트 {#release-notes}
    + [Search &amp; Promote 18.1.1 릴리스 노트(02/13/2018)](c-searchpromote-release-notes/c-rn-02-13-18-version-1811.md)
