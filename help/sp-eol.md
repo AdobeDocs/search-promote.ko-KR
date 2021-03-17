@@ -3,10 +3,10 @@ title: Adobe Search & Promote 서비스 종료 알림
 description: Adobe Search & Promote의 서비스 종료 발표에 대한 자세한 내용을 살펴보십시오.
 feature: null
 role: 관리자,비즈니스 전문가,데이터 엔지니어,개발자
-hide: true
+hide: false
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 1914d67d2634cb13368ab72d54da7da5988de13f
+source-git-commit: 5f9f371274f591f746d43ea1dfe33ceeda3513c9
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
