@@ -2,7 +2,7 @@
 description: 고객이 검색 쿼리를 입력할 때 사용자가 정의한 구 주위에 따옴표를 입력할 필요가 없도록 웹 사이트에서 사용되는 일반 구문을 정의할 수 있습니다.
 solution: Target
 title: 일반 구문 정보
-topic: 언어학,사이트 검색 및 상품 판매
+topic: Linguistics,Site search and merchandising
 uuid: 0f980a22-d826-4476-97de-0e9c14549bc8
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

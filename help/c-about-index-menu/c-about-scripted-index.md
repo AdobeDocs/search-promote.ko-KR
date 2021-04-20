@@ -3,7 +3,7 @@ description: 스크립트 색인을 사용하면 로그인할 필요 없이 증�
 solution: Target
 subtopic: Scripted Index
 title: 스크립트 색인 정보
-topic: 색인, 사이트 검색 및 머천다이징
+topic: Index,Site search and merchandising
 uuid: 51e726ad-414b-4cbd-8a68-fefc3cf9b565
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

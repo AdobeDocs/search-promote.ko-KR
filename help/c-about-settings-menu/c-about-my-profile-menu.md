@@ -3,7 +3,7 @@ description: '[내 프로필] 메뉴를 사용하여 개인 정보, 환경 설�
 solution: Target
 subtopic: My Profile
 title: 내 프로필 메뉴 정보
-topic: 설정,사이트 검색 및 머천다이징
+topic: Settings,Site search and merchandising
 uuid: 6a0a4e57-59fa-48fb-b712-eb16a9f47c3a
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

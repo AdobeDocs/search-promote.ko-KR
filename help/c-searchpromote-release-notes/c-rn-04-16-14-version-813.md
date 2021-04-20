@@ -2,7 +2,7 @@
 description: Search&amp;Promote 8.13.0 릴리스 노트.
 solution: Target
 title: Search&Amp;Promote 8.13.0 릴리스 노트(04/16/2014)
-topic: 릴리스 노트,사이트 검색 및 머천다이징
+topic: Release Notes,Site search and merchandising
 uuid: b3524992-ff00-4a7c-a404-078242456734
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

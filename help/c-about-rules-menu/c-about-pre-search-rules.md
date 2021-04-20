@@ -2,7 +2,7 @@
 description: 검색 전 규칙을 사용하여 들어오는 쿼리를 분석하고 사용할 프레젠테이션 템플릿을 결정합니다. 사전 검색 규칙은 모든 쿼리에 대해 차례로 실행됩니다. 규칙 순서를 변경하려면 드래그 앤 드롭을 사용할 수 있습니다. 실제 주문은 저장하기 전까지 변경되지 않습니다.
 solution: Target
 title: 사전 검색 규칙 정보
-topic: 규칙, 사이트 검색 및 머천다이징
+topic: Rules,Site search and merchandising
 uuid: e75f9d9e-e8ca-4184-bf79-b1fdadb5c0fe
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

@@ -2,7 +2,7 @@
 description: Search&amp;Promote 8.9 릴리스 노트.
 solution: Target
 title: Search&amp;Promote 8.9 릴리스 노트(07/19/2012)
-topic: 릴리스 노트,사이트 검색 및 머천다이징
+topic: Release Notes,Site search and merchandising
 uuid: 3853c75d-19ed-4e36-9e81-dcbffe5f5b0c
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

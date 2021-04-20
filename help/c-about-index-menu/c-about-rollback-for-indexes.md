@@ -3,7 +3,7 @@ description: 롤백을 사용하여 생성한 웹 사이트 인덱스를 백업 
 solution: Target
 subtopic: Rollback
 title: 색인에 대한 롤백 정보
-topic: 색인, 사이트 검색 및 머천다이징
+topic: Index,Site search and merchandising
 uuid: abed878a-71b3-4122-9822-7410f4427a9a
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

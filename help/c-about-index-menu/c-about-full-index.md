@@ -3,7 +3,7 @@ description: 전체 인덱스를 사용하여 스테이징 또는 라이브 웹 
 solution: Target
 subtopic: Full Index
 title: 전체 색인 정보
-topic: 색인, 사이트 검색 및 머천다이징
+topic: Index,Site search and merchandising
 uuid: dce1eafd-5aea-4945-8305-8f9e7dc392df
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

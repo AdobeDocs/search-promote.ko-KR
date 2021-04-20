@@ -2,7 +2,7 @@
 description: Search&amp;Promote의 검색 양식에 대해 알아보기
 solution: Target
 title: 양식 검색
-topic: 부록, 사이트 검색 및 머천다이징
+topic: Appendices,Site search and merchandising
 uuid: 91153e3a-c437-47f3-8c2a-d9ac02965b8c
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

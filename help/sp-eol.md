@@ -2,7 +2,7 @@
 title: Adobe Search & Promote 서비스 종료 알림
 description: Adobe Search & Promote의 서비스 종료 발표에 대한 자세한 내용을 살펴보십시오.
 feature: null
-role: 관리자,비즈니스 전문가,데이터 엔지니어,개발자
+role: Administrator,Business Practitioner,Data Engineer,Developer
 hide: true
 hidefromtoc: true
 translation-type: tm+mt

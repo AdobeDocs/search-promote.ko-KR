@@ -3,7 +3,7 @@ description: 패싯을 사용하여 프레젠테이션 레이어를 사용자 �
 solution: Target
 subtopic: Navigation
 title: 패싯 정보
-topic: 디자인,사이트 검색 및 상품 판매
+topic: Design,Site search and merchandising
 uuid: 28bc4d4d-a84c-4a77-befb-b0fb3bbdb966
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

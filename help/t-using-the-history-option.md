@@ -2,7 +2,7 @@
 description: 작업 내역을 사용하여 단면화, 탐색 표시, 배너 또는 템플릿과 같은 구현된 기능에 대해 수행된 모든 수정 사항의 목록을 검토하여 몇 개의 이름을 지정할 수 있습니다.
 solution: Target
 title: 작업 내역 옵션 사용
-topic: 작업 내역, 사이트 검색 및 머천다이징 사용
+topic: Using History,Site search and merchandising
 uuid: 48b9ee9d-cd61-41e7-b8c3-5f1665b9a9cb
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

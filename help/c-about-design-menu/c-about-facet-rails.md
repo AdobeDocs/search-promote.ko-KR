@@ -3,7 +3,7 @@ description: 패싯 레일을 사용하여 웹 페이지에서 패싯 그룹의 
 solution: Target
 subtopic: Navigation
 title: 패싯 레일 정보
-topic: 디자인,사이트 검색 및 상품 판매
+topic: Design,Site search and merchandising
 uuid: 6da2bd67-8c20-4955-9836-bc8ba88546c5
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

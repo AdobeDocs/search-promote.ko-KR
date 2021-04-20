@@ -2,7 +2,7 @@
 description: Search&amp;Promote에서 프레젠테이션 및 템플릿 태그를 사용하는 방법에 대해 알아보십시오.
 solution: Target
 title: 템플릿
-topic: 부록, 사이트 검색 및 머천다이징
+topic: Appendices,Site search and merchandising
 uuid: 78299032-dc23-4dfe-b68f-cd57b2b6d7d8
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

@@ -2,7 +2,7 @@
 description: 단어 및 언어를 사용하여 검색어가 웹 페이지의 컨텐츠와 일치하는 방식을 결정할 수 있습니다.
 solution: Target
 title: 단어 및 언어 정보
-topic: 언어학,사이트 검색 및 상품 판매
+topic: Linguistics,Site search and merchandising
 uuid: 793d7a40-4609-44b8-a170-536eb1434537
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

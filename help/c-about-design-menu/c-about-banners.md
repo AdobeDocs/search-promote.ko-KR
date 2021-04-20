@@ -2,7 +2,7 @@
 description: 배너를 사용하여 웹 사이트의 배너 광고를 관리할 수 있습니다.
 solution: Target
 title: 배너 정보
-topic: 디자인,사이트 검색 및 상품 판매
+topic: Design,Site search and merchandising
 uuid: 653b567d-5cf3-41a0-a260-a6912d0fd20d
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

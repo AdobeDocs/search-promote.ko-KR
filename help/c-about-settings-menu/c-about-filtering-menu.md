@@ -3,7 +3,7 @@ description: '[필터링] 메뉴를 사용하여 웹 문서를 인덱싱하기 �
 solution: Target
 subtopic: Filtering
 title: 필터링 메뉴 정보
-topic: 설정,사이트 검색 및 머천다이징
+topic: Settings,Site search and merchandising
 uuid: ebb08fa8-4e17-417d-868b-11fc2af9f284
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

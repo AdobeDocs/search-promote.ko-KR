@@ -3,7 +3,7 @@ description: 등급 규칙을 사용하여 포함된 메타 태그 컨텐츠 및
 solution: Target
 subtopic: Ranking Rules
 title: 등급 규칙 정보
-topic: 규칙, 사이트 검색 및 머천다이징
+topic: Rules,Site search and merchandising
 uuid: 21962f9a-1d9c-442f-a6c4-5f452436c640
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

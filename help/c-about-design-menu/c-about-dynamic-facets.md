@@ -3,7 +3,7 @@ description: 동적 패싯을 사용하여 검색 시 자동으로 새 범위 �
 solution: Target
 subtopic: Navigation
 title: 동적 패싯 정보
-topic: 디자인,사이트 검색 및 상품 판매
+topic: Design,Site search and merchandising
 uuid: 1ea91c22-dcc2-4173-aa50-ce618ad0a99c
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

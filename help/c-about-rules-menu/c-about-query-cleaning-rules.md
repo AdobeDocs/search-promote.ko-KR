@@ -2,7 +2,7 @@
 description: 쿼리 정리 규칙을 사용하여 들어오는 쿼리를 분석하고 수정합니다.
 solution: Target
 title: 쿼리 정리 규칙 정보
-topic: 규칙, 사이트 검색 및 머천다이징
+topic: Rules,Site search and merchandising
 uuid: 683af81f-f7c0-45f8-9212-e5e7cb82ccca
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

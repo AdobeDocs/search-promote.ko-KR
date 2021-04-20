@@ -2,7 +2,7 @@
 description: 홈을 사용하여 Search&amp;Promote 계정에 대한 빠른 개요를 제공하는 다양한 보고서 위젯을 볼 수 있습니다.
 solution: Target
 title: 홈 정보
-topic: 홈,사이트 검색 및 상품 판매
+topic: Home,Site search and merchandising
 uuid: 5d4dbf5e-954d-46ae-a822-18a58af60de6
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

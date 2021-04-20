@@ -2,7 +2,7 @@
 description: Search&amp;Promote 15.1.1 릴리스 노트.
 solution: Target
 title: Search&Amp;Promote 15.1.1 릴리스 노트(01/15/2015)
-topic: 릴리스 노트,사이트 검색 및 머천다이징
+topic: Release Notes,Site search and merchandising
 uuid: 070f9c46-426f-4ca1-80c7-8ca53d40a402
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

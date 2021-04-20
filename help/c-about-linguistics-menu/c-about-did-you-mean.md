@@ -2,7 +2,7 @@
 description: 고객이 실패한 검색을 시도했을 때 올바른 검색어에 대한 제안을 받을 수 있도록 사용자가 의도한 행동을 구성할 수 있습니다. 유효한 검색어로 이어지는 검색어에 대한 맞춤법과 입력 수정을 통해 제안 사항이 생성됩니다.
 solution: Target
 title: 무슨 뜻입니까
-topic: 언어학,사이트 검색 및 상품 판매
+topic: Linguistics,Site search and merchandising
 uuid: c5973541-3d6b-4fc9-bad4-66d4d3559fe8
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

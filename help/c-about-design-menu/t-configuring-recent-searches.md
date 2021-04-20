@@ -3,7 +3,7 @@ description: 최근 검색은 프레젠테이션 템플릿을 사용하여 고�
 solution: Target
 subtopic: Navigation
 title: 최근 검색 구성
-topic: 디자인,사이트 검색 및 상품 판매
+topic: Design,Site search and merchandising
 uuid: 8ab1b35c-f953-4c26-921f-524af1fea4ef
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

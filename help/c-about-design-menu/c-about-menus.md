@@ -3,7 +3,7 @@ description: 메뉴를 사용하여 프레젠테이션 레이어를 사용자 �
 solution: Target
 subtopic: Navigation
 title: 메뉴 정보
-topic: 디자인,사이트 검색 및 상품 판매
+topic: Design,Site search and merchandising
 uuid: 011050cd-21b6-4150-9503-18fa3f771626
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

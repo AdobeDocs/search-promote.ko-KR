@@ -2,7 +2,7 @@
 description: '제외된 단어를 사용하여 검색 결과 밖으로 나가려는 자주 사용하는 구문 및 일반 단어(예: "a" 및 "the")를 지정할 수 있습니다.'
 solution: Target
 title: 제외된 단어 정보
-topic: 언어학,사이트 검색 및 상품 판매
+topic: Linguistics,Site search and merchandising
 uuid: 1c879462-1b19-44f6-a3b2-20aa786b3221
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

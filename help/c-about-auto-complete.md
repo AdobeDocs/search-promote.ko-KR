@@ -3,7 +3,7 @@ description: 자동 완성 기능을 사용하는 검색 양식의 생성을 제
 solution: Target
 subtopic: Auto-Complete
 title: 자동 완성 정보
-topic: 디자인,사이트 검색 및 상품 판매
+topic: Design,Site search and merchandising
 uuid: 3dfdd14d-2044-4f01-a5bc-fcb2eb0d5068
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

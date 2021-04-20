@@ -3,7 +3,7 @@ description: Adobe Analytics 메뉴를 사용하여 Adobe Analytics 지표 인�
 solution: Target
 subtopic: Adobe Analytics
 title: Adobe Analytics 메뉴 정보
-topic: 설정,사이트 검색 및 머천다이징
+topic: Settings,Site search and merchandising
 uuid: 5536edf1-d3a4-47af-a307-6e46f385f738
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

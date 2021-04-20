@@ -2,7 +2,7 @@
 description: 템플릿을 사용하여 프레젠테이션 템플릿과 전송 템플릿을 관리할 수 있습니다.
 solution: Target
 title: 템플릿 정보
-topic: 디자인,사이트 검색 및 상품 판매
+topic: Design,Site search and merchandising
 uuid: f5805d3e-43bf-4e13-95df-b6bd6b762d11
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

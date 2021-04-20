@@ -3,7 +3,7 @@ description: 페이지 탐색 기능을 사용하여 검색 프레젠테이션 �
 solution: Target
 subtopic: Navigation
 title: 페이지 탐색 정보
-topic: 디자인,사이트 검색 및 상품 판매
+topic: Design,Site search and merchandising
 uuid: fb17a99e-d7b4-415e-ba1b-ca194fe41a5d
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

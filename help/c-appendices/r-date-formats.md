@@ -2,7 +2,7 @@
 description: '"날짜" 데이터 유형의 모든 필드를 구문 분석하여 색인화할 때 사용되는 날짜 형식을 정의할 수 있습니다.'
 solution: Target
 title: 날짜 형식
-topic: 부록, 사이트 검색 및 머천다이징
+topic: Appendices,Site search and merchandising
 uuid: 148914b5-33ef-41db-8404-67c03f6f0832
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

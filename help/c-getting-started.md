@@ -2,7 +2,7 @@
 description: Search & Promote 및 동적 탐색을 처음 사용하는 경우 여기에서 시작해 계정을 사용하여 실행하십시오. 무엇보다도 웹 사이트를 색인화하고 검색 결과의 모양과 느낌을 사용자 정의하는 방법을 배웁니다.
 solution: Target
 title: 시작하기
-topic: 시작하기, 사이트 검색 및 머천다이징
+topic: Getting Started,Site search and merchandising
 uuid: 816ad003-15c9-4e44-b09d-cab284518634
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

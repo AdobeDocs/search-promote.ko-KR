@@ -3,7 +3,7 @@ description: 계정 옵션 메뉴를 사용하여 계정 설정을 업데이트�
 solution: Target
 subtopic: Account Options
 title: 계정 옵션 메뉴 정보
-topic: 설정,사이트 검색 및 머천다이징
+topic: Settings,Site search and merchandising
 uuid: 0f830033-de9e-4197-8d76-906c818662eb
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

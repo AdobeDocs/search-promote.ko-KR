@@ -2,7 +2,7 @@
 description: XML 또는 JSON을 비롯한 모든 텍스트 기반 포맷으로 출력을 사용자 지정하는 방법을 살펴봅니다.
 solution: Target
 title: 검색 안내 출력
-topic: 부록, 사이트 검색 및 머천다이징
+topic: Appendices,Site search and merchandising
 uuid: 234fd563-f249-42b0-88ca-c89b44f8df77
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

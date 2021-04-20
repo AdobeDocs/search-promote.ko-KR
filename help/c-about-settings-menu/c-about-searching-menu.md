@@ -3,7 +3,7 @@ description: 검색 메뉴를 사용하여 제외된 단어, 컬렉션, 제한 �
 solution: Target
 subtopic: Searching
 title: 검색 메뉴 정보
-topic: 설정,사이트 검색 및 머천다이징
+topic: Settings,Site search and merchandising
 uuid: 072111fc-a32b-4acb-8337-cb21bcdb5542
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

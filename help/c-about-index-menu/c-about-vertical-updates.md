@@ -3,7 +3,7 @@ description: 대량의 데이터를 처리할 필요 없이 수직 업데이트�
 solution: Target
 subtopic: Vertical Update
 title: 수직 업데이트 정보
-topic: 색인, 사이트 검색 및 머천다이징
+topic: Index,Site search and merchandising
 uuid: ded09e89-5a52-4e8c-a6f7-3e25b4191183
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

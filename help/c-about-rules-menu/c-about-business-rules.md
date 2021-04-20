@@ -2,7 +2,7 @@
 description: 비즈니스 규칙을 사용하여 검색을 상품화할 수 있습니다.
 solution: Target
 title: 비즈니스 규칙 정보
-topic: 규칙, 사이트 검색 및 머천다이징
+topic: Rules,Site search and merchandising
 uuid: f2186f54-7a39-4f46-bb29-5115d5a17f07
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

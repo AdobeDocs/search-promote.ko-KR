@@ -3,7 +3,7 @@ description: 규칙 다시 작성 메뉴를 사용하여 크롤링 및 검색 UR
 solution: Target
 subtopic: Rewrite Rules
 title: 다시 작성 규칙 메뉴 정보
-topic: 설정,사이트 검색 및 머천다이징
+topic: Settings,Site search and merchandising
 uuid: 77ee84dd-fdba-4d34-ae8e-2fe786599800
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

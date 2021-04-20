@@ -3,7 +3,7 @@ description: 크롤링 메뉴 세트 날짜와 URL 마스크, 암호, 컨텐츠 
 solution: Target
 subtopic: Crawling
 title: 크롤링 메뉴 정보
-topic: 설정,사이트 검색 및 머천다이징
+topic: Settings,Site search and merchandising
 uuid: a58c03bf-90f7-4b5b-91ff-988b95c246b0
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

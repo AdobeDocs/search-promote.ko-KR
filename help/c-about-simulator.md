@@ -2,7 +2,7 @@
 description: 시뮬레이터를 사용하여 현재 진행 중인 모든 것을 실시간으로 푸시할 경우 검색이 어떻게 표시되는지 확인할 수 있습니다.
 solution: Target
 title: 시뮬레이터 정보
-topic: 시뮬레이터,사이트 검색 및 머천다이징
+topic: Simulator,Site search and merchandising
 uuid: 7ec8f5b9-3ab3-4b9a-bf8a-65d0ca1dfddb
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

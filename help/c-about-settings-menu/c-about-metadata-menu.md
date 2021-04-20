@@ -3,7 +3,7 @@ description: 메타데이터 메뉴를 사용하여 검색 정의 및 색인 주
 solution: Target
 subtopic: Metadata
 title: 메타데이터 메뉴 정보
-topic: 설정,사이트 검색 및 머천다이징
+topic: Settings,Site search and merchandising
 uuid: f12fc863-a140-45e8-b219-3dbfdef099cd
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

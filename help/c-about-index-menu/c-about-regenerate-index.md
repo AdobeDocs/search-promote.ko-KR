@@ -3,7 +3,7 @@ description: 사이트를 다시 크롤링하지 않고도 색인 재생성을 �
 solution: Target
 subtopic: Regenerate Index
 title: 색인 재생성 정보
-topic: 색인, 사이트 검색 및 머천다이징
+topic: Index,Site search and merchandising
 uuid: 9d1f1d88-0453-4422-a625-a348febbf224
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

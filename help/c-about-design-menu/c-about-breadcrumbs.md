@@ -3,7 +3,7 @@ description: 탐색 표시는 웹 사이트에 추가할 수 있는 탐색 컨�
 solution: Target
 subtopic: Navigation
 title: 탐색 표시 정보
-topic: 디자인,사이트 검색 및 상품 판매
+topic: Design,Site search and merchandising
 uuid: 3e630a72-a631-4f4f-8aa5-adf2882cdf1c
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

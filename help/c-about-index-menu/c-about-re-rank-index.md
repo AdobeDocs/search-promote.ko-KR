@@ -3,7 +3,7 @@ description: 사이트 이름을 다시 작성하지 않고도 등급 다시 지
 solution: Target
 subtopic: Re-Rank Index
 title: 색인 등급 다시 지정 정보
-topic: 색인, 사이트 검색 및 머천다이징
+topic: Index,Site search and merchandising
 uuid: 5c2a4c12-5e06-4fcc-897c-c12fcc5d7aa8
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
