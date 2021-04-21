@@ -2,16 +2,16 @@
 description: 사전을 사용하여 사전 모음과 연관된 동의어 및 HYPIREW를 관리할 수 있습니다.
 solution: Target
 title: 사전 정보
-topic: Linguistics,Site search and merchandising
+topic-legacy: Linguistics,Site search and merchandising
 uuid: d4463896-30fe-4385-a283-c930c8264a02
+exl-id: c8e83422-bc96-48f8-b4f1-58a25cade1ef
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '2462'
+source-wordcount: '2457'
 ht-degree: 1%
 
 ---
-
 
 # 사전 정보{#about-dictionaries}
 
@@ -403,4 +403,3 @@ t_deleting_a_dictionary.xml
    * 클릭 **[!UICONTROL Push Live]**.
 
       [스테이지 설정 라이브 푸시](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)를 참조하십시오.
-
