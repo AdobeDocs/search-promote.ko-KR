@@ -2,16 +2,16 @@
 description: 데이터 보기에는 메타 필드가 있는 검색 결과가 표시됩니다. 각 열은 메타 필드이며 각 행은 검색 쿼리에서 생성됩니다. 열을 선택하고 다시 정렬하여 데이터 보기 사용자 지정을 참조하십시오. 데이터 보기에는 사용자 정의 제목과 설명이 포함될 수도 있습니다.
 solution: Target
 title: 데이터 보기 정보
-topic: Reports,Site search and merchandising
+topic-legacy: Reports,Site search and merchandising
 uuid: 18930551-960d-40c2-b5b7-0807a2e11134
+exl-id: 9ef5eaef-85d6-41e9-af44-b4775755e5bf
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1018'
 ht-degree: 1%
 
 ---
-
 
 # 데이터 보기 정보{#about-data-views}
 
@@ -185,4 +185,3 @@ ht-degree: 1%
    * [!DNL Data Views] 페이지의 테이블의 [!DNL Title] 열에서 열려는 데이터 보기의 이름을 클릭합니다.
 
    * [!DNL Data Views] 페이지의 테이블의 [!DNL Actions] 열에서 열려는 데이터 뷰가 있는 행에서 **[!UICONTROL View]**&#x200B;를 클릭합니다.
-
