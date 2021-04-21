@@ -2,16 +2,16 @@
 description: 쿼리 정리 규칙을 사용하여 들어오는 쿼리를 분석하고 수정합니다.
 solution: Target
 title: 쿼리 정리 규칙 정보
-topic: Rules,Site search and merchandising
+topic-legacy: Rules,Site search and merchandising
 uuid: 683af81f-f7c0-45f8-9212-e5e7cb82ccca
+exl-id: 22ebca58-7687-4c8c-9ac1-bacb321065f3
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1596'
 ht-degree: 1%
 
 ---
-
 
 # 쿼리 정리 규칙 정보{#about-query-cleaning-rules}
 
@@ -240,4 +240,3 @@ Perform the following actions:
    * 클릭 **[!UICONTROL Push Live]**.
 
       [스테이지 설정 라이브 푸시](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)를 참조하십시오.
-
