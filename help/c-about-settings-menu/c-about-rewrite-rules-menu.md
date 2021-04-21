@@ -3,16 +3,16 @@ description: 규칙 다시 작성 메뉴를 사용하여 크롤링 및 검색 UR
 solution: Target
 subtopic: Rewrite Rules
 title: 다시 작성 규칙 메뉴 정보
-topic: Settings,Site search and merchandising
+topic-legacy: Settings,Site search and merchandising
 uuid: 77ee84dd-fdba-4d34-ae8e-2fe786599800
+exl-id: cff17ead-6997-4ff6-a995-7ca020b06d50
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '10202'
+source-wordcount: '10197'
 ht-degree: 0%
 
 ---
-
 
 # 다시 작성 규칙 메뉴 {#about-the-rewrite-rules-menu} 정보
 
@@ -519,7 +519,7 @@ RewriteCond 지시문은 규칙 조건을 정의합니다. RewriteCond가 Rewrit
 
 **예**
 
-일부 웹 페이지는 방문자가 처음으로 사이트에 도착할 때 &quot;sessionid&quot; CGI 변수를 할당합니다. 이 변수는 방문자를 식별하는 데 사용되며, 방문자가 사이트를 탐색할 때 변수가 전달됩니다. 검색 로봇은 사이트의 방문자 모양이므로 &quot;sessionid&quot; 번호가 할당됩니다. 검색 로봇은 두 번째 사이트 페이지에서 새 값을 할당하려고 해도 이 단일 &quot;sessionid&quot; 값을 유지합니다. 이를 위해서는 두 개의 다시 작성 규칙이 필요합니다.
+일부 웹 페이지는 방문자가 처음으로 사이트에 도착할 때 &quot;sessionid&quot; CGI 변수를 할당합니다. 이 변수는 방문자를 식별하는 데 사용되며, 방문자가 사이트를 탐색할 때 변수가 전달됩니다. 검색 로봇은 사이트의 방문자 모양이므로 &quot;sessionid&quot; 번호가 할당됩니다. 검색 로봇은 두 번째 사이트 페이지가 새 값을 할당하려고 해도 이 단일 &quot;sessionid&quot; 값을 유지합니다. 이를 위해서는 두 개의 다시 작성 규칙이 필요합니다.
 
 첫 번째 규칙은 세션 id 변수를 식별하고 저장하는 데 사용됩니다.
 
@@ -1037,7 +1037,7 @@ RewriteCond
 
 **예**
 
-일부 웹 페이지는 고객이 처음으로 사이트에 도착할 때 &quot;sessionid&quot; CGI 변수를 할당합니다. 이 변수는 고객을 식별하는 데 사용되며, 고객이 사이트를 탐색할 때 변수가 전달됩니다. 검색 로봇은 고객의 모습과 비슷하므로 &quot;sessionid&quot; 번호가 할당됩니다. 검색 로봇은 두 번째 사이트 페이지에서 새 값을 할당하려고 해도 이 단일 &quot;sessionid&quot; 값을 유지합니다. 이를 위해 다음 다시 작성 규칙이 필요합니다.
+일부 웹 페이지는 고객이 처음으로 사이트에 도착할 때 &quot;sessionid&quot; CGI 변수를 할당합니다. 이 변수는 고객을 식별하는 데 사용되며, 고객이 사이트를 탐색할 때 변수가 전달됩니다. 검색 로봇은 고객의 모습과 비슷하므로 &quot;sessionid&quot; 번호가 할당됩니다. 검색 로봇은 두 번째 사이트 페이지가 새 값을 할당하려고 해도 이 단일 &quot;sessionid&quot; 값을 유지합니다. 이를 위해 다음 다시 작성 규칙이 필요합니다.
 
 ```
 RewriteCond  %{sessionid}  .+ 
@@ -1123,7 +1123,7 @@ RewriteRule
 
 제목이 발견되면 사이트 검색/머천다이징이 각 크롤링 규칙의 패턴과 일치시킵니다. 패턴이 일치하면 다시 작성 엔진은 해당 RewriteCond 지시문을 찾습니다. 조건이 없는 경우 제목은 대체 문자열에서 생성된 새 값으로 대체되고 규칙 세트의 다음 규칙으로 계속됩니다. 조건이 있는 경우 나열된 순서대로 처리됩니다. 다시 작성 엔진은 조건 패턴(CondPattern)을 테스트 문자열(TestString)과 일치시킵니다. 두 일치 조건이 있으면 사용 가능한 조건이 없을 때까지 다음 조건이 처리됩니다. 모든 조건이 일치하는 경우 URL은 규칙에 지정된 대체로 대체됩니다. 조건이 충족되지 않으면 전체 조건 세트와 해당 규칙이 실패합니다.
 
-## 다시 작성 규칙 지시문 {#section_3BF2B0FF89F74A26AE79D68FA3184B9B}
+## RewriteRule 지시문 {#section_3BF2B0FF89F74A26AE79D68FA3184B9B}
 
 각 RewriteRule 지시문은 재작성 규칙 하나를 정의합니다. 규칙은 나열된 순서대로 적용됩니다. 다시 작성 규칙은 다음 양식을 사용합니다.
 
@@ -1333,4 +1333,3 @@ t_adding_search_title_rules.xml
    * 클릭 **[!UICONTROL Push Live]**.
 
       [스테이지 설정 라이브 푸시](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)를 참조하십시오.
-
