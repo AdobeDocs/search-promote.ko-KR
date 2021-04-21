@@ -2,16 +2,16 @@
 description: Search&amp;Promote 8.13.0 릴리스 노트.
 solution: Target
 title: Search&Amp;Promote 8.13.0 릴리스 노트(04/16/2014)
-topic: Release Notes,Site search and merchandising
+topic-legacy: Release Notes,Site search and merchandising
 uuid: b3524992-ff00-4a7c-a404-078242456734
+exl-id: cba582ad-d388-4317-af06-b8b12b300f02
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 56%
+source-wordcount: '324'
+ht-degree: 57%
 
 ---
-
 
 # Search &amp; Promote 8.13.0 릴리스 노트(04/16/2014){#search-promote-release-notes}
 
@@ -49,4 +49,3 @@ ht-degree: 56%
 * SPIN XPath 유효성 검증 기능에서 오류가 아닌 항목을 오류로 반환했습니다.
 
 * SPIN 활성화/비활성화 작업 후에 사용자가 구성원 센터 로그인 페이지로 리디렉션되었습니다.
-
