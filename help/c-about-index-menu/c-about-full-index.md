@@ -3,16 +3,16 @@ description: 전체 인덱스를 사용하여 스테이징 또는 라이브 웹 
 solution: Target
 subtopic: Full Index
 title: 전체 색인 정보
-topic: Index,Site search and merchandising
+topic-legacy: Index,Site search and merchandising
 uuid: dce1eafd-5aea-4945-8305-8f9e7dc392df
+exl-id: cb702bd6-8702-469b-8ce9-0368ccdd55d9
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '755'
 ht-degree: 1%
 
 ---
-
 
 # 전체 인덱스 정보{#about-full-index}
 
@@ -117,4 +117,3 @@ ht-degree: 1%
    * 탐색 옵션 **[!UICONTROL First]**, **[!UICONTROL Prev]**, **[!UICONTROL Next]**, **[!UICONTROL Last]** 또는 **[!UICONTROL Go to line]**&#x200B;을 사용하여 로그를 통해 이동합니다.
 
    * 표시 옵션 **[!UICONTROL Errors only]**, **[!UICONTROL Wrap line]** 또는 **[!UICONTROL Show]**&#x200B;을 사용하여 표시되는 내용을 세밀하게 수정할 수 있습니다.
-
