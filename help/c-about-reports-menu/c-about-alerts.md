@@ -2,16 +2,16 @@
 description: 경고 페이지는 계정과 관련된 모든 경고를 보고 관리할 수 있는 중앙 장소를 제공합니다.
 solution: Target
 title: 경고 정보
-topic: Reports,Site search and merchandising
+topic-legacy: Reports,Site search and merchandising
 uuid: 94524563-f9a6-40cf-89f3-e80b1d0113c7
+exl-id: b6d637c9-2a2c-49b3-828b-3ae272bf28aa
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
-
 
 # 경고 정보{#about-alerts}
 
@@ -50,4 +50,3 @@ ht-degree: 0%
    * 표시된 경고를 모두 선택하려면 왼쪽 열 맨 위에 있는 확인란을 선택합니다.
 
       하나의 페이지가 아닌 일치하는 모든 경고를 선택하려면 오른쪽 드롭다운 목록에서 **[!UICONTROL All Alerts]**&#x200B;을 선택한 다음 열 맨 위의 확인란을 선택합니다.
-
