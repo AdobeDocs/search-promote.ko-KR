@@ -2,16 +2,16 @@
 description: 고객 검색 쿼리의 보고서를 보거나 재설정하려면 보고서 메뉴를 사용합니다.
 solution: Target
 title: 보고서 메뉴 정보
-topic: Reports,Site search and merchandising
+topic-legacy: Reports,Site search and merchandising
 uuid: 3ea856d7-dc07-455f-8dc7-c7f7f56355d7
+exl-id: 12532fc1-c465-4bd6-805d-94793a490087
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1240'
 ht-degree: 2%
 
 ---
-
 
 # 보고서 메뉴 {#about-the-reports-menu} 정보
 
