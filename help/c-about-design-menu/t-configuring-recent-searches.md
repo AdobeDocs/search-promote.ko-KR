@@ -3,16 +3,16 @@ description: 최근 검색은 프레젠테이션 템플릿을 사용하여 고�
 solution: Target
 subtopic: Navigation
 title: 최근 검색 구성
-topic: Design,Site search and merchandising
+topic-legacy: Design,Site search and merchandising
 uuid: 8ab1b35c-f953-4c26-921f-524af1fea4ef
+exl-id: bc6285fa-eaaf-4afb-8ef3-6f1e66cd7090
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '181'
 ht-degree: 2%
 
 ---
-
 
 # 최근 검색 구성{#configuring-recent-searches}
 
@@ -71,4 +71,3 @@ ht-degree: 2%
    * 클릭 **[!UICONTROL Push Live]**.
 
       [스테이지 설정 라이브 푸시](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)를 참조하십시오.
-
