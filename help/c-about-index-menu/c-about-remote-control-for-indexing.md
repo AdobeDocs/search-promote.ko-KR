@@ -2,16 +2,16 @@
 description: 웹 사이트가 변경될 때마다 검색 로봇이 Remote Control을 사용하여 인덱스를 실행하도록 요청하는 스크립트 또는 프로그램을 실행할 수 있습니다.
 solution: Target
 title: 색인화를 위한 원격 제어 정보
-topic: Index,Site search and merchandising
+topic-legacy: Index,Site search and merchandising
 uuid: 20e230c6-5c1a-4bf4-bff3-b8236d14ab21
+exl-id: 1a7689f9-1e3f-48c8-a5f1-abe0efdb7768
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1037'
 ht-degree: 1%
 
 ---
-
 
 # 색인화에 대한 원격 제어 정보{#about-remote-control-for-indexing}
 
