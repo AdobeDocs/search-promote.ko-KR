@@ -3,16 +3,16 @@ description: 롤백을 사용하여 생성한 웹 사이트 인덱스를 백업 
 solution: Target
 subtopic: Rollback
 title: 색인에 대한 롤백 정보
-topic: Index,Site search and merchandising
+topic-legacy: Index,Site search and merchandising
 uuid: abed878a-71b3-4122-9822-7410f4427a9a
+exl-id: bc75f6ba-d919-4dff-8ee2-e17568892626
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '835'
 ht-degree: 0%
 
 ---
-
 
 # 인덱스 {#about-rollback-for-indexes}에 대한 롤백 정보
 
@@ -81,4 +81,3 @@ ht-degree: 0%
    * 탐색 옵션 **[!UICONTROL First]**, **[!UICONTROL Prev]**, **[!UICONTROL Next]**, **[!UICONTROL Last]** 또는 **[!UICONTROL Go to line]**&#x200B;을 사용하여 로그를 통해 이동합니다.
 
    * 표시 옵션 **[!UICONTROL Errors only]**, **[!UICONTROL Wrap line]** 또는 **[!UICONTROL Show]**&#x200B;을 사용하여 표시되는 내용을 세밀하게 수정할 수 있습니다.
-
