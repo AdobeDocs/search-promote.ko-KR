@@ -3,16 +3,16 @@ description: 사용자 메뉴를 사용하여 사용자를 보고 추가하고, 
 solution: Target
 subtopic: Users
 title: 사용자 메뉴 정보
-topic: Settings,Site search and merchandising
+topic-legacy: Settings,Site search and merchandising
 uuid: 6242b73c-5e8a-44b7-9942-0684530940bc
+exl-id: 43dfcb59-3924-448e-a998-ec96d823fb7e
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1445'
 ht-degree: 0%
 
 ---
-
 
 # 사용자 메뉴 {#about-the-users-menu} 정보
 
