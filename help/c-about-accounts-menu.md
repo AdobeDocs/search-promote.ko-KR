@@ -2,16 +2,16 @@
 description: 제품 메뉴의 계정을 사용하여 액세스하여 사용할 계정을 선택합니다.
 solution: Target
 title: 계정 메뉴 정보
-topic: Settings,Site search and merchandising
+topic-legacy: Settings,Site search and merchandising
 uuid: 7cfc1b68-5126-484a-8a1d-54995a8fd19b
+exl-id: f3f43b71-cbcb-4325-88de-72db1c049700
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '167'
 ht-degree: 2%
 
 ---
-
 
 # 계정 메뉴 {#about-the-accounts-menu} 정보
 
@@ -40,4 +40,3 @@ t_selecting_a_different_account_to_use.xml
 
    * 표의 [!DNL Name] 열 머리글 아래에서 사용 및 관리를 시작할 계정 이름을 클릭합니다.
    * 표의 [!DNL Number] 열 머리글 아래에서 사용 및 관리를 시작할 계정 번호를 클릭합니다.
-
