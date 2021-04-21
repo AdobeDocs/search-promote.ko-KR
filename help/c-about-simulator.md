@@ -2,16 +2,16 @@
 description: 시뮬레이터를 사용하여 현재 진행 중인 모든 것을 실시간으로 푸시할 경우 검색이 어떻게 표시되는지 확인할 수 있습니다.
 solution: Target
 title: 시뮬레이터 정보
-topic: Simulator,Site search and merchandising
+topic-legacy: Simulator,Site search and merchandising
 uuid: 7ec8f5b9-3ab3-4b9a-bf8a-65d0ca1dfddb
+exl-id: ee8dcf37-7692-438a-8869-6703ef61e498
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---
-
 
 # 시뮬레이터 정보{#about-simulator}
 
