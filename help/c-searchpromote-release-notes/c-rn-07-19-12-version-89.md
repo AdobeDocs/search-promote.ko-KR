@@ -2,16 +2,16 @@
 description: Search&amp;Promote 8.9 릴리스 노트.
 solution: Target
 title: Search&amp;Promote 8.9 릴리스 노트(07/19/2012)
-topic: Release Notes,Site search and merchandising
+topic-legacy: Release Notes,Site search and merchandising
 uuid: 3853c75d-19ed-4e36-9e81-dcbffe5f5b0c
+exl-id: d61bf0ee-60a9-4c89-8381-5514ba85cb99
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 65%
+source-wordcount: '281'
+ht-degree: 66%
 
 ---
-
 
 # Search &amp; Promote 8.9 릴리스 노트(07/19/2012){#search-promote-release-notes}
 
@@ -39,4 +39,3 @@ ht-degree: 65%
 * 일부 배너에서 편집을 클릭해도 편집 페이지가 표시되지 않습니다.
 * 때때로 업데이트 코드 등급을 다시 매기는 작업이 이례적으로 느릴 수 있습니다.
 * 단면화 이름이 대소문자를 혼합해서 사용한 경우 단면화 항목 제거 또는 푸시가 작동하지 않았습니다.
-
