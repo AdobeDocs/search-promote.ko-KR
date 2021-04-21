@@ -2,16 +2,16 @@
 description: 직접 히트를 사용하면 고객이 일치하는 용어를 검색할 때 지정된 URL로 고객을 리디렉션할 수 있습니다. 이러한 종류의 기능을 사용하면 웹 사이트 검색의 탐색을 개선할 수 있습니다.
 solution: Target
 title: 직접 히트 정보
-topic: Rules,Site search and merchandising
+topic-legacy: Rules,Site search and merchandising
 uuid: 374d63c8-2b82-4165-b543-05b587757baa
+exl-id: 251dfa47-f55a-469c-8fca-e187877b7759
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '395'
 ht-degree: 1%
 
 ---
-
 
 # 직접 히트 정보{#about-direct-hits}
 
@@ -95,4 +95,3 @@ t_testing_direct_hits.xml
    * 클릭 **[!UICONTROL Push Live]**.
 
       [스테이지 설정 라이브 푸시](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)를 참조하십시오.
-
