@@ -2,16 +2,16 @@
 description: 검색 전 규칙을 사용하여 들어오는 쿼리를 분석하고 사용할 프레젠테이션 템플릿을 결정합니다. 사전 검색 규칙은 모든 쿼리에 대해 차례로 실행됩니다. 규칙 순서를 변경하려면 드래그 앤 드롭을 사용할 수 있습니다. 실제 주문은 저장하기 전까지 변경되지 않습니다.
 solution: Target
 title: 사전 검색 규칙 정보
-topic: Rules,Site search and merchandising
+topic-legacy: Rules,Site search and merchandising
 uuid: e75f9d9e-e8ca-4184-bf79-b1fdadb5c0fe
+exl-id: 23e7feda-956a-48ce-8c61-fe0498c1bbda
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1661'
 ht-degree: 1%
 
 ---
-
 
 # 사전 검색 규칙 정보{#about-pre-search-rules}
 
@@ -234,4 +234,3 @@ ht-degree: 1%
    * 클릭 **[!UICONTROL Push Live]**.
 
       [스테이지 설정 라이브 푸시](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)를 참조하십시오.
-
