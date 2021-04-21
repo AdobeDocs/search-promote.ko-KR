@@ -3,16 +3,16 @@ description: 대량의 데이터를 처리할 필요 없이 수직 업데이트�
 solution: Target
 subtopic: Vertical Update
 title: 수직 업데이트 정보
-topic: Index,Site search and merchandising
+topic-legacy: Index,Site search and merchandising
 uuid: ded09e89-5a52-4e8c-a6f7-3e25b4191183
+exl-id: 8d6a48c0-377d-4a15-bddc-c67e28037bfc
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
-
 
 # 수직 업데이트 정보{#about-vertical-update}
 
@@ -134,4 +134,3 @@ URL을 지정하여 수직 업데이트에 포함할 색인 커넥터 소스를 
    * 탐색 옵션 **[!UICONTROL First]**, **[!UICONTROL Prev]**, **[!UICONTROL Next]**, **[!UICONTROL Last]** 또는 **[!UICONTROL Go to line]**&#x200B;을 사용하여 로그를 통해 이동합니다.
 
    * 표시 옵션 **[!UICONTROL Errors only]**, **[!UICONTROL Wrap line]** 또는 **[!UICONTROL Show]**&#x200B;을 사용하여 표시되는 내용을 세밀하게 수정할 수 있습니다.
-
