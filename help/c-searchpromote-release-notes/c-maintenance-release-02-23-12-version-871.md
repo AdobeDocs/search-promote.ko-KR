@@ -2,16 +2,16 @@
 description: Search&amp;Promote 8.7.1 릴리스 노트.
 solution: Target
 title: Search&Amp;Promote 8.7.1 릴리스 노트(02/23/2012)
-topic: Release Notes,Site search and merchandising
+topic-legacy: Release Notes,Site search and merchandising
 uuid: 3fabf7b2-4a27-4f0a-862a-52f701a0631d
+exl-id: b10f0081-ed69-4c6b-86c9-816326b647f0
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 32%
+source-wordcount: '173'
+ht-degree: 33%
 
 ---
-
 
 # Search &amp; Promote 8.7.1 릴리스 노트(02/23/2012){#search-promote-release-notes}
 
@@ -38,4 +38,3 @@ HTC 프레젠테이션 템플릿을 메모리와 파일에 모두 캐시하는 �
 * 템플릿 캐시가 무효화되지 않도록 타임스탬프 보존
 * 스크롤 막대가 Dynamic Media Classic 배너 대화 상자에 표시될 때 일부 변경 매개 변수 필드가 잘렸습니다.
 * Dynamic Media Classic 배너 매개 변수에 대한 비즈니스 규칙 변경 사항은 스테이징 영역에서 작동했지만 라이브를 푸시할 때는 적용되지 않았습니다.
-
