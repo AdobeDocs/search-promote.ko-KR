@@ -2,16 +2,16 @@
 description: Search&amp;Promote 8.16.0 릴리스 노트.
 solution: Target
 title: Search&Amp;Promote 8.16.0 릴리스 노트(9/18/2014)
-topic: Release Notes,Site search and merchandising
+topic-legacy: Release Notes,Site search and merchandising
 uuid: 0a59858b-213b-40d6-aea1-d085c4d6d2fa
+exl-id: 929d6f97-4939-4e37-aded-6a746757b960
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 36%
+source-wordcount: '332'
+ht-degree: 37%
 
 ---
-
 
 # Search &amp; Promote 8.16.0 릴리스 노트(9/18/2014){#search-promote-release-notes}
 
@@ -52,4 +52,3 @@ ht-degree: 36%
 * **[!UICONTROL Common Phrases]** 기능에 일관되지 않은 검색 결과가 있습니다.
 * 속성 이름 표시가 규칙 목록 요약에서 잘렸습니다.
 * 개별 비즈니스 규칙을 라이브로 적용하면 모든 비즈니스 규칙이 라이브로 적용됩니다.
-
