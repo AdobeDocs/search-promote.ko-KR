@@ -3,16 +3,16 @@ description: 스크립트 색인을 사용하면 로그인할 필요 없이 증�
 solution: Target
 subtopic: Scripted Index
 title: 스크립트 색인 정보
-topic: Index,Site search and merchandising
+topic-legacy: Index,Site search and merchandising
 uuid: 51e726ad-414b-4cbd-8a68-fefc3cf9b565
+exl-id: e1d14cd5-4885-4e3a-bc5f-fe0b6a4df15e
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '1730'
+source-wordcount: '1725'
 ht-degree: 1%
 
 ---
-
 
 # 스크립트 인덱스 정보{#about-scripted-index}
 
@@ -286,4 +286,3 @@ update regexp ^https://www\.mydomain\.com/information/.*$
    * 탐색 옵션 **[!UICONTROL First]**, **[!UICONTROL Prev]**, **[!UICONTROL Next]**, **[!UICONTROL Last]** 또는 **[!UICONTROL Go to line]**&#x200B;을 사용하여 로그를 통해 이동합니다.
 
    * 표시 옵션 **[!UICONTROL Errors only]**, **[!UICONTROL Wrap line]** 또는 **[!UICONTROL Show]**&#x200B;을 사용하여 표시되는 내용을 세밀하게 수정할 수 있습니다.
-
