@@ -2,16 +2,16 @@
 description: 단어 및 언어를 사용하여 검색어가 웹 페이지의 컨텐츠와 일치하는 방식을 결정할 수 있습니다.
 solution: Target
 title: 단어 및 언어 정보
-topic: Linguistics,Site search and merchandising
+topic-legacy: Linguistics,Site search and merchandising
 uuid: 793d7a40-4609-44b8-a170-536eb1434537
+exl-id: bfc84879-1fd1-4c86-beab-353469014c64
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
-
 
 # 단어 및 언어 정보{#about-words-language}
 
@@ -109,4 +109,3 @@ t_configuring_how_search_terms_matched_to_your_web_content.xml
    * 클릭 **[!UICONTROL Push Live]**.
 
       [스테이지 설정 라이브 푸시](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)를 참조하십시오.
-
