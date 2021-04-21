@@ -2,16 +2,16 @@
 description: Search&amp;Promote 8.8 릴리스 노트
 solution: Target
 title: Search&amp;Promote 8.8 릴리스 노트(04/26/2012)
-topic: Release Notes,Site search and merchandising
+topic-legacy: Release Notes,Site search and merchandising
 uuid: ddb9f1af-92a4-4f85-be8f-a36f34d31add
+exl-id: 3bd9b6af-99a2-4631-b7a7-0a792122c157
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 68%
+source-wordcount: '322'
+ht-degree: 70%
 
 ---
-
 
 # Search &amp; Promote 8.8 릴리스 노트(04/26/2012){#search-promote-release-notes}
 
@@ -46,4 +46,3 @@ ht-degree: 68%
 * 더 짧은 비즈니스 규칙 설명(예: 관리자에 field_table을 표시하지 않음)에 대한 기능을 추가했습니다.
 * 검색 안내 탐색 메뉴에는 최대값인 9개 항목이 있었습니다. 이제 최대값이 20개입니다.
 * 색인 커넥터에 성능 개선 사항이 적용되었습니다.
-
