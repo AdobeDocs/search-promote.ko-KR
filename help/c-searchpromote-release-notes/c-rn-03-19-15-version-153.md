@@ -2,16 +2,16 @@
 description: Search&amp;Promote 15.3.1 릴리스 노트.
 solution: Target
 title: Search&Amp;Promote 15.3.1 릴리스 노트(03/24/2015)
-topic: Release Notes,Site search and merchandising
+topic-legacy: Release Notes,Site search and merchandising
 uuid: f02da5a4-2207-4603-aa05-5cff7be16dd5
+exl-id: 2d254275-f777-45e5-a838-b6a35365a6dd
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '254'
 ht-degree: 1%
 
 ---
-
 
 # Search &amp; Promote 15.3.1 릴리스 노트(03/24/2015){#search-promote-release-notes}
 
@@ -43,4 +43,3 @@ ht-degree: 1%
 * 스크립트 필터링에 의존하지 않고 MDI 필드를 채울 수 있습니다.
 * 제안의 인코딩이 잘못되었습니다.
 * 이제 복잡한 비즈니스 규칙에서 &quot;다른 패싯 선택&quot; 트리거가 올바르게 작동합니다.
-
