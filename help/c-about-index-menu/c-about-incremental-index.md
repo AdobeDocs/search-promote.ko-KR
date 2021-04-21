@@ -3,16 +3,16 @@ description: 증분 색인을 사용하여 자주 변경되는 페이지의 컬�
 solution: Target
 subtopic: Incremental Index
 title: 증분 색인 정보
-topic: Index,Site search and merchandising
+topic-legacy: Index,Site search and merchandising
 uuid: b1ee9b08-dcbe-4ffe-b0b4-d379daaac9b5
+exl-id: 41943f84-23f0-434c-8eef-a9075dd5c03d
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1352'
 ht-degree: 1%
 
 ---
-
 
 # 증분 인덱스 정보{#about-incremental-index}
 
@@ -254,4 +254,3 @@ ht-degree: 1%
    * 탐색 옵션 **[!UICONTROL First]**, **[!UICONTROL Prev]**, **[!UICONTROL Next]**, **[!UICONTROL Last]** 또는 **[!UICONTROL Go to line]**&#x200B;을 사용하여 로그를 통해 이동합니다.
 
    * 표시 옵션 **[!UICONTROL Errors only]**, **[!UICONTROL Wrap line]** 또는 **[!UICONTROL Show]**&#x200B;을 사용하여 표시되는 내용을 세밀하게 수정할 수 있습니다.
-
