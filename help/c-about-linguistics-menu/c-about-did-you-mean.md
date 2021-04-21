@@ -2,16 +2,16 @@
 description: 고객이 실패한 검색을 시도했을 때 올바른 검색어에 대한 제안을 받을 수 있도록 사용자가 의도한 행동을 구성할 수 있습니다. 유효한 검색어로 이어지는 검색어에 대한 맞춤법과 입력 수정을 통해 제안 사항이 생성됩니다.
 solution: Target
 title: 무슨 뜻입니까
-topic: Linguistics,Site search and merchandising
+topic-legacy: Linguistics,Site search and merchandising
 uuid: c5973541-3d6b-4fc9-bad4-66d4d3559fe8
+exl-id: c86da375-ac5f-442b-9975-6a4e1ba8a70d
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '728'
 ht-degree: 2%
 
 ---
-
 
 # {#about-did-you-mean} 정보를 의미했습니까?
 
@@ -99,4 +99,3 @@ t_configuring_did_you_mean.xml
    * 클릭 **[!UICONTROL Push Live]**.
 
       [스테이지 설정 라이브 푸시](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)를 참조하십시오.
-
