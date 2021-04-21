@@ -2,16 +2,16 @@
 description: Search&amp;Promote 8.9.8 릴리스 노트.
 solution: Target
 title: Search&Amp;Promote 8.9.8 릴리스 노트(05/23/2013)
-topic: Release Notes,Site search and merchandising
+topic-legacy: Release Notes,Site search and merchandising
 uuid: ff4bfc53-1d0e-4b7d-83ad-54c81d3f9769
+exl-id: f4034289-e9cf-4cc4-97bf-2bc5769c043d
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 55%
+source-wordcount: '203'
+ht-degree: 56%
 
 ---
-
 
 # Search &amp; Promote 8.9.8 릴리스 노트(05/23/2013){#search-promote-release-notes}
 
@@ -46,4 +46,3 @@ ht-degree: 55%
 * 단계적으로 만들어진 색인을 원격에서 실시간으로 적용할 수 있도록 해주는 지원이 추가되었습니다.
 
    색인](../c-about-index-menu/c-about-remote-control-for-indexing.md#concept_C79B322190E84106A434E5C6D4A4118F)에 대한 [원격 제어 정보를 참조하십시오.
-
