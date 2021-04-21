@@ -2,16 +2,16 @@
 description: Search & Promote 및 동적 탐색을 처음 사용하는 경우 여기에서 시작해 계정을 사용하여 실행하십시오. 무엇보다도 웹 사이트를 색인화하고 검색 결과의 모양과 느낌을 사용자 정의하는 방법을 배웁니다.
 solution: Target
 title: 시작하기
-topic: Getting Started,Site search and merchandising
+topic-legacy: Getting Started,Site search and merchandising
 uuid: 816ad003-15c9-4e44-b09d-cab284518634
+exl-id: f2772d7a-b558-403e-9e77-8c87302e2b02
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
-
 
 # 시작하기{#getting-started}
 
@@ -142,4 +142,3 @@ Search&amp;Promote 및 동적 탐색을 처음 사용하는 경우 여기에서 
 * 관련 단어 그룹(예: 구매, 구매 및 조달)을 지정할 수 있도록 사전을 구성합니다. 이러한 관련 단어는 고객의 검색 쿼리가 웹 페이지에 사용된 용어와 정확히 일치하지 않아도 관련 결과를 반환하는 데 도움이 됩니다. 위의 예에서 사용되는 동의어를 사용하여 고객의 &quot;purchase&quot;에 대한 검색 쿼리는 &quot;buy&quot;라는 단어가 포함된 페이지를 반환합니다.
 
    [사전 정보](c-about-linguistics-menu/c-about-dictionaries.md#concept_B8028B71EC8144669614C64578EDB034)를 참조하십시오.
-
