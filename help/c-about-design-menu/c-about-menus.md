@@ -3,16 +3,16 @@ description: 메뉴를 사용하여 프레젠테이션 레이어를 사용자 �
 solution: Target
 subtopic: Navigation
 title: 메뉴 정보
-topic: Design,Site search and merchandising
+topic-legacy: Design,Site search and merchandising
 uuid: 011050cd-21b6-4150-9503-18fa3f771626
+exl-id: bd9611c0-4bb6-4869-ae92-fb52722026dd
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '752'
 ht-degree: 1%
 
 ---
-
 
 # 메뉴 정보{#about-menus}
 
@@ -190,4 +190,3 @@ t_deleting_a_menu.xml
    * 클릭 **[!UICONTROL Push Live]**.
 
       [스테이지 설정 라이브 푸시](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)를 참조하십시오.
-
