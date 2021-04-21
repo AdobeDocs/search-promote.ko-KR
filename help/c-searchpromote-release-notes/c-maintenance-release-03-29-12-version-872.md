@@ -2,16 +2,16 @@
 description: Search&amp;Promote 8.7.2 릴리스 노트.
 solution: Target
 title: Search&Amp;Promote 8.7.2 릴리스 노트(03/29/2012)
-topic: Release Notes,Site search and merchandising
+topic-legacy: Release Notes,Site search and merchandising
 uuid: e8454d47-6444-4136-92d7-35b90bfb12ca
+exl-id: b2dc51a9-8300-4d0a-8f5d-43dfa59da147
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 38%
+source-wordcount: '115'
+ht-degree: 40%
 
 ---
-
 
 # Search &amp; Promote 8.7.2 릴리스 노트(03/29/2012){#search-promote-release-notes}
 
@@ -24,4 +24,3 @@ ht-degree: 38%
 * 파이프 구분 기호가 있는 [!DNL Business Rules] 키워드 항등 테스트 문제를 해결했습니다.
 * Dynamic Media Classic 배너 매개 변수를 편집하는 문제를 수정했습니다.
 * 종횡비를 유지하면서 Dynamic Media Classic 배너의 크기를 변경하는 기능이 추가되었습니다.
-
