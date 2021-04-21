@@ -2,16 +2,16 @@
 description: Search&amp;Promote 8.15.0 릴리스 노트.
 solution: Target
 title: Search&Amp;Promote 8.15.0 릴리스 노트(6/19/2014)
-topic: Release Notes,Site search and merchandising
+topic-legacy: Release Notes,Site search and merchandising
 uuid: bb250450-48b4-4563-84b9-66f2c3dc063a
+exl-id: 57476f25-903c-4452-a3e9-adffd229ba5e
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 54%
+source-wordcount: '106'
+ht-degree: 57%
 
 ---
-
 
 # Search &amp; Promote 8.15.0 릴리스 노트(6/19/2014){#search-promote-release-notes}
 
@@ -27,4 +27,3 @@ ht-degree: 54%
 * 속성 로더가 404 오류를 발생했습니다.
 * SPIN이 너무 큰 템플릿을 생성하려고 하면 경고가 표시되었습니다.
 * 중국어, 한국어 및 일본어 형태 분석기가 업데이트되었습니다.
-
