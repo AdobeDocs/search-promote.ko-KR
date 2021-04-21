@@ -3,16 +3,16 @@ description: 크롤링 메뉴 세트 날짜와 URL 마스크, 암호, 컨텐츠 
 solution: Target
 subtopic: Crawling
 title: 크롤링 메뉴 정보
-topic: Settings,Site search and merchandising
+topic-legacy: Settings,Site search and merchandising
 uuid: a58c03bf-90f7-4b5b-91ff-988b95c246b0
+exl-id: 22dbbc30-bf1c-4d51-8fb0-708115ba844b
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '11016'
+source-wordcount: '11011'
 ht-degree: 0%
 
 ---
-
 
 # 크롤링 메뉴 {#about-the-crawling-menu} 정보
 
