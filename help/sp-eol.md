@@ -5,14 +5,14 @@ feature: null
 role: Administrator,Business Practitioner,Data Engineer,Developer
 hide: true
 hidefromtoc: true
+exl-id: 1e062554-090b-4275-8595-8ae4233c58d7
 translation-type: tm+mt
-source-git-commit: 681e3e6768f214759598482526ce7ffba27e860e
+source-git-commit: 1562d46d096206f21228cb8ca9cbd8cec406e8dc
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Search &amp; Promote 서비스 종료 알림
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ### **_Search &amp; Promote은 언제 운영을 중단합니까?_**
 
-Search &amp; Promote의 서비스 종료는 2022년 8월 1일에 예정되어 있습니다. 그 날짜에 Search &amp; Promote 관리 사용자 인터페이스에 더 이상 액세스할 수 없으며 Search &amp; Promote API에 대한 요청은 더 이상 결과를 전달하지 않습니다. 이 날짜 전에는 서비스를 완전히 사용할 수 있으며 사용할 수 있습니다.
+Search &amp; Promote에 대한 서비스 종료는 **2022년 9월 1일**&#x200B;로 예정되어 있습니다. 그 날짜에 Search &amp; Promote 관리 사용자 인터페이스에 더 이상 액세스할 수 없으며 Search &amp; Promote API에 대한 요청은 더 이상 결과를 전달하지 않습니다. 이 날짜 전에는 서비스를 완전히 사용할 수 있으며 사용할 수 있습니다.
 
 ### **_검색 또는 기타 API 요청이 Search &amp; Promote에 수행된 경우 어떻게 됩니까?_**
 
@@ -42,4 +42,4 @@ Search &amp; Promote에 대한 검색 및 기타 API 요청은 더 이상 결과
 
 ### **_서비스 종료 전에 해당 Search &amp; Promote 라이선스를 갱신할 수 있습니까?_**
 
-예. 2022년 8월 1일까지 계약 종료 날짜에 라이선스를 갱신하려면 Adobe 담당자에게 문의하십시오.
+예. 계약 종료 날짜가 **2022년 9월 1일**&#x200B;인 경우 Adobe 담당자에게 문의하여 라이선스를 갱신하십시오.
