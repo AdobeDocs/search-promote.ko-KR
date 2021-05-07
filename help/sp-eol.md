@@ -3,13 +3,11 @@ title: Adobe Search & Promote 서비스 종료 알림
 description: Adobe Search & Promote의 서비스 종료 발표에 대한 자세한 내용을 살펴보십시오.
 feature: null
 role: Administrator,Business Practitioner,Data Engineer,Developer
-hide: true
-hidefromtoc: true
 exl-id: 1e062554-090b-4275-8595-8ae4233c58d7
 translation-type: tm+mt
-source-git-commit: 1562d46d096206f21228cb8ca9cbd8cec406e8dc
+source-git-commit: 99d23647ba5d30ed90d9e8ac377d627f6266c618
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -20,7 +18,7 @@ ht-degree: 0%
 
 ### **_Search &amp; Promote은 언제 운영을 중단합니까?_**
 
-Search &amp; Promote에 대한 서비스 종료는 **2022년 9월 1일**&#x200B;로 예정되어 있습니다. 그 날짜에 Search &amp; Promote 관리 사용자 인터페이스에 더 이상 액세스할 수 없으며 Search &amp; Promote API에 대한 요청은 더 이상 결과를 전달하지 않습니다. 이 날짜 전에는 서비스를 완전히 사용할 수 있으며 사용할 수 있습니다.
+Adobe Search &amp; Promote에 대한 서비스 종료는 **2022년 9월 1일**&#x200B;로 예정되어 있습니다. 그 날짜에 Search &amp; Promote 관리 사용자 인터페이스에 더 이상 액세스할 수 없으며 Search &amp; Promote API에 대한 요청은 더 이상 결과를 전달하지 않습니다. 이 날짜 전에는 서비스를 완전히 사용할 수 있으며 사용할 수 있습니다.
 
 ### **_검색 또는 기타 API 요청이 Search &amp; Promote에 수행된 경우 어떻게 됩니까?_**
 
