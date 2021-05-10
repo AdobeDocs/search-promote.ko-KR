@@ -6,10 +6,10 @@ topic-legacy: Site search and merchandising
 uuid: bb1c49be-7cfd-485a-a848-c5dc8733b009
 exl-id: 6920dbf0-beeb-4723-8178-4da37f0b03ed
 translation-type: tm+mt
-source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
+source-git-commit: c52719f476a61592b11bf1182a1bfe3525488817
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 23%
+source-wordcount: '141'
+ht-degree: 22%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 23%
 
 ## 뉴스 및 공지 사항 {#topic_02625547D07F411DBAC9593FCBD4741B}
 
-<!-- * **Attention:** [Adobe Search&amp;Promote End-of-Service Announcement](/help/sp-eol.md). -->
+* **주의**  -  [Adobe Search &amp; Promote 서비스 종료 알림](/help/sp-eol.md).
 
 * Adobe Marketing Cloud 릴리스 노트 - 모든 Marketing Cloud 솔루션에서 새로운 기능, 수정 사항 및 알려진 문제가 포함되어 있습니다. 기능 릴리스는 봄과 가을에, 유지보수 릴리스는 매달 진행됩니다.
 
@@ -25,7 +25,7 @@ ht-degree: 23%
 
 * 최신 Adobe Search &amp; Promote 릴리스 노트:
 
-   [릴리스 노트](/help/c-searchpromote-release-notes/c-rn-02-13-18-version-1811.md)
+   [릴리스 정보](/help/c-searchpromote-release-notes/c-rn-02-13-18-version-1811.md)
 
 ## 백서 {#topic_EED10B7F7E8D4A9A8F759FE24C461937}
 
