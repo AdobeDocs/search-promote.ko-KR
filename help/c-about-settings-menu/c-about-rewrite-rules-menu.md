@@ -7,9 +7,9 @@ topic-legacy: Settings,Site search and merchandising
 uuid: 77ee84dd-fdba-4d34-ae8e-2fe786599800
 exl-id: cff17ead-6997-4ff6-a995-7ca020b06d50
 translation-type: tm+mt
-source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
+source-git-commit: aa095add9eb656913792b3f14001dda66cdd7d67
 workflow-type: tm+mt
-source-wordcount: '10197'
+source-wordcount: '10178'
 ht-degree: 0%
 
 ---
@@ -281,14 +281,14 @@ t_adding_a_crawl_list_store_url_rule.xml
 
  -->
 
-**크롤링 목록 저장소 URL 규칙을 추가하려면**
+**크롤링 목록 저장소 URL 규칙을 추가하려면:**
 
 1. 제품 메뉴에서 **[!UICONTROL Settings]** > **[!UICONTROL Rewrite Rules]** > **[!UICONTROL Crawl List Store URL Rules]**&#x200B;를 클릭합니다.
 1. [!DNL Crawl List Store URL Rules] 필드에 원하는 규칙을 입력합니다.
 
    &#39;#&#39;(해시) 문자로 시작하는 빈 줄과 주석 줄이 허용됩니다.
-1. (선택 사항) [!DNL Crawl List Store URL Rules] 페이지의 [!DNL Test Crawl List Store URL Rules] 필드에 테스트할 크롤링 규칙이 있는 테스트 URL을 입력한 다음 **테스트**&#x200B;를 클릭합니다.
-1. **변경 내용 저장**&#x200B;을 클릭합니다.
+1. (선택 사항) [!DNL Crawl List Store URL Rules] 페이지의 [!DNL Test Crawl List Store URL Rules] 필드에 테스트할 크롤링 규칙의 테스트 URL을 입력한 다음 **[!UICONTROL Test]**&#x200B;를 클릭합니다.
+1. 클릭 **[!UICONTROL Save Changes]**.
 1. (선택 사항) 결과를 미리 보려는 경우 스테이지된 사이트 인덱스를 다시 작성합니다.
 
    스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
@@ -519,7 +519,7 @@ RewriteCond 지시문은 규칙 조건을 정의합니다. RewriteCond가 Rewrit
 
 **예**
 
-일부 웹 페이지는 방문자가 처음으로 사이트에 도착할 때 &quot;sessionid&quot; CGI 변수를 할당합니다. 이 변수는 방문자를 식별하는 데 사용되며, 방문자가 사이트를 탐색할 때 변수가 전달됩니다. 검색 로봇은 사이트의 방문자 모양이므로 &quot;sessionid&quot; 번호가 할당됩니다. 검색 로봇은 두 번째 사이트 페이지가 새 값을 할당하려고 해도 이 단일 &quot;sessionid&quot; 값을 유지합니다. 이를 위해서는 두 개의 다시 작성 규칙이 필요합니다.
+일부 웹 페이지는 방문자가 처음으로 사이트에 도착할 때 &quot;sessionid&quot; CGI 변수를 할당합니다. 이 변수는 방문자를 식별하는 데 사용되며, 방문자가 사이트를 탐색할 때 변수가 전달됩니다. 검색 로봇은 사이트의 방문자 모양이므로 &quot;sessionid&quot; 번호가 할당됩니다. 검색 로봇은 두 번째 사이트 페이지에서 새 값을 할당하려고 해도 이 단일 &quot;sessionid&quot; 값을 유지합니다. 이를 위해서는 두 개의 다시 작성 규칙이 필요합니다.
 
 첫 번째 규칙은 세션 id 변수를 식별하고 저장하는 데 사용됩니다.
 
@@ -566,14 +566,14 @@ t_adding_crawl_list_retrieve_url_rules.xml
 
  -->
 
-**크롤링 목록을 추가하려면 URL 규칙 검색**
+**크롤링 목록을 추가하려면 URL 규칙을 검색합니다.**
 
 1. 제품 메뉴에서 **[!UICONTROL Settings]** > **[!UICONTROL Rewrite Rules]** > **[!UICONTROL Crawl List Retrieve URL Rules]**&#x200B;를 클릭합니다.
 1. [!DNL Crawl List Retrieve URL Rules] 필드에 원하는 규칙을 입력합니다.
 
    &#39;#&#39;(해시) 문자로 시작하는 빈 줄과 주석 줄이 허용됩니다.
-1. (선택 사항) [!DNL Crawl List Retrieve URL Rules] 페이지의 [!DNL Test Crawl List Retrieve URL Rules] 필드에 테스트할 크롤링 규칙이 있는 테스트 URL을 입력한 다음 **테스트**&#x200B;를 클릭합니다.
-1. **변경 내용 저장**&#x200B;을 클릭합니다.
+1. (선택 사항) [!DNL Crawl List Retrieve URL Rules] 페이지의 [!DNL Test Crawl List Retrieve URL Rules] 필드에 테스트할 크롤링 규칙의 테스트 URL을 입력한 다음 **[!UICONTROL Test]**&#x200B;를 클릭합니다.
+1. 클릭 **[!UICONTROL Save Changes]**.
 1. (선택 사항) 결과를 미리 보려는 경우 스테이지된 사이트 인덱스를 다시 작성합니다.
 
    스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
@@ -637,22 +637,21 @@ RewriteRule Pattern Substitution [Flags]
 
 [정규 표현식](../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A)을 참조하십시오.
 
-&quot;not&quot; 문자(&#39;!&#39;)를 사용할 수 있습니다. 를 클릭하여 패턴에 접두사를 붙입니다. &quot;not&quot; 문자는 현재 제목이 패턴과 일치하지 않는 경우에만 패턴을 무효화할 수 있습니다. &quot;not&quot; 문자는 네거티브 패턴과 일치시키는 것이 낫거나 최종 기본 규칙으로 사용할 수 있습니다. 참고:&quot;not&quot; 문자와 그룹화된 와일드카드를 모두 패턴에 사용할 수 없습니다. 또한 대체 문자열에 $N이 들어 있을 때는 무효화된 패턴을 사용할 수 없습니다.
+&quot;not&quot; 문자(&#39;!&#39;)를 사용할 수 있습니다. 를 클릭하여 패턴에 접두사를 붙입니다. &quot;not&quot; 문자는 현재 제목이 패턴과 일치하지 않는 경우에만 패턴을 무효화할 수 있습니다. &quot;not&quot; 문자는 네거티브 패턴과 일치시키는 것이 낫거나 최종 기본 규칙으로 사용할 수 있습니다. 참고:&quot;not&quot; 문자와 그룹화된 와일드카드를 모두 패턴에 사용할 수 없습니다. 또한 대체 문자열에 `$N`이(가) 포함된 경우에는 무효화된 패턴을 사용할 수 없습니다.
 
 괄호를 사용하여 대체 및 CondPattern에서 참조할 수 있는 역참조를 만들 수 있습니다.
 
-**대체** 제목대체 문자열로 대체됩니다. 문자열에는 다음이 포함될 수 있습니다.
+대체 - 제목은 대체 문자열로 대체됩니다. 문자열에는 다음이 포함될 수 있습니다.
 
 일반 텍스트 - 변경되지 않고 전달되는 텍스트입니다.
 
 역참조를 사용하면 Pattern 또는 CondPattern의 그룹화된 부품(괄호 안)에 액세스할 수 있습니다. 다음은 두 가지 유형의 역참조입니다.
 
-* 다시 작성 규칙 배경 참조
+* RewriteRule Backreferences - 해당 RewriteRule 패턴에 있는 이러한 일치 백참조와 $N(0 &lt;= N &lt;= 9) 형식을 사용합니다.
 
-   이러한 일치 백참조는 해당 RewriteRule 패턴에 있고 $N(0 &lt;= N &lt;= 9) 형태를 사용합니다. 예, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
-* 다시 쓰기 컨텍스트 배경 참조
+   예, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
 
-   마지막으로 일치한 RewriteCond Pattern에 있는 이러한 일치 백참조와 %N(0 &lt;= N &lt;= 9) 형식을 사용합니다.
+* RewriteCond 역참조 - 마지막으로 일치한 RewriteCondPattern의 이러한 역참조와 일치하는 %N(0 &lt;= N &lt;= 9) 형식을 사용합니다.
 
 변수 이 변수들은 %{NAME_OF_VARIABLE} 형식의 변수입니다. 여기서 NAME_OF_VARIABLE은 정의된 변수의 이름에 대한 문자열일 수 있습니다. 환경 변수 설정에 대한 자세한 내용은 `[E]` 플래그를 참조하십시오.
 
@@ -720,8 +719,11 @@ RewriteCond TestString CondPattern [Flags]
 
 역참조를 사용하면 Pattern 또는 CondPattern의 그룹화된 부품(괄호 안)에 액세스할 수 있습니다. 다음과 같은 두 가지 유형의 역참조가 있습니다.
 
-* RewriteRule Backreferences 해당 RewriteRule 패턴에 있는 이러한 일치 백참조를 사용하고 $N(0 &lt;= N &lt;= 9) 양식을 사용합니다. 예, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
-* RewriteCond 역참조 마지막 일치 RewriteCondPattern에서 이러한 일치 역참조를 사용하여 %N(0 &lt;= N &lt;= 9) 양식을 만듭니다.
+* RewriteRule Backreferences - 해당 RewriteRule 패턴에 있는 이러한 일치 백참조와 $N(0 &lt;= N &lt;= 9) 형식을 사용합니다.
+
+   예, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
+
+* RewriteCond 역참조 - 마지막으로 일치한 RewriteCondPattern의 이러한 역참조와 일치하는 %N(0 &lt;= N &lt;= 9) 형식을 사용합니다.
 
 변수 이 변수들은 %{NAME_OF_VARIABLE} 형식의 변수입니다. 여기서 NAME_OF_VARIABLE은 정의된 변수의 이름에 대한 문자열일 수 있습니다. 환경 변수 설정에 대한 자세한 내용은 `[E]` 플래그를 참조하십시오.
 
@@ -797,7 +799,15 @@ RewriteRule  ^My[[:blank:]]Company[[:blank:]]-[[:blank:]]
 <b>$1</b>}
 ```
 
-규칙의 패턴 `(^My[[:blank:]]Company[[:blank:]]-[[:blank:]] (.*))`에는 &quot;내 회사-&quot; 다음에 나오는 제목 내용과 일치하는 역참조 `(.*)`이 포함되어 있습니다. ( )가 있는 패턴의 일부를 둘러싸면 대체에 의해 참조할 수 있는 역참조가 만들어집니다. 이 예제에서 대체(${toupper:**$1**})는 터치 함수를 사용하여 역참조(**$1**)를 다시 씁니다.
+규칙의 패턴
+
+`(^My[[:blank:]]Company[[:blank:]]-[[:blank:]] (.*))`
+
+에는 &quot;내 회사-&quot; 다음에 나오는 제목 내용과 일치하는 역참조 `(.*)`이 포함되어 있습니다. ( )가 있는 패턴의 일부를 둘러싸면 대체에 의해 참조할 수 있는 역참조가 만들어집니다. 이 예에서 대체는
+
+`(${toupper:**$1**})`
+
+toupper 함수를 사용하여 역참조(`**$1**`)를 다시 씁니다.
 
 따라서 &quot;My Company - Welcome&quot; 형식의 제목은 &quot;WELCOME&quot;으로 다시 작성됩니다.
 
@@ -815,14 +825,14 @@ t_adding_crawl_title_rules.xml
 
  -->
 
-**크롤링 제목 규칙을 추가하려면**
+**크롤링 제목 규칙을 추가하려면:**
 
 1. 제품 메뉴에서 **[!UICONTROL Settings]** > **[!UICONTROL Rewrite Rules]** > **[!UICONTROL Crawl Title Rules]**&#x200B;를 클릭합니다.
 1. [!DNL Crawl Title Rules] 필드에 원하는 규칙을 입력합니다.
 
    &#39;#&#39;(해시) 문자로 시작하는 빈 줄과 주석 줄이 허용됩니다.
-1. (선택 사항) [!DNL Crawl Title Rules] 페이지의 [!DNL Test Crawl Title Rules] 필드에 테스트할 검색 규칙의 테스트 URL을 입력한 다음 **테스트**&#x200B;를 클릭합니다.
-1. **변경 내용 저장**&#x200B;을 클릭합니다.
+1. (선택 사항) [!DNL Crawl Title Rules] 페이지의 [!DNL Test Crawl Title Rules] 필드에 테스트할 검색 규칙의 테스트 URL을 입력한 다음 **[!UICONTROL Test]**&#x200B;를 클릭합니다.
+1. 클릭 **[!UICONTROL Save Changes]**.
 1. (선택 사항) 결과를 미리 보려는 경우 스테이지된 사이트 인덱스를 다시 작성합니다.
 
    스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
@@ -983,15 +993,17 @@ RewriteCond
 
 역참조를 사용하면 Pattern 또는 CondPattern의 그룹화된 부품(괄호 안)에 액세스할 수 있습니다. 다음과 같은 두 가지 유형의 역참조가 있습니다.
 
-* ** RewriteRule Backreferences** 해당 RewriteRule 패턴에 있는 이러한 일치 백참조와 $N(0 &lt;= N &lt;= 9) 형식을 사용합니다. 예, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
+* RewriteRule Backreferences - 해당 RewriteRule 패턴에 있는 이러한 일치 백참조와 $N(0 &lt;= N &lt;= 9) 형식을 사용합니다.
 
-* **RewriteCond** Backreferences마지막으로 일치한 RewriteCondPattern에 있는 이러한 일치 백참조와 %N(0) 형식을 사용합니다.  &lt;>
+   예, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
+
+* RewriteCond 역참조 - 마지막으로 일치한 RewriteCondPattern의 이러한 역참조와 일치하는 %N(0 &lt;= N &lt;= 9) 형식을 사용합니다.
 
 변수 이 변수들은 %{NAME_OF_VARIABLE} 형식의 변수입니다. 여기서 NAME_OF_VARIABLE은 정의된 변수의 이름에 대한 문자열일 수 있습니다. 변수 설정에 대한 자세한 내용은 RewriteRule *`[E]`* 플래그를 참조하십시오.
 
 >[!NOTE]
 >
->다시 작성 규칙은 일반적으로 변수를 사용합니다. 현재 URL의 모든 CGI 매개 변수는 자동으로 변수로 만들어집니다. 예를 들어 검색 URL `"https://search.atomz.com/search/?sp_a=sp00000000&sp_q="Product"&session=1234&id=5678"`은(는) 자동으로 4개의 변수를 제공하며 이 변수는 다시 작성 규칙에서 참조할 수 있습니다. 이 예제에서 한 변수는 &quot;session&quot;이고 그 값은 &quot;1234&quot;이고 다른 변수는 &quot;id&quot;라고 하며, 그 값은 &quot;5678&quot;입니다. 다른 두 변수는 `sp_a` 및 `sp_q`입니다. 모든 필요한 변수를 웹 페이지의 검색 양식에서 숨김 필드로 전달해야 합니다. 이 예에서는 검색을 수행하는 웹 사이트 사용자를 식별하는 &quot;session&quot; 및 &quot;id&quot; 값을 전달해야 합니다. 검색 양식에 숨김 필드를 전달하려면 `<input type=hidden name="session" value="1234">` 같은 태그를 사용합니다.
+>다시 작성 규칙은 일반적으로 변수를 사용합니다. 현재 URL의 모든 CGI 매개 변수는 자동으로 변수로 만들어집니다. 예를 들어 검색 URL `"https://search.atomz.com/search/?sp_a=sp00000000&sp_q="Product"&session=1234&id=5678"`은 자동으로 4개의 변수를 제공하며 이 변수는 다시 작성 규칙에서 참조할 수 있습니다. 이 예제에서 한 변수는 &quot;session&quot;이고 그 값은 &quot;1234&quot;이고 다른 변수는 &quot;id&quot;라고 하며, 그 값은 &quot;5678&quot;입니다. 다른 두 변수는 `sp_a` 및 `sp_q`입니다. 모든 필요한 변수를 웹 페이지의 검색 양식에서 숨김 필드로 전달해야 합니다. 이 예에서는 검색을 수행하는 웹 사이트 사용자를 식별하는 &quot;session&quot; 및 &quot;id&quot; 값을 전달해야 합니다. 검색 양식에 숨김 필드를 전달하려면 `<input type=hidden name="session" value="1234">` 같은 태그를 사용합니다.
 
 함수 ${NAME_OF_FUNCTION:key} 형식의 함수입니다. 여기서 NAME_OF_FUNCTION은 다음과 같습니다.
 
@@ -1037,7 +1049,7 @@ RewriteCond
 
 **예**
 
-일부 웹 페이지는 고객이 처음으로 사이트에 도착할 때 &quot;sessionid&quot; CGI 변수를 할당합니다. 이 변수는 고객을 식별하는 데 사용되며, 고객이 사이트를 탐색할 때 변수가 전달됩니다. 검색 로봇은 고객의 모습과 비슷하므로 &quot;sessionid&quot; 번호가 할당됩니다. 검색 로봇은 두 번째 사이트 페이지가 새 값을 할당하려고 해도 이 단일 &quot;sessionid&quot; 값을 유지합니다. 이를 위해 다음 다시 작성 규칙이 필요합니다.
+일부 웹 페이지는 고객이 처음으로 사이트에 도착할 때 &quot;sessionid&quot; CGI 변수를 할당합니다. 이 변수는 고객을 식별하는 데 사용되며, 고객이 사이트를 탐색할 때 변수가 전달됩니다. 검색 로봇은 고객의 모습과 비슷하므로 &quot;sessionid&quot; 번호가 할당됩니다. 검색 로봇은 두 번째 사이트 페이지에서 새 값을 할당하려고 해도 이 단일 &quot;sessionid&quot; 값을 유지합니다. 이를 위해 다음 다시 작성 규칙이 필요합니다.
 
 ```
 RewriteCond  %{sessionid}  .+ 
@@ -1070,14 +1082,15 @@ t_adding_search_url_rules.xml
 
  -->
 
-**검색 URL 규칙을 추가하려면**
+**검색 URL 규칙을 추가하려면:**
 
 1. 제품 메뉴에서 **[!UICONTROL Settings]** > **[!UICONTROL Rewrite Rules]** > **[!UICONTROL Search URL Rules]**&#x200B;를 클릭합니다.
 1. [!DNL Search URL Rules] 필드에 원하는 규칙을 입력합니다.
 
    &#39;#&#39;(해시) 문자로 시작하는 빈 줄과 주석 줄이 허용됩니다.
-1. (선택 사항) [!DNL Search URL Rules] 페이지의 [!DNL Test Search URL Rules] 필드에 테스트할 크롤링 규칙이 있는 테스트 URL을 입력한 다음 **테스트**&#x200B;를 클릭합니다.
-1. **변경 내용 저장**&#x200B;을 클릭합니다.
+
+1. (선택 사항) [!DNL Search URL Rules] 페이지의 [!DNL Test Search URL Rules] 필드에 테스트할 크롤링 규칙의 테스트 URL을 입력한 다음 **[!UICONTROL Test]**&#x200B;를 클릭합니다.
+1. 클릭 **[!UICONTROL Save Changes]**.
 1. (선택 사항) 결과를 미리 보려는 경우 스테이지된 사이트 인덱스를 다시 작성합니다.
 
    스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
@@ -1143,9 +1156,11 @@ RewriteRule Pattern Substitution [Flags]
 
 일반 텍스트 - 변경되지 않고 전달되는 텍스트입니다.
 
-**역참조** Pattern 또는 CondPattern의 그룹화된 부품(괄호 안)에 대한 액세스를 제공합니다. 다음은 두 가지 유형의 역참조입니다.
+* 역참조(Backreferences) - Pattern 또는 CondPattern의 그룹화된 부품(괄호 안)에 대한 액세스를 제공합니다. 다음은 두 가지 유형의 역참조입니다.
 
-* **RewriteRule** Backreferences해당 RewriteRule 패턴에 있는 이 일치 역참조를 사용하고 $N(0) 형식을 사용합니다.  &lt;> 예, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
+* RewriteRule Backreferences - 해당 RewriteRule 패턴에 있는 이러한 일치 백참조와 $N(0 &lt;= N &lt;= 9) 형식을 사용합니다.
+
+   예, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
 
 * ** RewriteCond Backreferences** 마지막 일치 RewriteCondPattern에 있는 이러한 일치 백참조와 %N(0 &lt;= N &lt;= 9) 형식을 사용합니다.
 
@@ -1213,9 +1228,11 @@ RewriteCond TestString CondPattern [Flags]
 
 역참조를 사용하면 Pattern 또는 CondPattern의 그룹화된 부품(괄호 안)에 액세스할 수 있습니다. 다음과 같은 두 가지 유형의 역참조가 있습니다.
 
-* **RewriteRule** Backreferences해당 RewriteRule 패턴에 있는 이 일치 역참조를 사용하고 $N(0) 형식을 사용합니다.  &lt;> 예, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
+* RewriteRule Backreferences - 해당 RewriteRule 패턴에 있는 이러한 일치 백참조와 $N(0 &lt;= N &lt;= 9) 형식을 사용합니다.
 
-* **RewriteCond** Backreferences마지막으로 일치한 RewriteCondPattern에 있는 이러한 일치 백참조와 %N(0) 형식을 사용합니다.  &lt;>
+   예, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
+
+* RewriteCond 역참조 - 마지막으로 일치한 RewriteCondPattern의 이러한 역참조와 일치하는 %N(0 &lt;= N &lt;= 9) 형식을 사용합니다.
 
 **변수** 이 변수들은 %{NAME_OF_VARIABLE} 형식의 변수입니다. 여기서 NAME_OF_VARIABLE은 정의된 변수 이름의 문자열일 수 있습니다. 환경 변수 설정에 대한 자세한 내용은 `[E]` 플래그를 참조하십시오. 검색 결과를 생성한 검색 양식에서 변수를 정의할 수도 있습니다.
 
@@ -1291,7 +1308,11 @@ RewriteRule  ^My[[:blank:]]Company[[:blank:]]-[[:blank:]]
 <b>$1</b>} 
 ```
 
-규칙의 패턴 `(^My[[:blank:]]Company[[:blank:]]-[[:blank:]] (.*))`에는 &quot;내 회사-&quot; 다음에 나오는 제목 내용과 일치하는 역참조 **`(.*)`**&#x200B;이 포함되어 있습니다. ( )가 있는 패턴의 일부를 둘러싸면 대체에 의해 참조할 수 있는 역참조가 만들어집니다. 이 예제에서 대체(${toupper:**$1**})는 터치 함수를 사용하여 역참조(**$1**)를 다시 씁니다.
+규칙의 패턴 `(^My[[:blank:]]Company[[:blank:]]-[[:blank:]] (.*))`에는 &quot;내 회사-&quot; 다음에 나오는 제목 내용과 일치하는 역참조 **`(.*)`**&#x200B;이 포함되어 있습니다. ( )가 있는 패턴의 일부를 둘러싸면 대체에 의해 참조할 수 있는 역참조가 만들어집니다. 이 예에서 대체는
+
+`(${toupper:**$1**})`
+
+toupper 함수를 사용하여 역참조(**$1**)를 다시 씁니다.
 
 따라서 &quot;My Company - Welcome&quot; 형식의 제목은 &quot;WELCOME&quot;으로 다시 작성됩니다.
 
@@ -1309,14 +1330,14 @@ t_adding_search_title_rules.xml
 
  -->
 
-**검색 제목 규칙을 추가하려면**
+**검색 제목 규칙을 추가하려면:**
 
 1. 제품 메뉴에서 **[!UICONTROL Settings]** > **[!UICONTROL Rewrite Rules]** > **[!UICONTROL Search Title Rules]**&#x200B;를 클릭합니다.
 1. [!DNL Search Title Rules] 필드에 원하는 규칙을 입력합니다.
 
    &#39;#&#39;(해시) 문자로 시작하는 빈 줄과 주석 줄이 허용됩니다.
-1. (선택 사항) [!DNL Search Title Rules] 페이지의 [!DNL Test Search Title Rules] 필드에 테스트 제목을 입력한 다음 **테스트**&#x200B;를 클릭합니다.
-1. **변경 내용 저장**&#x200B;을 클릭합니다.
+1. (선택 사항) [!DNL Search Title Rules] 페이지의 [!DNL Test Search Title Rules] 필드에 테스트 제목을 입력한 다음 **[!UICONTROL Test]**&#x200B;를 클릭합니다.
+1. 클릭 **[!UICONTROL Save Changes]**.
 1. (선택 사항) 결과를 미리 보려는 경우 스테이지된 사이트 인덱스를 다시 작성합니다.
 
    스테이지된 웹 사이트](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)의 증분 인덱스 구성을 참조하십시오.[
