@@ -4,7 +4,7 @@ description: Adobe Search & Promote의 서비스 종료 발표에 대해 자세�
 feature: null
 role: Administrator,Business Practitioner,Data Engineer,Developer
 exl-id: 1e062554-090b-4275-8595-8ae4233c58d7
-source-git-commit: 27dca9caf3e59d5ed20fdea3d5ef279bd5aac097
+source-git-commit: cffbd6a62e1ffe1f5fe1f2f6123e8bc5199b55dc
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%
@@ -39,4 +39,4 @@ Search &amp; Promote에 대한 검색 및 기타 API 요청은 더 이상 결과
 
 ### **_서비스 종료 전에 해당 Search &amp; Promote 라이센스를 계속 갱신할 수 있습니까?_**
 
-예. **2022년 9월 1일**&#x200B;까지 계약 종료 날짜를 통해 라이센스를 갱신하려면 Adobe 담당자에게 문의하십시오.
+예. 2022년 8월 31일&#x200B;**8월 31일까지 계약 종료 날짜를 사용하여 Adobe 담당자에게 라이센스를 갱신하십시오.**
