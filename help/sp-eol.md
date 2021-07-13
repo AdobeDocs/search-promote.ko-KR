@@ -4,9 +4,9 @@ description: Adobe Search & Promote의 서비스 종료 발표에 대해 자세�
 feature: null
 role: Admin,User,Data Engineer,Developer
 exl-id: 1e062554-090b-4275-8595-8ae4233c58d7
-source-git-commit: dd301b1be029f8f9e4e0a0738d61c19f0e6ba2be
+source-git-commit: 2465f73573d96f96be3cc39d0ba9962af8c2b990
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ Search &amp; Promote에 대한 검색 및 기타 API 요청은 더 이상 결과
 
 예. 제품 및 상거래 검색의 경우, [Magento Commerce](https://blog.adobe.com/en/publish/2020/11/23/new-ai-capabilities-for-magento-commerce-improve-retail.html)에서 라이브 검색은 앞으로 Adobe의 검색 애플리케이션입니다. Magento Commerce의 라이브 검색은 2021년 상반기에 시작할 예정입니다.
 
-### **_Adobe에서 Search &amp; Promote과 유사한 기능을 제공하는 프레임워크 또는 플랫폼을 추천할 수 있습니까?_**
+<!-- ### **_Can Adobe recommend any frameworks or platforms that offer features similar to Search&Promote?_**
 
-예. Search &amp; Promote 기능이 마케팅 전략에 중요한 경우 [Apache Solr](https://solr.apache.org/) 및 [Elastic Free 및 Open](https://www.elastic.co/about/free-and-open)를 포함하여 검색에 사용되는 많은 오픈 소스 프레임워크를 고려하십시오.
+  Yes. If the Search&Promote feature is critical to your marketing strategy, consider the many open-source frameworks that exist to power search, including [Apache Solr](https://solr.apache.org/) and [Elastic Free and Open](https://www.elastic.co/about/free-and-open).  
 
-또한, [AWS](https://aws.amazon.com/cloudsearch/) 및 [Microsoft® Azure](https://azure.microsoft.com/en-us/services/search/)모두 해당 클라우드 플랫폼에서 클라우드 기반의 검색 기능을 제공합니다. 두 옵션을 모두 Adobe Experience Manager Sites에 통합하여 사이트 검색 기능을 강화할 수 있습니다.
+  Also, both [AWS](https://aws.amazon.com/cloudsearch/) and [Microsoft® Azure](https://azure.microsoft.com/en-us/services/search/) provide cloud-native search capabilities on their respective cloud platforms. You can integrate both options into Adobe Experience Manager Sites to power site search and more. -->
 
 ### **_자세한 내용은 누구에게 문의해야 합니까?_**
 
