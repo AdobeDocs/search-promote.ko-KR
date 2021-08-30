@@ -5,10 +5,10 @@ solution: Target
 topic-legacy: Site search and merchandising
 uuid: bb1c49be-7cfd-485a-a848-c5dc8733b009
 exl-id: 6920dbf0-beeb-4723-8178-4da37f0b03ed
-source-git-commit: bd8341e6bd955dbf5496351594938b65e1bd2948
+source-git-commit: 95bf92df17d7832df72e8d883a22f9063e53a18d
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 22%
+source-wordcount: '106'
+ht-degree: 26%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 22%
 
 * **중요:** [Adobe Search &amp; Promote 서비스 종료 공지](/help/sp-eol.md).
 
-* Adobe Marketing Cloud 릴리스 노트 - 모든 Marketing Cloud 솔루션의 새로운 기능, 수정 사항 및 알려진 문제가 포함되어 있습니다. 기능 릴리스는 봄과 가을에, 유지보수 릴리스는 매달 진행됩니다.
+* Adobe Experience Cloud 릴리스 노트 - 모든 Experience Cloud 솔루션의 새로운 기능, 수정 사항 및 알려진 문제가 포함되어 있습니다. 기능 릴리스는 봄과 가을에, 유지보수 릴리스는 매달 진행됩니다.
 
-   조기 액세스:[Adobe 우선 순위 제품 업데이트](https://campaign.adobe.com/webApp/adbePriorityProductSubscribe)에 등록하여 각 릴리스 1주일 전에 Adobe Marketing Cloud 릴리스 정보를 수신하십시오.
+<!--   Early Access: Sign up for the [Adobe Priority Product Update](https://campaign.adobe.com/webApp/adbePriorityProductSubscribe) to receive Adobe Marketing Cloud release notes one week before each release. -->
 
 * 최신 Adobe Search &amp; Promote 릴리스 노트:
 
@@ -32,6 +32,6 @@ ht-degree: 22%
 
 ## 기타 정보 {#topic_34A00195904D4AE7AE982D3746F693AA}
 
-[Adobe Search &amp; Promote 웹 사이트](https://www.adobe.com/solutions/testing-targeting/search-driven-merchandising.html)
+<!-- [Adobe Search&amp;Promote website](https://www.adobe.com/solutions/testing-targeting/search-driven-merchandising.html) -->
 
 [Industry Insights](https://blog.adobe.com/en/topics/digital-transformation.html) -- 디지털 마케팅에 대한 Adobe 블로그.
